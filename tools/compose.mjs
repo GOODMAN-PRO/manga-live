@@ -4,6 +4,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 import { PAGE, loadScript, panelId, parseArgs, scriptSlug } from './lib/common.mjs';
+import { createLayout } from './lib/layout.mjs';
 import { centeredTextPath, loadFont, measureGlyphBounds, measureText, textPath, wrapText } from './lib/text-path.mjs';
 
 // Inscribing factor per drawn shape: √2 for a plain ellipse, plus the shape's own inner-radius
@@ -141,64 +142,6 @@ await writeFile(compositionPath, `${JSON.stringify({
   pages: [...timingsByPage.values()].sort((a, b) => a.page - b.page),
 }, null, 2)}\n`);
 
-function createLayout(panels) {
-  const contentWidth = PAGE.width - PAGE.margin * 2;
-  const contentHeight = PAGE.height - PAGE.margin * 2;
-  if (panels.length === 1) return [{ x: PAGE.margin, y: PAGE.margin, width: contentWidth, height: contentHeight }];
-  const weights = { hero: 12, half: 6, third: 4, 'wide-strip': 3, tall: 6 };
-  const rows = [];
-  for (let index = 0; index < panels.length; index += 1) {
-    if (panels[index].size === 'inset') continue;
-    if (panels.length >= 4 && panels[index].size === 'third' && panels[index + 1]?.size === 'third') {
-      rows.push({ indices: [index, index + 1], weight: weights.third });
-      index += 1;
-    } else rows.push({ indices: [index], weight: weights[panels[index].size] || 4 });
-  }
-  if (!rows.length) throw new Error('A page cannot contain only inset panels.');
-
-  const verticalSpace = contentHeight - PAGE.gutter * (rows.length - 1);
-  const weightTotal = rows.reduce((sum, row) => sum + row.weight, 0);
-  const heights = rows.map((row) => Math.max(120, Math.round(verticalSpace * row.weight / weightTotal)));
-  heights[heights.length - 1] += verticalSpace - heights.reduce((sum, value) => sum + value, 0);
-
-  const result = Array(panels.length);
-  let y = PAGE.margin;
-  rows.forEach((row, rowIndex) => {
-    const availableWidth = contentWidth - PAGE.gutter * (row.indices.length - 1);
-    const widths = row.indices.length === 1 ? [contentWidth] : proportionalWidths(row.indices.map(() => 1), availableWidth);
-    let right = PAGE.width - PAGE.margin;
-    row.indices.forEach((panelIndex, position) => {
-      const width = widths[position];
-      const x = right - width;
-      result[panelIndex] = { x, y, width, height: heights[rowIndex] };
-      right = x - PAGE.gutter;
-    });
-    y += heights[rowIndex] + PAGE.gutter;
-  });
-  panels.forEach((panel, index) => {
-    if (panel.size !== 'inset') return;
-    let anchorIndex = index - 1;
-    while (anchorIndex >= 0 && !result[anchorIndex]) anchorIndex -= 1;
-    if (anchorIndex < 0) throw new Error(`Inset panel ${index + 1} has no preceding panel to anchor to.`);
-    const anchor = result[anchorIndex];
-    const size = Math.max(180, Math.round(anchor.width * 0.4));
-    result[index] = {
-      x: anchor.x + 18,
-      y: anchor.y + anchor.height - size - 18,
-      width: size,
-      height: size,
-    };
-  });
-  return result;
-}
-
-function proportionalWidths(weights, total) {
-  const weightTotal = weights.reduce((sum, value) => sum + value, 0);
-  const widths = weights.map((weight) => Math.round(total * weight / weightTotal));
-  widths[widths.length - 1] += total - widths.reduce((sum, value) => sum + value, 0);
-  return widths;
-}
-
 function assertPanelLayout(layout, pageNumber) {
   layout.forEach((box, index) => {
     if (!box || box.x < 0 || box.y < 0 || box.x + box.width > PAGE.width || box.y + box.height > PAGE.height) {
@@ -235,7 +178,7 @@ function coverTitleSvg(jpFont, comicFont, chapter, v2 = false) {
 function bubbleComposites(panel, box, font, panelIdValue) {
   const dialogues = panel.dialogue || [];
   if (!dialogues.length) return { composites: [], assertions: [] };
-  const margin = 10;
+  const margin = dialogues.some((dialogue) => dialogue.type === 'monologue') ? 14 : 10;
   const gap = 12;
   const initialFontSize = Math.max(26, Math.min(34, Math.round(box.width / 25)));
   let packed;

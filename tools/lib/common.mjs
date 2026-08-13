@@ -13,9 +13,11 @@ export const PANEL_SIZES = Object.freeze({
   inset: [560, 560],
 });
 
-export const POSITIVE_BASE = 'masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, flat shading, simple background detail';
-export const COVER_POSITIVE_BASE = 'masterpiece, best quality, clean lineart, flat shading, anime coloring, flat color, soft lighting, cover art';
-export const NEGATIVE_BASE = 'color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate characters, clone, japanese text, kanji, calligraphy, halo, extra heads, nude, nsfw, cleavage, swimsuit';
+export const POSITIVE_BASE = 'masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight';
+export const DEFORMED_POSITIVE = 'chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background';
+export const SILHOUETTE_POSITIVE = 'solid silhouette, backlit, featureless, flat tone background, graphic, high contrast, no facial features';
+export const COVER_POSITIVE_BASE = 'masterpiece, best quality, clean lineart, anime coloring, flat color, cel shading, minimal shading, hard-edged shadows, pastel palette, colored lineart, soft light, cover art, negative space';
+export const NEGATIVE_BASE = 'color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw';
 export const COVER_NEGATIVE_BASE = NEGATIVE_BASE.replace(/^color,\s*/, '');
 
 export function parseArgs(argv) {

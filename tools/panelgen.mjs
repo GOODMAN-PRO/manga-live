@@ -7,23 +7,27 @@ import sharp from 'sharp';
 import {
   COVER_NEGATIVE_BASE,
   COVER_POSITIVE_BASE,
+  DEFORMED_POSITIVE,
   NEGATIVE_BASE,
   PANEL_SIZES,
   POSITIVE_BASE,
+  SILHOUETTE_POSITIVE,
   deterministicSeed,
   loadScript,
   panelId,
   parseArgs,
   scriptSlug,
 } from './lib/common.mjs';
+import { createLayout, generationDimensions } from './lib/layout.mjs';
 
 const HELP = `Usage: node tools/panelgen.mjs story/chNN.json [options]
 
 Options:
   --comfy URL          ComfyUI base URL (default http://127.0.0.1:8188)
   --checkpoint NAME    checkpoint filename (default animagine-xl-4.0-opt.safetensors)
-  --out DIR            panel output directory (default build/<script>/panels)
-  --batch N            prompts kept in flight (default 2)
+  --out DIR            panel output directory (story2 defaults to build2/<script>/panels)
+  --batch N            prompts kept in flight (default 2; RTX 5090 measured safe max: 3)
+  --pages RANGE         generate selected pages, e.g. 1-6,9,12-14
   --steps N            sampling steps (default 28)
   --cfg N              classifier-free guidance (default 5)
   --redo PANEL_ID      regenerate one panel with a fresh persisted seed, e.g. p3b
@@ -42,19 +46,22 @@ if (!positional[0] || flags.help) {
 const repoRoot = path.resolve(import.meta.dirname, '..');
 const scriptPath = path.resolve(positional[0]);
 const slug = scriptSlug(scriptPath);
-const outputDir = path.resolve(flags.out || path.join(repoRoot, 'build', slug, 'panels'));
+const isV2 = path.basename(path.dirname(scriptPath)).toLowerCase() === 'story2';
+const buildRoot = isV2 ? 'build2' : 'build';
+const outputDir = path.resolve(flags.out || path.join(repoRoot, buildRoot, slug, 'panels'));
 const comfy = String(flags.comfy || process.env.COMFY_URL || 'http://127.0.0.1:8188').replace(/\/$/, '');
 const checkpoint = String(flags.checkpoint || process.env.COMFY_CHECKPOINT || 'animagine-xl-4.0-opt.safetensors');
-const concurrency = Math.max(1, Number(flags.batch || 2));
+const concurrency = Math.max(1, Number(flags.batch || (isV2 ? 3 : 2)));
 const steps = Math.max(1, Number(flags.steps || 28));
 const cfg = Number(flags.cfg || 5);
 const redoIds = new Set(flags.redo ? String(flags.redo).split(',').map(normalizePanelId).filter(Boolean) : []);
 const redo = redoIds.size ? [...redoIds][0] : null;
+const selectedPages = flags.pages ? parsePageSelection(flags.pages) : null;
 
 const script = await loadScript(scriptPath);
 await mkdir(outputDir, { recursive: true });
 
-const tokenPath = path.join(repoRoot, 'chars', 'tokens.md');
+const tokenPath = path.join(repoRoot, isV2 ? 'chars2' : 'chars', 'tokens.md');
 const tokens = existsSync(tokenPath) ? parseTokens(await readFile(tokenPath, 'utf8')) : new Map();
 if (!existsSync(tokenPath)) console.warn('chars/tokens.md not found; using character ids until locked tokens exist.');
 const defaultOverridesPath = path.join(path.dirname(scriptPath), `${slug}-overrides.json`);
@@ -68,7 +75,7 @@ const promptOverrides = Object.fromEntries(
 
 if (flags.cover) {
   if (!script.cover?.desc || !Array.isArray(script.cover.chars)) throw new Error(`${scriptPath} has no valid cover object.`);
-  const coverPath = path.resolve(flags.out || path.join(repoRoot, 'build', slug, 'cover-art.png'));
+  const coverPath = path.resolve(flags.out || path.join(repoRoot, buildRoot, slug, 'cover-art.png'));
   await mkdir(path.dirname(coverPath), { recursive: true });
   await assertComfyReady(comfy, checkpoint);
   const started = performance.now();
@@ -76,12 +83,15 @@ if (flags.cover) {
     ? deterministicSeed(script.chapter, 'cover', 'redo', Date.now(), randomUUID())
     : deterministicSeed(script.chapter, 'cover');
   const coverPrompt = buildCoverPrompt(script.cover, tokens);
+  const coverNegative = isV2
+    ? `${COVER_NEGATIVE_BASE}, 2girls, two girls, black hair on girl, dark hair on girl, hair bun on girl, short hair on girl`
+    : `${COVER_NEGATIVE_BASE}, green happi, green coat on girl, blonde girl, white-haired girl, necktie on girl`;
   const executionSeconds = await generateImage({
     id: 'cover',
     outputPath: coverPath,
     seed: coverSeed,
     prompt: coverPrompt,
-    negative: `${COVER_NEGATIVE_BASE}, green happi, green coat on girl, blonde girl, white-haired girl, necktie on girl`,
+    negative: coverNegative,
     targetWidth: 1000,
     targetHeight: 1500,
     greyscale: false,
@@ -92,7 +102,7 @@ if (flags.cover) {
     generatedAt: new Date().toISOString(),
     seed: coverSeed,
     prompt: coverPrompt,
-    negative: `${COVER_NEGATIVE_BASE}, green happi, green coat on girl, blonde girl, white-haired girl, necktie on girl`,
+    negative: coverNegative,
     timingSeconds: executionSeconds,
   }, null, 2)}\n`);
   console.log(`[done] cover ${executionSeconds.toFixed(1)}s GPU (${((performance.now() - started) / 1000).toFixed(1)}s wall) -> ${coverPath}`);
@@ -107,6 +117,8 @@ if (existsSync(seedPath)) seedOverrides = JSON.parse(await readFile(seedPath, 'u
 
 const jobs = [];
 for (const page of script.pages) {
+  if (selectedPages && !selectedPages.has(page.page)) continue;
+  const layout = createLayout(page.panels);
   page.panels.forEach((panel, index) => {
     const id = panelId(page.page, index);
     if (redoIds.size && !redoIds.has(id)) return;
@@ -121,6 +133,7 @@ for (const page of script.pages) {
       id,
       page: page.page,
       panel,
+      dimensions: generationDimensions(layout[index]),
       outputPath,
       seed: seedOverrides[id] ?? baseSeed,
       prompt: buildPrompt(panel, tokens, promptOverrides[id]),
@@ -185,7 +198,7 @@ const metadata = {
 await writeFile(metadataPath, `${JSON.stringify(metadata, null, 2)}\n`);
 
 async function generatePanel(job) {
-  const [targetWidth, targetHeight] = PANEL_SIZES[job.panel.size];
+  const [targetWidth, targetHeight] = job.dimensions || PANEL_SIZES[job.panel.size];
   return generateImage({ ...job, targetWidth, targetHeight, greyscale: true });
 }
 
@@ -280,19 +293,37 @@ function createWorkflow({ width, height, seed, positive, negative, checkpoint: c
 }
 
 function buildPrompt(panel, tokenMap, promptOverride) {
-  const characterTokens = (panel.chars || []).flatMap((character) => {
+  const castNames = (panel.chars || []).map((character) => String(character.name).toLowerCase());
+  const hasKou = castNames.includes('kou');
+  const hasKanade = castNames.includes('kanade');
+  const characterTokens = panel.silhouette ? [] : (panel.chars || []).flatMap((character) => {
     const locked = resolveToken(tokenMap, character.name, panel);
-    return [locked || character.name, character.expression, character.pose].filter(Boolean);
+    const continuity = isV2 && character.name === 'kou' ? 'left forearm bandages' : null;
+    const valueLock = isV2 && character.name === 'kanade'
+      ? 'white hair, pale grey hair, light colored hair, silver hair, black core shadow, white sheen band'
+      : isV2 && character.name === 'kou' ? 'solid black hair, darkest hair mass, hard white highlight band' : null;
+    return [valueLock, locked || character.name, continuity, character.expression, character.pose].filter(Boolean);
   });
   const countTag = inferCountTag(panel.chars || [], tokenMap);
-  const positiveBase = panel.size === 'hero' || panel.beat === 'gut-punch'
-    ? POSITIVE_BASE.replace(', simple background detail', '')
-    : POSITIVE_BASE;
+  const positiveBase = panel.chibi
+    ? `masterpiece, best quality, monochrome, greyscale, manga, screentone, ${DEFORMED_POSITIVE}`
+    : panel.silhouette
+      ? `masterpiece, best quality, monochrome, greyscale, manga, screentone, clean lineart, ${SILHOUETTE_POSITIVE}`
+      : POSITIVE_BASE;
+  const boundValueLock = isV2 && hasKou && hasKanade ? '1boy with solid black hair, 1girl with white hair' : null;
   const parts = promptOverride
-    ? [positiveBase, promptOverride]
-    : [positiveBase, panel.chars?.length === 1 ? 'solo' : null, countTag, ...characterTokens, panel.action, `${panel.shot} shot`, panel.bg];
+    ? [positiveBase, boundValueLock, promptOverride]
+    : [positiveBase, panel.chars?.length === 1 ? 'solo' : null, countTag, boundValueLock, ...characterTokens, panel.action, `${panel.shot} shot`, panel.bg];
+  if (isV2 && !panel.chibi && !panel.silhouette) {
+    const context = `${panel.bg || ''} ${panel.action || ''}`.toLowerCase();
+    if (/tower|layer|dungeon|cathedral|stone|void/.test(context)) parts.push('dark fantasy interior', 'dramatic lighting', 'dungeon');
+    else if (/academy|school|classroom|campus/.test(context)) parts.push('school', 'tone-washed background', 'daylight');
+  }
   if (panel.size === 'tall') parts.push('full body', 'head to toe', 'standing');
-  if (panel.chibi) parts.push('chibi', 'comedic', 'simplified', '>_<');
+  if (panel.chars?.length) {
+    if (['closeup', 'extreme-closeup'].includes(panel.shot)) parts.push('upper body', 'head fully in frame');
+    else parts.push('full body', 'head fully in frame');
+  }
   return parts.filter(Boolean).join(', ');
 }
 
@@ -303,19 +334,38 @@ function normalizePanelId(value) {
 
 function buildNegative(panel) {
   const parts = [NEGATIVE_BASE];
-  if (!panel.chibi) parts.push('chibi, super deformed, tiny body');
+  if (panel.chibi) parts.push('realistic proportions, detailed background');
+  else parts.push('chibi, super deformed');
   if (panel.chars?.length === 2) parts.push('3people, third person, extra person, crowd');
+  if (panel.chars?.length) parts.push('head out of frame, cropped head');
+  if (isV2) {
+    const names = (panel.chars || []).map((character) => String(character.name).toLowerCase());
+    if (names.includes('kanade') && !names.includes('kou')) parts.push('black hair, dark hair');
+  }
   return parts.join(', ');
 }
 
+function parsePageSelection(value) {
+  const pages = new Set();
+  for (const part of String(value).split(',').map((item) => item.trim()).filter(Boolean)) {
+    const range = part.match(/^(\d+)-(\d+)$/);
+    if (range) {
+      const start = Number(range[1]);
+      const end = Number(range[2]);
+      if (start > end) throw new Error(`Invalid page range '${part}'.`);
+      for (let page = start; page <= end; page += 1) pages.add(page);
+    } else if (/^\d+$/.test(part)) pages.add(Number(part));
+    else throw new Error(`Invalid page selection '${part}'.`);
+  }
+  return pages;
+}
+
 function buildCoverPrompt(cover, tokenMap) {
-  return [
-    COVER_POSITIVE_BASE,
-    '1girl, 1boy, exactly two characters, couple, full body',
-    'girl in foreground, shirakawa nagi, black hair, hair up, single hair bun, hair clip, half-closed dark eyes, indigo dark blue short happi coat, plain white t-shirt, dark work pants, rolled sleeves, towel around neck, sandals, wet forearms, holding water hose, no necktie',
-    'boy in background, nomura itsuki, light brown messy hair, bright light grey eyes, navy track jacket with green trim, sweatpants, holding convenience store bag',
-    'Japanese bathhouse entrance, indigo noren curtain, night, raining, rain streaks, steam, warm glowing doorway, wet asphalt, puddles, shuttered shopping street, dark blue night palette, warm yellow backlight, portrait composition',
-  ].join(', ');
+  const characters = cover.chars.map((name) => resolveCoverToken(tokenMap, name, cover.desc) || name);
+  const yonetsuLock = isV2
+    ? 'exactly 1boy and 1girl, male hazama kou with solid black short hair and hard white highlight band, female ariake kanade with white hair, pale silver hair, very long hair down, no hair bun, clearly different hair values, boy left, girl right'
+    : null;
+  return [COVER_POSITIVE_BASE, yonetsuLock, inferCountTag(cover.chars.map((name) => ({ name })), tokenMap), ...characters, cover.desc].filter(Boolean).join(', ');
 }
 
 function coverEnvironmentTags(description) {
@@ -343,7 +393,8 @@ function resolveCoverToken(tokenMap, name, description) {
   if (properName) aliases.push(...properName.split(/\s+/), properName);
   const sentences = String(description).split(/(?<=[.!?])\s+/);
   const localContext = sentences.find((sentence) => aliases.some((alias) => alias.length > 2 && sentence.toLowerCase().includes(alias))) || description;
-  const variant = /school|uniform|jersey|blazer|necktie/.test(localContext.toLowerCase()) ? 'day'
+  const variant = isV2 && String(name).toLowerCase() === 'kanade' && /tower figure|hair fully down|wild/.test(String(description).toLowerCase()) ? 'tower'
+    : /school|uniform|jersey|blazer|necktie|academy/.test(localContext.toLowerCase()) ? 'day'
     : /bath|sento|onsen|happi|hair clipped|towel|cleaning/.test(localContext.toLowerCase()) ? 'night'
       : /night|steam|rain/.test(String(description).toLowerCase()) ? 'night' : 'day';
   return [entry.base, entry[variant]].filter(Boolean).join(', ') || null;
@@ -378,7 +429,7 @@ function parseTokens(markdown) {
       if (!result.has(heading)) result.set(heading, {});
       continue;
     }
-    const variantMatch = line.match(/^-\s+\*\*(base|day|night)\*\*[^:]*:\s*(?:base\s*\+\s*)?`([^`]+)`/i);
+    const variantMatch = line.match(/^-\s+\*\*(base|day|night|tower|chibi)\*\*[^:]*:\s*(?:base\s*\+\s*)?`([^`]+)`/i);
     if (variantMatch && heading) {
       const entry = result.get(heading);
       entry[variantMatch[1].toLowerCase()] = variantMatch[2].trim();
@@ -408,8 +459,10 @@ function resolveToken(tokenMap, name, panel) {
   const entry = tokenMap.get(String(name).toLowerCase());
   if (!entry) return null;
   if (typeof entry === 'string') return entry;
-  if (panel.chibi) return entry.base || entry.day || entry.night || null;
+  if (panel.chibi) return entry.chibi || entry.base || entry.day || entry.tower || entry.night || null;
   const context = `${panel.bg || ''} ${panel.action || ''} ${(panel.chars || []).map((character) => character.pose || '').join(' ')}`.toLowerCase();
-  const variant = /bath|sento|onsen|night|closing|steam|happi|cleaning/.test(context) ? 'night' : 'day';
+  const variant = isV2
+    ? (/tower|layer|dungeon|cathedral|stone|void|gate/.test(context) ? 'tower' : 'day')
+    : (/bath|sento|onsen|night|closing|steam|happi|cleaning/.test(context) ? 'night' : 'day');
   return [entry.base, entry[variant]].filter(Boolean).join(', ') || null;
 }
