@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0d0d10">
+<title>Manga — Live</title>
+<style>
+  :root { --bg:#0d0d10; --panel:#17171c; --ink:#e8e6e1; --dim:#8a8894; --accent:#ff6b81; }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { background:var(--bg); color:var(--ink); font-family:-apple-system,"Segoe UI",Roboto,"Hiragino Sans",sans-serif; min-height:100vh; }
+  #app { max-width:820px; margin:0 auto; padding-bottom:env(safe-area-inset-bottom); }
+  header { position:sticky; top:0; z-index:10; background:rgba(13,13,16,.92); backdrop-filter:blur(10px);
+           padding:calc(10px + env(safe-area-inset-top)) 16px 10px; border-bottom:1px solid #26262e;
+           display:flex; align-items:center; gap:10px; }
+  header h1 { font-size:17px; font-weight:700; letter-spacing:.3px; flex:1;
+              white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  header .back { color:var(--accent); font-size:15px; font-weight:600; cursor:pointer; display:none; border:none; background:none; padding:4px 6px; }
+  .live { font-size:11px; color:var(--dim); display:flex; align-items:center; gap:5px; }
+  .live .dot { width:7px; height:7px; border-radius:50%; background:#3ddc84; animation:pulse 2s infinite; }
+  @keyframes pulse { 50% { opacity:.35 } }
+  #status { margin:12px 16px 0; padding:10px 14px; background:var(--panel); border:1px solid #26262e;
+            border-radius:10px; font-size:13px; color:var(--dim); line-height:1.5; }
+  #status b { color:var(--ink); font-weight:600; }
+  #library { padding:16px; display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px; }
+  .chap { background:var(--panel); border:1px solid #26262e; border-radius:12px; overflow:hidden; cursor:pointer; transition:transform .12s; }
+  .chap:active { transform:scale(.97); }
+  .chap img { width:100%; aspect-ratio:2/3; object-fit:cover; display:block; background:#101014; }
+  .chap .nocover { width:100%; aspect-ratio:2/3; display:flex; align-items:center; justify-content:center; color:#3a3a44; font-size:34px; }
+  .chap .meta { padding:9px 11px 11px; }
+  .chap .meta .t { font-size:13px; font-weight:600; line-height:1.35; }
+  .chap .meta .s { font-size:11px; color:var(--dim); margin-top:3px; }
+  .badge { display:inline-block; font-size:10px; font-weight:700; color:#0d0d10; background:var(--accent);
+           border-radius:4px; padding:1px 6px; margin-left:6px; vertical-align:1px; }
+  #reader { display:none; }
+  #pages img { width:100%; display:block; background:#101014; min-height:120px; }
+  #pages .pgnum { text-align:center; color:#3a3a44; font-size:10px; padding:2px 0 10px; }
+  .navrow { display:flex; gap:10px; padding:18px 16px calc(30px + env(safe-area-inset-bottom)); }
+  .navrow button { flex:1; background:var(--panel); color:var(--ink); border:1px solid #2e2e38;
+                   border-radius:10px; padding:13px; font-size:14px; font-weight:600; cursor:pointer; }
+  .navrow button:disabled { opacity:.3; }
+  #toast { position:fixed; left:50%; bottom:calc(28px + env(safe-area-inset-bottom)); transform:translateX(-50%) translateY(80px);
+           background:var(--accent); color:#0d0d10; font-size:13px; font-weight:700; padding:10px 18px;
+           border-radius:999px; transition:transform .3s; z-index:20; cursor:pointer; box-shadow:0 6px 20px rgba(0,0,0,.5); }
+  #toast.show { transform:translateX(-50%) translateY(0); }
+  .empty { text-align:center; color:var(--dim); padding:60px 30px; font-size:14px; line-height:1.7; grid-column:1/-1; }
+  .empty .big { font-size:38px; margin-bottom:12px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <button class="back" id="back">&#8592; Chapters</button>
+    <h1 id="title">Loading…</h1>
+    <div class="live"><div class="dot"></div><span id="upd">live</span></div>
+  </header>
+  <div id="status" hidden></div>
+  <div id="library"></div>
+  <div id="reader">
+    <div id="pages"></div>
+    <div class="navrow">
+      <button id="prev">&#8592; Prev</button>
+      <button id="next">Next &#8594;</button>
+    </div>
+  </div>
+</div>
+<div id="toast">New pages! Tap to load</div>
+<script>
+(function(){
+  var M=null, cur=null, lastUpd="", readPg={};
+  try{ readPg=JSON.parse(localStorage.getItem("readPg")||"{}"); }catch(e){}
+  var $=function(id){return document.getElementById(id)};
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]}); }
+  function bust(u){ return u+(u.indexOf("?")<0?"?":"&")+"v="+encodeURIComponent(lastUpd); }
+  function fmtAgo(iso){ var d=(Date.now()-new Date(iso))/6e4; if(d<1.5)return "updated just now";
+    if(d<60)return "updated "+Math.round(d)+"m ago"; if(d<1440)return "updated "+Math.round(d/60)+"h ago";
+    return "updated "+Math.round(d/1440)+"d ago"; }
+  function load(first){
+    fetch("manifest.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(m){
+      var changed = m.updated!==lastUpd;
+      if(!changed && !first) return;
+      var wasNew = !first && changed;
+      M=m; lastUpd=m.updated||"";
+      document.title=m.title||"Manga";
+      $("title").textContent = cur===null ? (m.title||"Manga") : chTitle(cur);
+      $("upd").textContent = m.updated?fmtAgo(m.updated):"live";
+      if(m.status){ $("status").hidden=(cur!==null); $("status").innerHTML=m.status; } else $("status").hidden=true;
+      renderLib();
+      if(cur!==null) renderPages(cur,true);
+      if(wasNew){ $("toast").classList.add("show"); setTimeout(function(){$("toast").classList.remove("show")},6000); }
+    }).catch(function(){});
+  }
+  function chTitle(i){ var c=M.chapters[i]; return c?c.title:""; }
+  function renderLib(){
+    var lib=$("library"), h="";
+    if(!M.chapters||!M.chapters.length){
+      h='<div class="empty"><div class="big">&#9998;</div>The first chapter is being drawn <b>right now</b>.<br>Keep this page open — it updates itself.</div>';
+    } else {
+      M.chapters.forEach(function(c,i){
+        var seen=readPg["c"+i]||0, isNew=c.pages.length>seen;
+        h+='<div class="chap" onclick="openCh('+i+')">'+
+          (c.cover?'<img loading="lazy" src="'+bust(esc(c.cover))+'" alt="">':'<div class="nocover">&#10084;</div>')+
+          '<div class="meta"><div class="t">'+esc(c.title)+(isNew?'<span class="badge">NEW</span>':'')+'</div>'+
+          '<div class="s">'+c.pages.length+' page'+(c.pages.length===1?'':'s')+(c.ongoing?' · drawing…':'')+'</div></div></div>';
+      });
+    }
+    lib.innerHTML=h;
+  }
+  function renderPages(i,keepScroll){
+    var c=M.chapters[i]; if(!c)return;
+    var y=keepScroll?window.scrollY:0, h="";
+    c.pages.forEach(function(p,n){
+      h+='<img loading="lazy" src="'+bust(esc(p))+'" alt="page '+(n+1)+'"><div class="pgnum">'+(n+1)+' / '+c.pages.length+'</div>';
+    });
+    if(c.ongoing) h+='<div class="empty"><div class="big">&#9999;&#65039;</div>Next page is being drawn…<br>it will appear here automatically.</div>';
+    $("pages").innerHTML=h;
+    $("prev").disabled=(i<=0); $("next").disabled=(i>=M.chapters.length-1);
+    readPg["c"+i]=c.pages.length; try{localStorage.setItem("readPg",JSON.stringify(readPg))}catch(e){}
+    if(keepScroll) window.scrollTo(0,y);
+  }
+  window.openCh=function(i){
+    cur=i; $("library").style.display="none"; $("reader").style.display="block";
+    $("back").style.display="block"; $("status").hidden=true;
+    $("title").textContent=chTitle(i); renderPages(i,false); window.scrollTo(0,0); renderLib();
+  };
+  function closeCh(){
+    cur=null; $("reader").style.display="none"; $("library").style.display="grid";
+    $("back").style.display="none"; if(M&&M.status){$("status").hidden=false;}
+    $("title").textContent=M?M.title:""; window.scrollTo(0,0); renderLib();
+  }
+  $("back").onclick=closeCh;
+  $("prev").onclick=function(){ if(cur>0)window.openCh(cur-1); };
+  $("next").onclick=function(){ if(cur<M.chapters.length-1)window.openCh(cur+1); };
+  $("toast").onclick=function(){ this.classList.remove("show"); };
+  load(true);
+  setInterval(function(){load(false)},45000);
+  document.addEventListener("visibilitychange",function(){ if(!document.hidden)load(false); });
+})();
+</script>
+</body>
+</html>
