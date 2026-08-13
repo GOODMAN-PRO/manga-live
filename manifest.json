@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T17:09:36Z",
-  "status": "<b>余熱 YONETSU — 8 chapters live (144 pages).</b> Ch.8 is the one the series was built for: a well-meaning man reads a boy's losses out loud to four hundred people, and someone reads the same list back to him that night in a completely different voice. (YUAGARI Ch.1 at the bottom.)",
+  "updated": "2026-08-13T17:34:12Z",
+  "status": "<b>余熱 YONETSU — 9 chapters live (162 pages).</b> Ch.9: the school legalises their secret, and it stops being theirs. The room doesn't charge you for going in — it charges you for how long you stay. So the attempt is one diver, and it goes to whoever has less left to lose. (YUAGARI Ch.1 at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -208,6 +208,32 @@
         "pages2/ch08/p16.png",
         "pages2/ch08/p17.png",
         "pages2/ch08/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch09",
+      "title": "YONETSU — Ch.9 \"Programme\"",
+      "cover": "pages2/ch09/cover.png",
+      "pages": [
+        "pages2/ch09/p01.png",
+        "pages2/ch09/p02.png",
+        "pages2/ch09/p03.png",
+        "pages2/ch09/p04.png",
+        "pages2/ch09/p05.png",
+        "pages2/ch09/p06.png",
+        "pages2/ch09/p07.png",
+        "pages2/ch09/p08.png",
+        "pages2/ch09/p09.png",
+        "pages2/ch09/p10.png",
+        "pages2/ch09/p11.png",
+        "pages2/ch09/p12.png",
+        "pages2/ch09/p13.png",
+        "pages2/ch09/p14.png",
+        "pages2/ch09/p15.png",
+        "pages2/ch09/p16.png",
+        "pages2/ch09/p17.png",
+        "pages2/ch09/p18.png"
       ],
       "ongoing": true
     },
