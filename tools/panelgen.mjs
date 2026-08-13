@@ -27,6 +27,8 @@ Options:
   --steps N            sampling steps (default 28)
   --cfg N              classifier-free guidance (default 5)
   --redo PANEL_ID      regenerate one panel with a fresh persisted seed, e.g. p3b
+                       accepts comma-separated ids
+  --overrides FILE     promptOverride sidecar (default story/<script>-overrides.json when present)
   --force              regenerate every panel with its current deterministic seed
   --cover              generate the chapter cover art to build/<script>/cover-art.png
 `;
@@ -46,7 +48,8 @@ const checkpoint = String(flags.checkpoint || process.env.COMFY_CHECKPOINT || 'a
 const concurrency = Math.max(1, Number(flags.batch || 2));
 const steps = Math.max(1, Number(flags.steps || 28));
 const cfg = Number(flags.cfg || 5);
-const redo = flags.redo ? String(flags.redo).toLowerCase() : null;
+const redoIds = new Set(flags.redo ? String(flags.redo).split(',').map(normalizePanelId).filter(Boolean) : []);
+const redo = redoIds.size ? [...redoIds][0] : null;
 
 const script = await loadScript(scriptPath);
 await mkdir(outputDir, { recursive: true });
@@ -54,6 +57,14 @@ await mkdir(outputDir, { recursive: true });
 const tokenPath = path.join(repoRoot, 'chars', 'tokens.md');
 const tokens = existsSync(tokenPath) ? parseTokens(await readFile(tokenPath, 'utf8')) : new Map();
 if (!existsSync(tokenPath)) console.warn('chars/tokens.md not found; using character ids until locked tokens exist.');
+const defaultOverridesPath = path.join(path.dirname(scriptPath), `${slug}-overrides.json`);
+const overridesPath = flags.overrides ? path.resolve(String(flags.overrides)) : defaultOverridesPath;
+const rawPromptOverrides = existsSync(overridesPath)
+  ? JSON.parse(await readFile(overridesPath, 'utf8')).overrides || {}
+  : {};
+const promptOverrides = Object.fromEntries(
+  Object.entries(rawPromptOverrides).map(([id, prompt]) => [normalizePanelId(id), prompt]),
+);
 
 if (flags.cover) {
   if (!script.cover?.desc || !Array.isArray(script.cover.chars)) throw new Error(`${scriptPath} has no valid cover object.`);
@@ -70,7 +81,7 @@ if (flags.cover) {
     outputPath: coverPath,
     seed: coverSeed,
     prompt: coverPrompt,
-    negative: COVER_NEGATIVE_BASE,
+    negative: `${COVER_NEGATIVE_BASE}, green happi, green coat on girl, blonde girl, white-haired girl, necktie on girl`,
     targetWidth: 1000,
     targetHeight: 1500,
     greyscale: false,
@@ -81,7 +92,7 @@ if (flags.cover) {
     generatedAt: new Date().toISOString(),
     seed: coverSeed,
     prompt: coverPrompt,
-    negative: COVER_NEGATIVE_BASE,
+    negative: `${COVER_NEGATIVE_BASE}, green happi, green coat on girl, blonde girl, white-haired girl, necktie on girl`,
     timingSeconds: executionSeconds,
   }, null, 2)}\n`);
   console.log(`[done] cover ${executionSeconds.toFixed(1)}s GPU (${((performance.now() - started) / 1000).toFixed(1)}s wall) -> ${coverPath}`);
@@ -98,9 +109,9 @@ const jobs = [];
 for (const page of script.pages) {
   page.panels.forEach((panel, index) => {
     const id = panelId(page.page, index);
-    if (redo && redo !== id) return;
+    if (redoIds.size && !redoIds.has(id)) return;
     const baseSeed = deterministicSeed(script.chapter, page.page, id);
-    if (redo === id) seedOverrides[id] = deterministicSeed(script.chapter, page.page, id, 'redo', Date.now(), randomUUID());
+    if (redoIds.has(id)) seedOverrides[id] = deterministicSeed(script.chapter, page.page, id, 'redo', Date.now(), randomUUID());
     const outputPath = path.join(outputDir, `${id}.png`);
     if (!flags.force && !redo && existsSync(outputPath)) {
       console.log(`[skip] ${id} already exists`);
@@ -112,12 +123,17 @@ for (const page of script.pages) {
       panel,
       outputPath,
       seed: seedOverrides[id] ?? baseSeed,
-      prompt: buildPrompt(panel, tokens),
+      prompt: buildPrompt(panel, tokens, promptOverrides[id]),
+      negative: buildNegative(panel),
     });
   });
 }
 
-if (redo && jobs.length === 0) throw new Error(`Panel '${redo}' was not found in ${scriptPath}`);
+if (redoIds.size && jobs.length !== redoIds.size) {
+  const found = new Set(jobs.map((job) => job.id));
+  const missing = [...redoIds].filter((id) => !found.has(id));
+  throw new Error(`Panel override ids not found in ${scriptPath}: ${missing.join(', ')}`);
+}
 if (jobs.length === 0) {
   console.log('No panels need generation; existing generation metadata was preserved.');
   process.exit(0);
@@ -146,7 +162,7 @@ const generatedPanels = jobs.map((job) => ({
   size: job.panel.size,
   seed: job.seed,
   prompt: job.prompt,
-  negative: NEGATIVE_BASE,
+  negative: job.negative,
   timingSeconds: timings.find((item) => item.id === job.id)?.executionSeconds,
   wallSeconds: timings.find((item) => item.id === job.id)?.wallSeconds,
 }));
@@ -170,7 +186,7 @@ await writeFile(metadataPath, `${JSON.stringify(metadata, null, 2)}\n`);
 
 async function generatePanel(job) {
   const [targetWidth, targetHeight] = PANEL_SIZES[job.panel.size];
-  return generateImage({ ...job, targetWidth, targetHeight, negative: NEGATIVE_BASE, greyscale: true });
+  return generateImage({ ...job, targetWidth, targetHeight, greyscale: true });
 }
 
 async function generateImage({ id, outputPath, seed, prompt, negative, targetWidth, targetHeight, greyscale }) {
@@ -263,7 +279,7 @@ function createWorkflow({ width, height, seed, positive, negative, checkpoint: c
   };
 }
 
-function buildPrompt(panel, tokenMap) {
+function buildPrompt(panel, tokenMap, promptOverride) {
   const characterTokens = (panel.chars || []).flatMap((character) => {
     const locked = resolveToken(tokenMap, character.name, panel);
     return [locked || character.name, character.expression, character.pose].filter(Boolean);
@@ -272,22 +288,34 @@ function buildPrompt(panel, tokenMap) {
   const positiveBase = panel.size === 'hero' || panel.beat === 'gut-punch'
     ? POSITIVE_BASE.replace(', simple background detail', '')
     : POSITIVE_BASE;
-  const parts = [
-    positiveBase,
-    countTag,
-    ...characterTokens,
-    panel.action,
-    `${panel.shot} shot`,
-    panel.bg,
-  ];
+  const parts = promptOverride
+    ? [positiveBase, promptOverride]
+    : [positiveBase, panel.chars?.length === 1 ? 'solo' : null, countTag, ...characterTokens, panel.action, `${panel.shot} shot`, panel.bg];
+  if (panel.size === 'tall') parts.push('full body', 'head to toe', 'standing');
   if (panel.chibi) parts.push('chibi', 'comedic', 'simplified', '>_<');
   return parts.filter(Boolean).join(', ');
 }
 
+function normalizePanelId(value) {
+  const match = String(value ?? '').trim().toLowerCase().match(/^p0*(\d+)([a-z])$/);
+  return match ? `p${Number(match[1])}${match[2]}` : String(value ?? '').trim().toLowerCase();
+}
+
+function buildNegative(panel) {
+  const parts = [NEGATIVE_BASE];
+  if (!panel.chibi) parts.push('chibi, super deformed, tiny body');
+  if (panel.chars?.length === 2) parts.push('3people, third person, extra person, crowd');
+  return parts.join(', ');
+}
+
 function buildCoverPrompt(cover, tokenMap) {
-  const characterTokens = cover.chars.map((name) => resolveCoverToken(tokenMap, name, cover.desc) || name);
-  const cast = cover.chars.map((name) => ({ name }));
-  return [COVER_POSITIVE_BASE, inferCountTag(cast, tokenMap), 'exactly two characters, only one girl and one boy, no background people', ...characterTokens, ...coverEnvironmentTags(cover.desc), cover.desc].filter(Boolean).join(', ');
+  return [
+    COVER_POSITIVE_BASE,
+    '1girl, 1boy, exactly two characters, couple, full body',
+    'girl in foreground, shirakawa nagi, black hair, hair up, single hair bun, hair clip, half-closed dark eyes, indigo dark blue short happi coat, plain white t-shirt, dark work pants, rolled sleeves, towel around neck, sandals, wet forearms, holding water hose, no necktie',
+    'boy in background, nomura itsuki, light brown messy hair, bright light grey eyes, navy track jacket with green trim, sweatpants, holding convenience store bag',
+    'Japanese bathhouse entrance, indigo noren curtain, night, raining, rain streaks, steam, warm glowing doorway, wet asphalt, puddles, shuttered shopping street, dark blue night palette, warm yellow backlight, portrait composition',
+  ].join(', ');
 }
 
 function coverEnvironmentTags(description) {

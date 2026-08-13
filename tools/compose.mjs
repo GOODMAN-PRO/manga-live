@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -15,6 +15,7 @@ Options:
   --cover           compose build/<script>/cover-art.png to pages/<script>/cover.png
   --cover-art FILE  generated cover art override
   --jp-font FILE    Japanese title font (default tools/fonts/NotoSansJP-Variable.ttf)
+  --pages LIST      compose only comma-separated page numbers
 `;
 
 const { positional, flags } = parseArgs(process.argv.slice(2));
@@ -31,6 +32,9 @@ const outputDir = path.resolve(flags.out || path.join(repoRoot, 'pages', slug));
 const fontPath = path.resolve(flags.font || path.join(repoRoot, 'tools', 'fonts', 'ComicNeue-Bold.ttf'));
 const jpFontPath = path.resolve(flags['jp-font'] || path.join(repoRoot, 'tools', 'fonts', 'NotoSansJP-Variable.ttf'));
 const script = await loadScript(scriptPath);
+const selectedPages = flags.pages
+  ? new Set(String(flags.pages).split(',').map((value) => Number(value.trim())).filter(Number.isInteger))
+  : null;
 
 if (!existsSync(fontPath)) throw new Error(`Comic font not found: ${fontPath}`);
 const comicFont = await loadFont(fontPath);
@@ -52,7 +56,10 @@ if (flags.cover) {
   process.exit(0);
 }
 
+const compositionTimings = [];
 for (const page of script.pages) {
+  if (selectedPages && !selectedPages.has(page.page)) continue;
+  const pageStarted = performance.now();
   const pageName = `p${String(page.page).padStart(2, '0')}`;
   const layout = createLayout(page.panels);
   const canvas = sharp({
@@ -84,16 +91,32 @@ for (const page of script.pages) {
   const pngBuffer = await canvas.composite(composites).png().toBuffer();
   await writeFile(pngPath, pngBuffer);
   await sharp(pngBuffer).webp({ quality: 82 }).toFile(webpPath);
-  console.log(`[done] ${pageName} -> ${pngPath} (+ webp q82)`);
+  const composeSeconds = Number(((performance.now() - pageStarted) / 1000).toFixed(2));
+  compositionTimings.push({ page: page.page, composeSeconds, png: path.relative(repoRoot, pngPath).replaceAll('\\', '/') });
+  console.log(`[done] ${pageName} ${composeSeconds.toFixed(2)}s -> ${pngPath} (+ webp q82)`);
 }
+const compositionPath = path.join(outputDir, 'composition.json');
+let previousTimings = [];
+if (selectedPages && existsSync(compositionPath)) {
+  try {
+    previousTimings = JSON.parse(await readFile(compositionPath, 'utf8')).pages || [];
+  } catch {
+    previousTimings = [];
+  }
+}
+const timingsByPage = new Map(previousTimings.map((entry) => [entry.page, entry]));
+compositionTimings.forEach((entry) => timingsByPage.set(entry.page, entry));
+await writeFile(compositionPath, `${JSON.stringify({
+  script: path.relative(repoRoot, scriptPath).replaceAll('\\', '/'),
+  composedAt: new Date().toISOString(),
+  pages: [...timingsByPage.values()].sort((a, b) => a.page - b.page),
+}, null, 2)}\n`);
 
 function createLayout(panels) {
   const contentWidth = PAGE.width - PAGE.margin * 2;
   const contentHeight = PAGE.height - PAGE.margin * 2;
   if (panels.length === 1) return [{ x: PAGE.margin, y: PAGE.margin, width: contentWidth, height: contentHeight }];
-  if (panels.some((panel) => panel.size === 'hero')) throw new Error('A hero panel must be the only panel on its page.');
-
-  const weights = { half: 6, third: 4, 'wide-strip': 3, tall: 6 };
+  const weights = { hero: 12, half: 6, third: 4, 'wide-strip': 3, tall: 6 };
   const rows = [];
   for (let index = 0; index < panels.length; index += 1) {
     if (panels[index].size === 'inset') continue;
@@ -193,7 +216,7 @@ function bubbleComposites(panel, box, font) {
       rowHeight = 0;
     }
     const left = Math.round(right - width);
-    const speakerDirection = index % 2 === 0 ? 'right' : 'left';
+    const speakerDirection = dialogues.length > 1 && (panel.chars || []).length > 1 ? 'neutral' : index % 2 === 0 ? 'right' : 'left';
     items.push({
       input: bubbleSvg({ type: dialogue.type, lines: wrapped, width, height, fontSize, font, speakerDirection }),
       left,
@@ -237,9 +260,13 @@ function bubbleSvg({ type = 'speech', lines, width, height, fontSize, font, spea
   } else if (type === 'thought') {
     shape = `<path d="${cloudPath(cx, cy, rx, ry, 18)}" fill="#fff" stroke="#000" stroke-width="${stroke}" stroke-linejoin="round"/><circle cx="${speakerDirection === 'right' ? width - 20 : 20}" cy="${height - 13}" r="7" fill="#fff" stroke="#000" stroke-width="3"/><circle cx="${speakerDirection === 'right' ? width - 7 : 7}" cy="${height - 3}" r="4" fill="#fff" stroke="#000" stroke-width="2"/>`;
   } else {
-    const tailX = speakerDirection === 'right' ? width - 18 : 18;
-    const tipX = speakerDirection === 'right' ? width - 3 : 3;
-    shape = `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="#fff" stroke="#000" stroke-width="${stroke}"/><path d="M ${tailX - (speakerDirection === 'right' ? 14 : -14)} ${height - 25} L ${tipX} ${height - 2} L ${tailX} ${height - 35}" fill="#fff" stroke="#000" stroke-width="${stroke}" stroke-linejoin="round"/><path d="M ${tailX - (speakerDirection === 'right' ? 12 : -12)} ${height - 27} L ${tailX} ${height - 35}" stroke="#fff" stroke-width="7"/>`;
+    if (speakerDirection === 'neutral') {
+      shape = `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="#fff" stroke="#000" stroke-width="${stroke}"/><path d="M ${cx - 9} ${height - 19} L ${cx} ${height - 3} L ${cx + 9} ${height - 19}" fill="#fff" stroke="#000" stroke-width="${stroke}" stroke-linejoin="round"/><path d="M ${cx - 6} ${height - 20} L ${cx + 6} ${height - 20}" stroke="#fff" stroke-width="7"/>`;
+    } else {
+      const tailX = speakerDirection === 'right' ? width - 18 : 18;
+      const tipX = speakerDirection === 'right' ? width - 3 : 3;
+      shape = `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="#fff" stroke="#000" stroke-width="${stroke}"/><path d="M ${tailX - (speakerDirection === 'right' ? 14 : -14)} ${height - 25} L ${tipX} ${height - 2} L ${tailX} ${height - 35}" fill="#fff" stroke="#000" stroke-width="${stroke}" stroke-linejoin="round"/><path d="M ${tailX - (speakerDirection === 'right' ? 12 : -12)} ${height - 27} L ${tailX} ${height - 35}" stroke="#fff" stroke-width="7"/>`;
+    }
   }
   const lineHeight = fontSize * 1.18;
   const textHeight = lines.length * lineHeight;
