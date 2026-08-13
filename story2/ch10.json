@@ -1,0 +1,3128 @@
+{
+  "chapter": 10,
+  "title": "What It's For",
+  "cover": {
+    "desc": "Full color, warm domestic palette. A cramped apartment room seen at low angle from the floor: a low table, a futon half folded, evening light through a thin curtain. Kanade sits cross-legged on the floor with a small boy asleep against her shoulder, her pale hair loose, a picture book open on her knees; a thirteen-year-old girl with short dark hair sits nearby doing homework and pretending not to watch them. Kou is out of focus in the kitchen doorway behind, a tea towel over his shoulder. Flat cel colour, cream and dusty rose and pale blue, hard-edged soft shadows, generous negative space above.",
+    "chars": [
+      "kanade",
+      "sota",
+      "mio",
+      "kou"
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "establishing",
+          "chars": [],
+          "bg": "calibration corridor, numbered booth doors, morning, tone-washed",
+          "action": "Monday. Twelve days until the diver is named.",
+          "dialogue": [
+            {
+              "char": "narration",
+              "text": "Twelve days.",
+              "type": "narration"
+            },
+            {
+              "char": "kou",
+              "text": "Counts are measured twice a week now. By my sister.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "Mine is ten. Hers is one. That is the whole race.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "flat, clipboard, headset",
+              "pose": "at the booth desk"
+            },
+            {
+              "name": "kanade",
+              "expression": "in the chair, entirely cooperative",
+              "pose": "hands in her lap"
+            }
+          ],
+          "bg": "booth four, tone-washed",
+          "action": "Kanade's Monday test takes four minutes and is completely clean.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "Colours, textures, temperature, tone. All correct.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "And the last one?",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "Name something you want.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "answering instantly again",
+              "pose": "sitting forward"
+            }
+          ],
+          "bg": "booth, flat tone, tone-washed",
+          "action": "Same answer as last time, and faster.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Saturday.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "Count of one. Unchanged.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "asking it lightly, which fools nobody",
+              "pose": "standing, coat over her arm"
+            }
+          ],
+          "bg": "booth, tone-washed",
+          "action": "She tries it on, once, and it does not work.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Hazama-san. Hypothetically. If someone wanted a higher count—",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "No.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I hadn't finished the sentence.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "entirely level, not unkind",
+              "pose": "writing"
+            }
+          ],
+          "bg": "clipboard, tone-washed",
+          "action": "Shizu finishes it for her.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "You wanted to know if a long unsupervised entry would show up.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "It would. On my form. Which I would file.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "in the corridor with a paper bag, waiting",
+              "pose": "leaning on the wall opposite"
+            },
+            {
+              "name": "kanade",
+              "expression": "coming out, caught",
+              "pose": "closing the booth door"
+            }
+          ],
+          "bg": "calibration corridor, tone-washed",
+          "action": "He is in the corridor. He heard the last part through the door.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "You asked her to fix your number.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I asked a hypothetical question.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "So did I. On Thursday. She said no to me as well.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": ">_<, pointing accusingly, tiny",
+              "pose": "chibi, outraged"
+            },
+            {
+              "name": "kou",
+              "expression": "dot eyes, blank, tiny",
+              "pose": "chibi, holding a paper bag"
+            }
+          ],
+          "bg": "blank background, comedy screentone",
+          "action": "Register switch.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "YOU TRIED IT FIRST. YOU TRIED IT ON THURSDAY.",
+              "type": "shout"
+            },
+            {
+              "char": "kou",
+              "text": "I got further. She let me finish the sentence.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "THAT IS NOT A WIN.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DODON",
+              "style": "big"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "handing over the paper bag",
+              "pose": "arm out"
+            }
+          ],
+          "bg": "corridor, tone-washed",
+          "action": "He gives her the bag, which is the actual reason he is standing there.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "What's this.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Melon bread. You said crisp on top.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I said that about your list, not mine.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "not making a thing of it",
+              "pose": "already walking on"
+            }
+          ],
+          "bg": "corridor, tone-washed",
+          "action": "He does not make a thing of it.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "You can still taste. Use it.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Hazama.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Mm?",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "...Thank you.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "standing in a corridor holding a paper bag",
+              "pose": "not moving"
+            }
+          ],
+          "bg": "corridor, flat tone, tone-washed",
+          "action": "She stands there for a second.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Eleven days and he's buying me things I can still have.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "He's already lost this argument and he's stocking my cupboard.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "thirteen, deadpan, arms folded, standing in a school gateway",
+              "pose": "planted, blocking"
+            },
+            {
+              "name": "kanade",
+              "expression": "stopping, surprised",
+              "pose": "bag over one shoulder"
+            }
+          ],
+          "bg": "outside the academy gate, afternoon, tone-washed",
+          "action": "Nomura Mio is standing outside a school she does not attend.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "Ariake Kanade.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "...Yes?",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "Nomura Mio. His sister. The other one.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "getting straight to it",
+              "pose": "not moving out of the way"
+            }
+          ],
+          "bg": "gate, tone-washed",
+          "action": "She does not do small talk. It runs in the family.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "There was an assembly. They read a list out.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "...There was.",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "Nobody told us. Sōta heard it from a boy on our road.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "absorbing that",
+              "pose": "very still"
+            }
+          ],
+          "bg": "flat tone, gate, tone-washed",
+          "action": "A six-year-old heard his brother's losses read out secondhand on a residential street.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "He didn't tell them.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "Of course he didn't tell them. He's never told anybody anything.",
+              "type": "monologue"
+            },
+            {
+              "char": "mio",
+              "text": "He tells us it's fine. He's said fine since March.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "flat, factual, thirteen years old and running a household",
+              "pose": "hands in her pockets"
+            }
+          ],
+          "bg": "gate, tone-washed",
+          "action": "She states her terms.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "Come to ours. Tonight. He'll cook and he won't say anything.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Does he know you're asking me?",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "No. That's the point of asking you.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "the first crack, tiny, immediately covered",
+              "pose": "looking away"
+            }
+          ],
+          "bg": "gate, tone-washed",
+          "action": "One panel where she is thirteen.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "He talks to you. He doesn't talk to us.",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "So you can tell me what ten means.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sota",
+              "expression": "six, enormous eyes, delighted, hanging off the door",
+              "pose": "flinging the door open"
+            },
+            {
+              "name": "kanade",
+              "expression": "on the step with two shopping bags, entirely unprepared",
+              "pose": "standing"
+            }
+          ],
+          "bg": "small apartment door in a walkway, evening, tone-washed",
+          "action": "The door is opened by a six-year-old at speed.",
+          "dialogue": [
+            {
+              "char": "sota",
+              "text": "Are you the tower one?",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "...I'm sorry?",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "MIO. IT'S THE TOWER ONE.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "BATAN",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sota",
+              "expression": ">_<, orbiting her legs, tiny",
+              "pose": "chibi, spinning"
+            },
+            {
+              "name": "kanade",
+              "expression": "dot eyes, rigid, holding bags aloft, tiny",
+              "pose": "chibi, statue"
+            }
+          ],
+          "bg": "blank background, starburst screentone",
+          "action": "Comedy spike.",
+          "dialogue": [
+            {
+              "char": "sota",
+              "text": "ARE YOU STRONGER THAN NII-CHAN. ARE YOU. ARE YOU.",
+              "type": "shout"
+            },
+            {
+              "char": "kanade",
+              "text": "That's a complicated—",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "SHE IS. SHE'S STRONGER THAN NII-CHAN.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "PYON PYON",
+              "style": "big"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "appearing from the kitchen with a knife in one hand, absolutely still",
+              "pose": "frozen in the doorway"
+            }
+          ],
+          "bg": "small apartment interior, tone-washed",
+          "action": "Kou comes out of the kitchen and stops dead.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "...What.",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "I invited her.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Mio.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "entirely unmoved by her brother",
+              "pose": "arms folded"
+            }
+          ],
+          "bg": "apartment, tone-washed",
+          "action": "Mio has clearly been waiting to say this for a fortnight.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "You didn't tell us about the assembly.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "It wasn't—",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "Sōta found out from Yamada's brother. On our road.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "nothing available, no face to put on",
+              "pose": "knife still in his hand"
+            }
+          ],
+          "bg": "flat tone, tone-washed",
+          "action": "There is no version of this he has a face ready for.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "...Right.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I brought food.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "You brought four days of it.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "cooking in a kitchen the size of a cupboard",
+              "pose": "at a two-ring stove"
+            },
+            {
+              "name": "kanade",
+              "expression": "in the doorway, in the way, holding a bag",
+              "pose": "hovering"
+            }
+          ],
+          "bg": "very small apartment kitchen, cramped, worn, tidy, tone-washed",
+          "action": "The kitchen is much smaller than his sister's flat.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "This is where you actually live.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Half the week. Shizu's the other half.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "You never said.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "matter-of-fact, chopping",
+              "pose": "not looking up"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "He explains the household the way he explains everything: as logistics.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Mum's on nights. Shizu's on nights. So I'm here.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "And on Thursdays?",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Mio covers Thursdays. She's thirteen.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "recalculating everything",
+              "pose": "looking at the doorway to the other room"
+            }
+          ],
+          "bg": "flat tone, kitchen, tone-washed",
+          "action": "She reassembles fourteen months of Thursdays.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Every Thursday I've had him, a thirteen-year-old has had this.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "And I never once asked what he was leaving to come.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "sota",
+              "expression": "appearing at knee height with a picture book",
+              "pose": "holding it up with both arms"
+            }
+          ],
+          "bg": "kitchen doorway, tone-washed",
+          "action": "Sōta arrives with a book and a plan.",
+          "dialogue": [
+            {
+              "char": "sota",
+              "text": "You read it. Nii-chan does the voices wrong.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I do the voices correctly.",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "He does them ALL the same.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "taking the book, out of her depth and hiding it",
+              "pose": "holding it awkwardly"
+            }
+          ],
+          "bg": "kitchen doorway, tone-washed",
+          "action": "She takes the book like it is a piece of equipment she has not been briefed on.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I have never read to a child in my life.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "There is nobody in this flat I can outrank my way out of this with.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "reading aloud, doing distinct voices, taking it far too seriously",
+              "pose": "cross-legged on the floor, book up"
+            },
+            {
+              "name": "sota",
+              "expression": "rapt, leaning against her arm",
+              "pose": "half in her lap"
+            }
+          ],
+          "bg": "small apartment room, low table, warm lamp, tone-washed",
+          "action": "She does it the way she does everything: as if she intends to come first at it.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "'And the bear said — ' What voice does the bear have?",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "Low. Sad. He's a sad bear.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Understood.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "at the table doing homework, watching sideways",
+              "pose": "pen still"
+            }
+          ],
+          "bg": "low table, tone-washed",
+          "action": "Mio watches from four feet away and assesses.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "She's doing the voices.",
+              "type": "monologue"
+            },
+            {
+              "char": "mio",
+              "text": "Properly. Like it matters. Nobody does them properly.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "sota",
+              "expression": "twisting round mid-page, entirely direct",
+              "pose": "looking up at her"
+            }
+          ],
+          "bg": "floor, lamp, tone-washed",
+          "action": "Sōta asks the question the adults have been circling for two weeks.",
+          "dialogue": [
+            {
+              "char": "sota",
+              "text": "Is nii-chan broken?",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "...",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "Yamada's brother said he's got ten broken bits.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "choosing every word",
+              "pose": "book lowered to her knees"
+            }
+          ],
+          "bg": "flat tone, warm lamp, tone-washed",
+          "action": "She does not lie to him and she does not make it big.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "No. He's got ten things he can't feel any more.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "He's exactly the same. He just gets less information than you do.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "sota",
+              "expression": "thinking hard, six years old",
+              "pose": "frowning at the floor"
+            }
+          ],
+          "bg": "floor, tone-washed",
+          "action": "Sōta thinks about it for four seconds and arrives somewhere useful.",
+          "dialogue": [
+            {
+              "char": "sota",
+              "text": "So we tell him the information.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "...Yes. That's exactly it.",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "That's easy. I'm good at telling people things.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "in the kitchen doorway with a pan, having heard all of it",
+              "pose": "not moving"
+            }
+          ],
+          "bg": "kitchen doorway looking into the lit room, tone-washed",
+          "action": "Kou has been in the doorway for the whole conversation.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "I have spent two years making sure he never had to think about it.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "She's told him in two sentences and he's fine.",
+              "type": "monologue"
+            },
+            {
+              "char": "sota",
+              "text": "Nii-chan! The floor's cold!",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "...Noted.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "sota",
+              "expression": "marching over to Kou, entirely businesslike",
+              "pose": "arms up"
+            }
+          ],
+          "bg": "small room, tone-washed",
+          "action": "Sōta begins the information service immediately.",
+          "dialogue": [
+            {
+              "char": "sota",
+              "text": "Nii-chan. The floor's cold.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "...Right.",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "And the soup smells like the good one.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "having to stand very still",
+              "pose": "pan still in his hand"
+            }
+          ],
+          "bg": "flat tone, kitchen doorway, tone-washed",
+          "action": "He has to stand very still in a doorway holding a pan.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "He's six.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "He's six and he's decided that's his job now.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "not looking up from homework, saying it flatly",
+              "pose": "pen moving"
+            }
+          ],
+          "bg": "low table, tone-washed",
+          "action": "Mio, from the table, without looking up.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "You could have told us in March.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I know.",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "We'd have been telling you things for five months.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "taking it, entirely deserved",
+              "pose": "head down"
+            }
+          ],
+          "bg": "kitchen doorway, tone-washed",
+          "action": "He takes it, because it is completely fair.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Yeah. Fair.",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "Five months, Kou.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "washing up",
+              "pose": "at the sink"
+            },
+            {
+              "name": "mio",
+              "expression": "drying beside him",
+              "pose": "cloth in hand"
+            }
+          ],
+          "bg": "tiny kitchen, night, tone-washed",
+          "action": "Sōta is asleep. It is half nine.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "She's all right.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "High praise.",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "She didn't do the voice at him. The one adults do.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "sha",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "putting a plate down, getting to the real thing",
+              "pose": "turning to him"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She has been building up to this since the gate.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "What's it for.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Mio—",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "Ten things. For what. You never say.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "hands stopping in the water",
+              "pose": "very still at the sink"
+            }
+          ],
+          "bg": "sink, flat tone, tone-washed",
+          "action": "His hands stop in the water.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Nobody has asked me that. Not once. Not in two years.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "telling his thirteen-year-old sister the truth",
+              "pose": "hands still in the sink"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "He tells her, because she asked properly and she is the one who covers Thursdays.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Front-line clearance pays. Layer bonuses pay more.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "It's been paying the rent since Dad left. That's all it is.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "absolutely still, thirteen, working out what she has been living inside",
+              "pose": "cloth gone slack in her hands"
+            }
+          ],
+          "bg": "flat tone, kitchen, tone-washed",
+          "action": "She has been eating the proceeds of it for two years.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "...Since Dad left.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "It's a job, Mio. It's just a job with a stupid currency.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "in the doorway, having heard, entirely silent",
+              "pose": "standing with a folded futon in her arms"
+            }
+          ],
+          "bg": "kitchen doorway from the dark room, tone-washed",
+          "action": "Kanade is in the doorway with a futon she was folding.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Fourteen months.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "I thought he was proving something. It was rent.",
+              "type": "monologue"
+            },
+            {
+              "char": "mio",
+              "text": "She's still here.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "She's folding a futon.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "recalibrating every conversation they have ever had",
+              "pose": "not moving"
+            }
+          ],
+          "bg": "flat tone, doorway, tone-washed",
+          "action": "Every argument they have had rearranges itself.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I put him on flank to protect him from a cost he was being paid for.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "And he let me, because arguing would have meant explaining this.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "seeing her in the doorway",
+              "pose": "turning"
+            },
+            {
+              "name": "kou",
+              "expression": "not turning round",
+              "pose": "hands back in the water"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "Mio sees her and does not warn him.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "She's behind you.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I know. I felt the door.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "You did not feel the door.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "putting the futon down, choosing not to make it a scene",
+              "pose": "kneeling to set it down"
+            }
+          ],
+          "bg": "small room, tone-washed",
+          "action": "She decides, deliberately, not to make this the moment.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Not tonight. Not in front of Mio.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "I'll have it out with him in a kitchen where nobody's asleep.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "Not tonight.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "at the door with her, quiet",
+              "pose": "seeing her out"
+            }
+          ],
+          "bg": "genkan, tone-washed",
+          "action": "Mio sees her to the door and says the actual thing.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "Don't tell him I asked you here.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "He already knows.",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "Yes. Don't tell him anyway.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "walking a night road alone, thinking hard",
+              "pose": "hands in pockets"
+            }
+          ],
+          "bg": "night residential street, vending machine, tone-washed",
+          "action": "She walks home and does not do an inventory for anybody.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "If I win the count race, he loses the layer bonus.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "If he wins it, he pays with the last of what he's got.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "Twelve years of Sōta. He said it like a weather report.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "stopping under a streetlight, taking out her phone",
+              "pose": "phone up"
+            }
+          ],
+          "bg": "streetlight, tone-washed",
+          "action": "She stops and looks up something she has never once looked up.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "CLEARANCE BONUS — LAYER 33 — SCHEDULE B",
+              "type": "narration"
+            },
+            {
+              "char": "kanade",
+              "text": "Oh.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "reading a number and understanding a whole person",
+              "pose": "phone light on her face"
+            }
+          ],
+          "bg": "flat tone, night, tone-washed",
+          "action": "It is a lot of money. It is a genuinely enormous amount of money.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "That's four years of rent.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "He isn't fighting me for the room. He's fighting me for that.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "Four years of rent, in one room, in four minutes.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "not visible, silhouette",
+              "pose": "a small figure alone under a streetlight on an empty road"
+            }
+          ],
+          "bg": "flat tone field, one silhouette, one lamp, long empty road",
+          "action": "She stands under the light for a while.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "And I have never needed anything in my life.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": true,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "typing fast, decision made",
+              "pose": "phone in both hands"
+            }
+          ],
+          "bg": "streetlight, tone-washed",
+          "action": "She sends one message to the person who does logistics.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Riko. Can a bonus be assigned to a diver who doesn't dive?",
+              "type": "narration"
+            },
+            {
+              "char": "riko",
+              "text": "It's 11pm.",
+              "type": "narration"
+            },
+            {
+              "char": "riko",
+              "text": "...I'll look.",
+              "type": "narration"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "at a library table buried in printed regulations, glasses down",
+              "pose": "surrounded by paper"
+            },
+            {
+              "name": "kanade",
+              "expression": "opposite her, reading a page",
+              "pose": "leaning over"
+            }
+          ],
+          "bg": "school library, morning, tall windows, paper everywhere, tone-washed",
+          "action": "Riko has been here since seven and has printed the entire Schedule B.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "Bonus follows the named diver. Non-transferable.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "There's always an exception clause.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "There is. It's worse.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "turning the page round for her",
+              "pose": "finger on a paragraph"
+            }
+          ],
+          "bg": "library table, tone-washed",
+          "action": "The clause.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "'Where a diver withdraws, the bonus transfers to the substitute.'",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "So if I'm named and I withdraw—",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "It goes to whoever goes in instead. Which would be him.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "seeing the trap perfectly",
+              "pose": "hand flat on the page"
+            }
+          ],
+          "bg": "flat tone, page, tone-washed",
+          "action": "There is no version where she gets to protect both things.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I can save his threads or I can save his rent.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "The form will not let me do both.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "quiet, watching her friend",
+              "pose": "chin on her hands"
+            }
+          ],
+          "bg": "library, tone-washed",
+          "action": "Riko says the thing she has been not-saying for a week.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "Kanade. You could just ask him what he wants.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "He'd say the wrong one.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "Then he'd have said it. That's how asking works.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "hearing her own Chapter 4 lesson back",
+              "pose": "very still"
+            }
+          ],
+          "bg": "library, tone-washed",
+          "action": "It is exactly what she did to him in Chapter 4 and she knows it.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I did this once already. With Kirisu. On a roster.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "He said: you didn't do something about it, you did something about me.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "at the stove, Saturday morning",
+              "pose": "cooking"
+            },
+            {
+              "name": "kanade",
+              "expression": "on the counter, notebook closed beside her",
+              "pose": "not holding the spoon"
+            }
+          ],
+          "bg": "Shizu's apartment kitchen, Saturday, warm light, tone-washed",
+          "action": "Saturday. She does not pick up the spoon.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "You haven't tasted anything.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I know about the money.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "...Mio.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "not accusing, just laying it out",
+              "pose": "hands on the counter edge"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She lays it out without heat.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Layer bonus, Schedule B. Four years of rent.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "You've been paying threads for money and letting me think it was pride.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "turning the heat off, no defence prepared",
+              "pose": "hand on the dial"
+            }
+          ],
+          "bg": "stove, tone-washed",
+          "action": "He turns the heat off, which he never does mid-cook.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "If I'd told you, you'd have paid it.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Yes.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "That's why.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "steady, not letting him have that",
+              "pose": "sliding off the counter"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She does not accept the frame.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "You decided I'd be humiliating instead of asking whether I'd be careful.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Ariake—",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "You did something about me. Your words. In this kitchen.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "having no answer, again",
+              "pose": "leaning back against the counter"
+            }
+          ],
+          "bg": "flat tone, kitchen, tone-washed",
+          "action": "He has no answer, again.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "She's used both my sentences on me in three weeks.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "I only ever had two.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "asking it properly, and it costs her",
+              "pose": "standing in front of him"
+            },
+            {
+              "name": "kou",
+              "expression": "listening",
+              "pose": "against the counter"
+            }
+          ],
+          "bg": "kitchen, warm light, tone-washed",
+          "action": "She asks the question Riko told her to ask.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "So I'm asking. Which do you want.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "The threads, or the money. You have to pick one out loud.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "That's not a fair question.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "No. Answer it anyway.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "genuinely stuck for the first time",
+              "pose": "looking at the floor"
+            }
+          ],
+          "bg": "flat tone, kitchen, tone-washed",
+          "action": "He has never once been asked to choose between them.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Rent is a number that arrives every month.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "Threads are a number that only goes one way.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "answering honestly and hating it",
+              "pose": "looking up at her"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "He gives her the honest answer.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "The money. Obviously the money.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Sōta's six. There's twelve more years of him.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "having got what she asked for and finding it unbearable",
+              "pose": "very still"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She asked, and now she has it, and it is worse than not knowing.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "This is what asking gets you.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "The truth, in his voice, and no way to argue with it.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "picking the spoon up at last",
+              "pose": "reaching past him for it"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She picks up the spoon.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Turn the heat back on. It's going cold.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Ariake.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Heat. On. We'll do the rest afterwards.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "cooking again",
+              "pose": "at the stove"
+            },
+            {
+              "name": "kanade",
+              "expression": "spoon in hand, tasting",
+              "pose": "in her place"
+            },
+            {
+              "name": "sota",
+              "expression": "kneeling up on a chair at the counter, thrilled",
+              "pose": "leaning over"
+            },
+            {
+              "name": "mio",
+              "expression": "at the table, homework out, pretending not to be pleased",
+              "pose": "pen in hand"
+            }
+          ],
+          "bg": "kitchen, Saturday afternoon, four people, warm light, tone-washed",
+          "action": "Mio has brought Sōta over without asking anyone. It is now that kind of household.",
+          "dialogue": [
+            {
+              "char": "sota",
+              "text": "I'm doing the information. It's my job.",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "Nii-chan. It's hot. And it's loud in here.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Noted.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "handing the spoon down to Sōta, deadly serious",
+              "pose": "crouching to his level"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She hands the spoon to a six-year-old and briefs him like a colleague.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Taste it. Then say one true thing about it.",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "...It's salty.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Correct. That's the job.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sota",
+              "expression": ">_<, chest puffed, tiny",
+              "pose": "chibi, spoon aloft like a sword"
+            },
+            {
+              "name": "mio",
+              "expression": "dot eyes, unimpressed, tiny",
+              "pose": "chibi, pen still"
+            }
+          ],
+          "bg": "blank background, sparkle screentone",
+          "action": "Register switch.",
+          "dialogue": [
+            {
+              "char": "sota",
+              "text": "I AM THE TASTER. IT IS MY JOB AND I AM THE BEST AT IT.",
+              "type": "shout"
+            },
+            {
+              "char": "mio",
+              "text": "You've done it once.",
+              "type": "speech"
+            },
+            {
+              "char": "sota",
+              "text": "AND I WAS THE BEST.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DODON",
+              "style": "big"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "quietly moving her homework to make room for a bowl",
+              "pose": "shifting papers"
+            }
+          ],
+          "bg": "low table, tone-washed",
+          "action": "Mio makes room at the table without being asked.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "There's four of us and three bowls.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "There's a fourth in the cupboard.",
+              "type": "speech"
+            },
+            {
+              "char": "mio",
+              "text": "There's never been a fourth in the cupboard.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "not looking at anyone",
+              "pose": "reaching into the cupboard"
+            }
+          ],
+          "bg": "flat tone, cupboard, tone-washed",
+          "action": "There is, in fact, a fourth in the cupboard, and it is new.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "I bought it three weeks ago.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "I didn't have a reason at the time. I just bought it.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "on the balcony, two mugs, waiting",
+              "pose": "at the rail"
+            },
+            {
+              "name": "kou",
+              "expression": "coming out, closing the door on the noise",
+              "pose": "in the doorway"
+            }
+          ],
+          "bg": "balcony at night, warm noise behind the glass, tone-washed",
+          "action": "Mio and Sōta have gone home. Half eleven.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Very hot. Almost too hot.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "You always say that.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "One day it'll be lukewarm and you'll be glad of the warning.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "getting to it",
+              "pose": "turning to face him"
+            }
+          ],
+          "bg": "balcony, tone-washed",
+          "action": "She tells him what she has decided, which is not what he expects.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I'm not withdrawing if he names me.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Then I don't get the bonus.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "No. You get it anyway.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "producing a folded page from her coat",
+              "pose": "holding it out"
+            }
+          ],
+          "bg": "balcony, tone-washed",
+          "action": "She produces a page Riko printed at half six that morning.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Schedule B, section nine. Support staff stipend.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Riko found it. Arch supervisor, route planner, and technician all qualify.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "reading it, going very quiet",
+              "pose": "page in one hand"
+            }
+          ],
+          "bg": "flat tone, balcony, tone-washed",
+          "action": "It is not the whole bonus. It is about two thirds of it.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "It's two thirds.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "It's two thirds without you going in.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "not triumphant, just factual",
+              "pose": "hands round her mug"
+            }
+          ],
+          "bg": "balcony, tone-washed",
+          "action": "She does not present it as a win.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I'm not solving it behind your back. I'm telling you it exists.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "You can say no and go in anyway. It's your household.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "leaning on the rail, page in both hands",
+              "pose": "looking at the rooftops"
+            },
+            {
+              "name": "kanade",
+              "expression": "beside him, waiting properly",
+              "pose": "not pushing"
+            }
+          ],
+          "bg": "balcony, night, tone-washed",
+          "action": "She waits. She has got extremely good at waiting.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "You asked me first.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I did.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Nobody's ever done both. Asked, and then still found the answer.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "the mild face entirely absent",
+              "pose": "head down over the page"
+            }
+          ],
+          "bg": "flat tone, balcony, tone-washed",
+          "action": "There is no face on. There has not been one for a while.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Two years of doing the arithmetic on my own.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "And she's just done it with me. Out loud. On a balcony.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "folding the page and putting it in his pocket",
+              "pose": "careful about it"
+            }
+          ],
+          "bg": "balcony, tone-washed",
+          "action": "He puts it in his pocket, which is an answer.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "I'll take the stipend.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Good.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "That doesn't mean I'm letting you go in.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "entirely unsurprised",
+              "pose": "sipping"
+            }
+          ],
+          "bg": "balcony, tone-washed",
+          "action": "She was not expecting anything else.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Obviously not.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Eleven days. We'll fight about it properly.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "something very small at the mouth",
+              "pose": "looking out"
+            }
+          ],
+          "bg": "flat tone, warm, tone-washed",
+          "action": "He says the thing sideways, which is the only way he can.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "There's a fourth bowl in that cupboard.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I saw.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Right. Well. It's there.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "nabari",
+              "expression": "at his desk with two calibration files and a form",
+              "pose": "pen in hand, deciding"
+            }
+          ],
+          "bg": "supervisor's office, night, wall chart, tone-washed",
+          "action": "Wednesday night, nine days out. Nabari makes the decision early.",
+          "dialogue": [
+            {
+              "char": "nabari",
+              "text": "ARIAKE K. — COUNT: 1.",
+              "type": "narration"
+            },
+            {
+              "char": "nabari",
+              "text": "HAZAMA K. — COUNT: 10.",
+              "type": "narration"
+            },
+            {
+              "char": "nabari",
+              "text": "Lower count. That was the rule I set myself.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "nabari",
+              "expression": "looking at a third file he has not opened",
+              "pose": "hand flat on a closed folder"
+            }
+          ],
+          "bg": "desk, tone-washed",
+          "action": "There is a third file on the desk that nobody has mentioned.",
+          "dialogue": [
+            {
+              "char": "nabari",
+              "text": "HAZAMA S. — TECHNICIAN — COUNT: 14.",
+              "type": "narration"
+            },
+            {
+              "char": "nabari",
+              "text": "One family. Twenty-four threads between two of them.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "nabari",
+              "expression": "writing a name",
+              "pose": "pen down on the form"
+            }
+          ],
+          "bg": "form, flat tone, tone-washed",
+          "action": "He writes a name in the box.",
+          "dialogue": [
+            {
+              "char": "nabari",
+              "text": "It's the correct decision.",
+              "type": "monologue"
+            },
+            {
+              "char": "nabari",
+              "text": "I have made four correct decisions this year and I've hated all of them.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "sa",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "in the doorway again, tablet down",
+              "pose": "standing straight"
+            }
+          ],
+          "bg": "office doorway, night, tone-washed",
+          "action": "Riko, in the doorway, for the third time this term.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "Sir. Has it been decided?",
+              "type": "speech"
+            },
+            {
+              "char": "nabari",
+              "text": "It has.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "Then post it early. They're both getting worse at pretending.",
+              "type": "speech"
+            },
+            {
+              "char": "nabari",
+              "text": "Friday. Eight o'clock.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat tone field, an official form face-down on a desk, a red stamp visible through the paper, tone-washed",
+          "action": "The form, face down, stamped.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "Sir.",
+              "type": "speech"
+            },
+            {
+              "char": "nabari",
+              "text": "Posted Friday, 08:00.",
+              "type": "narration"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "asleep at the low table in the small flat, head on his arms",
+              "pose": "collapsed over homework and a notebook"
+            },
+            {
+              "name": "mio",
+              "expression": "putting a blanket over him, unimpressed and fond",
+              "pose": "leaning over"
+            }
+          ],
+          "bg": "small apartment, late night, one lamp, tone-washed",
+          "action": "Thursday, one in the morning. He has fallen asleep at the table.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "He does this every Thursday.",
+              "type": "monologue"
+            },
+            {
+              "char": "mio",
+              "text": "Comes back, checks Sōta, sits down, and goes out like a light.",
+              "type": "monologue"
+            },
+            {
+              "char": "mio",
+              "text": "Every single Thursday.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "picking up the notebook that has fallen open",
+              "pose": "reading it"
+            }
+          ],
+          "bg": "low table, notebook, tone-washed",
+          "action": "The notebook has fallen open and she reads two lines without meaning to.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Melon bread — sweet, crisp on top.",
+              "type": "narration"
+            },
+            {
+              "char": "kou",
+              "text": "Kitchen floor at ours — warm, and loud, and there are four of us now.",
+              "type": "narration"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "putting the notebook down very carefully",
+              "pose": "hands flat on it"
+            }
+          ],
+          "bg": "low table, tone-washed",
+          "action": "She closes it and puts it exactly where it was.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "He can't feel any of it.",
+              "type": "monologue"
+            },
+            {
+              "char": "mio",
+              "text": "He's writing it down so somebody will know it happened.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "mio",
+              "expression": "phone out, typing",
+              "pose": "sitting on the floor beside the table"
+            }
+          ],
+          "bg": "small flat, lamp, tone-washed",
+          "action": "She sends a message to a number she took off her brother's phone.",
+          "dialogue": [
+            {
+              "char": "mio",
+              "text": "It's Mio. Don't tell him I've got your number.",
+              "type": "narration"
+            },
+            {
+              "char": "mio",
+              "text": "If they pick him, don't let him.",
+              "type": "narration"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "pi",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "reading it in the dark, sitting up",
+              "pose": "phone light on her face"
+            }
+          ],
+          "bg": "dormitory, dark, tone-washed",
+          "action": "Four streets away, Kanade reads it at one in the morning.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Understood.",
+              "type": "narration"
+            },
+            {
+              "char": "kanade",
+              "text": "Nine days. And now I've promised a thirteen-year-old.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "Nine days.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    }
+  ]
+}

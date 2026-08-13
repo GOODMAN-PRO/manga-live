@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T17:34:12Z",
-  "status": "<b>余熱 YONETSU — 9 chapters live (162 pages).</b> Ch.9: the school legalises their secret, and it stops being theirs. The room doesn't charge you for going in — it charges you for how long you stay. So the attempt is one diver, and it goes to whoever has less left to lose. (YUAGARI Ch.1 at the bottom.)",
+  "updated": "2026-08-13T17:46:14Z",
+  "status": "<b>余熱 YONETSU — 10 chapters live (180 pages).</b> Ch.10: his sister asks the question nobody has asked in two years — what is it FOR — and a six-year-old appoints himself the information service. Four chapters left. (YUAGARI Ch.1 at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -234,6 +234,32 @@
         "pages2/ch09/p16.png",
         "pages2/ch09/p17.png",
         "pages2/ch09/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch10",
+      "title": "YONETSU — Ch.10 \"What It's For\"",
+      "cover": "pages2/ch10/cover.png",
+      "pages": [
+        "pages2/ch10/p01.png",
+        "pages2/ch10/p02.png",
+        "pages2/ch10/p03.png",
+        "pages2/ch10/p04.png",
+        "pages2/ch10/p05.png",
+        "pages2/ch10/p06.png",
+        "pages2/ch10/p07.png",
+        "pages2/ch10/p08.png",
+        "pages2/ch10/p09.png",
+        "pages2/ch10/p10.png",
+        "pages2/ch10/p11.png",
+        "pages2/ch10/p12.png",
+        "pages2/ch10/p13.png",
+        "pages2/ch10/p14.png",
+        "pages2/ch10/p15.png",
+        "pages2/ch10/p16.png",
+        "pages2/ch10/p17.png",
+        "pages2/ch10/p18.png"
       ],
       "ongoing": true
     },
