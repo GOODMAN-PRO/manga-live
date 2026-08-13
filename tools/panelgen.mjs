@@ -53,6 +53,7 @@ const tokens = existsSync(tokenPath) ? parseTokens(await readFile(tokenPath, 'ut
 if (!existsSync(tokenPath)) console.warn('chars/tokens.md not found; using character ids until locked tokens exist.');
 
 const seedPath = path.join(path.dirname(outputDir), 'seeds.json');
+const metadataPath = path.join(path.dirname(outputDir), 'generation.json');
 let seedOverrides = {};
 if (existsSync(seedPath)) seedOverrides = JSON.parse(await readFile(seedPath, 'utf8'));
 
@@ -80,6 +81,10 @@ for (const page of script.pages) {
 }
 
 if (redo && jobs.length === 0) throw new Error(`Panel '${redo}' was not found in ${scriptPath}`);
+if (jobs.length === 0) {
+  console.log('No panels need generation; existing generation metadata was preserved.');
+  process.exit(0);
+}
 await writeFile(seedPath, `${JSON.stringify(seedOverrides, null, 2)}\n`);
 
 await assertComfyReady(comfy, checkpoint);
@@ -91,28 +96,40 @@ await Promise.all(Array.from({ length: Math.min(concurrency, jobs.length) }, asy
   while (nextJob < jobs.length) {
     const job = jobs[nextJob++];
     const started = performance.now();
-    await generatePanel(job);
-    const seconds = (performance.now() - started) / 1000;
-    timings.push({ id: job.id, seconds: Number(seconds.toFixed(2)), seed: job.seed });
-    console.log(`[done] ${job.id} ${seconds.toFixed(1)}s seed=${job.seed} -> ${job.outputPath}`);
+    const executionSeconds = await generatePanel(job);
+    const wallSeconds = (performance.now() - started) / 1000;
+    timings.push({ id: job.id, executionSeconds, wallSeconds: Number(wallSeconds.toFixed(2)), seed: job.seed });
+    console.log(`[done] ${job.id} ${executionSeconds.toFixed(1)}s GPU (${wallSeconds.toFixed(1)}s wall) seed=${job.seed} -> ${job.outputPath}`);
   }
 }));
 
+const generatedPanels = jobs.map((job) => ({
+  id: job.id,
+  page: job.page,
+  size: job.panel.size,
+  seed: job.seed,
+  prompt: job.prompt,
+  negative: NEGATIVE_BASE,
+  timingSeconds: timings.find((item) => item.id === job.id)?.executionSeconds,
+  wallSeconds: timings.find((item) => item.id === job.id)?.wallSeconds,
+}));
+let previousPanels = [];
+if (existsSync(metadataPath) && !flags.force) {
+  try {
+    previousPanels = JSON.parse(await readFile(metadataPath, 'utf8')).panels || [];
+  } catch {
+    previousPanels = [];
+  }
+}
+const mergedPanels = new Map(previousPanels.map((panel) => [panel.id, panel]));
+generatedPanels.forEach((panel) => mergedPanels.set(panel.id, panel));
 const metadata = {
   script: path.relative(repoRoot, scriptPath).replaceAll('\\', '/'),
   checkpoint,
   generatedAt: new Date().toISOString(),
-  panels: jobs.map((job) => ({
-    id: job.id,
-    page: job.page,
-    size: job.panel.size,
-    seed: job.seed,
-    prompt: job.prompt,
-    negative: NEGATIVE_BASE,
-    timingSeconds: timings.find((item) => item.id === job.id)?.seconds,
-  })),
+  panels: [...mergedPanels.values()].sort((a, b) => a.page - b.page || a.id.localeCompare(b.id)),
 };
-await writeFile(path.join(path.dirname(outputDir), 'generation.json'), `${JSON.stringify(metadata, null, 2)}\n`);
+await writeFile(metadataPath, `${JSON.stringify(metadata, null, 2)}\n`);
 
 async function generatePanel(job) {
   const [targetWidth, targetHeight] = PANEL_SIZES[job.panel.size];
@@ -125,12 +142,13 @@ async function generatePanel(job) {
     body: JSON.stringify({ prompt: workflow, client_id: randomUUID() }),
   });
   if (!response.prompt_id) throw new Error(`ComfyUI did not return a prompt id for ${job.id}`);
-  const image = await waitForImage(response.prompt_id);
+  const { image, executionSeconds } = await waitForImage(response.prompt_id);
   const query = new URLSearchParams({ filename: image.filename, subfolder: image.subfolder || '', type: image.type || 'output' });
   const imageResponse = await fetch(`${comfy}/view?${query}`);
   if (!imageResponse.ok) throw new Error(`Failed to fetch ComfyUI output for ${job.id}: HTTP ${imageResponse.status}`);
   const data = Buffer.from(await imageResponse.arrayBuffer());
-  await sharp(data).resize(targetWidth, targetHeight, { fit: 'cover', position: 'attention' }).png().toFile(job.outputPath);
+  await sharp(data).resize(targetWidth, targetHeight, { fit: 'cover', position: 'attention' }).greyscale().png().toFile(job.outputPath);
+  return executionSeconds;
 }
 
 async function waitForImage(promptId) {
@@ -142,7 +160,12 @@ async function waitForImage(promptId) {
       throw new Error(`ComfyUI generation failed: ${JSON.stringify(entry.status.messages)}`);
     }
     const images = entry?.outputs?.['9']?.images;
-    if (images?.length) return images[0];
+    if (images?.length) {
+      const start = entry.status?.messages?.find((message) => message[0] === 'execution_start')?.[1]?.timestamp;
+      const success = entry.status?.messages?.find((message) => message[0] === 'execution_success')?.[1]?.timestamp;
+      const executionSeconds = start && success ? Number(((success - start) / 1000).toFixed(2)) : 0;
+      return { image: images[0], executionSeconds };
+    }
     await new Promise((resolve) => setTimeout(resolve, 1000));
   }
   throw new Error(`Timed out waiting for ComfyUI prompt ${promptId}`);
@@ -199,10 +222,10 @@ function createWorkflow({ width, height, seed, positive, checkpoint: checkpointN
 
 function buildPrompt(panel, tokenMap) {
   const characterTokens = (panel.chars || []).flatMap((character) => {
-    const locked = tokenMap.get(String(character.name).toLowerCase());
+    const locked = resolveToken(tokenMap, character.name, panel);
     return [locked || character.name, character.expression, character.pose].filter(Boolean);
   });
-  const countTag = inferCountTag(panel.chars || [], characterTokens);
+  const countTag = inferCountTag(panel.chars || [], tokenMap);
   const parts = [
     POSITIVE_BASE,
     countTag,
@@ -215,12 +238,21 @@ function buildPrompt(panel, tokenMap) {
   return parts.filter(Boolean).join(', ');
 }
 
-function inferCountTag(characters, characterTokens) {
-  const text = characterTokens.join(', ').toLowerCase();
-  const girls = characters.filter((character) => /girl|woman|female/.test(`${character.name} ${text}`)).length;
-  const boys = characters.filter((character) => /boy|man|male/.test(`${character.name} ${text}`)).length;
-  if (girls && !boys) return `${girls}girl${girls === 1 ? '' : 's'}`;
-  if (boys && !girls) return `${boys}boy${boys === 1 ? '' : 's'}`;
+function inferCountTag(characters, tokenMap) {
+  if (!characters.length) return null;
+  let girls = 0;
+  let boys = 0;
+  let unknown = 0;
+  for (const character of characters) {
+    const entry = tokenMap.get(String(character.name).toLowerCase());
+    const descriptor = `${character.name} ${typeof entry === 'string' ? entry : Object.values(entry || {}).join(', ')}`.toLowerCase();
+    if (/\b(girl|woman|female)\b/.test(descriptor)) girls += 1;
+    else if (/\b(boy|man|male)\b/.test(descriptor)) boys += 1;
+    else unknown += 1;
+  }
+  if (!unknown && girls && boys) return `${girls}girl${girls === 1 ? '' : 's'}, ${boys}boy${boys === 1 ? '' : 's'}`;
+  if (!unknown && girls) return `${girls}girl${girls === 1 ? '' : 's'}`;
+  if (!unknown && boys) return `${boys}boy${boys === 1 ? '' : 's'}`;
   return `${Math.max(1, characters.length)}people`;
 }
 
@@ -229,9 +261,21 @@ function parseTokens(markdown) {
   let heading = null;
   for (const rawLine of markdown.split(/\r?\n/)) {
     const line = rawLine.trim();
-    const headingMatch = line.match(/^#{1,6}\s+([\w-]+)\s*$/);
+    const headingMatch = line.match(/^###\s+([\w-]+)(?:\s|\(|$)/);
     if (headingMatch) {
       heading = headingMatch[1].toLowerCase();
+      if (!result.has(heading)) result.set(heading, {});
+      continue;
+    }
+    const variantMatch = line.match(/^-\s+\*\*(base|day|night)\*\*[^:]*:\s*(?:base\s*\+\s*)?`([^`]+)`/i);
+    if (variantMatch && heading) {
+      const entry = result.get(heading);
+      entry[variantMatch[1].toLowerCase()] = variantMatch[2].trim();
+      continue;
+    }
+    const inlineCharacter = line.match(/^-\s+\*\*([\w-]+(?:\s*\/\s*[\w-]+)*)\*\*(?:\s*\([^)]*\))?\s*:\s*`([^`]+)`/);
+    if (inlineCharacter) {
+      for (const id of inlineCharacter[1].split('/').map((value) => value.trim().toLowerCase())) result.set(id, inlineCharacter[2].trim());
       continue;
     }
     const tableMatch = line.match(/^\|\s*([\w-]+)\s*\|\s*([^|]+?)\s*\|/);
@@ -247,4 +291,14 @@ function parseTokens(markdown) {
     }
   }
   return result;
+}
+
+function resolveToken(tokenMap, name, panel) {
+  const entry = tokenMap.get(String(name).toLowerCase());
+  if (!entry) return null;
+  if (typeof entry === 'string') return entry;
+  if (panel.chibi) return entry.base || entry.day || entry.night || null;
+  const context = `${panel.bg || ''} ${panel.action || ''} ${(panel.chars || []).map((character) => character.pose || '').join(' ')}`.toLowerCase();
+  const variant = /bath|sento|onsen|night|closing|steam|happi|cleaning/.test(context) ? 'night' : 'day';
+  return [entry.base, entry[variant]].filter(Boolean).join(', ') || null;
 }

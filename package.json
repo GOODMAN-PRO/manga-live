@@ -6,6 +6,7 @@
   "scripts": {
     "panelgen": "node tools/panelgen.mjs",
     "compose": "node tools/compose.mjs",
+    "smoke-test": "node tools/smoke-test.mjs",
     "publish": "node tools/publish.mjs"
   },
   "dependencies": {

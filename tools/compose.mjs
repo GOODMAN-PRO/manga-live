@@ -3,7 +3,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
-import { PAGE, PANEL_SIZES, loadScript, panelId, parseArgs, scriptSlug, xmlEscape } from './lib/common.mjs';
+import { PAGE, loadScript, panelId, parseArgs, scriptSlug, xmlEscape } from './lib/common.mjs';
 
 const HELP = `Usage: node tools/compose.mjs story/chNN.json [options]
 
@@ -70,50 +70,51 @@ function createLayout(panels) {
   const contentWidth = PAGE.width - PAGE.margin * 2;
   const contentHeight = PAGE.height - PAGE.margin * 2;
   if (panels.length === 1) return [{ x: PAGE.margin, y: PAGE.margin, width: contentWidth, height: contentHeight }];
+  if (panels.some((panel) => panel.size === 'hero')) throw new Error('A hero panel must be the only panel on its page.');
 
+  const weights = { half: 6, third: 4, 'wide-strip': 3, tall: 6 };
   const rows = [];
-  let row = [];
-  let rowWidth = 0;
   for (let index = 0; index < panels.length; index += 1) {
-    const [nominalWidth] = PANEL_SIZES[panels[index].size];
-    const narrow = nominalWidth < contentWidth;
-    const nextWidth = rowWidth + (row.length ? PAGE.gutter : 0) + nominalWidth;
-    if (!narrow || (row.length && nextWidth > contentWidth)) {
-      if (row.length) rows.push(row);
-      row = [];
-      rowWidth = 0;
-    }
-    row.push(index);
-    rowWidth += (row.length > 1 ? PAGE.gutter : 0) + nominalWidth;
-    if (!narrow) {
-      rows.push(row);
-      row = [];
-      rowWidth = 0;
-    }
+    if (panels[index].size === 'inset') continue;
+    if (panels.length >= 4 && panels[index].size === 'third' && panels[index + 1]?.size === 'third') {
+      rows.push({ indices: [index, index + 1], weight: weights.third });
+      index += 1;
+    } else rows.push({ indices: [index], weight: weights[panels[index].size] || 4 });
   }
-  if (row.length) rows.push(row);
+  if (!rows.length) throw new Error('A page cannot contain only inset panels.');
 
   const verticalSpace = contentHeight - PAGE.gutter * (rows.length - 1);
-  const weights = rows.map((indices) => Math.max(...indices.map((index) => PANEL_SIZES[panels[index].size][1])));
-  const weightTotal = weights.reduce((sum, value) => sum + value, 0);
-  const heights = weights.map((weight) => Math.max(120, Math.round(verticalSpace * weight / weightTotal)));
+  const weightTotal = rows.reduce((sum, row) => sum + row.weight, 0);
+  const heights = rows.map((row) => Math.max(120, Math.round(verticalSpace * row.weight / weightTotal)));
   heights[heights.length - 1] += verticalSpace - heights.reduce((sum, value) => sum + value, 0);
 
   const result = Array(panels.length);
   let y = PAGE.margin;
-  rows.forEach((indices, rowIndex) => {
-    const availableWidth = contentWidth - PAGE.gutter * (indices.length - 1);
-    const widths = indices.length === 1
-      ? [contentWidth]
-      : proportionalWidths(indices.map((index) => PANEL_SIZES[panels[index].size][0]), availableWidth);
+  rows.forEach((row, rowIndex) => {
+    const availableWidth = contentWidth - PAGE.gutter * (row.indices.length - 1);
+    const widths = row.indices.length === 1 ? [contentWidth] : proportionalWidths(row.indices.map(() => 1), availableWidth);
     let right = PAGE.width - PAGE.margin;
-    indices.forEach((panelIndex, position) => {
+    row.indices.forEach((panelIndex, position) => {
       const width = widths[position];
       const x = right - width;
       result[panelIndex] = { x, y, width, height: heights[rowIndex] };
       right = x - PAGE.gutter;
     });
     y += heights[rowIndex] + PAGE.gutter;
+  });
+  panels.forEach((panel, index) => {
+    if (panel.size !== 'inset') return;
+    let anchorIndex = index - 1;
+    while (anchorIndex >= 0 && !result[anchorIndex]) anchorIndex -= 1;
+    if (anchorIndex < 0) throw new Error(`Inset panel ${index + 1} has no preceding panel to anchor to.`);
+    const anchor = result[anchorIndex];
+    const size = Math.max(180, Math.round(anchor.width * 0.4));
+    result[index] = {
+      x: anchor.x + 18,
+      y: anchor.y + anchor.height - size - 18,
+      width: size,
+      height: size,
+    };
   });
   return result;
 }
@@ -138,11 +139,12 @@ function bubbleComposites(panel, box, fontBase64) {
   let rowHeight = 0;
   dialogues.forEach((dialogue, index) => {
     const maxWidth = Math.max(150, Math.floor(box.width * 0.45));
-    const fontSize = Math.max(24, Math.min(38, Math.round(box.width / 25)));
-    const wrapped = wrapText(dialogue.text, maxWidth - 46, fontSize);
-    const textWidth = Math.min(maxWidth - 46, Math.max(90, ...wrapped.map((line) => estimateTextWidth(line, fontSize))));
-    const width = Math.ceil(textWidth + 46);
-    const height = Math.ceil(wrapped.length * fontSize * 1.18 + 42 + (dialogue.type === 'thought' ? 10 : 0));
+    const fontSize = Math.max(22, Math.min(32, Math.round(box.width / 27)));
+    const horizontalPadding = 80;
+    const wrapped = wrapText(dialogue.text, maxWidth - horizontalPadding, fontSize);
+    const textWidth = Math.min(maxWidth - horizontalPadding, Math.max(70, ...wrapped.map((line) => estimateTextWidth(line, fontSize))));
+    const width = Math.ceil(textWidth + horizontalPadding);
+    const height = Math.ceil(wrapped.length * fontSize * 1.18 + 60 + (dialogue.type === 'thought' ? 10 : 0));
     if (right - width < box.x + 16) {
       right = box.x + box.width - 18;
       top += rowHeight + 12;
@@ -170,7 +172,7 @@ function sfxComposites(panel, box, fontBase64) {
     const y = box.y + box.height - height - 22 - index * (height + 6);
     const svg = `<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
       ${fontStyle(fontBase64)}
-      <g transform="skewX(-12)"><text x="12" y="${fontSize}" font-family="ComicNeue" font-size="${fontSize}" font-weight="700" fill="#fff" stroke="#000" stroke-width="8" paint-order="stroke">${xmlEscape(sfx.text)}</text><text x="12" y="${fontSize}" font-family="ComicNeue" font-size="${fontSize}" font-weight="700" fill="#111">${xmlEscape(sfx.text)}</text></g>
+      <g transform="skewX(-12)"><text x="12" y="${fontSize}" font-family="ComicNeue" font-size="${fontSize}" font-weight="700" fill="#111" stroke="#fff" stroke-width="12" paint-order="stroke">${xmlEscape(sfx.text)}</text><text x="12" y="${fontSize}" font-family="ComicNeue" font-size="${fontSize}" font-weight="700" fill="#111" stroke="#111" stroke-width="3" paint-order="stroke">${xmlEscape(sfx.text)}</text></g>
     </svg>`;
     return { input: Buffer.from(svg), left: Math.round(x), top: Math.max(box.y + 12, Math.round(y)) };
   });
@@ -225,7 +227,7 @@ function wrapText(text, maxWidth, fontSize) {
 }
 
 function estimateTextWidth(text, fontSize) {
-  return [...String(text)].reduce((sum, char) => sum + (/\s/.test(char) ? 0.28 : /[MW@#]/.test(char) ? 0.86 : 0.58) * fontSize, 0);
+  return [...String(text)].reduce((sum, char) => sum + (/\s/.test(char) ? 0.32 : /[MW@#]/.test(char) ? 0.94 : /[ilI.,'!]/.test(char) ? 0.34 : 0.68) * fontSize, 0);
 }
 
 function radialPoints(cx, cy, rx, ry, spikes) {
@@ -242,8 +244,16 @@ function cloudPath(cx, cy, rx, ry, lobes) {
   const points = [];
   for (let i = 0; i < lobes; i += 1) {
     const angle = Math.PI * 2 * i / lobes;
-    const bump = i % 2 === 0 ? 1 : 0.9;
+    const bump = i % 2 === 0 ? 1 : 0.86;
     points.push([cx + Math.cos(angle) * rx * bump, cy + Math.sin(angle) * ry * bump]);
   }
-  return `M ${points.map(([x, y]) => `${x} ${y}`).join(' L ')} Z`;
+  const midpoint = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+  const start = midpoint(points.at(-1), points[0]);
+  let result = `M ${start[0]} ${start[1]}`;
+  for (let i = 0; i < points.length; i += 1) {
+    const next = points[(i + 1) % points.length];
+    const mid = midpoint(points[i], next);
+    result += ` Q ${points[i][0]} ${points[i][1]} ${mid[0]} ${mid[1]}`;
+  }
+  return `${result} Z`;
 }

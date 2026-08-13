@@ -14,7 +14,7 @@ export const PANEL_SIZES = Object.freeze({
 });
 
 export const POSITIVE_BASE = 'masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart';
-export const NEGATIVE_BASE = 'color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, speech bubble, blurry, extra fingers, bad hands, bad anatomy';
+export const NEGATIVE_BASE = 'color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, speech bubble, blurry, extra fingers, bad hands, bad anatomy, nude, nsfw, cleavage, swimsuit';
 
 export function parseArgs(argv) {
   const positional = [];

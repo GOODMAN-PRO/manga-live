@@ -4,6 +4,7 @@ The factory reads the mechanical schema in `story/FORMAT.md` and the locked visu
 
 ```powershell
 npm install
+npm run smoke-test
 npm run panelgen -- story/ch01.json
 npm run panelgen -- story/ch01.json --redo p3b
 npm run compose -- story/ch01.json
