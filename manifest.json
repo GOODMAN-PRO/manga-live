@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T17:46:14Z",
-  "status": "<b>余熱 YONETSU — 10 chapters live (180 pages).</b> Ch.10: his sister asks the question nobody has asked in two years — what is it FOR — and a six-year-old appoints himself the information service. Four chapters left. (YUAGARI Ch.1 at the bottom.)",
+  "updated": "2026-08-13T17:57:53Z",
+  "status": "<b>余熱 YONETSU — 11 chapters live (198 pages).</b> Ch.11: she goes in and he counts her out loud. Taste goes at 2:18. Past the seam there's a far wall, and a door with a worn plate on it that says RETURNS. Three chapters left. (YUAGARI Ch.1 at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -260,6 +260,32 @@
         "pages2/ch10/p16.png",
         "pages2/ch10/p17.png",
         "pages2/ch10/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch11",
+      "title": "YONETSU — Ch.11 \"Four Minutes\"",
+      "cover": "pages2/ch11/cover.png",
+      "pages": [
+        "pages2/ch11/p01.png",
+        "pages2/ch11/p02.png",
+        "pages2/ch11/p03.png",
+        "pages2/ch11/p04.png",
+        "pages2/ch11/p05.png",
+        "pages2/ch11/p06.png",
+        "pages2/ch11/p07.png",
+        "pages2/ch11/p08.png",
+        "pages2/ch11/p09.png",
+        "pages2/ch11/p10.png",
+        "pages2/ch11/p11.png",
+        "pages2/ch11/p12.png",
+        "pages2/ch11/p13.png",
+        "pages2/ch11/p14.png",
+        "pages2/ch11/p15.png",
+        "pages2/ch11/p16.png",
+        "pages2/ch11/p17.png",
+        "pages2/ch11/p18.png"
       ],
       "ongoing": true
     },
