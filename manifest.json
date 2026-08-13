@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T15:45:11Z",
-  "status": "<b>余熱 YONETSU — 3 chapters live.</b> A tower that charges you one sense per floor, and two front-liners who've never seen each other's faces. Ch.2 is the cupboard confession; Ch.3 is ninety minutes of a disastrous dinner. More landing tonight. (YUAGARI Ch.1, the bathhouse story, is at the bottom.)",
+  "updated": "2026-08-13T15:54:43Z",
+  "status": "<b>余熱 YONETSU — 4 chapters live (72 pages).</b> A tower that charges one sense per floor, and two front-liners who never saw each other's faces. Ch.4: she fixes his problem without asking, and it works, which is the problem. Ch.5 in the works. (YUAGARI Ch.1, the bathhouse story, at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -80,6 +80,32 @@
         "pages2/ch03/p18.png"
       ],
       "ongoing": false
+    },
+    {
+      "id": "y2-ch04",
+      "title": "YONETSU — Ch.4 \"A Good Call\"",
+      "cover": "pages2/ch04/cover.png",
+      "pages": [
+        "pages2/ch04/p01.png",
+        "pages2/ch04/p02.png",
+        "pages2/ch04/p03.png",
+        "pages2/ch04/p04.png",
+        "pages2/ch04/p05.png",
+        "pages2/ch04/p06.png",
+        "pages2/ch04/p07.png",
+        "pages2/ch04/p08.png",
+        "pages2/ch04/p09.png",
+        "pages2/ch04/p10.png",
+        "pages2/ch04/p11.png",
+        "pages2/ch04/p12.png",
+        "pages2/ch04/p13.png",
+        "pages2/ch04/p14.png",
+        "pages2/ch04/p15.png",
+        "pages2/ch04/p16.png",
+        "pages2/ch04/p17.png",
+        "pages2/ch04/p18.png"
+      ],
+      "ongoing": true
     },
     {
       "id": "y1-ch01",
