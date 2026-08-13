@@ -13,8 +13,10 @@ export const PANEL_SIZES = Object.freeze({
   inset: [560, 560],
 });
 
-export const POSITIVE_BASE = 'masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart';
-export const NEGATIVE_BASE = 'color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, speech bubble, blurry, extra fingers, bad hands, bad anatomy, nude, nsfw, cleavage, swimsuit';
+export const POSITIVE_BASE = 'masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, flat shading, simple background detail';
+export const COVER_POSITIVE_BASE = 'masterpiece, best quality, clean lineart, flat shading, anime coloring, flat color, soft lighting, cover art';
+export const NEGATIVE_BASE = 'color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate characters, clone, nude, nsfw, cleavage, swimsuit';
+export const COVER_NEGATIVE_BASE = NEGATIVE_BASE.replace(/^color,\s*/, '');
 
 export function parseArgs(argv) {
   const positional = [];

@@ -8,6 +8,8 @@ npm run smoke-test
 npm run panelgen -- story/ch01.json
 npm run panelgen -- story/ch01.json --redo p3b
 npm run compose -- story/ch01.json
+npm run panelgen -- story/ch01.json --cover
+npm run compose -- story/ch01.json --cover
 ```
 
 Environment variables `COMFY_URL` and `COMFY_CHECKPOINT` override the default local engine and checkpoint. `panelgen` writes deterministic seed and prompt metadata beside its panel output. Existing panels are skipped unless `--force` or `--redo` is given.

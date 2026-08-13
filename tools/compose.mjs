@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
-import { PAGE, loadScript, panelId, parseArgs, scriptSlug, xmlEscape } from './lib/common.mjs';
+import { PAGE, loadScript, panelId, parseArgs, scriptSlug } from './lib/common.mjs';
+import { centeredTextPath, loadFont, measureText, textPath, wrapText } from './lib/text-path.mjs';
 
 const HELP = `Usage: node tools/compose.mjs story/chNN.json [options]
 
@@ -11,6 +12,9 @@ Options:
   --panels DIR     generated panel directory (default build/<script>/panels)
   --out DIR        page output directory (default pages/<script>)
   --font FILE      comic font (default tools/fonts/ComicNeue-Bold.ttf)
+  --cover           compose build/<script>/cover-art.png to pages/<script>/cover.png
+  --cover-art FILE  generated cover art override
+  --jp-font FILE    Japanese title font (default tools/fonts/NotoSansJP-Variable.ttf)
 `;
 
 const { positional, flags } = parseArgs(process.argv.slice(2));
@@ -25,11 +29,28 @@ const slug = scriptSlug(scriptPath);
 const panelsDir = path.resolve(flags.panels || path.join(repoRoot, 'build', slug, 'panels'));
 const outputDir = path.resolve(flags.out || path.join(repoRoot, 'pages', slug));
 const fontPath = path.resolve(flags.font || path.join(repoRoot, 'tools', 'fonts', 'ComicNeue-Bold.ttf'));
+const jpFontPath = path.resolve(flags['jp-font'] || path.join(repoRoot, 'tools', 'fonts', 'NotoSansJP-Variable.ttf'));
 const script = await loadScript(scriptPath);
 
 if (!existsSync(fontPath)) throw new Error(`Comic font not found: ${fontPath}`);
-const fontData = (await readFile(fontPath)).toString('base64');
+const comicFont = await loadFont(fontPath);
 await mkdir(outputDir, { recursive: true });
+
+if (flags.cover) {
+  const coverArtPath = path.resolve(flags['cover-art'] || path.join(repoRoot, 'build', slug, 'cover-art.png'));
+  if (!existsSync(coverArtPath)) throw new Error(`Generated cover art not found: ${coverArtPath}`);
+  if (!existsSync(jpFontPath)) throw new Error(`Japanese cover font not found: ${jpFontPath}`);
+  const jpFont = await loadFont(jpFontPath);
+  const art = await sharp(coverArtPath).resize(1000, 1500, { fit: 'cover', position: 'attention' }).png().toBuffer();
+  const titleBand = coverTitleSvg(jpFont, comicFont, script.chapter);
+  const pngPath = path.join(outputDir, 'cover.png');
+  const webpPath = path.join(outputDir, 'cover.webp');
+  const pngBuffer = await sharp(art).composite([{ input: titleBand, left: 0, top: 0 }]).png().toBuffer();
+  await writeFile(pngPath, pngBuffer);
+  await sharp(pngBuffer).webp({ quality: 82 }).toFile(webpPath);
+  console.log(`[done] cover -> ${pngPath} (+ webp q82)`);
+  process.exit(0);
+}
 
 for (const page of script.pages) {
   const pageName = `p${String(page.page).padStart(2, '0')}`;
@@ -54,8 +75,8 @@ for (const page of script.pages) {
     };
     const panelImage = await sharp(panelPath).resize(inner.width, inner.height, { fit: 'cover', position: 'attention' }).png().toBuffer();
     composites.push({ input: panelImage, left: inner.x, top: inner.y });
-    composites.push(...bubbleComposites(panel, inner, fontData));
-    composites.push(...sfxComposites(panel, inner, fontData));
+    composites.push(...bubbleComposites(panel, inner, comicFont));
+    composites.push(...sfxComposites(panel, inner, comicFont));
   }
 
   const pngPath = path.join(outputDir, `${pageName}.png`);
@@ -130,7 +151,28 @@ function borderSvg(width, height) {
   return Buffer.from(`<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="#000"/></svg>`);
 }
 
-function bubbleComposites(panel, box, fontBase64) {
+function coverTitleSvg(jpFont, comicFont, chapter) {
+  const width = 1000;
+  const height = 1500;
+  const bandY = 1160;
+  const title = '湯あがり';
+  const roman = 'YUAGARI';
+  const chapterLabel = `CHAPTER ${String(chapter).padStart(2, '0')}`;
+  const titleSize = 112;
+  const romanSize = 42;
+  const chapterSize = 25;
+  const titlePath = centeredTextPath(jpFont, title, width / 2, bandY + 145, titleSize, { fill: '#fff' });
+  const romanPath = centeredTextPath(comicFont, roman, width / 2, bandY + 210, romanSize, { fill: '#fff', 'letter-spacing': 5 });
+  const chapterPath = centeredTextPath(comicFont, chapterLabel, width / 2, bandY + 270, chapterSize, { fill: '#fff' });
+  return Buffer.from(`<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
+    <defs><linearGradient id="band" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101722" stop-opacity="0"/><stop offset="0.28" stop-color="#101722" stop-opacity="0.78"/><stop offset="1" stop-color="#080c12" stop-opacity="0.94"/></linearGradient></defs>
+    <rect x="0" y="${bandY - 100}" width="1000" height="440" fill="url(#band)"/>
+    <line x1="390" y1="${bandY + 228}" x2="610" y2="${bandY + 228}" stroke="#fff" stroke-width="2" opacity="0.7"/>
+    ${titlePath}${romanPath}${chapterPath}
+  </svg>`);
+}
+
+function bubbleComposites(panel, box, font) {
   const dialogues = panel.dialogue || [];
   if (!dialogues.length) return [];
   const items = [];
@@ -141,8 +183,8 @@ function bubbleComposites(panel, box, fontBase64) {
     const maxWidth = Math.max(150, Math.floor(box.width * 0.45));
     const fontSize = Math.max(22, Math.min(32, Math.round(box.width / 27)));
     const horizontalPadding = 80;
-    const wrapped = wrapText(dialogue.text, maxWidth - horizontalPadding, fontSize);
-    const textWidth = Math.min(maxWidth - horizontalPadding, Math.max(70, ...wrapped.map((line) => estimateTextWidth(line, fontSize))));
+    const wrapped = wrapText(font, dialogue.text, maxWidth - horizontalPadding, fontSize);
+    const textWidth = Math.min(maxWidth - horizontalPadding, Math.max(70, ...wrapped.map((line) => measureText(font, line, fontSize))));
     const width = Math.ceil(textWidth + horizontalPadding);
     const height = Math.ceil(wrapped.length * fontSize * 1.18 + 60 + (dialogue.type === 'thought' ? 10 : 0));
     if (right - width < box.x + 16) {
@@ -153,7 +195,7 @@ function bubbleComposites(panel, box, fontBase64) {
     const left = Math.round(right - width);
     const speakerDirection = index % 2 === 0 ? 'right' : 'left';
     items.push({
-      input: bubbleSvg({ type: dialogue.type, lines: wrapped, width, height, fontSize, fontBase64, speakerDirection }),
+      input: bubbleSvg({ type: dialogue.type, lines: wrapped, width, height, fontSize, font, speakerDirection }),
       left,
       top: Math.round(top),
     });
@@ -163,22 +205,23 @@ function bubbleComposites(panel, box, fontBase64) {
   return items;
 }
 
-function sfxComposites(panel, box, fontBase64) {
+function sfxComposites(panel, box, font) {
   return (panel.sfx || []).map((sfx, index) => {
     const fontSize = sfx.style === 'big' ? Math.max(52, Math.round(box.width / 8)) : Math.max(30, Math.round(box.width / 15));
-    const width = Math.min(box.width - 40, Math.ceil(estimateTextWidth(sfx.text, fontSize) + 30));
+    const width = Math.min(box.width - 40, Math.ceil(measureText(font, sfx.text, fontSize) + 30));
     const height = Math.ceil(fontSize * 1.35);
     const x = index % 2 === 0 ? box.x + 22 : box.x + box.width - width - 22;
     const y = box.y + box.height - height - 22 - index * (height + 6);
+    const outlined = textPath(font, sfx.text, 12, fontSize, fontSize, { fill: '#111', stroke: '#fff', 'stroke-width': 12, 'paint-order': 'stroke' });
+    const ink = textPath(font, sfx.text, 12, fontSize, fontSize, { fill: '#111', stroke: '#111', 'stroke-width': 3, 'paint-order': 'stroke' });
     const svg = `<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
-      ${fontStyle(fontBase64)}
-      <g transform="skewX(-12)"><text x="12" y="${fontSize}" font-family="ComicNeue" font-size="${fontSize}" font-weight="700" fill="#111" stroke="#fff" stroke-width="12" paint-order="stroke">${xmlEscape(sfx.text)}</text><text x="12" y="${fontSize}" font-family="ComicNeue" font-size="${fontSize}" font-weight="700" fill="#111" stroke="#111" stroke-width="3" paint-order="stroke">${xmlEscape(sfx.text)}</text></g>
+      <g transform="skewX(-12)">${outlined}${ink}</g>
     </svg>`;
     return { input: Buffer.from(svg), left: Math.round(x), top: Math.max(box.y + 12, Math.round(y)) };
   });
 }
 
-function bubbleSvg({ type = 'speech', lines, width, height, fontSize, fontBase64, speakerDirection }) {
+function bubbleSvg({ type = 'speech', lines, width, height, fontSize, font, speakerDirection }) {
   const stroke = 4;
   const cx = width / 2;
   const cy = (height - 14) / 2;
@@ -201,33 +244,8 @@ function bubbleSvg({ type = 'speech', lines, width, height, fontSize, fontBase64
   const lineHeight = fontSize * 1.18;
   const textHeight = lines.length * lineHeight;
   const startY = (height - textHeight) / 2 + fontSize * 0.82 - (type === 'thought' ? 2 : 0);
-  const text = lines.map((line, index) => `<text x="${cx}" y="${startY + index * lineHeight}" text-anchor="middle" font-family="ComicNeue" font-size="${fontSize}" font-weight="700" fill="#111">${xmlEscape(line)}</text>`).join('');
-  return Buffer.from(`<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">${fontStyle(fontBase64)}${shape}${text}</svg>`);
-}
-
-function fontStyle(fontBase64) {
-  return `<style>@font-face{font-family:ComicNeue;src:url(data:font/ttf;base64,${fontBase64}) format('truetype');font-weight:700}</style>`;
-}
-
-function wrapText(text, maxWidth, fontSize) {
-  const words = String(text).trim().split(/\s+/).filter(Boolean);
-  if (!words.length) return [''];
-  const lines = [];
-  let current = words.shift();
-  for (const word of words) {
-    const candidate = `${current} ${word}`;
-    if (estimateTextWidth(candidate, fontSize) <= maxWidth) current = candidate;
-    else {
-      lines.push(current);
-      current = word;
-    }
-  }
-  lines.push(current);
-  return lines;
-}
-
-function estimateTextWidth(text, fontSize) {
-  return [...String(text)].reduce((sum, char) => sum + (/\s/.test(char) ? 0.32 : /[MW@#]/.test(char) ? 0.94 : /[ilI.,'!]/.test(char) ? 0.34 : 0.68) * fontSize, 0);
+  const text = lines.map((line, index) => centeredTextPath(font, line, cx, startY + index * lineHeight, fontSize, { fill: '#111' })).join('');
+  return Buffer.from(`<svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">${shape}${text}</svg>`);
 }
 
 function radialPoints(cx, cy, rx, ry, spikes) {

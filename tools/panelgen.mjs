@@ -5,6 +5,8 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 import {
+  COVER_NEGATIVE_BASE,
+  COVER_POSITIVE_BASE,
   NEGATIVE_BASE,
   PANEL_SIZES,
   POSITIVE_BASE,
@@ -26,6 +28,7 @@ Options:
   --cfg N              classifier-free guidance (default 5)
   --redo PANEL_ID      regenerate one panel with a fresh persisted seed, e.g. p3b
   --force              regenerate every panel with its current deterministic seed
+  --cover              generate the chapter cover art to build/<script>/cover-art.png
 `;
 
 const { positional, flags } = parseArgs(process.argv.slice(2));
@@ -52,8 +55,42 @@ const tokenPath = path.join(repoRoot, 'chars', 'tokens.md');
 const tokens = existsSync(tokenPath) ? parseTokens(await readFile(tokenPath, 'utf8')) : new Map();
 if (!existsSync(tokenPath)) console.warn('chars/tokens.md not found; using character ids until locked tokens exist.');
 
-const seedPath = path.join(path.dirname(outputDir), 'seeds.json');
-const metadataPath = path.join(path.dirname(outputDir), 'generation.json');
+if (flags.cover) {
+  if (!script.cover?.desc || !Array.isArray(script.cover.chars)) throw new Error(`${scriptPath} has no valid cover object.`);
+  const coverPath = path.resolve(flags.out || path.join(repoRoot, 'build', slug, 'cover-art.png'));
+  await mkdir(path.dirname(coverPath), { recursive: true });
+  await assertComfyReady(comfy, checkpoint);
+  const started = performance.now();
+  const coverSeed = redo === 'cover'
+    ? deterministicSeed(script.chapter, 'cover', 'redo', Date.now(), randomUUID())
+    : deterministicSeed(script.chapter, 'cover');
+  const coverPrompt = buildCoverPrompt(script.cover, tokens);
+  const executionSeconds = await generateImage({
+    id: 'cover',
+    outputPath: coverPath,
+    seed: coverSeed,
+    prompt: coverPrompt,
+    negative: COVER_NEGATIVE_BASE,
+    targetWidth: 1000,
+    targetHeight: 1500,
+    greyscale: false,
+  });
+  await writeFile(path.join(path.dirname(coverPath), 'cover-generation.json'), `${JSON.stringify({
+    script: path.relative(repoRoot, scriptPath).replaceAll('\\', '/'),
+    checkpoint,
+    generatedAt: new Date().toISOString(),
+    seed: coverSeed,
+    prompt: coverPrompt,
+    negative: COVER_NEGATIVE_BASE,
+    timingSeconds: executionSeconds,
+  }, null, 2)}\n`);
+  console.log(`[done] cover ${executionSeconds.toFixed(1)}s GPU (${((performance.now() - started) / 1000).toFixed(1)}s wall) -> ${coverPath}`);
+  process.exit(0);
+}
+
+const artifactDir = flags.out ? outputDir : path.dirname(outputDir);
+const seedPath = path.join(artifactDir, 'seeds.json');
+const metadataPath = path.join(artifactDir, 'generation.json');
 let seedOverrides = {};
 if (existsSync(seedPath)) seedOverrides = JSON.parse(await readFile(seedPath, 'utf8'));
 
@@ -133,21 +170,27 @@ await writeFile(metadataPath, `${JSON.stringify(metadata, null, 2)}\n`);
 
 async function generatePanel(job) {
   const [targetWidth, targetHeight] = PANEL_SIZES[job.panel.size];
+  return generateImage({ ...job, targetWidth, targetHeight, negative: NEGATIVE_BASE, greyscale: true });
+}
+
+async function generateImage({ id, outputPath, seed, prompt, negative, targetWidth, targetHeight, greyscale }) {
   const width = Math.ceil(targetWidth / 8) * 8;
   const height = Math.ceil(targetHeight / 8) * 8;
-  const workflow = createWorkflow({ width, height, seed: job.seed, positive: job.prompt, checkpoint });
+  const workflow = createWorkflow({ width, height, seed, positive: prompt, negative, checkpoint });
   const response = await fetchJson(`${comfy}/prompt`, {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
     body: JSON.stringify({ prompt: workflow, client_id: randomUUID() }),
   });
-  if (!response.prompt_id) throw new Error(`ComfyUI did not return a prompt id for ${job.id}`);
+  if (!response.prompt_id) throw new Error(`ComfyUI did not return a prompt id for ${id}`);
   const { image, executionSeconds } = await waitForImage(response.prompt_id);
   const query = new URLSearchParams({ filename: image.filename, subfolder: image.subfolder || '', type: image.type || 'output' });
   const imageResponse = await fetch(`${comfy}/view?${query}`);
-  if (!imageResponse.ok) throw new Error(`Failed to fetch ComfyUI output for ${job.id}: HTTP ${imageResponse.status}`);
+  if (!imageResponse.ok) throw new Error(`Failed to fetch ComfyUI output for ${id}: HTTP ${imageResponse.status}`);
   const data = Buffer.from(await imageResponse.arrayBuffer());
-  await sharp(data).resize(targetWidth, targetHeight, { fit: 'cover', position: 'attention' }).greyscale().png().toFile(job.outputPath);
+  let pipeline = sharp(data).resize(targetWidth, targetHeight, { fit: 'cover', position: 'attention' });
+  if (greyscale) pipeline = pipeline.greyscale();
+  await pipeline.png().toFile(outputPath);
   return executionSeconds;
 }
 
@@ -194,11 +237,11 @@ async function fetchJson(url, options) {
   return response.json();
 }
 
-function createWorkflow({ width, height, seed, positive, checkpoint: checkpointName }) {
+function createWorkflow({ width, height, seed, positive, negative, checkpoint: checkpointName }) {
   return {
     1: { class_type: 'CheckpointLoaderSimple', inputs: { ckpt_name: checkpointName } },
     2: { class_type: 'CLIPTextEncode', inputs: { text: positive, clip: ['1', 1] } },
-    3: { class_type: 'CLIPTextEncode', inputs: { text: NEGATIVE_BASE, clip: ['1', 1] } },
+    3: { class_type: 'CLIPTextEncode', inputs: { text: negative, clip: ['1', 1] } },
     4: { class_type: 'EmptyLatentImage', inputs: { width, height, batch_size: 1 } },
     5: {
       class_type: 'KSampler',
@@ -226,8 +269,11 @@ function buildPrompt(panel, tokenMap) {
     return [locked || character.name, character.expression, character.pose].filter(Boolean);
   });
   const countTag = inferCountTag(panel.chars || [], tokenMap);
+  const positiveBase = panel.size === 'hero' || panel.beat === 'gut-punch'
+    ? POSITIVE_BASE.replace(', simple background detail', '')
+    : POSITIVE_BASE;
   const parts = [
-    POSITIVE_BASE,
+    positiveBase,
     countTag,
     ...characterTokens,
     panel.action,
@@ -236,6 +282,43 @@ function buildPrompt(panel, tokenMap) {
   ];
   if (panel.chibi) parts.push('chibi', 'comedic', 'simplified', '>_<');
   return parts.filter(Boolean).join(', ');
+}
+
+function buildCoverPrompt(cover, tokenMap) {
+  const characterTokens = cover.chars.map((name) => resolveCoverToken(tokenMap, name, cover.desc) || name);
+  const cast = cover.chars.map((name) => ({ name }));
+  return [COVER_POSITIVE_BASE, inferCountTag(cast, tokenMap), 'exactly two characters, only one girl and one boy, no background people', ...characterTokens, ...coverEnvironmentTags(cover.desc), cover.desc].filter(Boolean).join(', ');
+}
+
+function coverEnvironmentTags(description) {
+  const text = String(description).toLowerCase();
+  const rules = [
+    [/night|midnight|indigo/, 'night, dark blue night palette'],
+    [/rain/, 'raining, rain streaks, wet clothes'],
+    [/bathhouse|sentō|sento|noren/, 'Japanese bathhouse entrance, indigo noren curtain'],
+    [/warm interior|warm light|backlit/, 'warm interior backlighting, glowing doorway'],
+    [/wet asphalt|reflection/, 'wet asphalt, puddle reflection'],
+    [/steam/, 'steam, atmospheric haze'],
+    [/hose/, 'holding a water hose'],
+    [/shopping street/, 'shuttered Japanese shopping street'],
+    [/silver/, 'silver rain highlights'],
+  ];
+  return rules.filter(([pattern]) => pattern.test(text)).map(([, tag]) => tag);
+}
+
+function resolveCoverToken(tokenMap, name, description) {
+  const entry = tokenMap.get(String(name).toLowerCase());
+  if (!entry) return null;
+  if (typeof entry === 'string') return entry;
+  const aliases = [String(name).toLowerCase()];
+  const properName = entry.base?.match(/^([^,]+)/)?.[1]?.toLowerCase();
+  if (properName) aliases.push(...properName.split(/\s+/), properName);
+  const sentences = String(description).split(/(?<=[.!?])\s+/);
+  const localContext = sentences.find((sentence) => aliases.some((alias) => alias.length > 2 && sentence.toLowerCase().includes(alias))) || description;
+  const variant = /school|uniform|jersey|blazer|necktie/.test(localContext.toLowerCase()) ? 'day'
+    : /bath|sento|onsen|happi|hair clipped|towel|cleaning/.test(localContext.toLowerCase()) ? 'night'
+      : /night|steam|rain/.test(String(description).toLowerCase()) ? 'night' : 'day';
+  return [entry.base, entry[variant]].filter(Boolean).join(', ') || null;
 }
 
 function inferCountTag(characters, tokenMap) {
