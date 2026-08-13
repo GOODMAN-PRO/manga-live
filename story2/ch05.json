@@ -1,0 +1,2944 @@
+{
+  "chapter": 5,
+  "title": "Salt",
+  "cover": {
+    "desc": "Full color, warm domestic light. A cramped apartment kitchen in late morning. Kou stands at the stove in a plain t-shirt with a tea towel over one shoulder, black hair, sleeves shoved up, bandaged left forearm, entirely absorbed in a pan. Kanade leans against the counter beside him in weekend clothes, pale silver hair loose over one shoulder, holding a spoon in both hands with the focused expression of somebody performing a serious duty. Steam between them. Flat pastel palette, cream and pale blue, one warm shaft of window light, generous negative space above.",
+    "chars": [
+      "kou",
+      "kanade"
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "establishing",
+          "chars": [],
+          "bg": "small apartment interior, morning light through thin curtains, tidy, sparse, one shelf of neatly labelled containers",
+          "action": "Saturday. Nine forty. Nothing is happening.",
+          "dialogue": [
+            {
+              "char": "narration",
+              "text": "Saturday.",
+              "type": "narration"
+            },
+            {
+              "char": "kou",
+              "text": "Two rooms, one window, and a sister who works nights.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "Saturdays are for stocktake and sleeping wrong.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "half-lidded, unbothered",
+              "pose": "sitting on the floor against the wall, phone in one hand"
+            }
+          ],
+          "bg": "apartment wall, futon folded beside him, tone-washed",
+          "action": "His phone has been going for eleven minutes.",
+          "dialogue": [
+            {
+              "char": "gen",
+              "text": "ARE YOU AWAKE",
+              "type": "shout"
+            },
+            {
+              "char": "gen",
+              "text": "You're awake. You've read it. I can SEE that you've read it.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I'm awake.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "buzz buzz",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "gen",
+              "expression": ">_<, enormous distress",
+              "pose": "chibi, clutching phone with both hands"
+            }
+          ],
+          "bg": "blank background, starburst screentone",
+          "action": "Gen's side of the conversation, in full.",
+          "dialogue": [
+            {
+              "char": "gen",
+              "text": "COME OUT. It's SATURDAY. People go OUTSIDE on Saturday.",
+              "type": "shout"
+            },
+            {
+              "char": "kou",
+              "text": "I go outside.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "TO THE STOREROOM.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "flat, faintly amused",
+              "pose": "thumb over the screen, not typing"
+            }
+          ],
+          "bg": "phone glow, tone-washed",
+          "action": "He types nothing for a while.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "He does this every Saturday and I say no every Saturday.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "It's been two years. He hasn't got bored of it.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "Busy today. Sorry.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "neutral, looking at the door",
+              "pose": "head turning toward a knock"
+            }
+          ],
+          "bg": "apartment, front door in frame, tone-washed",
+          "action": "Somebody knocks. Nobody knocks.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Nobody knocks here.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "The landlord posts things. Gen texts for an hour first.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "kon kon",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "composed, chin slightly raised",
+              "pose": "standing in the corridor holding two full paper bags of groceries"
+            }
+          ],
+          "bg": "apartment block corridor, concrete, daylight from the stairwell, tone-washed",
+          "action": "First in the year, on his landing, carrying shopping.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Good morning.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "...It's Saturday.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I'm aware of the day, Hazama. I own a calendar.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "brisk, not meeting his eye",
+              "pose": "shifting a bag higher on her hip"
+            },
+            {
+              "name": "kou",
+              "expression": "blank, hand still on the door",
+              "pose": "not moving out of the doorway"
+            }
+          ],
+          "bg": "doorway, tone-washed",
+          "action": "She has clearly rehearsed a reason and does not use it.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "You said you cook. On Wednesday. You said it like it was nothing.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "It is nothing.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Then it won't be a problem to demonstrate.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "very slightly at a loss",
+              "pose": "looking at the bags, then at her"
+            }
+          ],
+          "bg": "doorway, blurred corridor, tone-washed",
+          "action": "He does the arithmetic on the bags.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "That's four days of food.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "She doesn't know what things cost. She has never once had to know.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "faltering under the silence, recovering badly",
+              "pose": "eyes anywhere but on him"
+            }
+          ],
+          "bg": "corridor, tone-washed",
+          "action": "The silence goes on one second too long and she fills it.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "You can say no. I'll take it home.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "It'll go off in my room and I'll deserve it.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Ariake.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "What.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "mild, stepping aside",
+              "pose": "holding the door open"
+            },
+            {
+              "name": "kanade",
+              "expression": "instantly composed again",
+              "pose": "walking in past him"
+            }
+          ],
+          "bg": "genkan, shoes lined up neatly, tone-washed",
+          "action": "He moves out of the doorway. That's the entire negotiation.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Shoes off.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Obviously.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Thirteen months and I've never seen her ask for anything.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "completely flat, unsurprised",
+              "pose": "standing in the kitchen doorway in a lab coat over pyjama trousers, mug in hand"
+            },
+            {
+              "name": "kanade",
+              "expression": "caught mid-step, going formal",
+              "pose": "bowing slightly, bags still in her arms"
+            }
+          ],
+          "bg": "small kitchen, drying rack, one window, tone-washed",
+          "action": "His sister has been awake for eleven minutes and has already assessed the situation.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "There's a girl in the kitchen.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "There is.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "All right.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "excruciatingly polite",
+              "pose": "straightening, hands at her sides"
+            },
+            {
+              "name": "shizu",
+              "expression": "drinking, watching over the mug",
+              "pose": "leaning on the doorframe"
+            }
+          ],
+          "bg": "kitchen doorway, tone-washed",
+          "action": "Kanade deploys the assembly voice and it is far too much for a kitchen.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Ariake Kanade. I'm in your brother's year. Thank you for having me.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "I'm not having you. I'm going to sleep.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": ">_<, mortified, tiny",
+              "pose": "chibi, rigid, sweating"
+            },
+            {
+              "name": "shizu",
+              "expression": "dot eyes, blank",
+              "pose": "chibi, drinking"
+            }
+          ],
+          "bg": "blank background, panic screentone",
+          "action": "Comedy spike.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I've offended her. Nine seconds. New record.",
+              "type": "thought"
+            },
+            {
+              "char": "kou",
+              "text": "She talks to me like that too.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "I talk to everyone like that.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "nothing at all, eyes steady",
+              "pose": "pausing in the doorway, half turned"
+            }
+          ],
+          "bg": "doorway, tone-washed",
+          "action": "She stops on her way out.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "He'll cook for you. He's good at it.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "Tell him if it's right. He can't check.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "very still",
+              "pose": "standing with the bags, not putting them down"
+            },
+            {
+              "name": "kou",
+              "expression": "unbothered, already unpacking",
+              "pose": "taking a bag from her arms"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "Shizu is gone. The sentence stays in the room.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "She just says it. Like the weather.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "Don't. She's not being sad at you. That's just information.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "focused, entirely at home",
+              "pose": "at the counter, sleeves up, chopping fast and precisely"
+            },
+            {
+              "name": "kanade",
+              "expression": "staring, faintly outraged",
+              "pose": "sitting on the counter edge, legs crossed"
+            }
+          ],
+          "bg": "cramped kitchen, warm light, tone-washed",
+          "action": "He is very fast and very good and it is annoying to watch.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Where did you learn to do that?",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Mio was six and somebody had to.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "That's not an answer about knives.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "tk tk tk",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "half-lidded, working",
+              "pose": "hands on the board, not looking up"
+            }
+          ],
+          "bg": "chopping board, vegetables, tone-washed",
+          "action": "He answers the question she actually asked.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Book from the library. Then a different book. Then it was just what I did.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "You taught yourself out of a library book at eleven.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "It's not interesting.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "leaning in, genuinely delighted",
+              "pose": "swinging one foot, elbow on knee"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She has found a new lever and is going to pull it repeatedly.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "It's extremely interesting. You're the worst-dressed person in our year.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Thank you.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "And you own a proper knife. You have a WHETSTONE.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "measuring, deliberate",
+              "pose": "levelling a spoon of salt against the rim of a jar"
+            }
+          ],
+          "bg": "counter, pan on the stove, steam, tone-washed",
+          "action": "He measures everything. Nothing is done by eye.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Why are you weighing that.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Because it's the only way to know.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat tone field, a levelled measuring spoon and an open notebook of handwritten timings, tone-washed",
+          "action": "The notebook is full. Years of it, in his terrible handwriting.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Four minutes. Then two. Half a spoon, levelled, never heaped.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "You don't need to taste anything if you never change the numbers.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "the delight going out of her face",
+              "pose": "sitting very still on the counter, holding the notebook"
+            },
+            {
+              "name": "kou",
+              "expression": "back turned, stirring",
+              "pose": "at the stove"
+            }
+          ],
+          "bg": "kitchen, steam, tone-washed",
+          "action": "She has understood the notebook and he has not noticed her go quiet.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Hazama. This is a control experiment.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "It's a recipe.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "It's four years of one recipe with the variables removed.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "unbothered, still stirring",
+              "pose": "shoulder half turned toward her"
+            }
+          ],
+          "bg": "stove, pan, steam, tone-washed",
+          "action": "He says it the way he says everything.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Taste went at layer four. Two years ago, near enough.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "So I stopped guessing and started measuring. It works.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "jaw set, thinking hard",
+              "pose": "looking at the pan, not at him"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She is not going to say anything kind. She has worked out that kind would be the wrong shape.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "He'd hate it. Say the wrong thing and he'll do the mild voice.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "So don't be sorry at him. Be useful at him.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "decisive, sliding off the counter",
+              "pose": "holding out one hand, palm up"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She holds out her hand for the spoon.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Give me the spoon.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "It's fine. The numbers are—",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Hazama. Give me the spoon.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat tone field, a wooden spoon passing from one hand to another over steam, tone-washed",
+          "action": "He gives her the spoon. Two hands, one spoon, no comment.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "eyes closed, absolute concentration, taking it entirely seriously",
+              "pose": "tasting from the spoon with both hands around it"
+            }
+          ],
+          "bg": "kitchen, warm steam, soft bokeh, tone-washed",
+          "action": "She tastes it like an examination she intends to come first in.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "She's doing it like it's an assessment.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "opening her eyes, verdict ready",
+              "pose": "lowering the spoon"
+            },
+            {
+              "name": "kou",
+              "expression": "waiting, more interested than he wants to be",
+              "pose": "hand on the pan handle"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "The verdict.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "It's under-salted. Slightly. And there's not enough of the sharp thing.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Vinegar.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Then more vinegar. Half again.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "hesitating over the jar",
+              "pose": "spoon halfway to the pan"
+            }
+          ],
+          "bg": "counter, tone-washed",
+          "action": "He stops with the spoon in the air.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "The numbers have been the same for two years.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "The numbers are the only reason it's ever been right.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "waiting, hands behind her back, saying nothing",
+              "pose": "standing very deliberately still"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She waits. She has learned to wait, once, four days ago, and it worked.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Don't help. Don't arrange it. Just stand here.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "adding it, face doing nothing",
+              "pose": "tipping the spoon into the pan"
+            }
+          ],
+          "bg": "pan, steam, tone-washed",
+          "action": "He changes the number.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Now stir it and count to twenty.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "You have never cooked anything in your life.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "No. But I can taste it, and you can cook it.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "juu",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "second taste, eyebrows going up, genuinely surprised",
+              "pose": "spoon at her mouth, eyes widening"
+            }
+          ],
+          "bg": "kitchen, warm light, sparkle tone, tone-washed",
+          "action": "The second taste.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Oh.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Oh, that's — that's completely different.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "watching her face with total attention",
+              "pose": "still, hand on the counter"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "He is not looking at the pan.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "I can't check it. I'll never be able to check it.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "But I can see her face, and her face is not being polite.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "businesslike, hiding how pleased she is",
+              "pose": "pointing the spoon at him like a baton"
+            },
+            {
+              "name": "kou",
+              "expression": "mild",
+              "pose": "arms folded"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She institutes a system, because that is what she does with everything.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Right. New rule. You cook it, I taste it, you fix it.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "That's a rota.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "It's a rota. Saturdays. Write it in the book.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat tone field, the open notebook, a line being added in terrible handwriting under years of neat timings, tone-washed",
+          "action": "He writes it in the book. It is the first line in four years that is not a number.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Vinegar: half again. (K.)",
+              "type": "narration"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "reading over his shoulder, going still",
+              "pose": "leaning in"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She sees the initial and says nothing about it, which takes everything she has.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "He put a letter in it.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "Don't say anything. Don't you dare say anything.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "gen",
+              "expression": "delighted beyond words",
+              "pose": "standing in the open doorway with a bag of crisps, frozen mid-arrival"
+            },
+            {
+              "name": "riko",
+              "expression": "small round glasses catching the light, deeply suspicious",
+              "pose": "half behind him, tablet under one arm"
+            }
+          ],
+          "bg": "genkan, open front door, tone-washed",
+          "action": "The door was not locked. It has never needed to be locked.",
+          "dialogue": [
+            {
+              "char": "gen",
+              "text": "I brought crisps and moral supp—",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "ARIAKE-SAN IS IN YOUR KITCHEN.",
+              "type": "shout"
+            },
+            {
+              "char": "riko",
+              "text": "Ariake-san is in his kitchen.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GATCHA",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "gen",
+              "expression": ">_<, hands on his head, spinning",
+              "pose": "chibi, orbiting the room"
+            },
+            {
+              "name": "kanade",
+              "expression": "dot eyes, rigid, spoon still in hand",
+              "pose": "chibi, statue-still"
+            }
+          ],
+          "bg": "blank background, chaos lines, starburst screentone",
+          "action": "Full comedy spike.",
+          "dialogue": [
+            {
+              "char": "gen",
+              "text": "HOW LONG. HOW LONG HAS THIS BEEN HAPPENING.",
+              "type": "shout"
+            },
+            {
+              "char": "kou",
+              "text": "Forty minutes.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "THAT IS A HORRIBLE ANSWER AND I HATE IT.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DODODO",
+              "style": "big"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "flatly reading the room",
+              "pose": "arms folded, looking at the counter"
+            },
+            {
+              "name": "kanade",
+              "expression": "recovering, going smooth",
+              "pose": "putting the spoon down with great care"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "Riko is not looking at the two of them. She is looking at the shopping.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "You bought four days of food for a lunch.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I bought what was on the list.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "There wasn't a list. You don't write lists.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "smiling pleasantly, eyes not in it",
+              "pose": "half turned away"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "The committee smile arrives on schedule.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Riko. Sit down and eat something.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "That's the assembly voice. In a kitchen.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "mild, putting four bowls out",
+              "pose": "reaching past both of them for the cupboard"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "He defuses it the only way he knows.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "There's enough for four. Sit down.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "FOUR. HE SAID FOUR.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "size": "hero",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "half-lidded, eating, quietly present",
+              "pose": "sitting on the floor at a low table"
+            },
+            {
+              "name": "kanade",
+              "expression": "arguing cheerfully with her mouth full",
+              "pose": "cross-legged, gesturing with chopsticks"
+            },
+            {
+              "name": "gen",
+              "expression": "beaming, talking with both hands",
+              "pose": "sprawled, bowl balanced on one knee"
+            },
+            {
+              "name": "riko",
+              "expression": "reluctantly enjoying herself",
+              "pose": "kneeling, tablet abandoned beside her"
+            }
+          ],
+          "bg": "small apartment room, low table, four bowls, late morning light across the floor, tone-washed with soft warm gradient",
+          "action": "Four people eating on the floor of a two-room flat. Nothing else happens for a while.",
+          "dialogue": [
+            {
+              "char": "gen",
+              "text": "This is the best thing I have ever eaten in this building.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "You've eaten here twice.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "And it was the best BOTH times.",
+              "type": "shout"
+            },
+            {
+              "char": "kanade",
+              "text": "The vinegar was my contribution.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "She put in half again.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Nobody in this room knows what any of us do on Thursdays.",
+              "type": "monologue"
+            },
+            {
+              "char": "riko",
+              "text": "Hazama-kun. Did you make the stock as well?",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "On Wednesday. It keeps four days.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "...He makes stock on Wednesdays.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "HE MAKES STOCK ON WEDNESDAYS.",
+              "type": "shout"
+            },
+            {
+              "char": "kanade",
+              "text": "Stop shouting and pass the bowl.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "I will never stop shouting. This is a historic day.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "watching, glasses down, quietly working something out",
+              "pose": "chin on her hand"
+            },
+            {
+              "name": "kanade",
+              "expression": "laughing, unguarded, mouth open",
+              "pose": "leaning back on her hands"
+            }
+          ],
+          "bg": "apartment room, tone-washed",
+          "action": "Riko has known her for six years and has never seen this.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "I have known Kanade since we were eleven.",
+              "type": "monologue"
+            },
+            {
+              "char": "riko",
+              "text": "I have never once seen her sit on a floor.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "eyes narrowing very slightly",
+              "pose": "looking across at Kou's forearm"
+            }
+          ],
+          "bg": "tone-washed, blurred room",
+          "action": "She sees the bandage. She has seen it every day for two years.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "And she is looking at that boy's arm every four minutes.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "gen",
+              "expression": "utterly delighted, oblivious",
+              "pose": "pointing at Kou with his chopsticks"
+            }
+          ],
+          "bg": "apartment room, tone-washed",
+          "action": "Gen investigates nothing and improves everything.",
+          "dialogue": [
+            {
+              "char": "gen",
+              "text": "You didn't come to the arcade for TWO YEARS and now there are PEOPLE here.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "They let themselves in.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "I'm so proud of you.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "the mild face holding, eyes lowering a fraction",
+              "pose": "looking into his bowl"
+            }
+          ],
+          "bg": "tone-washed, warm",
+          "action": "The one that gets through.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "He's proud of me for having lunch.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "He'd forgive the whole thing in four seconds if I told him. That's why I can't.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "standing, tablet retrieved, decision made",
+              "pose": "sliding the door open"
+            }
+          ],
+          "bg": "apartment doorway, tone-washed",
+          "action": "Riko leaves early and says one thing on the way out.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "Kanade. Whatever it is, be careful with it.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "With what?",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "Mm.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "flat, awake now, drying a bowl",
+              "pose": "at the sink in the lab coat"
+            },
+            {
+              "name": "kanade",
+              "expression": "drying beside her, careful",
+              "pose": "holding a plate and a cloth"
+            }
+          ],
+          "bg": "kitchen at the sink, afternoon light, tone-washed",
+          "action": "The washing up. Gen and Kou are audible in the next room, arguing about a game.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "You changed one of his numbers.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "The vinegar.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "He hasn't changed a number in two years. I've watched him not do it.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "sha",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "careful, not looking up",
+              "pose": "drying the same plate twice"
+            }
+          ],
+          "bg": "sink, tone-washed",
+          "action": "She asks the question she has been carrying since the doorway.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Hazama-san. May I ask what your count is?",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "Fourteen.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "entirely level, hands still working",
+              "pose": "stacking a bowl"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "She recites it like a form she has filled in many times.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "Taste, smell, hot, cold, pain, grip, weather, startle.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "Then funny. Then wanting things. That was thirteen.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "holding very still, plate forgotten",
+              "pose": "gripping the cloth"
+            }
+          ],
+          "bg": "sink, flat tone, tone-washed",
+          "action": "Kanade does not ask what fourteen was.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Don't ask. Don't ask what fourteen was.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "nothing, looking at her hands in the water",
+              "pose": "standing at the sink"
+            }
+          ],
+          "bg": "kitchen window, afternoon light, tone-washed",
+          "action": "She answers it anyway, because it is only information.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "Fourteen was being able to want things.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "I still do the dishes. It's what I would have wanted to do.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "standing very straight, face doing nothing, eyes wrong",
+              "pose": "on a narrow concrete balcony, hands on the rail"
+            }
+          ],
+          "bg": "apartment balcony, laundry pole, low rooftops, afternoon sky, tone-washed",
+          "action": "She came out for air and has been out here eleven minutes.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Nine. He's on nine. She was on nine once too.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "Thirteen months I've dived with him.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "I have never once done this arithmetic.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "mild, two mugs in his hands",
+              "pose": "stepping out through the balcony door"
+            }
+          ],
+          "bg": "balcony door, tone-washed",
+          "action": "He comes out with tea and does not ask what's wrong.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "She told you the list.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "She did.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "She tells everyone. It isn't a warning. It's just what she has.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "taking the mug, holding it in both hands",
+              "pose": "turning to face out over the rail"
+            },
+            {
+              "name": "kou",
+              "expression": "beside her, not looking at her",
+              "pose": "elbows on the rail"
+            }
+          ],
+          "bg": "balcony, rooftops, tone-washed",
+          "action": "They stand next to each other and look at some roofs.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Can you feel that? The mug.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I can feel that I'm holding it. Not that it's hot.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "deciding something, mouth firming",
+              "pose": "looking down into the mug"
+            }
+          ],
+          "bg": "flat tone field, steam, tone-washed",
+          "action": "She decides to be useful instead of sorry. Again.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Then I'll tell you. It's very hot. Almost too hot to hold properly.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "And it's cold out here. Properly cold, not fresh. Your ears would hurt.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "stopped completely, looking at her",
+              "pose": "mug halfway to his mouth"
+            }
+          ],
+          "bg": "balcony, soft bokeh, tone-washed",
+          "action": "Nobody has ever done this.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Two years and nobody has ever just told me.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "They apologise, or they forget. Nobody describes it.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "brisk, embarrassed, covering it with efficiency",
+              "pose": "gesturing at the street below with her mug"
+            },
+            {
+              "name": "kou",
+              "expression": "listening properly",
+              "pose": "leaning on the rail beside her"
+            }
+          ],
+          "bg": "balcony over a small street, tone-washed",
+          "action": "She keeps going, because stopping would mean acknowledging she started.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "The tea is grassy. Slightly bitter at the end, which is a fault.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "The lunch was salty and sharp and the sharp arrived second.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "You're doing an inventory.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "defensive, going red at the ears",
+              "pose": "shoulders up"
+            }
+          ],
+          "bg": "balcony, tone-washed",
+          "action": "Caught.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "It's a system. Systems are efficient.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I didn't say stop.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": ">_<, steam coming off her, tiny",
+              "pose": "chibi, both hands over her face"
+            },
+            {
+              "name": "kou",
+              "expression": "dot eyes, blank, sipping",
+              "pose": "chibi, unbothered"
+            }
+          ],
+          "bg": "blank background, embarrassment screentone, sparkle",
+          "action": "She retreats into cartoon for exactly one panel.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I AM DESCRIBING TEA TO A BOY ON A BALCONY.",
+              "type": "shout"
+            },
+            {
+              "char": "kou",
+              "text": "You're doing it well.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "THAT IS WORSE.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "BOFU",
+              "style": "big"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "quiet, honest, looking out",
+              "pose": "hands around the mug"
+            }
+          ],
+          "bg": "balcony, rooftops, low sun, tone-washed",
+          "action": "He gives her something back, which he never does.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "I remember that melon bread was good.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I remember the fact. I don't remember the good.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "not making a face, holding it together deliberately",
+              "pose": "looking straight ahead"
+            }
+          ],
+          "bg": "flat tone, soft focus, tone-washed",
+          "action": "She does not do a thing with her face. It costs her everything, again.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Don't. He hates it. Don't you dare do the face.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "It's sweet. Melon bread. Sweet, and the top goes crisp.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "gen",
+              "expression": "grinning, coat half on",
+              "pose": "at the front door, hopping into a shoe"
+            },
+            {
+              "name": "kou",
+              "expression": "mild, seeing him out",
+              "pose": "hand on the doorframe"
+            }
+          ],
+          "bg": "genkan, late afternoon light, tone-washed",
+          "action": "Gen leaves at four and says the thing on the step.",
+          "dialogue": [
+            {
+              "char": "gen",
+              "text": "Same time next Saturday?",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I've got stocktake.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "Yeah. I know. I ask anyway.",
+              "type": "speech"
+            },
+            {
+              "char": "gen",
+              "text": "One of these years you'll say yes and I'll fall over.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Mind the step, then.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "the mild face slipping for one panel",
+              "pose": "standing in the doorway after he's gone"
+            }
+          ],
+          "bg": "empty corridor, tone-washed",
+          "action": "One panel where the face isn't working.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "He asks anyway. Every week. For two years.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "watching him from the kitchen doorway",
+              "pose": "drying her hands on a cloth"
+            }
+          ],
+          "bg": "kitchen doorway, tone-washed",
+          "action": "She saw it. She is not going to mention it.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "I saw that.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "And I am going to do absolutely nothing about it, because that's what he'd want.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "brisk, changing the subject",
+              "pose": "holding up the notebook"
+            },
+            {
+              "name": "kou",
+              "expression": "turning back into the room",
+              "pose": "closing the door"
+            }
+          ],
+          "bg": "apartment, tone-washed",
+          "action": "She changes the subject by picking up the book.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Next week. The rice thing you said you can't get right.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I said the numbers don't work on it.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Then we'll change them until they do.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "It's four cups of water and it still comes out wrong.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Then it isn't the water, and I'll prove it on Saturday.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "something very small happening at the mouth",
+              "pose": "taking the book from her"
+            }
+          ],
+          "bg": "flat tone, warm, tone-washed",
+          "action": "The word she used.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "We.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "coat on, bag over her shoulder, reluctant",
+              "pose": "standing in the genkan"
+            },
+            {
+              "name": "kou",
+              "expression": "half-lidded, holding her scarf",
+              "pose": "standing a metre away"
+            }
+          ],
+          "bg": "genkan, evening light, tone-washed",
+          "action": "Six o'clock. She has to be back before the dormitory check.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Right. Dorm check at seven.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "You forgot this.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I didn't forget it, I left it, which is different.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "You left a hairclip on the counter too.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "That one was genuinely an accident.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "mild, not moving",
+              "pose": "holding out the scarf"
+            },
+            {
+              "name": "kanade",
+              "expression": "taking it, aggrieved",
+              "pose": "winding it round her neck"
+            }
+          ],
+          "bg": "genkan, tone-washed",
+          "action": "She explains her own strategy while executing it badly.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "If you leave something, you have a reason to come back.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "You have a rota.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "The rota is for cooking. This is separate.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "at the door, stopping",
+              "pose": "one hand on the frame, half turned back"
+            }
+          ],
+          "bg": "open door, corridor light, tone-washed",
+          "action": "She stops with her hand on the frame.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Hazama. Thursday.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Thursday.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "And Saturday.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Hall two. Half seven. Don't be early and stand about.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "I'm always early.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "quiet, level",
+              "pose": "looking at her"
+            }
+          ],
+          "bg": "doorway, tone-washed",
+          "action": "He confirms the rota.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "And Saturday.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "not visible, silhouette",
+              "pose": "walking away down the corridor"
+            }
+          ],
+          "bg": "apartment corridor, evening light, long shadows, flat tone field",
+          "action": "She goes. Solid silhouette against the lit end of the corridor.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Two things a week. That's two more than I had on Monday.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": true,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "alone, calm",
+              "pose": "standing in the middle of the empty room"
+            }
+          ],
+          "bg": "apartment, four bowls stacked, low table, evening light, tone-washed",
+          "action": "The flat afterwards. Four bowls where there are normally two.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "The flat is exactly the same size as it was this morning.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "It is not doing a good impression of it.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "flat, in the doorway with her coat on for the night shift",
+              "pose": "bag over one shoulder"
+            }
+          ],
+          "bg": "genkan, tone-washed",
+          "action": "Shizu leaves for work at half six as she always does.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "The kitchen smells different.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "You can't smell.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "No. But there are four bowls, so I know.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "shizu",
+              "expression": "nothing, entirely level",
+              "pose": "pausing with her hand on the door"
+            }
+          ],
+          "bg": "doorway, tone-washed",
+          "action": "She says the only thing she has said about it.",
+          "dialogue": [
+            {
+              "char": "shizu",
+              "text": "Kou. Don't go past ten for a while.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "The layers don't wait.",
+              "type": "speech"
+            },
+            {
+              "char": "shizu",
+              "text": "No. But she'll be there on Saturday either way.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "not answering",
+              "pose": "standing with the notebook in his hand"
+            }
+          ],
+          "bg": "kitchen, tone-washed",
+          "action": "He doesn't answer her, which is an answer.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Thirty-three is the wall. Nobody in the building has gone past it.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "We're going Thursday.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat tone field, the open notebook page, one line in terrible handwriting under years of numbers, tone-washed",
+          "action": "The line with the letter in it.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Vinegar: half again. (K.)",
+              "type": "narration"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "sitting up in the dark, wide awake",
+              "pose": "cross-legged on a dormitory bed with a notebook on her knees"
+            }
+          ],
+          "bg": "dormitory room at night, one desk lamp, immaculate, tone-washed",
+          "action": "Half eleven. She has bought a notebook on the way home.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "It's a system. Systems are efficient. This is not a strange thing to do.",
+              "type": "monologue"
+            },
+            {
+              "char": "kanade",
+              "text": "It is a slightly strange thing to do.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat tone field, a new notebook page, a short handwritten list in a neat precise hand, tone-washed",
+          "action": "The list she has started. Four entries.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Tea — grassy, bitter at the end (fault).",
+              "type": "narration"
+            },
+            {
+              "char": "kanade",
+              "text": "Balcony, 4pm — cold enough to hurt your ears.",
+              "type": "narration"
+            },
+            {
+              "char": "kanade",
+              "text": "Melon bread — sweet, crisp on top.",
+              "type": "narration"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "in the doorway in pyjamas, unimpressed, worried",
+              "pose": "arms folded"
+            }
+          ],
+          "bg": "dormitory doorway, tone-washed",
+          "action": "Riko, from the door, at half eleven at night.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "You're writing.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "I write constantly. It's most of my personality.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "You're writing in a new book you bought today.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kanade",
+              "expression": "closing the notebook without hurrying",
+              "pose": "hand flat on the cover"
+            }
+          ],
+          "bg": "bed, lamp light, tone-washed",
+          "action": "She closes it calmly, which is the most suspicious thing she could do.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Goodnight, Riko.",
+              "type": "speech"
+            },
+            {
+              "char": "riko",
+              "text": "Goodnight, Kanade.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "riko",
+              "expression": "in the dark corridor afterwards, thinking",
+              "pose": "standing still outside the closed door"
+            }
+          ],
+          "bg": "dark dormitory corridor, tone-washed",
+          "action": "Riko does not go to bed for a while.",
+          "dialogue": [
+            {
+              "char": "riko",
+              "text": "Two years I've managed her diary.",
+              "type": "monologue"
+            },
+            {
+              "char": "riko",
+              "text": "She has never once had a secret that made her happy.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "half-lidded, ordinary",
+              "pose": "walking a night street with a shopping bag"
+            }
+          ],
+          "bg": "quiet residential street at night, vending machine glow, tone-washed",
+          "action": "Sunday, eleven at night. Nothing dramatic is happening.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Saturdays are for stocktake and sleeping wrong.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "That was true for two years. It stopped being true this morning.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "stopping at a shop shelf",
+              "pose": "standing in a convenience store aisle"
+            }
+          ],
+          "bg": "convenience store interior, bright fluorescent, tone-washed",
+          "action": "He stops in front of the bread.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Sweet. Crisp on top.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat tone field, a hand picking up a packaged melon bread from a shelf, tone-washed",
+          "action": "He buys one. He has not bought one in two years.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "I still won't be able to taste it.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "But I know what it's like now. Somebody told me.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "phone in hand, reading",
+              "pose": "standing outside the shop under the sign"
+            }
+          ],
+          "bg": "shopfront at night, tone-washed",
+          "action": "His phone goes. Two messages, four seconds apart.",
+          "dialogue": [
+            {
+              "char": "kanade",
+              "text": "Thursday. Hall two. Half seven.",
+              "type": "narration"
+            },
+            {
+              "char": "kanade",
+              "text": "And I'm bringing the rice thing on Saturday. Don't argue.",
+              "type": "narration"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "buzz",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "kou",
+              "expression": "the smallest possible real smile, typing",
+              "pose": "thumb on the screen"
+            }
+          ],
+          "bg": "night street, warm sign light, soft bokeh, tone-washed",
+          "action": "He answers in two words and eats the bread anyway.",
+          "dialogue": [
+            {
+              "char": "kou",
+              "text": "Yeah. Fair.",
+              "type": "speech"
+            },
+            {
+              "char": "kou",
+              "text": "Thursday is the wall. Saturday is a rota.",
+              "type": "monologue"
+            },
+            {
+              "char": "kou",
+              "text": "I have never once had both.",
+              "type": "monologue"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    }
+  ]
+}
