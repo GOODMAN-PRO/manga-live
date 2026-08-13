@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T15:09:27Z",
-  "status": "<b>余熱 YONETSU Ch.1 is live</b> — magic academy, a tower that charges you a sense per floor, and two front-liners who don't know they've been sitting in the same classroom for two years. Ch.2 in production; 4 chapters written. (YUAGARI Ch.1, the bathhouse story, is below.)",
+  "updated": "2026-08-13T15:45:11Z",
+  "status": "<b>余熱 YONETSU — 3 chapters live.</b> A tower that charges you one sense per floor, and two front-liners who've never seen each other's faces. Ch.2 is the cupboard confession; Ch.3 is ninety minutes of a disastrous dinner. More landing tonight. (YUAGARI Ch.1, the bathhouse story, is at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -27,7 +27,59 @@
         "pages2/ch01/p17.png",
         "pages2/ch01/p18.png"
       ],
-      "ongoing": true
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch02",
+      "title": "YONETSU — Ch.2 \"Two Loops\"",
+      "cover": "pages2/ch02/cover.png",
+      "pages": [
+        "pages2/ch02/p01.png",
+        "pages2/ch02/p02.png",
+        "pages2/ch02/p03.png",
+        "pages2/ch02/p04.png",
+        "pages2/ch02/p05.png",
+        "pages2/ch02/p06.png",
+        "pages2/ch02/p07.png",
+        "pages2/ch02/p08.png",
+        "pages2/ch02/p09.png",
+        "pages2/ch02/p10.png",
+        "pages2/ch02/p11.png",
+        "pages2/ch02/p12.png",
+        "pages2/ch02/p13.png",
+        "pages2/ch02/p14.png",
+        "pages2/ch02/p15.png",
+        "pages2/ch02/p16.png",
+        "pages2/ch02/p17.png",
+        "pages2/ch02/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch03",
+      "title": "YONETSU — Ch.3 \"Nine Pieces\"",
+      "cover": "pages2/ch03/cover.png",
+      "pages": [
+        "pages2/ch03/p01.png",
+        "pages2/ch03/p02.png",
+        "pages2/ch03/p03.png",
+        "pages2/ch03/p04.png",
+        "pages2/ch03/p05.png",
+        "pages2/ch03/p06.png",
+        "pages2/ch03/p07.png",
+        "pages2/ch03/p08.png",
+        "pages2/ch03/p09.png",
+        "pages2/ch03/p10.png",
+        "pages2/ch03/p11.png",
+        "pages2/ch03/p12.png",
+        "pages2/ch03/p13.png",
+        "pages2/ch03/p14.png",
+        "pages2/ch03/p15.png",
+        "pages2/ch03/p16.png",
+        "pages2/ch03/p17.png",
+        "pages2/ch03/p18.png"
+      ],
+      "ongoing": false
     },
     {
       "id": "y1-ch01",
