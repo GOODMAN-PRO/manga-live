@@ -1,0 +1,14 @@
+{
+  "name": "manga-live-page-factory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "panelgen": "node tools/panelgen.mjs",
+    "compose": "node tools/compose.mjs",
+    "publish": "node tools/publish.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

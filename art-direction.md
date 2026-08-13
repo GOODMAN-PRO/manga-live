@@ -24,6 +24,12 @@ Negative base:
 ## Character tokens
 Defined in `chars/tokens.md` after character sheets are approved (art director QA). Every panel prompt must use the exact locked token string for each character — consistency depends on it.
 
+## Bath-scene policy (hard rule)
+No nudity in any generated panel, ever — steam/towel/clothed/off-panel per `chars/tokens.md`. Negative prompt always includes `nude, nsfw, cleavage, swimsuit`.
+
+## Layout weights (compose)
+Panels are full-width rows by default; row height = weight ÷ page weight-sum. Weights: hero=absolute full page (alone), half=6, third=4, wide-strip=3, tall=6, inset=overlay bottom-corner of previous panel at ~40% width. Two `third` panels marked consecutive MAY share a row side-by-side (RTL: first panel on the right) when a page has ≥4 panels. Normalize so every page fills 2100px minus margins.
+
 ## Page spec
 - Page canvas: **1500×2100 px** (B5-ish 5:7), white background, black gutters frame borders 6px, gutter 24px, outer margin 40px.
 - Reading order: **right-to-left** within a page (authentic manga). Compositor handles placement; scripts specify panel order 1..n = RTL flow.

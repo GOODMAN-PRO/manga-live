@@ -1,0 +1,147 @@
+{
+  "chapter": 0,
+  "title": "Demo — The Missing Bun",
+  "cover": {
+    "desc": "Mei holds up a melon bun triumphantly while Ren looks baffled behind her, flat pastel anime coloring and soft morning light.",
+    "chars": ["mei", "ren"]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "size": "wide-strip",
+          "shot": "establishing",
+          "chars": [],
+          "bg": "quiet Japanese high school hallway before class, shoe lockers, morning light",
+          "action": "A wrapped melon bun rests alone on a windowsill.",
+          "dialogue": [
+            { "char": "narrator", "text": "Before first period, a mystery appeared.", "type": "narration" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "mei", "expression": "bright curious eyes, small smile", "pose": "leaning toward the windowsill with hands behind her back" }
+          ],
+          "bg": "school hallway window, soft sparkle screentone",
+          "action": "Mei studies the abandoned bun like a detective examining evidence.",
+          "dialogue": [
+            { "char": "mei", "text": "Did you wait here for me?", "type": "speech" },
+            { "char": "mei", "text": "It looks so lonely.", "type": "thought" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "ren", "expression": "alarmed, wide eyes", "pose": "running into frame and reaching forward" },
+            { "name": "mei", "expression": "startled", "pose": "freezing with one hand above the bun" }
+          ],
+          "bg": "school hallway with dramatic speed lines",
+          "action": "Ren lunges into the hallway just as Mei reaches for the bun.",
+          "dialogue": [
+            { "char": "ren", "text": "WAIT! THAT'S MY LUNCH!", "type": "shout" }
+          ],
+          "sfx": [
+            { "text": "SKID", "style": "big" }
+          ],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "inset",
+          "shot": "closeup",
+          "chars": [
+            { "name": "mei", "expression": "dot eyes, puffed cheeks, embarrassed", "pose": "holding both hands up innocently" }
+          ],
+          "bg": "blank white comedy background",
+          "action": "Tiny chibi Mei pretends she was never interested in the bun.",
+          "dialogue": [
+            { "char": "mei", "text": "I was only guarding it.", "type": "whisper" }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "ren", "expression": "relieved smile", "pose": "unwrapping the melon bun and breaking it neatly in half" },
+            { "name": "mei", "expression": "surprised, softened eyes", "pose": "watching quietly with hands clasped" }
+          ],
+          "bg": "sunlit classroom by the window, gentle flower screentone",
+          "action": "Ren divides the bun and offers half to Mei.",
+          "dialogue": [
+            { "char": "ren", "text": "Guard fees. Half seems fair.", "type": "speech" }
+          ],
+          "sfx": [
+            { "text": "tear", "style": "small" }
+          ],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "mei", "expression": "shy smile, faint screentone blush", "pose": "accepting the bun with both hands" }
+          ],
+          "bg": "abstract soft sparkle screentone",
+          "action": "Mei accepts the offered half with unexpected sincerity.",
+          "dialogue": [
+            { "char": "mei", "text": "Then I'll guard tomorrow's too.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "wide-strip",
+          "shot": "over-shoulder",
+          "chars": [
+            { "name": "ren", "expression": "flustered, looking away", "pose": "sitting at the next desk with tense shoulders" },
+            { "name": "mei", "expression": "playful sideways glance", "pose": "leaning slightly toward him" }
+          ],
+          "bg": "classroom desks, classmates arriving in the distance",
+          "action": "They eat in companionable silence as the classroom begins to fill.",
+          "dialogue": [
+            { "char": "ren", "text": "You mean steal tomorrow's too.", "type": "thought" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "mei", "expression": "mischievous smile", "pose": "raising one index finger beside her lips" }
+          ],
+          "bg": "black halftone gradient with a single sparkle",
+          "action": "Mei reveals she has already planned the next morning's encounter.",
+          "dialogue": [
+            { "char": "mei", "text": "Meet me here before the bell.", "type": "whisper" },
+            { "char": "narrator", "text": "The case was only beginning.", "type": "narration" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        }
+      ]
+    }
+  ]
+}
