@@ -1,0 +1,91 @@
+{
+  "script": "story/ch01.json",
+  "composedAt": "2026-08-13T13:42:22.629Z",
+  "pages": [
+    {
+      "page": 1,
+      "composeSeconds": 0.79,
+      "png": "pages/ch01/p01.png"
+    },
+    {
+      "page": 2,
+      "composeSeconds": 0.64,
+      "png": "pages/ch01/p02.png"
+    },
+    {
+      "page": 3,
+      "composeSeconds": 0.62,
+      "png": "pages/ch01/p03.png"
+    },
+    {
+      "page": 4,
+      "composeSeconds": 0.55,
+      "png": "pages/ch01/p04.png"
+    },
+    {
+      "page": 5,
+      "composeSeconds": 0.61,
+      "png": "pages/ch01/p05.png"
+    },
+    {
+      "page": 6,
+      "composeSeconds": 0.73,
+      "png": "pages/ch01/p06.png"
+    },
+    {
+      "page": 7,
+      "composeSeconds": 0.64,
+      "png": "pages/ch01/p07.png"
+    },
+    {
+      "page": 8,
+      "composeSeconds": 0.82,
+      "png": "pages/ch01/p08.png"
+    },
+    {
+      "page": 9,
+      "composeSeconds": 0.62,
+      "png": "pages/ch01/p09.png"
+    },
+    {
+      "page": 10,
+      "composeSeconds": 0.69,
+      "png": "pages/ch01/p10.png"
+    },
+    {
+      "page": 11,
+      "composeSeconds": 0.59,
+      "png": "pages/ch01/p11.png"
+    },
+    {
+      "page": 12,
+      "composeSeconds": 0.7,
+      "png": "pages/ch01/p12.png"
+    },
+    {
+      "page": 13,
+      "composeSeconds": 0.56,
+      "png": "pages/ch01/p13.png"
+    },
+    {
+      "page": 14,
+      "composeSeconds": 0.49,
+      "png": "pages/ch01/p14.png"
+    },
+    {
+      "page": 15,
+      "composeSeconds": 0.74,
+      "png": "pages/ch01/p15.png"
+    },
+    {
+      "page": 16,
+      "composeSeconds": 0.64,
+      "png": "pages/ch01/p16.png"
+    },
+    {
+      "page": 17,
+      "composeSeconds": 0.66,
+      "png": "pages/ch01/p17.png"
+    }
+  ]
+}
