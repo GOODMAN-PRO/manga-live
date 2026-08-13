@@ -1,0 +1,34 @@
+{
+  "chapter": 99,
+  "title": "CALIBRATION — character sheets (never publish)",
+  "pages": [
+    { "page": 1, "panels": [
+      { "size": "tall", "shot": "wide", "chars": [ { "name": "nagi", "expression": "neutral, half-lidded", "pose": "standing straight, full body, day school uniform, sleeves over hands, low ponytail" } ], "bg": "plain white background", "action": "Nagi day reference, full body front.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "third", "shot": "closeup", "chars": [ { "name": "nagi", "expression": "faintest softening at the mouth, half-lidded", "pose": "face reference, slight three-quarter angle" } ], "bg": "plain white background", "action": "Nagi day face reference.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" }
+    ]},
+    { "page": 2, "panels": [
+      { "size": "tall", "shot": "wide", "chars": [ { "name": "nagi", "expression": "focused", "pose": "standing full body, night bathhouse outfit, happi, hair clipped up, towel around neck, sleeves rolled, sandals" } ], "bg": "plain white background", "action": "Nagi night reference, full body.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "third", "shot": "closeup", "chars": [ { "name": "nagi", "expression": "eyes fully wide, lips parted, the reveal face", "pose": "face reference, front" } ], "bg": "plain white background", "action": "Nagi wide-eyed face — used once per chapter at most.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "inset", "shot": "wide", "chars": [ { "name": "nagi", "expression": "deadpan, dot eyes", "pose": "chibi, holding a hose" } ], "bg": "plain white background", "action": "Nagi chibi reference.", "dialogue": [], "sfx": [], "chibi": true, "beat": "comedy" }
+    ]},
+    { "page": 3, "panels": [
+      { "size": "tall", "shot": "wide", "chars": [ { "name": "itsuki", "expression": "enormous grin, eyes crescents", "pose": "standing full body, day uniform worn wrong, blazer over one shoulder, track jacket, hands in pockets" } ], "bg": "plain white background", "action": "Itsuki day reference, full body front.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "third", "shot": "closeup", "chars": [ { "name": "itsuki", "expression": "laughing, eyes crescent moons, big catchlights", "pose": "face reference, three-quarter" } ], "bg": "plain white background", "action": "Itsuki default face.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" }
+    ]},
+    { "page": 4, "panels": [
+      { "size": "third", "shot": "closeup", "chars": [ { "name": "itsuki", "expression": "smile still on, eyes flat, catchlights shrunk to pinpricks", "pose": "face reference, front, head slightly lowered" } ], "bg": "plain white background", "action": "Itsuki THE TELL face — one panel per chapter.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "tall", "shot": "wide", "chars": [ { "name": "itsuki", "expression": "mild, tired, honest", "pose": "standing full body, night look, track jacket with hood, sweatpants, canvas tote of groceries" } ], "bg": "plain white background", "action": "Itsuki night reference.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "inset", "shot": "wide", "chars": [ { "name": "itsuki", "expression": ">_<, comedic panic", "pose": "chibi, arms windmilling" } ], "bg": "plain white background", "action": "Itsuki chibi reference.", "dialogue": [], "sfx": [], "chibi": true, "beat": "comedy" }
+    ]},
+    { "page": 5, "panels": [
+      { "size": "third", "shot": "medium", "chars": [ { "name": "fusae", "expression": "amused, comfortable", "pose": "seated, holding an empty milk bottle" } ], "bg": "plain white background", "action": "Fusae reference.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "third", "shot": "medium", "chars": [ { "name": "ban", "expression": "gruff, avoiding eye contact", "pose": "standing, arms crossed, apron" } ], "bg": "plain white background", "action": "Ban reference.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "third", "shot": "medium", "chars": [ { "name": "mio", "expression": "deadpan, unimpressed", "pose": "standing, arms folded, serafuku" } ], "bg": "plain white background", "action": "Mio reference.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" }
+    ]},
+    { "page": 6, "panels": [
+      { "size": "third", "shot": "medium", "chars": [ { "name": "sota", "expression": "delighted, huge eyes", "pose": "mid-run, arms out, pajamas" } ], "bg": "plain white background", "action": "Sōta reference.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "third", "shot": "medium", "chars": [ { "name": "gonda", "expression": "wide grin", "pose": "standing, thumbs up, school uniform" } ], "bg": "plain white background", "action": "Gonda reference.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" },
+      { "size": "third", "shot": "medium", "chars": [ { "name": "aya", "expression": "cheerful, leaning forward", "pose": "hands clasped behind back, side ponytail, school uniform" } ], "bg": "plain white background", "action": "Aya reference.", "dialogue": [], "sfx": [], "chibi": false, "beat": "quiet" }
+    ]}
+  ]
+}

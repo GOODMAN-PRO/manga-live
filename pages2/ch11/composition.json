@@ -1,10 +1,10 @@
 {
   "script": "story2/ch11.json",
-  "composedAt": "2026-08-13T17:57:36.515Z",
+  "composedAt": "2026-08-13T18:37:23.847Z",
   "pages": [
     {
       "page": 1,
-      "composeSeconds": 0.58,
+      "composeSeconds": 0.56,
       "png": "pages2/ch11/p01.png",
       "assertions": {
         "page": 1,
@@ -431,7 +431,7 @@
     },
     {
       "page": 2,
-      "composeSeconds": 0.49,
+      "composeSeconds": 0.48,
       "png": "pages2/ch11/p02.png",
       "assertions": {
         "page": 2,
@@ -813,7 +813,7 @@
     },
     {
       "page": 3,
-      "composeSeconds": 0.46,
+      "composeSeconds": 0.45,
       "png": "pages2/ch11/p03.png",
       "assertions": {
         "page": 3,
@@ -1646,7 +1646,7 @@
     },
     {
       "page": 5,
-      "composeSeconds": 0.59,
+      "composeSeconds": 0.6,
       "png": "pages2/ch11/p05.png",
       "assertions": {
         "page": 5,
@@ -2121,7 +2121,7 @@
     },
     {
       "page": 6,
-      "composeSeconds": 0.62,
+      "composeSeconds": 0.63,
       "png": "pages2/ch11/p06.png",
       "assertions": {
         "page": 6,
@@ -2500,7 +2500,7 @@
     },
     {
       "page": 7,
-      "composeSeconds": 0.5,
+      "composeSeconds": 0.52,
       "png": "pages2/ch11/p07.png",
       "assertions": {
         "page": 7,
@@ -2871,7 +2871,7 @@
     },
     {
       "page": 8,
-      "composeSeconds": 0.56,
+      "composeSeconds": 0.57,
       "png": "pages2/ch11/p08.png",
       "assertions": {
         "page": 8,
@@ -3428,28 +3428,28 @@
             "type": "speech",
             "fontSize": 27,
             "bounds": {
-              "x1": 322,
+              "x1": 317,
               "y1": 1073,
               "x2": 722,
-              "y2": 1201
+              "y2": 1206
             },
             "pageInside": true,
             "panelInside": true,
             "textRuns": [
               {
                 "line": 1,
-                "x1": 51.041000000000025,
-                "y1": 34.162,
-                "x2": 348.959,
-                "y2": 57.085,
+                "x1": 51.16499999999999,
+                "y1": 35.566,
+                "x2": 353.8350000000001,
+                "y2": 63.943000000000005,
                 "inside": true
               },
               {
                 "line": 2,
-                "x1": 163.5635,
+                "x1": 161.44650000000001,
                 "y1": 69,
-                "x2": 236.4365,
-                "y2": 87.63,
+                "x2": 243.5535,
+                "y2": 92.355,
                 "inside": true
               }
             ]
@@ -3461,9 +3461,9 @@
             "fontSize": 27,
             "bounds": {
               "x1": 332,
-              "y1": 1213,
+              "y1": 1218,
               "x2": 722,
-              "y2": 1349
+              "y2": 1354
             },
             "pageInside": true,
             "panelInside": true,
@@ -3651,7 +3651,7 @@
     },
     {
       "page": 10,
-      "composeSeconds": 0.52,
+      "composeSeconds": 0.51,
       "png": "pages2/ch11/p10.png",
       "assertions": {
         "page": 10,
@@ -4236,7 +4236,7 @@
     },
     {
       "page": 12,
-      "composeSeconds": 0.5,
+      "composeSeconds": 0.51,
       "png": "pages2/ch11/p12.png",
       "assertions": {
         "page": 12,
@@ -5053,7 +5053,7 @@
     },
     {
       "page": 14,
-      "composeSeconds": 0.51,
+      "composeSeconds": 0.5,
       "png": "pages2/ch11/p14.png",
       "assertions": {
         "page": 14,
@@ -5403,7 +5403,7 @@
     },
     {
       "page": 15,
-      "composeSeconds": 0.5,
+      "composeSeconds": 0.48,
       "png": "pages2/ch11/p15.png",
       "assertions": {
         "page": 15,
@@ -5785,7 +5785,7 @@
     },
     {
       "page": 16,
-      "composeSeconds": 0.53,
+      "composeSeconds": 0.52,
       "png": "pages2/ch11/p16.png",
       "assertions": {
         "page": 16,
@@ -6100,7 +6100,7 @@
     },
     {
       "page": 17,
-      "composeSeconds": 0.52,
+      "composeSeconds": 0.54,
       "png": "pages2/ch11/p17.png",
       "assertions": {
         "page": 17,

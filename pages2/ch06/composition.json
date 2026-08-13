@@ -1,6 +1,6 @@
 {
   "script": "story2/ch06.json",
-  "composedAt": "2026-08-13T16:43:59.148Z",
+  "composedAt": "2026-08-13T18:36:30.392Z",
   "pages": [
     {
       "page": 1,
@@ -487,7 +487,7 @@
     },
     {
       "page": 2,
-      "composeSeconds": 0.49,
+      "composeSeconds": 0.51,
       "png": "pages2/ch06/p02.png",
       "assertions": {
         "page": 2,
@@ -877,7 +877,7 @@
     },
     {
       "page": 3,
-      "composeSeconds": 0.45,
+      "composeSeconds": 0.46,
       "png": "pages2/ch06/p03.png",
       "assertions": {
         "page": 3,
@@ -1227,7 +1227,7 @@
     },
     {
       "page": 4,
-      "composeSeconds": 0.54,
+      "composeSeconds": 0.53,
       "png": "pages2/ch06/p04.png",
       "assertions": {
         "page": 4,
@@ -1601,7 +1601,7 @@
     },
     {
       "page": 5,
-      "composeSeconds": 0.56,
+      "composeSeconds": 0.58,
       "png": "pages2/ch06/p05.png",
       "assertions": {
         "page": 5,
@@ -1913,7 +1913,7 @@
     },
     {
       "page": 6,
-      "composeSeconds": 0.58,
+      "composeSeconds": 0.57,
       "png": "pages2/ch06/p06.png",
       "assertions": {
         "page": 6,
@@ -2455,7 +2455,7 @@
     },
     {
       "page": 7,
-      "composeSeconds": 0.6,
+      "composeSeconds": 0.59,
       "png": "pages2/ch06/p07.png",
       "assertions": {
         "page": 7,
@@ -2970,7 +2970,7 @@
     },
     {
       "page": 8,
-      "composeSeconds": 0.48,
+      "composeSeconds": 0.51,
       "png": "pages2/ch06/p08.png",
       "assertions": {
         "page": 8,
@@ -3763,7 +3763,7 @@
     },
     {
       "page": 10,
-      "composeSeconds": 0.53,
+      "composeSeconds": 0.55,
       "png": "pages2/ch06/p10.png",
       "assertions": {
         "page": 10,
@@ -4145,7 +4145,7 @@
     },
     {
       "page": 11,
-      "composeSeconds": 0.64,
+      "composeSeconds": 0.66,
       "png": "pages2/ch06/p11.png",
       "assertions": {
         "page": 11,
@@ -4503,7 +4503,7 @@
     },
     {
       "page": 12,
-      "composeSeconds": 0.51,
+      "composeSeconds": 0.53,
       "png": "pages2/ch06/p12.png",
       "assertions": {
         "page": 12,
@@ -4853,7 +4853,7 @@
     },
     {
       "page": 13,
-      "composeSeconds": 0.49,
+      "composeSeconds": 0.5,
       "png": "pages2/ch06/p13.png",
       "assertions": {
         "page": 13,
@@ -5187,7 +5187,7 @@
     },
     {
       "page": 14,
-      "composeSeconds": 0.53,
+      "composeSeconds": 0.55,
       "png": "pages2/ch06/p14.png",
       "assertions": {
         "page": 14,
@@ -5646,7 +5646,7 @@
     },
     {
       "page": 15,
-      "composeSeconds": 0.56,
+      "composeSeconds": 0.58,
       "png": "pages2/ch06/p15.png",
       "assertions": {
         "page": 15,
@@ -6306,7 +6306,7 @@
     },
     {
       "page": 17,
-      "composeSeconds": 0.5,
+      "composeSeconds": 0.52,
       "png": "pages2/ch06/p17.png",
       "assertions": {
         "page": 17,
@@ -6701,7 +6701,7 @@
     },
     {
       "page": 18,
-      "composeSeconds": 0.6,
+      "composeSeconds": 0.63,
       "png": "pages2/ch06/p18.png",
       "assertions": {
         "page": 18,

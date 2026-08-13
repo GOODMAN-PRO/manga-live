@@ -1,7 +1,7 @@
 {
-  "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T18:22:29Z",
-  "status": "<b>余熱 YONETSU — 13 chapters live (234 pages).</b> Ch.13: the door gives back ONE thing, ever. You name the one you keep. Both of them wrote the same word in a sixty-year-old register, two hours apart, without telling each other. Finale next. (YUAGARI Ch.1 at the bottom.)",
+  "title": "余熱 YONETSU — complete",
+  "updated": "2026-08-13T18:38:23Z",
+  "status": "<b>余熱 YONETSU is complete — 14 chapters, 252 pages.</b> A magic academy whose tower charges one sense per floor, and two front-liners who spent thirteen months as anonymous handles before finding out they'd been sitting in the same classroom. Start at Ch.1. (YUAGARI Ch.1, an earlier bathhouse story, is at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -339,7 +339,33 @@
         "pages2/ch13/p17.png",
         "pages2/ch13/p18.png"
       ],
-      "ongoing": true
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch14",
+      "title": "YONETSU — Ch.14 \"Yonetsu\" (finale)",
+      "cover": "pages2/ch14/cover.png",
+      "pages": [
+        "pages2/ch14/p01.png",
+        "pages2/ch14/p02.png",
+        "pages2/ch14/p03.png",
+        "pages2/ch14/p04.png",
+        "pages2/ch14/p05.png",
+        "pages2/ch14/p06.png",
+        "pages2/ch14/p07.png",
+        "pages2/ch14/p08.png",
+        "pages2/ch14/p09.png",
+        "pages2/ch14/p10.png",
+        "pages2/ch14/p11.png",
+        "pages2/ch14/p12.png",
+        "pages2/ch14/p13.png",
+        "pages2/ch14/p14.png",
+        "pages2/ch14/p15.png",
+        "pages2/ch14/p16.png",
+        "pages2/ch14/p17.png",
+        "pages2/ch14/p18.png"
+      ],
+      "ongoing": false
     },
     {
       "id": "y1-ch01",

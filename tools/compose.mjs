@@ -57,6 +57,18 @@ const selectedPages = flags.pages ? parsePageSelection(flags.pages) : null;
 
 if (!existsSync(fontPath)) throw new Error(`Comic font not found: ${fontPath}`);
 const comicFont = await loadFont(fontPath);
+// Comic Neue has no CJK or macron glyphs; fall back to Noto Sans JP (which also covers Latin)
+// for any run containing a character Comic Neue cannot draw.
+const jpFallbackFont = existsSync(jpFontPath) ? await loadFont(jpFontPath) : null;
+function fontFor(text) {
+  if (!jpFallbackFont) return comicFont;
+  for (const ch of String(text)) {
+    if (ch === ' ' || ch === '\n') continue;
+    const glyph = comicFont.charToGlyph(ch);
+    if (!glyph || glyph.index === 0 || glyph.name === '.notdef') return jpFallbackFont;
+  }
+  return comicFont;
+}
 await mkdir(outputDir, { recursive: true });
 
 if (flags.cover) {
@@ -189,7 +201,7 @@ function bubbleComposites(panel, box, font, panelIdValue) {
       const items = dialogues.map((dialogue, index) => createBubbleLayout({
         dialogue,
         index,
-        font,
+        font: fontFor(dialogue.text),
         initialFontSize: fontSize,
         floorFontSize: fontSize,
         maxBubbleWidth,
@@ -209,7 +221,7 @@ function bubbleComposites(panel, box, font, panelIdValue) {
     }
   }
   return {
-    composites: placed.map((item) => ({ input: bubbleSvg({ ...item, font }), left: item.left, top: item.top })),
+    composites: placed.map((item) => ({ input: bubbleSvg({ ...item, font: fontFor(item.dialogue.text) }), left: item.left, top: item.top })),
     assertions,
   };
 }
@@ -357,7 +369,7 @@ function jaggedRectPoints(width, height, spike) {
 
 function measureBubbleTextRuns(item) {
   return item.lines.map((line, index) => {
-    return measureGlyphBounds(comicFont, line, item.lineXs[index], item.baselines[index], item.fontSize);
+    return measureGlyphBounds(fontFor(item.dialogue.text), line, item.lineXs[index], item.baselines[index], item.fontSize);
   });
 }
 
@@ -369,6 +381,7 @@ function rectsOverlap(a, b, gap = 0) {
 function sfxComposites(panel, box, font, panelIdValue) {
   const assertions = [];
   const composites = (panel.sfx || []).map((sfx, index) => {
+    const font = fontFor(sfx.text);
     const fontSize = sfx.style === 'big' ? Math.max(52, Math.round(box.width / 8)) : Math.max(30, Math.round(box.width / 15));
     const width = Math.min(box.width - 40, Math.ceil(measureText(font, sfx.text, fontSize) + 30));
     const height = Math.ceil(fontSize * 1.35);

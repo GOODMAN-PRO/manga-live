@@ -1,10 +1,10 @@
 {
   "script": "story2/ch04.json",
-  "composedAt": "2026-08-13T15:54:13.924Z",
+  "composedAt": "2026-08-13T18:36:09.048Z",
   "pages": [
     {
       "page": 1,
-      "composeSeconds": 0.61,
+      "composeSeconds": 0.62,
       "png": "pages2/ch04/p01.png",
       "assertions": {
         "page": 1,
@@ -506,7 +506,7 @@
     },
     {
       "page": 2,
-      "composeSeconds": 0.58,
+      "composeSeconds": 0.56,
       "png": "pages2/ch04/p02.png",
       "assertions": {
         "page": 2,
@@ -1867,7 +1867,7 @@
     },
     {
       "page": 5,
-      "composeSeconds": 0.56,
+      "composeSeconds": 0.55,
       "png": "pages2/ch04/p05.png",
       "assertions": {
         "page": 5,
@@ -2305,7 +2305,7 @@
     },
     {
       "page": 6,
-      "composeSeconds": 0.67,
+      "composeSeconds": 0.63,
       "png": "pages2/ch04/p06.png",
       "assertions": {
         "page": 6,
@@ -2822,7 +2822,7 @@
     },
     {
       "page": 7,
-      "composeSeconds": 0.51,
+      "composeSeconds": 0.49,
       "png": "pages2/ch04/p07.png",
       "assertions": {
         "page": 7,
@@ -3324,7 +3324,7 @@
     },
     {
       "page": 8,
-      "composeSeconds": 0.67,
+      "composeSeconds": 0.64,
       "png": "pages2/ch04/p08.png",
       "assertions": {
         "page": 8,
@@ -3812,7 +3812,7 @@
     },
     {
       "page": 9,
-      "composeSeconds": 0.51,
+      "composeSeconds": 0.52,
       "png": "pages2/ch04/p09.png",
       "assertions": {
         "page": 9,
@@ -4314,7 +4314,7 @@
     },
     {
       "page": 10,
-      "composeSeconds": 0.52,
+      "composeSeconds": 0.48,
       "png": "pages2/ch04/p10.png",
       "assertions": {
         "page": 10,
@@ -5398,7 +5398,7 @@
     },
     {
       "page": 12,
-      "composeSeconds": 0.5,
+      "composeSeconds": 0.51,
       "png": "pages2/ch04/p12.png",
       "assertions": {
         "page": 12,
@@ -5937,7 +5937,7 @@
     },
     {
       "page": 13,
-      "composeSeconds": 0.59,
+      "composeSeconds": 0.57,
       "png": "pages2/ch04/p13.png",
       "assertions": {
         "page": 13,
@@ -6383,7 +6383,7 @@
     },
     {
       "page": 14,
-      "composeSeconds": 0.56,
+      "composeSeconds": 0.55,
       "png": "pages2/ch04/p14.png",
       "assertions": {
         "page": 14,
@@ -6877,7 +6877,7 @@
     },
     {
       "page": 15,
-      "composeSeconds": 0.51,
+      "composeSeconds": 0.52,
       "png": "pages2/ch04/p15.png",
       "assertions": {
         "page": 15,
@@ -8329,7 +8329,7 @@
     },
     {
       "page": 18,
-      "composeSeconds": 0.57,
+      "composeSeconds": 0.56,
       "png": "pages2/ch04/p18.png",
       "assertions": {
         "page": 18,

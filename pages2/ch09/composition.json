@@ -1,6 +1,6 @@
 {
   "script": "story2/ch09.json",
-  "composedAt": "2026-08-13T17:33:56.453Z",
+  "composedAt": "2026-08-13T18:37:02.595Z",
   "pages": [
     {
       "page": 1,
@@ -898,7 +898,7 @@
     },
     {
       "page": 3,
-      "composeSeconds": 0.48,
+      "composeSeconds": 0.5,
       "png": "pages2/ch09/p03.png",
       "assertions": {
         "page": 3,
@@ -1384,7 +1384,7 @@
     },
     {
       "page": 4,
-      "composeSeconds": 0.65,
+      "composeSeconds": 0.63,
       "png": "pages2/ch09/p04.png",
       "assertions": {
         "page": 4,
@@ -2156,7 +2156,7 @@
     },
     {
       "page": 6,
-      "composeSeconds": 0.58,
+      "composeSeconds": 0.56,
       "png": "pages2/ch09/p06.png",
       "assertions": {
         "page": 6,
@@ -2650,7 +2650,7 @@
     },
     {
       "page": 7,
-      "composeSeconds": 0.51,
+      "composeSeconds": 0.5,
       "png": "pages2/ch09/p07.png",
       "assertions": {
         "page": 7,
@@ -3252,20 +3252,20 @@
             "type": "speech",
             "fontSize": 27,
             "bounds": {
-              "x1": 328,
+              "x1": 326,
               "y1": 1112,
               "x2": 722,
-              "y2": 1208
+              "y2": 1214
             },
             "pageInside": true,
             "panelInside": true,
             "textRuns": [
               {
                 "line": 1,
-                "x1": 51.14599999999996,
+                "x1": 51.10650000000004,
                 "y1": 33,
-                "x2": 342.854,
-                "y2": 56.328,
+                "x2": 344.8935,
+                "y2": 62.565000000000005,
                 "inside": true
               }
             ]
@@ -3277,9 +3277,9 @@
             "fontSize": 27,
             "bounds": {
               "x1": 328,
-              "y1": 1220,
+              "y1": 1226,
               "x2": 722,
-              "y2": 1317
+              "y2": 1323
             },
             "pageInside": true,
             "panelInside": true,
@@ -3480,7 +3480,7 @@
     },
     {
       "page": 9,
-      "composeSeconds": 0.52,
+      "composeSeconds": 0.54,
       "png": "pages2/ch09/p09.png",
       "assertions": {
         "page": 9,
@@ -4770,7 +4770,7 @@
     },
     {
       "page": 12,
-      "composeSeconds": 0.58,
+      "composeSeconds": 0.59,
       "png": "pages2/ch09/p12.png",
       "assertions": {
         "page": 12,
@@ -5184,7 +5184,7 @@
     },
     {
       "page": 13,
-      "composeSeconds": 0.48,
+      "composeSeconds": 0.46,
       "png": "pages2/ch09/p13.png",
       "assertions": {
         "page": 13,
@@ -6386,7 +6386,7 @@
     },
     {
       "page": 16,
-      "composeSeconds": 0.57,
+      "composeSeconds": 0.55,
       "png": "pages2/ch09/p16.png",
       "assertions": {
         "page": 16,
