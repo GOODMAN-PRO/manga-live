@@ -1,0 +1,841 @@
+{
+  "chapter": 5,
+  "title": "She's Ours",
+  "cover": {
+    "desc": "Full color, warm and loud. Interior of Kotobuki-yu in the early evening, lamp-yellow light on old tile and wood. Nagi is mid-stride across the changing room with a stack of yellow baskets under one arm and a cloth over her shoulder, wearing her indigo happi with the sleeves shoved past the elbow — face completely deadpan, walking as if nothing unusual is happening. Attached to the back of her happi, both fists knotted in the fabric, feet dragging along the floorboards behind her, is Sōta: six years old, damp-haired, wearing an expression of total triumphant possession. Behind them, out of focus, Itsuki leans on the bandai counter with a towel round his neck, laughing helplessly. Far background: the fish clock, and the massage chair. Nobody in the picture is looking at the camera. The warmth should read as domestic, not romantic — this is a picture of a household that does not exist yet.",
+    "chars": ["nagi", "sota", "itsuki"]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "sota", "expression": "grave, hands behind back, presenting a case", "pose": "standing very straight in front of the kotatsu" },
+            { "name": "itsuki", "expression": "chopsticks halfway to his mouth", "pose": "cross-legged, mid-dinner" }
+          ],
+          "bg": "the Nomura apartment, evening, dinner on the kotatsu, one lamp",
+          "action": "Day eleven of the campaign.",
+          "dialogue": [
+            { "char": "sota", "text": "I have a plan. About the chair.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "sota", "expression": ">_<, arms thrown wide, tiny body huge head", "pose": "chibi, standing on the kotatsu" },
+            { "name": "itsuki", "expression": "dot eyes, retreating", "pose": "chibi, leaning back with his bowl held clear" },
+            { "name": "mio", "expression": "unimpressed, eating steadily through the entire event", "pose": "chibi, not looking up" }
+          ],
+          "bg": "chaos lines, starburst screentone",
+          "action": "Comedy spike, and the only one this chapter — it happens at home, four streets from the bathhouse.",
+          "dialogue": [
+            { "char": "sota", "text": "IT'S NOT BROKEN. IT'S SLEEPING.", "type": "shout" }
+          ],
+          "sfx": [{ "text": "DON", "style": "big" }],
+          "chibi": true,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "mio", "expression": "flat, pen already back in her hand", "pose": "textbook open beside her bowl" },
+            { "name": "itsuki", "expression": "half-turned, asking without really asking", "pose": "collecting bowls" }
+          ],
+          "bg": "kotatsu, lamp, dark window",
+          "action": "He offers. She declines. Neither of them makes anything of it.",
+          "dialogue": [
+            { "char": "itsuki", "text": "You coming?", "type": "speech" },
+            { "char": "mio", "text": "I've got exams.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "sota", "expression": "radiant, arms out, shoes already off", "pose": "bursting through the noren at a dead run" },
+            { "name": "itsuki", "expression": "trailing, bag over one shoulder", "pose": "coming in behind him at walking pace" }
+          ],
+          "bg": "Kotobuki-yu entrance from inside, Saturday evening, warm lamp, sandal rack, quiet building",
+          "action": "The noren does not so much lift as get through.",
+          "dialogue": [
+            { "char": "sota", "text": "WE'RE HERE!", "type": "shout" }
+          ],
+          "sfx": [{ "text": "BAM", "style": "big" }],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "reflex, not thinking about it", "pose": "setting coins down on the counter tray" },
+            { "name": "nagi", "expression": "not looking up from her book", "pose": "seated at the bandai, one finger pushing the coins back across the tray" }
+          ],
+          "bg": "bandai counter, warm lamp",
+          "action": "One finger. She does not look up and she does not explain. Silent.",
+          "dialogue": [],
+          "sfx": [{ "text": "sh", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "looking at the pushed-back coins, something going quiet in his face", "pose": "hand hovering over the tray" }
+          ],
+          "bg": "counter, warm lamp, flat screentone",
+          "action": "Four hundred and forty yen, returned without comment, three chapters late. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "deadpan, carrying on regardless", "pose": "walking with a stack of baskets" },
+            { "name": "sota", "expression": "attached, delighted", "pose": "gripping the back of her happi, feet dragging" }
+          ],
+          "bg": "changing room, baskets, worn floorboards, warm lamp",
+          "action": "He has selected her. There was no interview.",
+          "dialogue": [],
+          "sfx": [{ "text": "shff shff", "style": "small" }],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "unbothered, crouched at her work", "pose": "wiping the low sink, small boy still attached to her back" },
+            { "name": "sota", "expression": "chin on her shoulder, supervising", "pose": "clinging" }
+          ],
+          "bg": "low sink, tiled wall, warm lamp",
+          "action": "She works around him the way you work around weather.",
+          "dialogue": [
+            { "char": "sota", "text": "What's that one for?", "type": "speech" },
+            { "char": "nagi", "text": "Feet.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "watching from the counter, arms folded, amused and slightly displaced", "pose": "leaning on the bandai" }
+          ],
+          "bg": "changing room seen from the counter, the two of them small at the far side",
+          "action": "It has taken his brother eleven minutes to get further in than he did in three weeks.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "sota", "expression": "narrow-eyed, professional", "pose": "standing in front of the massage chair with his hands on his hips" }
+          ],
+          "bg": "rest area, the ancient vinyl massage chair, faded instruction decal, tatami bench",
+          "action": "The chair and the boy regard one another.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "sota", "expression": "grunting with effort, entirely serious", "pose": "kicking the base of the chair with the flat of his foot" }
+          ],
+          "bg": "rest area, chair, warm lamp",
+          "action": "Phase one. Full realism. No chibi anywhere in this building.",
+          "dialogue": [],
+          "sfx": [{ "text": "THUD", "style": "big" }],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "flat, not intervening", "pose": "passing behind with an armful of towels" },
+            { "name": "sota", "expression": "mid-kick", "pose": "attacking the chair" }
+          ],
+          "bg": "rest area, warm lamp",
+          "action": "She has decided this is between them.",
+          "dialogue": [
+            { "char": "nagi", "text": "It ate a hundred yen off me too.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "sota", "expression": "vanishing headfirst into the gap", "pose": "squeezing behind the chair, legs sticking out" }
+          ],
+          "bg": "back of the massage chair, dusty wall, cables",
+          "action": "Phase two. He goes round the back, where nobody has been since the Showa era.",
+          "dialogue": [],
+          "sfx": [{ "text": "scrabble", "style": "small" }],
+          "chibi": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "a fat old two-pin plug lying loose on the dusty floorboards behind the chair, its socket eight centimetres away, both furred with grey dust",
+          "action": "It was never broken.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "sota", "expression": "eyes enormous with the magnitude of his discovery", "pose": "both hands on the plug, pushing it home" }
+          ],
+          "bg": "behind the chair, dust, cables, one hanging bulb",
+          "action": "Nobody tell him it was unplugged for eighteen years. He would be unbearable.",
+          "dialogue": [],
+          "sfx": [{ "text": "CHNK", "style": "big" }],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "sota", "expression": "airborne, mouth wide open, ecstatic", "pose": "flung half out of the seat as the chair convulses" },
+            { "name": "itsuki", "expression": "lunging, drink abandoned mid-air", "pose": "diving across the tatami" },
+            { "name": "nagi", "expression": "the largest expression she has made in five chapters — eyes fully open, mouth open", "pose": "towels dropping out of her arms" }
+          ],
+          "bg": "rest area, the massage chair thrashing violently back to life, dust exploding off it, towels in the air, fish clock rocking on its nail",
+          "action": "Eighteen years of stored intent, released. Full realism, and funnier for it.",
+          "dialogue": [
+            { "char": "sota", "text": "IT'S AWAAAAKE!", "type": "shout" }
+          ],
+          "sfx": [{ "text": "VRRRRRRR", "style": "big" }],
+          "chibi": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "fusae", "expression": "entirely unsurprised, milk bottle in hand", "pose": "standing in the doorway of the rest area, having watched the whole thing" }
+          ],
+          "bg": "rest area doorway, dust still settling, the chair juddering",
+          "action": "Fusae-san has been coming here since 1963 and has seen worse.",
+          "dialogue": [
+            { "char": "fusae", "text": "Well. That's back.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "fusae", "expression": "eyes shut, expression of profound and total peace", "pose": "settled deep into the juddering chair, milk bottle balanced on her stomach" },
+            { "name": "sota", "expression": "standing guard beside her, immensely proud", "pose": "hands on hips" },
+            { "name": "itsuki", "expression": "wheezing", "pose": "sitting on the floor where he landed" }
+          ],
+          "bg": "rest area, warm lamp, dust motes in the air, tatami bench",
+          "action": "A dead thing in the building started working again. Nobody in the room says anything about that.",
+          "dialogue": [],
+          "sfx": [{ "text": "vrrrrr", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "standing back, holding the dropped towels, something complicated behind the eyes", "pose": "watching the chair work" }
+          ],
+          "bg": "rest area, warm lamp, blurred figures",
+          "action": "Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "fusae", "expression": "amused, eyes still shut", "pose": "in the chair, addressing the boy without looking at him" },
+            { "name": "sota", "expression": "formal, chin up", "pose": "standing to attention" }
+          ],
+          "bg": "rest area, warm lamp",
+          "action": "Introductions, conducted properly.",
+          "dialogue": [
+            { "char": "fusae", "text": "And who are you, then?", "type": "speech" },
+            { "char": "sota", "text": "Sōta. I'm six.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "fusae", "expression": "one eye opening, nodding toward the counter", "pose": "tilting her head" },
+            { "name": "sota", "expression": "following the nod, answering instantly", "pose": "turning to point" }
+          ],
+          "bg": "rest area, the counter and Nagi visible beyond",
+          "action": "He answers without thinking about it, because he has already worked all this out.",
+          "dialogue": [
+            { "char": "fusae", "text": "And who's that?", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "sota", "expression": "matter-of-fact, arm out, stating a known fact", "pose": "pointing across the room at the counter" },
+            { "name": "nagi", "expression": "gone completely still behind the counter", "pose": "hands stopped on a stack of towels" },
+            { "name": "itsuki", "expression": "head coming up, mouth opening", "pose": "still sitting on the floor" }
+          ],
+          "bg": "rest area and counter in one frame, warm lamp, the width of the room between them",
+          "action": "The word is not neechan. The word is the one before it.",
+          "dialogue": [
+            { "char": "sota", "text": "That's Nagi-neechan.", "type": "speech" },
+            { "char": "sota", "text": "She's ours.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "mouth open on a correction that does not come out", "pose": "half-risen, hand up" }
+          ],
+          "bg": "rest area, warm lamp, blurred",
+          "action": "He was going to say she isn't. He finds he can't be bothered to be right about it.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "absolutely nothing on her face, eyes down on the towels", "pose": "hands starting to move again, folding" }
+          ],
+          "bg": "counter, warm lamp, flat screentone",
+          "action": "Nobody corrects him. Nobody laughs. She folds the towel she is holding, and then folds it again. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "not visible — back turned, leaving", "pose": "walking out of the room with the towels" }
+          ],
+          "bg": "the counter and the doorway to the bath hall, steam beyond, warm lamp behind her",
+          "action": "She takes the towels somewhere they do not need to go. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "sota", "expression": "eyes screwed shut, mouth enormous, absolutely inconsolable", "pose": "staggering out of the bath door in a towel, both fists jammed into his eyes" },
+            { "name": "itsuki", "expression": "flustered, apologising, hands hovering uselessly", "pose": "following him out, towel round his neck" }
+          ],
+          "bg": "changing room, steam rolling out of the open bath door, warm lamp",
+          "action": "Twenty minutes later. Somebody has got shampoo in somebody's eyes.",
+          "dialogue": [
+            { "char": "sota", "text": "IT STIIINGS—", "type": "shout" },
+            { "char": "itsuki", "text": "I know. I know. Sorry. Sorry—", "type": "speech" }
+          ],
+          "sfx": [{ "text": "WAAAAH", "style": "big" }],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "genuinely rattled, out of his depth for once", "pose": "crouched, trying to prise a small fist away from an eye" },
+            { "name": "sota", "expression": "howling", "pose": "twisting away" }
+          ],
+          "bg": "changing room floor, baskets, warm lamp",
+          "action": "He is good at this. He is not good at this while being watched.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "already crossing the room, not hurrying", "pose": "walking over with a cloth still in one hand" },
+            { "name": "sota", "expression": "mid-howl", "pose": "on the floor" },
+            { "name": "itsuki", "expression": "looking up", "pose": "crouched" }
+          ],
+          "bg": "changing room, low sink at the far wall, warm lamp",
+          "action": "She does not ask what happened. She takes the boy's wrist and walks him to the low sink.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "calm, businesslike, saying nothing at all", "pose": "crouched at the low sink, tipping the boy's head back with one hand under his chin" },
+            { "name": "sota", "expression": "hiccuping, going quiet because someone competent has arrived", "pose": "head tipped back, fists coming down" }
+          ],
+          "bg": "the low sink in the corner of the changing room, tap running, tiled splashback, warm lamp",
+          "action": "Water on. No instructions given, because none are needed yet.",
+          "dialogue": [],
+          "sfx": [{ "text": "shaa", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "nagi", "expression": "n/a — hand only", "pose": "her palm laid flat across the boy's forehead as a visor, and two fingers tapping twice on his hairline" },
+            { "name": "sota", "expression": "eyes closing on the second tap, automatically", "pose": "head back under her hand" }
+          ],
+          "bg": "the low sink, running water, tile, close and warm",
+          "action": "Palm flat. Two taps. Shut your eyes. No word is spoken and the boy understands it perfectly the first time.",
+          "dialogue": [],
+          "sfx": [{ "text": "tap tap", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "concentrating, entirely fluent", "pose": "pouring water back over his hairline with her free hand, palm still shielding" },
+            { "name": "sota", "expression": "eyes shut, calm, trusting", "pose": "head back" }
+          ],
+          "bg": "low sink, running water, steam, warm lamp",
+          "action": "Eight seconds. It is over. He has stopped crying and does not remember starting.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "nagi", "expression": "n/a — hand only", "pose": "her hand stopped in mid-air over the boy's head, fingers still half-curled from the tap" }
+          ],
+          "bg": "low sink, water still running, flat screentone",
+          "action": "Her hand does not come down. It did something she did not decide to do. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "fusae", "expression": "eyes on Nagi's hands, not on her face — recognition, and no intention of mentioning it", "pose": "standing in the rest area doorway with her milk bottle, not coming any closer" }
+          ],
+          "bg": "doorway, warm lamp behind her, the sink out of focus in the foreground",
+          "action": "Fusae-san has seen that hand do that exact thing before, over that exact sink, to a much smaller girl. She says nothing about it. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "fusae", "expression": "comfortable, looking at the room in general", "pose": "turning back toward the chair, bottle in both hands" },
+            { "name": "nagi", "expression": "hand finally lowering, towelling the boy's hair", "pose": "crouched at the sink" }
+          ],
+          "bg": "changing room, warm lamp, the massage chair still humming somewhere off-panel",
+          "action": "One line, about the noise, which is not the thing.",
+          "dialogue": [
+            { "char": "fusae", "text": "He'd have liked the noise.", "type": "speech" },
+            { "char": "nagi", "text": "...Yes.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "sota", "expression": "cheerful, conversational, wringing his own hair", "pose": "sitting on the tatami bench with a bottle of milk" },
+            { "name": "itsuki", "expression": "half-listening, tidying baskets", "pose": "moving about the room" }
+          ],
+          "bg": "rest area, warm lamp, fish clock reading 8:14",
+          "action": "Sōta reports the news from home, because that is what six-year-olds are for.",
+          "dialogue": [
+            { "char": "sota", "text": "Mio said she didn't want to come.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "easy, not stopping", "pose": "stacking a basket" },
+            { "name": "sota", "expression": "swinging his legs, adding a detail", "pose": "drinking" }
+          ],
+          "bg": "rest area, warm lamp",
+          "action": "And then the detail.",
+          "dialogue": [
+            { "char": "itsuki", "text": "She's got exams.", "type": "speech" },
+            { "char": "sota", "text": "She said it twice.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "hands stopped on the basket, eyes flat, catchlights gone", "pose": "standing still in the middle of the room" }
+          ],
+          "bg": "rest area, warm lamp, blurred",
+          "action": "She wanted to be asked twice. He asked once. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "sota", "expression": "fading fast, milk bottle tipping", "pose": "leaning further and further sideways on the bench" },
+            { "name": "nagi", "expression": "seated beside him doing the accounts, not noticing yet", "pose": "ledger open on her knees, pen moving" }
+          ],
+          "bg": "tatami bench in the rest area, warm lamp, fish clock reading 8:39",
+          "action": "Gravity does what gravity does.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "sota", "expression": "fast asleep, mouth open", "pose": "slumped sideways against her arm, head on her shoulder, bottle still in one fist" },
+            { "name": "nagi", "expression": "pen stopped, looking down at him", "pose": "absolutely motionless so as not to wake him" }
+          ],
+          "bg": "tatami bench, warm lamp, ledger open and forgotten",
+          "action": "She does not move for a long time. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "the fear arriving — eyes widening slightly, jaw tightening", "pose": "very still, child's weight against her shoulder" }
+          ],
+          "bg": "flat screentone, warm lamp glow",
+          "action": "This is what it would be like. That is the frightening part. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "controlled, brisk, not looking at either of them", "pose": "lifting the sleeping boy off her shoulder and holding him out at arm's length" },
+            { "name": "itsuki", "expression": "arriving, taking him, surprised by the speed", "pose": "hands out, catching his brother" }
+          ],
+          "bg": "rest area, tatami bench, warm lamp",
+          "action": "She hands him back a little too fast, and then stands up and finds something to do.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "watching her go, working out what he just saw, deciding not to touch it", "pose": "sleeping boy against his shoulder" }
+          ],
+          "bg": "rest area, warm lamp, her back receding toward the bath hall",
+          "action": "He knows exactly what that was. He has done it himself. He says nothing. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "quiet, sorting out a sleeve", "pose": "crouched, working a jacket onto a limp sleeping arm" },
+            { "name": "sota", "expression": "half-awake, boneless", "pose": "swaying on his feet" }
+          ],
+          "bg": "genkan, sandal rack, warm lamp, cold night beyond the glass",
+          "action": "Getting a sleeping six-year-old into a coat. A two-man job done by one man for four years.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "sota", "expression": "n/a — hand only, small and half-asleep", "pose": "laying his palm flat on his brother's forehead and tapping twice with two fingers" },
+            { "name": "itsuki", "expression": "blinking, eyes closing on the second tap without deciding to", "pose": "crouched, face tipped up" }
+          ],
+          "bg": "genkan, warm lamp, close and soft",
+          "action": "Forty minutes old and already passed on. Nobody in the building comments on it, because nobody in the building knows where it came from. Silent.",
+          "dialogue": [],
+          "sfx": [{ "text": "tap tap", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "seeing it happen from across the room, expression unreadable", "pose": "stopped at the counter with a cloth in her hand" }
+          ],
+          "bg": "counter, warm lamp, the genkan out of focus beyond",
+          "action": "She watches her own hands happen to somebody else. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "ordinary, warm, tired", "pose": "at the noren with Sōta asleep on his back" },
+            { "name": "nagi", "expression": "at the counter, guarded again", "pose": "standing" }
+          ],
+          "bg": "entrance, noren, cold clear night beyond",
+          "action": "The goodbye. He does not thank her for any of it, which is correct.",
+          "dialogue": [
+            { "char": "itsuki", "text": "We'll get out of your hair.", "type": "speech" },
+            { "char": "nagi", "text": "Mm.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "half-turning at the noren, considering saying something", "pose": "one hand lifting the curtain" },
+            { "name": "nagi", "expression": "waiting", "pose": "hands at her sides" }
+          ],
+          "bg": "noren, warm light, night street",
+          "action": "He considers saying something about the towels, or the coins, or his brother. He does not.",
+          "dialogue": [
+            { "char": "itsuki", "text": "Night, Shirakawa.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "in the lit doorway, watching them go", "pose": "one hand on the doorframe" },
+            { "name": "itsuki", "expression": "not visible — back turned, walking", "pose": "Sōta asleep on his back, twenty metres up the street" }
+          ],
+          "bg": "the shuttered shotengai at night, cold and clear, one warm doorway, long empty road",
+          "action": "That should be the end of it.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "sota", "expression": "surfacing, head coming up off his brother's shoulder, wide awake for exactly four seconds", "pose": "twisting round on Itsuki's back to shout back down the street" }
+          ],
+          "bg": "night street, forty metres from the bathhouse, cold clear air",
+          "action": "It is not the end of it.",
+          "dialogue": [
+            { "char": "sota", "text": "NAGI-NEECHAN! SEE YOU TOMORROW!", "type": "shout" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "wincing, apologetic, already fixing it", "pose": "hitching him up, calling back over his shoulder" }
+          ],
+          "bg": "night street, the bathhouse light small behind them",
+          "action": "The responsible adult intervenes.",
+          "dialogue": [
+            { "char": "itsuki", "text": "It's not tomorrow, it's—", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "hero",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "hands cupped at her mouth, shouting — the first time in her life she has raised her voice in public", "pose": "standing out on the wet stone in front of the noren, feet in her grandfather's sandals" },
+            { "name": "itsuki", "expression": "not visible — stopped dead, back turned, small at the far end of the frame", "pose": "halted mid-step with his brother on his back" },
+            { "name": "sota", "expression": "not visible — small, arms up", "pose": "twisted round on his brother's back" }
+          ],
+          "bg": "the full length of the shuttered shotengai at night, cold blue-black, one warm doorway at the near end and two small figures at the far end. The shouted bubble crosses the empty street between them — the largest and loudest lettering in the chapter.",
+          "action": "She overrules him. Final panel, and the chapter ends on a sound.",
+          "dialogue": [
+            { "char": "nagi", "text": "TOMORROW!", "type": "shout" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    }
+  ]
+}

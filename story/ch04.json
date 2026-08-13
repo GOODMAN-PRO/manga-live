@@ -1,0 +1,829 @@
+{
+  "chapter": 4,
+  "title": "He Carries Crates, Badly",
+  "cover": {
+    "desc": "Full color, bright afternoon, deliberately the loudest cover so far. The Sakuragawa shotengai at 5pm in flat gold light — faded awnings, a crate of vegetables, the tofu shop's blue curtain. In the foreground, hard right, Gonda in mid-tiptoe behind a vending machine with both hands cupped round his eyes like binoculars, absolutely committed, wearing an expression of enormous strategic confidence. Middle distance: Itsuki walking away up the street with his hands in his jersey pockets, entirely oblivious, school bag hooked on one shoulder. Far background, small and slightly out of focus at the very top of the frame, half-hidden behind a telephone pole: the indigo noren of Kotobuki-yu, forty metres further on. The joke is in the foreground and the danger is in the background and they are in the same picture. Warm reds and yellows; the only cool colour in the frame is that noren.",
+    "chars": ["gonda", "itsuki"]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "dead asleep, face utterly peaceful", "pose": "face-down on his desk, one arm hanging" },
+            { "name": "gonda", "expression": "squinting, deeply unsettled", "pose": "leaning over him, finger extended, poking" }
+          ],
+          "bg": "classroom, 8:20am, morning light, students filing in",
+          "action": "A week and a half of nights at the bathhouse. He looks better than he has in four years, which is the problem.",
+          "dialogue": [],
+          "sfx": [{ "text": "poke poke", "style": "small" }],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "surfacing, blurry and content", "pose": "lifting his head, hair flattened on one side" }
+          ],
+          "bg": "desk, morning light",
+          "action": "He wakes up in a good mood. Again.",
+          "dialogue": [
+            { "char": "gonda", "text": "You slept through the train. Both trains.", "type": "speech" },
+            { "char": "itsuki", "text": "Mm.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "gonda", "expression": "narrowing, genuinely thinking", "pose": "straightening up slowly" }
+          ],
+          "bg": "classroom, blurred students",
+          "action": "Gonda has known this face for eleven years and it has never once done this.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "gonda", "expression": ">_<, detective cap, magnifying glass, tiny body huge head", "pose": "gesturing at a blackboard covered in string and arrows" },
+            { "name": "aya", "expression": "sparkling, hands clasped, fully recruited", "pose": "seated in the front row taking notes" }
+          ],
+          "bg": "empty classroom at lunch, blackboard covered in red string, arrows, badly drawn portraits, chaos lines",
+          "action": "Comedy spike. Gonda has built a case. It is a bad case.",
+          "dialogue": [
+            { "char": "gonda", "text": "Exhibit A. He has been PLEASANT. For nine days.", "type": "shout" }
+          ],
+          "sfx": [{ "text": "DON", "style": "big" }],
+          "chibi": true,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "grave, dot eyes, pointing at nothing", "pose": "chibi, holding up two fingers" },
+            { "name": "aya", "expression": "gasping, sparkles everywhere", "pose": "chibi, hands over mouth" }
+          ],
+          "bg": "blackboard, sparkle tone, chaos lines",
+          "action": "The evidence mounts.",
+          "dialogue": [
+            { "char": "gonda", "text": "Exhibit B. He said no to the arcade.", "type": "shout" },
+            { "char": "aya", "text": "He's never said no to the arcade!", "type": "shout" }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "back to normal proportions, suddenly serious", "pose": "hand flat on the blackboard, looking at his own string diagram" }
+          ],
+          "bg": "empty classroom, blackboard, afternoon light, the chibi register dropped entirely",
+          "action": "Art drops out of chibi for one panel. He is not actually playing.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "aya", "expression": "casual in a way that is not casual", "pose": "appearing at Nagi's desk, one hand on the back of the chair" },
+            { "name": "nagi", "expression": "half-lidded, writing", "pose": "seated, pen moving" }
+          ],
+          "bg": "classroom, window seat, afternoon light",
+          "action": "Aya, now deputised, opens her investigation.",
+          "dialogue": [
+            { "char": "aya", "text": "Shirakawa-san. Where were you Saturday night?", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "completely flat, pen not stopping", "pose": "not looking up" }
+          ],
+          "bg": "desk, paper, flat screentone",
+          "action": "First lie. She does not embellish. She subtracts.",
+          "dialogue": [
+            { "char": "nagi", "text": "I was elsewhere.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "aya", "expression": "frozen, eyes enormous, entire face working", "pose": "standing very still as Nagi packs her bag and leaves the frame" },
+            { "name": "nagi", "expression": "unbothered, already going", "pose": "bag on shoulder, walking out" }
+          ],
+          "bg": "classroom, students blurred, afternoon light",
+          "action": "It is the single most suspicious answer available to a human being.",
+          "dialogue": [
+            { "char": "aya", "text": "...Elsewhere.", "type": "speech" },
+            { "char": "aya", "text": "Nobody says elsewhere.", "type": "whisper" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "brow very slightly drawn — for her, this is panic", "pose": "stopped on an empty stairwell landing, hand on the rail" }
+          ],
+          "bg": "school stairwell, tall window, late gold light, nobody around",
+          "action": "She reviews her own performance and finds it wanting.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "utterly deadpan, testing a sentence", "pose": "speaking quietly to the stairwell" }
+          ],
+          "bg": "stairwell, window light, flat screentone",
+          "action": "She tries out a normal human answer, alone, at conversational volume.",
+          "dialogue": [
+            { "char": "nagi", "text": "I was at a friend's house.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "no expression whatsoever", "pose": "standing perfectly still" },
+            { "name": "student_a", "expression": "alarmed, edging past", "pose": "first-year going up the stairs sideways" }
+          ],
+          "bg": "stairwell, gold light",
+          "action": "A first-year has heard the entire thing. She never attempts it again.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "bright, arms wide, entirely without agenda", "pose": "walking backwards in front of Itsuki" },
+            { "name": "itsuki", "expression": "easy, hands in pockets", "pose": "walking, bag on shoulder" }
+          ],
+          "bg": "school corridor, end of day, orange light",
+          "action": "Gonda makes an ordinary offer, the way he has for eleven years.",
+          "dialogue": [
+            { "char": "gonda", "text": "Friday. Arcade. That terrible crepe place after.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "smiling, sweating slightly, escalating", "pose": "counting reasons off on his fingers" },
+            { "name": "gonda", "expression": "smile slowly flattening", "pose": "stopped walking" }
+          ],
+          "bg": "corridor, lockers, orange light",
+          "action": "Second lie. His failure mode is the exact opposite of hers. He keeps adding.",
+          "dialogue": [
+            { "char": "itsuki", "text": "Can't. Dentist.", "type": "speech" },
+            { "char": "itsuki", "text": "And my aunt's visiting. From Chiba.", "type": "speech" },
+            { "char": "itsuki", "text": "It's a whole situation.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "gonda", "expression": "pleasant, and not fooled for one second", "pose": "hands in pockets" }
+          ],
+          "bg": "corridor, blurred orange light",
+          "action": "Gonda is not stupid, and he has never once made Itsuki pay for a lie.",
+          "dialogue": [
+            { "char": "gonda", "text": "...Right. Next week, then.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "laughing, mid-bit, surrounded", "pose": "at the shoe lockers with four classmates" },
+            { "name": "gonda", "expression": "watching him from twenty feet away, not smiling", "pose": "standing alone by the door, bag on shoulder" }
+          ],
+          "bg": "school entrance hall, shoe lockers, low evening sun through the doors",
+          "action": "The decision is not made out of suspicion.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "gonda", "expression": "worried, plain, none of the clowning", "pose": "eyes on his friend" }
+          ],
+          "bg": "entrance hall, blurred warm light",
+          "action": "He has watched this boy carry something for four years and never once been allowed to know what. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "oblivious, easy", "pose": "walking up a residential street, hands in jersey pockets" }
+          ],
+          "bg": "suburban street after school, low sun, power lines, a dog behind a fence",
+          "action": "Itsuki goes the way he goes every day now.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "gonda", "expression": ">_<, dark sunglasses, collar up, tiny body huge head", "pose": "flattened against a lamppost far too narrow to hide him" }
+          ],
+          "bg": "same street, chaos lines, dramatic starburst screentone",
+          "action": "Comedy spike. The lamppost is nine centimetres wide.",
+          "dialogue": [
+            { "char": "gonda", "text": "Subject is moving. Subject suspects nothing.", "type": "whisper" }
+          ],
+          "sfx": [{ "text": "sneak sneak", "style": "small" }],
+          "chibi": true,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "dot eyes, absolute conviction", "pose": "chibi, rolling behind a vending machine" }
+          ],
+          "bg": "street corner, vending machine, speed lines",
+          "action": "He commits a combat roll in a school uniform in public.",
+          "dialogue": [],
+          "sfx": [{ "text": "ROLL", "style": "big" }],
+          "chibi": true,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "gonda", "expression": ">_<, sweating, tiny body huge head", "pose": "chibi, hiding inside a stack of plastic crates outside a greengrocer" }
+          ],
+          "bg": "the mouth of the Sakuragawa shotengai, awnings, chaos lines",
+          "action": "The tail reaches the shopping street.",
+          "dialogue": [],
+          "sfx": [{ "text": "rustle", "style": "small" }],
+          "chibi": true,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "chibi, triumphant, fist raised", "pose": "peering over a bin lid" }
+          ],
+          "bg": "shotengai, faded awnings, sparkle tone",
+          "action": "He is enjoying himself enormously.",
+          "dialogue": [
+            { "char": "gonda", "text": "Nowhere to run, Nomu. Nowhere to run.", "type": "whisper" }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "unaware, relaxed", "pose": "walking, one hand raised in greeting to a shopkeeper off-panel" }
+          ],
+          "bg": "shotengai, half-shuttered fronts, long shadows",
+          "action": "Itsuki greets somebody he now knows by name.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "gonda", "expression": "chibi grin faltering, one eyebrow going up", "pose": "peering, head tilted" }
+          ],
+          "bg": "bin lid, shotengai blur",
+          "action": "Since when does Nomu know anyone here?",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "size": "hero",
+          "shot": "establishing",
+          "chars": [
+            { "name": "itsuki", "expression": "small in frame, walking", "pose": "mid-street, forty metres from the noren" },
+            { "name": "gonda", "expression": "small in frame, crouched", "pose": "twenty metres behind him beside a shuttered front" }
+          ],
+          "bg": "the full length of the Sakuragawa shotengai in evening light, and at the far end, unmistakable, the indigo noren of Kotobuki-yu with steam rising behind it. ART NOTE: chibi register ends here and does not return this chapter — the moment the noren is in frame the drawing goes fully realistic.",
+          "action": "Full page. The joke and the danger, finally in the same shot. Nobody is being funny any more.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [],
+          "bg": "a dark shuttered shopfront window, and in the reflection a crouching figure twenty metres back",
+          "action": "A shop window does what shop windows do.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "stopped dead, all the ease gone out of him", "pose": "half-turned, hand still in his pocket" }
+          ],
+          "bg": "shotengai, evening light, noren visible small and terrible behind him",
+          "action": "Twenty-five metres. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "gonda", "expression": "caught, frozen mid-crouch, hands still up like binoculars", "pose": "squatting behind absolutely nothing" },
+            { "name": "itsuki", "expression": "blank", "pose": "fully turned around now" }
+          ],
+          "bg": "open shotengai street, long shadows, nowhere to hide",
+          "action": "They look at each other across twenty metres of empty road.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "straightening up, embarrassed, dropping the act entirely", "pose": "standing, brushing his knees off, not meeting his eyes" }
+          ],
+          "bg": "shotengai, evening light",
+          "action": "He does not say caught you. He does not say what are you hiding.",
+          "dialogue": [
+            { "char": "gonda", "text": "You've been happy.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "plain, a bit awkward, entirely sincere", "pose": "hands in pockets, shrugging one shoulder" },
+            { "name": "itsuki", "expression": "not moving", "pose": "standing in the road" }
+          ],
+          "bg": "shotengai, long shadows",
+          "action": "The real reason, said badly, which is how real reasons get said.",
+          "dialogue": [
+            { "char": "gonda", "text": "Like, two weeks of it.", "type": "speech" },
+            { "char": "gonda", "text": "I wanted to know what did it.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "nothing prepared, mouth opening on no sentence at all", "pose": "standing very still" }
+          ],
+          "bg": "evening light, blurred street",
+          "action": "He has a lie for suspicion. He does not have a lie for that.",
+          "dialogue": [
+            { "char": "itsuki", "text": "...Gon.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "stopping, taking in the whole situation in one pass", "pose": "coming round the corner with a crate of towels braced on her hip" }
+          ],
+          "bg": "the tofu shop's blue curtain, shotengai, evening light",
+          "action": "She comes round the corner with Ban's crate and reads the entire scene in about a second and a half.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "eyes flicking to her once and back, everything else on his face unchanged", "pose": "still facing Gonda" }
+          ],
+          "bg": "evening light, blurred street",
+          "action": "One glance. Half a second. Exactly the way he looks at her across a wet floor when he wants to know which bucket.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "absolutely nothing moving, eyes steady on him", "pose": "crate on her hip, already walking again" }
+          ],
+          "bg": "shotengai, evening light, flat screentone",
+          "action": "She reads it. Nobody in the street sees a thing happen. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "flat, bored, entirely credible", "pose": "setting the crate down on the kerb without stopping to be introduced" },
+            { "name": "gonda", "expression": "turning, confused", "pose": "half-round" }
+          ],
+          "bg": "kerb outside the tofu shop, blue curtain, evening light",
+          "action": "Third lie. She states it as a fact, because that is the only way she knows how to say anything.",
+          "dialogue": [
+            { "char": "nagi", "text": "He works at Kuroda Tofu.", "type": "speech" }
+          ],
+          "sfx": [{ "text": "tonk", "style": "small" }],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "head swivelling between them", "pose": "pointing vaguely at both" },
+            { "name": "itsuki", "expression": "catching up in real time and landing it", "pose": "hands back in his pockets, shrugging" }
+          ],
+          "bg": "shotengai, tofu shop front",
+          "action": "He picks it up on the first pass. They have done this before, in a different room, about buckets.",
+          "dialogue": [
+            { "char": "gonda", "text": "...What?", "type": "speech" },
+            { "char": "itsuki", "text": "Evenings.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "unimpressed, walking off", "pose": "picking the crate back up, leaving the frame" },
+            { "name": "itsuki", "expression": "mildly wounded", "pose": "hand on chest" }
+          ],
+          "bg": "shotengai, evening light",
+          "action": "She adds the one detail that makes it unanswerable — a small insult, delivered on her way past.",
+          "dialogue": [
+            { "char": "nagi", "text": "He carries crates. Badly.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "looking toward the shop doorway", "pose": "eyebrows up" }
+          ],
+          "bg": "the tofu shop's blue curtain, a hand and one shoulder just visible inside, nothing more",
+          "action": "From inside the shop, without appearing, Kuroda Ban corroborates.",
+          "dialogue": [
+            { "char": "ban", "text": "Mm.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "gonda", "expression": "relief flooding him, whole body loosening, laughing", "pose": "shoving Itsuki's shoulder with both hands" },
+            { "name": "itsuki", "expression": "laughing, rocking back", "pose": "taking it" }
+          ],
+          "bg": "shotengai, evening light, warm awnings",
+          "action": "It works. It works instantly and completely.",
+          "dialogue": [
+            { "char": "gonda", "text": "Why didn't you just SAY that, idiot?", "type": "shout" },
+            { "char": "gonda", "text": "I'd have come and heckled you.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "grinning, walking away backwards, both arms up", "pose": "retreating down the street" },
+            { "name": "itsuki", "expression": "grinning back, hand raised", "pose": "standing in the road" }
+          ],
+          "bg": "shotengai, long evening shadows",
+          "action": "He goes home happy. He got an answer, and it came from his best friend, so it is true.",
+          "dialogue": [
+            { "char": "gonda", "text": "Wear the apron! I want to see the apron!", "type": "shout" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "hand still half-raised, smile still on, catchlights shrunk to pinpricks", "pose": "watching him go" }
+          ],
+          "bg": "empty shotengai, low sun, the shape of Gonda small and receding",
+          "action": "It worked because Gonda believes him. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "not moving, arm down now", "pose": "standing in the middle of the road" },
+            { "name": "nagi", "expression": "unreadable, stopped a few paces off", "pose": "crate on her hip again, waiting" }
+          ],
+          "bg": "shotengai, evening, the noren visible up the street",
+          "action": "She does not ask if he is all right. She would not know what to do with the answer.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "flat, holding the crate out at arm's length", "pose": "offering him the heavy end" },
+            { "name": "itsuki", "expression": "looking at the crate, then at her", "pose": "hands coming out of his pockets" }
+          ],
+          "bg": "shotengai, warm evening light",
+          "action": "She hands him something to carry. It is the only comfort she has ever known how to offer.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "not visible — back turned", "pose": "carrying the crate, walking up the street beside her" },
+            { "name": "nagi", "expression": "not visible — back turned", "pose": "hands free now, walking" }
+          ],
+          "bg": "the shotengai from behind them, evening light, the indigo noren forty metres ahead",
+          "action": "They walk toward it together and neither of them discusses whether to.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "reaching, unremarkable about it", "pose": "arm up, unhooking the noren from outside" }
+          ],
+          "bg": "Kotobuki-yu entrance at 11:33pm, sign off, one warm lamp, cold clear night",
+          "action": "Closing. He takes the noren down without being asked, the way he took the bucket.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "handing over a bad fold, unbothered", "pose": "holding out a lumpy bundle of indigo cloth" },
+            { "name": "nagi", "expression": "taking it, already refolding, saying nothing", "pose": "shaking it out and folding it in three practised movements" }
+          ],
+          "bg": "changing room, warm lamp, counter",
+          "action": "He folds it wrong. She refolds it without comment. He watches exactly how, so that next time he won't.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "reading, smile going complicated", "pose": "phone lit in one hand" }
+          ],
+          "bg": "counter, warm lamp, dark room behind",
+          "action": "His phone, face-up on the counter.",
+          "dialogue": [
+            { "char": "mio", "text": "Sota's asking about the bathhouse. Every single day.", "type": "narration" }
+          ],
+          "sfx": [{ "text": "buzz", "style": "small" }],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "about to say something, deciding not to", "pose": "looking across the room at her, phone lowering" },
+            { "name": "nagi", "expression": "not looking up, stacking baskets", "pose": "working at the far side of the changing room" }
+          ],
+          "bg": "changing room, warm lamp, wide floor between them",
+          "action": "He doesn't say it. Not tonight.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "not visible — back turned, doing it while he can't see", "pose": "reaching up to a small hook on the wall above the shelf" }
+          ],
+          "bg": "corner of the bath hall, shelf, the red bucket on the floor below with three brushes standing in it",
+          "action": "While he is putting his shoes on, she hangs something up.",
+          "dialogue": [],
+          "sfx": [{ "text": "tk", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "stopped, one shoe half on, looking across the room", "pose": "crouched at the genkan, head turned" },
+            { "name": "nagi", "expression": "not visible — walking away, back turned", "pose": "already going, cloth over her shoulder" }
+          ],
+          "bg": "long view from the genkan across the changing room into the bath hall, one lamp, steam",
+          "action": "He catches it. She does not turn round to be caught doing it.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "half",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "a single blue-handled scrubbing brush hanging alone on its own hook on the tiled wall, dry, bristles clean, warm lamplight on it. Below and to the side, out of focus, the red bucket with the other three standing in it.",
+          "action": "One brush that lives apart from the others, because it belongs to somebody. Final panel. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    }
+  ]
+}

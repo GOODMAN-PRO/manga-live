@@ -1,0 +1,791 @@
+{
+  "chapter": 12,
+  "title": "A Good Bath",
+  "cover": {
+    "desc": "Full color, cold and very still — almost a still life. The bandai counter of Kotobuki-yu at night under its one warm lamp. On the countertop, closed and squared to the edge, a plain grey card document folder with a tied cloth fastener. Behind it Nagi sits upright with her hands folded in front of her, not touching it, looking at it — happi, hair clipped up, face completely unreadable. Behind her, through the open doorway, the bath hall: empty, lit blue-green, steam drifting off flat water with nobody in it. At the bottom edge of the frame, at the base of the counter, squared neatly against the wood as they have been for fourteen months: the worn blue sandals. Three objects and one person. The palette is lamp-yellow in a small pool, and cold everywhere else. Nothing is happening in this picture and everything has already happened.",
+    "chars": ["nagi"]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "gonda", "expression": ">_<, tiny body huge head, tangled in about forty metres of lantern wire", "pose": "chibi, up a stepladder, entirely wrapped" },
+            { "name": "aya", "expression": "chibi, sparkling, taking a photograph instead of helping", "pose": "phone raised" },
+            { "name": "ban", "expression": "chibi, unmoved, holding the ladder", "pose": "one hand on the rail" }
+          ],
+          "bg": "the shotengai on Monday afternoon, chaos lines, starburst screentone, lanterns half down, folding tables stacked",
+          "action": "Monday. The chapter's only chibi panel, and it is outside the building.",
+          "dialogue": [
+            { "char": "gonda", "text": "I regret everything. Cut me down.", "type": "shout" }
+          ],
+          "sfx": [{ "text": "DON", "style": "big" }],
+          "chibi": true,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the same stretch of the shotengai at 6pm, fully drawn, no chibi: lanterns gone, tables gone, the banner gone, and two-thirds of the shutters back down for the night the way they have been since page one",
+          "action": "By six o'clock you cannot tell that anything happened here. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the interior of Kotobuki-yu at 7:20pm on an ordinary Tuesday — four pairs of shoes in the rack, the fish clock, the massage chair humming, the bath hall empty beyond the doorway",
+          "action": "Four customers. That is a normal Tuesday and always has been. Silent.",
+          "dialogue": [],
+          "sfx": [{ "text": "vrrrr", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "the open ledger on the counter, still on the same spread: one figure in her handwriting on the festival line, and the estimate sheet still clipped to the facing page with its masking-tape flag",
+          "action": "Neither number has moved. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the empty bath hall at 8pm: the chipped Fuji mural, flat water, one lamp, steam going straight up because there is nothing in the room to disturb it",
+          "action": "The building spends most of its life like this. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "half-lidded, working the calculator", "pose": "at the counter, ledger open" }
+          ],
+          "bg": "bandai counter, warm lamp, the fish clock at 8:14, and the noren lifting at the edge of frame",
+          "action": "8:10pm.",
+          "dialogue": [],
+          "sfx": [{ "text": "fwp", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "officer", "expression": "tired, courteous, mid-fifties, entirely ordinary", "pose": "in the genkan taking his shoes off, a soft grey card folder under one arm" }
+          ],
+          "bg": "the genkan, sandal rack, warm lamp",
+          "action": "He takes his shoes off properly and turns them to face the door before he steps up. Somebody raised him well.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "officer", "expression": "apologetic about the hour and nothing else", "pose": "a small bow at the counter, folder held in both hands" },
+            { "name": "nagi", "expression": "level, pen down", "pose": "seated" }
+          ],
+          "bg": "bandai counter, warm lamp",
+          "action": "He does not lead with the offer. He leads with an apology about the time, which is correct.",
+          "dialogue": [
+            { "char": "officer", "text": "Shirakawa-san. District office.", "type": "speech" },
+            { "char": "officer", "text": "I'm sorry about the hour. May I sit?", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "officer", "expression": "settling on the tatami bench, knees together, folder on his lap", "pose": "seated properly" },
+            { "name": "nagi", "expression": "coming round from behind the counter", "pose": "standing" }
+          ],
+          "bg": "the rest area, tatami bench, the fish clock, the massage chair switched off for the conversation",
+          "action": "There is nobody in this scene to be angry at. That is the entire problem with it.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "officer", "expression": "plain, unhurried, not softening anything", "pose": "untying the folder" },
+            { "name": "nagi", "expression": "listening", "pose": "seated opposite, hands in her lap" }
+          ],
+          "bg": "rest area, warm lamp, tatami",
+          "action": "He gives her the facts in the order she would want them.",
+          "dialogue": [
+            { "char": "officer", "text": "The plan was confirmed on the fourteenth.", "type": "speech" },
+            { "char": "officer", "text": "The association agreed terms last week.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "officer", "expression": "matter-of-fact, treating her exactly as he would treat any owner", "pose": "sliding a sheet across the tatami toward her" }
+          ],
+          "bg": "rest area, tatami, warm lamp",
+          "action": "He does not mention her age once. He never will. That is worse than if he had.",
+          "dialogue": [
+            { "char": "officer", "text": "The same offer goes to every frontage on the street.", "type": "speech" },
+            { "char": "officer", "text": "There's a relocation allowance as well.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "officer", "expression": "quiet, and meaning it", "pose": "hands on his knees, not pushing the folder any closer" },
+            { "name": "nagi", "expression": "absolutely level", "pose": "not reaching for it" }
+          ],
+          "bg": "rest area, tatami bench, warm lamp, the empty bath hall visible through the doorway",
+          "action": "Nine words. There is no pressure anywhere in this room.",
+          "dialogue": [
+            { "char": "officer", "text": "You don't have to decide tonight.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "the top sheet from the folder, lying on the tatami. ART NOTE: layout only, no legible characters. A clean typeset acquisition summary with a ruled terms table, and beneath it a small horizontal schedule diagram — a bar with four marked stages and a date under each. Immaculate. Proofread. Not one thing wrong with it anywhere.",
+          "action": "The schedule has four stages. She reads it the way she reads a gauge.",
+          "dialogue": [
+            { "char": "narration", "text": "Vacant possession: 31 May.", "type": "narration" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "eyes stopping on one line of the terms table and staying there", "pose": "the sheet held flat, both hands" }
+          ],
+          "bg": "the sheet, warm lamp, tatami, flat screentone",
+          "action": "The figure in the fourth row is a great deal of money. The panel does not show it and she does not react to it. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "setting the sheet back down, squaring it to the folder", "pose": "hands flat" },
+            { "name": "officer", "expression": "waiting without expecting anything", "pose": "seated" }
+          ],
+          "bg": "rest area, tatami, warm lamp",
+          "action": "It is a fair offer. It is a good offer. There is nothing wrong with it and nobody to blame for it. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "officer", "expression": "getting up, folder retied, and then hesitating over something entirely unrelated", "pose": "half-risen, glancing toward the bath doorway" }
+          ],
+          "bg": "rest area, the steam coming through from the bath hall, warm lamp, fish clock at 8:41",
+          "action": "He has done eleven of these this month and he is very tired and there is hot water forty feet away.",
+          "dialogue": [
+            { "char": "officer", "text": "...Is the bath still open?", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "level, standing, the counter voice arriving from somewhere automatic", "pose": "already moving toward the bandai" }
+          ],
+          "bg": "counter, warm lamp",
+          "action": "She answers it the way she answers it sixty times a night.",
+          "dialogue": [
+            { "char": "nagi", "text": "Until eleven.", "type": "speech" },
+            { "char": "officer", "text": "Then I'll have one. Thank you.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "officer", "expression": "not visible — shoulders and the back of a head only, eyes shut, entirely at rest", "pose": "shoulders-up in the water at the far end of the bath" }
+          ],
+          "bg": "the bath hall, heavy steam across the lower two-thirds, the chipped Fuji mural, one lamp. Shoulders-up framing only, nothing else visible.",
+          "action": "A tired man in his fifties, in the water, forty minutes after offering to buy the building out from under a seventeen-year-old. Nobody in this chapter is a villain. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "reading, entirely still", "pose": "at the counter with the folder open, one sheet at a time" }
+          ],
+          "bg": "the bandai counter under its lamp; beyond it the empty changing room, the fish clock, and faint water sounds from the bath hall",
+          "action": "She reads the whole thing while he is in the water. It takes about eleven minutes and it is all perfectly clear. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "officer", "expression": "pink from the heat, hair damp, coat over his arm, entirely restored", "pose": "at the genkan getting his shoes on" },
+            { "name": "nagi", "expression": "behind the counter", "pose": "standing" }
+          ],
+          "bg": "genkan, warm lamp, cold night beyond the glass",
+          "action": "He pays four hundred and ninety yen and puts the coins in the tray.",
+          "dialogue": [],
+          "sfx": [{ "text": "clink", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "officer", "expression": "half-turned at the noren, saying it because it is true", "pose": "one hand lifting the curtain" }
+          ],
+          "bg": "noren, night street beyond, warm light behind him",
+          "action": "Four words, from the man with the folder, and he means every one of them.",
+          "dialogue": [
+            { "char": "officer", "text": "It's a good bath.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "coming in, shaking the cold off, ordinary", "pose": "one shoe off, bag down" },
+            { "name": "nagi", "expression": "at the counter, unreadable", "pose": "seated" }
+          ],
+          "bg": "genkan and counter, warm lamp, 9:40pm — and squared on the counter under the lamp, a grey card folder tied shut",
+          "action": "Thursday. He notices it in about two seconds, because he notices everything on that counter now.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "eyes going to the folder and then away, no expression put on at all", "pose": "straightening up" }
+          ],
+          "bg": "counter, warm lamp, the folder in the foreground out of focus",
+          "action": "He does not ask. He does not go near it. He learned in a bottom drawer in chapter seven what he does with other people's paper. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "sleeves going up", "pose": "walking through to the bath hall, picking the blue brush off its hook on the way" },
+            { "name": "nagi", "expression": "not looking up", "pose": "at the counter" }
+          ],
+          "bg": "changing room into the bath doorway, steam, warm lamp",
+          "action": "She does not mention it either. He goes and does the floor. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "his phone face-up on the tile beside a bucket, screen lit, a wall of messages",
+          "action": "Gonda has been thinking about this since Saturday.",
+          "dialogue": [
+            { "char": "gonda", "text": "I made a spreadsheet.", "type": "narration" },
+            { "char": "gonda", "text": "Every month = boiler paid off by August.", "type": "narration" },
+            { "char": "gonda", "text": "I already asked the noodle place. They're in.", "type": "narration" }
+          ],
+          "sfx": [{ "text": "buzz", "style": "small" }],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "reading it, and it is genuinely funny, and his face cannot do funny with it", "pose": "crouched on the wet tile, wrist resting on his knee" }
+          ],
+          "bg": "bath hall, steam, phone glow",
+          "action": "The spreadsheet is correct. It solves the boiler. Gonda has never heard of a hatched map. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "thumb moving, then stopping, then deleting", "pose": "typing, holding backspace, putting the phone face-down on the tile" }
+          ],
+          "bg": "wet tile, steam, the phone going dark",
+          "action": "He types a reply. He deletes it. He puts the phone face-down and picks the brush back up. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "working, head down", "pose": "crouched, scrubbing the grout" },
+            { "name": "nagi", "expression": "working, head down", "pose": "crouched three metres off" }
+          ],
+          "bg": "bath hall, steam, tile grid, one lamp — compose to echo Ch.3 page 5",
+          "action": "He could organise something. He is extremely good at organising something. Silent.",
+          "dialogue": [],
+          "sfx": [{ "text": "shk shk", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "mouth opening", "pose": "brush stopped" }
+          ],
+          "bg": "wet tile, steam",
+          "action": "He has a plan. It would take about four sentences. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "mouth closing, brush moving again", "pose": "back to work" }
+          ],
+          "bg": "wet tile, steam",
+          "action": "The hardest thing he does in this chapter is the same thing he did at four in the morning: nothing, at the correct distance. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "fusae", "expression": "getting up out of the chair the way seventy-eight-year-olds get up out of chairs", "pose": "one hand on the arm, milk bottle in the other" }
+          ],
+          "bg": "rest area, the massage chair, warm lamp, fish clock at 10:52",
+          "action": "An entirely ordinary Thursday for exactly one person in the building.",
+          "dialogue": [],
+          "sfx": [{ "text": "vrrrr", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "fusae", "expression": "conversational, bent over her shoe", "pose": "sitting on the step at the genkan, working a foot into it" },
+            { "name": "nagi", "expression": "wiping the counter", "pose": "cloth moving" }
+          ],
+          "bg": "genkan and counter, warm lamp, cold night beyond the glass",
+          "action": "Small talk, at the door, at eleven at night.",
+          "dialogue": [
+            { "char": "fusae", "text": "Cold tonight.", "type": "speech" },
+            { "char": "nagi", "text": "Mm.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "fusae", "expression": "not looking up, still with the shoe, remembering something the way you remember a bus route", "pose": "hands on her laces" }
+          ],
+          "bg": "the genkan step, warm lamp, the sandal rack",
+          "action": "She is not telling her anything. She thinks this is a thing the family knows.",
+          "dialogue": [
+            { "char": "fusae", "text": "He had a buyer once, you know.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "cloth stopping on the counter", "pose": "hand flat, not turning round" }
+          ],
+          "bg": "counter, warm lamp, flat screentone",
+          "action": "Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "fusae", "expression": "squinting at the middle distance, doing dates in her head, mildly interested at most", "pose": "one shoe on, one to go" }
+          ],
+          "bg": "genkan step, warm lamp",
+          "action": "Two more fragments. Neither of them is a sentence about anybody's feelings.",
+          "dialogue": [
+            { "char": "fusae", "text": "...The year you came, I think it was.", "type": "speech" },
+            { "char": "fusae", "text": "Never let it go out after that.", "type": "speech" },
+            { "char": "fusae", "text": "Not one night.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "fusae", "expression": "cheerful, entirely unaware, halfway through the noren", "pose": "raising the bottle in a small goodbye" },
+            { "name": "nagi", "expression": "not visible — back turned at the counter", "pose": "hand still flat on the wood" }
+          ],
+          "bg": "noren, cold night beyond, warm light behind",
+          "action": "She has no idea. She will never know she did it.",
+          "dialogue": [
+            { "char": "fusae", "text": "Night, Nagi-chan.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "not visible — back turned, alone at the counter", "pose": "standing exactly where she was, both hands flat on the wood" }
+          ],
+          "bg": "the empty changing room, warm lamp, the noren still swinging, the fish clock at 10:58, and forty feet away through the doorway the faint sound of a brush on tile",
+          "action": "Fourteen months of keeping a dead man's building alive for him. Silent.",
+          "dialogue": [],
+          "sfx": [{ "text": "shk shk", "style": "small" }],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "eyes open, and behind them the whole thing arriving the other way round", "pose": "head down over the counter" }
+          ],
+          "bg": "counter, warm lamp, flat screentone",
+          "action": "He did not leave her a building to keep. He kept a building so there would always be somewhere warm for her to go. She has had the causality backwards for fourteen months. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "not visible — small, at the bottom of the steps", "pose": "standing in front of the machine" }
+          ],
+          "bg": "the boiler room, bare bulb, pipes, the gauge steady in the green, the wrench on its nail beside the worn mark in the paint, the logbook on the shelf",
+          "action": "Fifteen New Years. Fourteen months. Not one night. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "nagi", "expression": "n/a — hand only", "pose": "her palm laid flat on the boiler casing, fingers spread" }
+          ],
+          "bg": "the warm painted steel of the boiler casing, bare bulb light",
+          "action": "It is the warmest thing in the building and it has been kept that way, deliberately, for one person, for ten years. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "nagi", "expression": "n/a — hand only", "pose": "the hand lifting away, leaving a fading print of condensation on the paint" }
+          ],
+          "bg": "the boiler casing, the handprint already going, bare bulb — and above, through the ceiling, a brush moving on tile",
+          "action": "She takes her hand off it. The decision is made in this panel and nobody says one word about it, tonight or ever. Silent.",
+          "dialogue": [],
+          "sfx": [{ "text": "shk shk", "style": "small" }],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "working, head down, having no idea what has just happened nine feet below him", "pose": "crouched on the wet tile with the blue brush" },
+            { "name": "nagi", "expression": "coming through the doorway behind him", "pose": "standing" }
+          ],
+          "bg": "bath hall, steam, tile grid, one lamp",
+          "action": "He does not look up and he does not ask. He has been getting better at this for twelve chapters. Silent.",
+          "dialogue": [],
+          "sfx": [{ "text": "shk shk", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "picking up the small brush, crouching, entirely ordinary", "pose": "settling in beside her own patch of grout" }
+          ],
+          "bg": "wet tile, steam, the two buckets",
+          "action": "She does the floor with him. It takes forty minutes. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "not visible — small", "pose": "crouched, scrubbing" },
+            { "name": "itsuki", "expression": "not visible — small", "pose": "crouched two metres off, scrubbing" }
+          ],
+          "bg": "the whole bath hall from the far end, vast tile, heavy steam, one lamp, two small figures in less than a quarter of the frame — compose to echo Ch.3 page 5",
+          "action": "One of these two people knows. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "ban", "expression": "at the counter with an empty crate, first thing Friday", "pose": "setting it down" },
+            { "name": "nagi", "expression": "level", "pose": "behind the counter" }
+          ],
+          "bg": "the bandai counter, Friday morning, cold clear light through the glass, the grey folder still squared on the wood",
+          "action": "She says it the way she says bring the small brush.",
+          "dialogue": [
+            { "char": "nagi", "text": "Ban-san.", "type": "speech" },
+            { "char": "nagi", "text": "The thirty-first. Tell them.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "ban", "expression": "hands going still on the crate, and sixty-eight years of face doing absolutely nothing with it", "pose": "not looking up" }
+          ],
+          "bg": "the counter, morning light, flat screentone",
+          "action": "He understands the whole thing immediately. He has known this street since he was four. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "ban", "expression": "picking the crate back up, going", "pose": "shouldering it" },
+            { "name": "nagi", "expression": "already back at the ledger", "pose": "pen moving" }
+          ],
+          "bg": "counter and noren, cold morning light",
+          "action": "One syllable, and by tonight every shop on the street will know.",
+          "dialogue": [
+            { "char": "ban", "text": "Mm.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "nagi", "expression": "n/a — hands only", "pose": "both hands closing round a pair of worn blue sandals at the base of the counter and lifting them" }
+          ],
+          "bg": "the floorboards at the counter base, warm lamp",
+          "action": "Fourteen months squared up against that wood, wiped once a week, swept around every single night. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "stopped in the bath doorway with a bucket, having seen it, understanding all of it", "pose": "not coming over" },
+            { "name": "nagi", "expression": "not visible — back turned, standing at the counter holding them", "pose": "still" }
+          ],
+          "bg": "the changing room from the bath doorway, warm lamp, the whole floor between them",
+          "action": "He does not go to her, he does not say anything, and he does not stop her. He turns round and goes back to the floor. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "hero",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "the bare floorboards at the base of the bandai counter under the warm lamp. The boards are worn honey-dark from fourteen years of feet — except for two pale sandal-shaped rectangles of unfaded wood where nothing has moved and nothing has been walked on. A broom stands propped against the counter beside them. No people, no dialogue, no sound effect.",
+          "action": "Final panel. Nobody in this chapter says selling, or closing, or over.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    }
+  ]
+}

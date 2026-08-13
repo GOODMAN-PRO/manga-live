@@ -1,0 +1,752 @@
+{
+  "chapter": 3,
+  "title": "Nine Words",
+  "cover": {
+    "desc": "Full color but nearly monochrome in practice — the pale blue-green of old wet tile, one warm sodium lamp, and steam. High overhead angle, almost architectural: the whole empty bath hall of Kotobuki-yu seen from the ceiling corner, the chipped Mt. Fuji mural running along the far wall, the long grid of floor tiles taking up most of the frame, water sheeting toward the drain channel. Two small figures crouch near the bottom of the image, metres apart, each with a brush, each facing their own patch of floor — Nagi in her indigo happi with her hair clipped up, Itsuki in his green-trimmed jersey with the sleeves shoved back. Neither is looking at the other. Two buckets, two wrung cloths, one pair of rubber sandals kicked off at the edge. The composition is mostly empty floor. It should read as a landscape with two people accidentally in it, and it should feel like the warmest place in the world.",
+    "chars": ["nagi", "itsuki"]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "size": "hero",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "uncertain, hands in jersey pockets, none of his usual size", "pose": "standing alone in the middle of the floor, shoes in one hand, not knowing where to put himself" }
+          ],
+          "bg": "Kotobuki-yu changing room at 11:49pm, all the yellow baskets stacked, entrance sign dark, one warm lamp, the fish clock, the bath door open with steam rolling through it",
+          "action": "Continuous from last chapter. He is standing in a room he paid four hundred and forty yen to enter three hours ago, and it is a completely different room.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "not visible — back turned", "pose": "already walking away toward the bath hall, towel over one shoulder" },
+            { "name": "itsuki", "expression": "watching her go", "pose": "still standing where he stopped" }
+          ],
+          "bg": "changing room into the bath doorway, steam, warm lamp behind, cooler light ahead",
+          "action": "She does not tell him to come in. She does not tell him to go home. She goes back to work.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "over-shoulder",
+          "chars": [
+            { "name": "nagi", "expression": "absorbed, jaw set", "pose": "on hands and knees on the wet tile, scrubbing the grout line, trousers rolled" },
+            { "name": "itsuki", "expression": "quiet, taking in the size of the room", "pose": "standing in the doorway, one hand on the frame" }
+          ],
+          "bg": "bath hall, chipped Fuji mural, heavy steam, tile grid running away toward the drain, one overhead lamp",
+          "action": "From the doorway the room is enormous and she is very small in it.",
+          "dialogue": [],
+          "sfx": [{ "text": "shk shk", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "working something out, mouth slightly open", "pose": "watching, absolutely still" }
+          ],
+          "bg": "steam, blurred tile",
+          "action": "He watches her do it for a long time. Nobody has ever seen this either.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "pov",
+          "chars": [],
+          "bg": "a red plastic bucket by the wall, four brushes standing handle-up in it, one blue, cloths wrung over the rim",
+          "action": "His eye finds the spare brushes.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "nagi", "expression": "n/a — hands only", "pose": "both hands on the brush, knuckles split and chemical-red, water running over them" }
+          ],
+          "bg": "wet tile, flat screentone",
+          "action": "And then it finds her hands again.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "something settling behind the eyes — decision, not pity", "pose": "straightening off the doorframe" }
+          ],
+          "bg": "steam, warm backlight",
+          "action": "He does not offer. Offering could be refused.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "n/a — hand only, plaster on one finger", "pose": "hand closing around a brush handle in the bucket" }
+          ],
+          "bg": "red bucket, wet tile, flat screentone",
+          "action": "He picks up a brush.",
+          "dialogue": [],
+          "sfx": [{ "text": "tk", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "plain, no performance, waiting", "pose": "crouched on the tile an arm's length from her, brush held up" },
+            { "name": "nagi", "expression": "not looking up, brush not stopping", "pose": "still scrubbing, head down" }
+          ],
+          "bg": "bath hall floor, steam, mural behind, drain channel between them",
+          "action": "First words of the night. Neither of them makes it a moment.",
+          "dialogue": [
+            { "char": "itsuki", "text": "Which one?", "type": "speech" },
+            { "char": "nagi", "text": "The blue one.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "size": "hero",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "absorbed, unbothered", "pose": "crouched, scrubbing, hair clipped up, sleeves past the elbow" },
+            { "name": "itsuki", "expression": "concentrating hard on a floor", "pose": "crouched two metres away, jersey sleeves shoved back, working his own patch" }
+          ],
+          "bg": "the whole bath hall from the far end — vast tile grid, chipped Fuji mural, heavy steam, one lamp, water sheeting to the drain. Compose so the two figures occupy less than a quarter of the frame.",
+          "action": "Full page. Two people scrubbing a floor at midnight. This is the image the series is made of.",
+          "dialogue": [],
+          "sfx": [{ "text": "shk shk", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "size": "inset",
+          "shot": "closeup",
+          "chars": [],
+          "bg": "the fish-shaped clock on the changing room wall, reading 11:56",
+          "action": "The clock runs four minutes fast. Nobody has ever fixed it.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "a single grout line under a brush, grey coming off it, water greying",
+          "action": "Grout.",
+          "dialogue": [],
+          "sfx": [{ "text": "shk", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "brow down, tongue between teeth", "pose": "scrubbing one square of tile far too thoroughly" }
+          ],
+          "bg": "wet tile, steam, mural edge",
+          "action": "He is doing one tile with the intensity of a man defusing something.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "glancing sideways once, unreadable", "pose": "scrubbing, eyes flicking toward him and away" }
+          ],
+          "bg": "wet tile, steam",
+          "action": "She looks at him once. He does not catch it.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "size": "inset",
+          "shot": "closeup",
+          "chars": [],
+          "bg": "the fish clock, reading 12:15",
+          "action": "Nineteen minutes of nothing.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "flat, practical", "pose": "holding her own brush up and drawing it along the grout at a low angle, twice, deliberately" },
+            { "name": "itsuki", "expression": "watching the demonstration", "pose": "stopped, brush idle" }
+          ],
+          "bg": "wet tile, steam, low overhead lamp",
+          "action": "She does not touch him or take his hand. She shows him the angle twice and goes back to her own patch.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "not looking up", "pose": "already scrubbing again" },
+            { "name": "itsuki", "expression": "copying the angle, getting it", "pose": "brush low, weight forward" }
+          ],
+          "bg": "wet tile, steam",
+          "action": "One word of instruction, and one word of him reaching for his old register out of pure reflex.",
+          "dialogue": [
+            { "char": "nagi", "text": "Harder.", "type": "speech" },
+            { "char": "itsuki", "text": "Yes ma'am.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "nothing. no reaction of any kind.", "pose": "scrubbing, head down" }
+          ],
+          "bg": "wet tile, flat screentone",
+          "action": "The bit dies in the steam. She does not even register that one was attempted.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "caught out, ears hot, grin dissolving", "pose": "frozen mid-stroke" }
+          ],
+          "bg": "steam, blurred tile",
+          "action": "In any room he has ever been in, that would have got a laugh. This room did nothing.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "the strangest thing — relief", "pose": "shoulders coming down two centimetres" }
+          ],
+          "bg": "steam, warm lamp",
+          "action": "It turns out that not having to be funny is a thing that can happen to a person.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "settled, quiet, working", "pose": "crouched, scrubbing properly now" },
+            { "name": "nagi", "expression": "unchanged", "pose": "crouched, scrubbing, three metres off" }
+          ],
+          "bg": "bath hall, steam, tile grid, the drain channel running between their two patches",
+          "action": "He goes back to the floor. The silence stops being a thing he is failing at.",
+          "dialogue": [],
+          "sfx": [{ "text": "shk shk", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "size": "inset",
+          "shot": "closeup",
+          "chars": [],
+          "bg": "the fish clock, reading 12:34",
+          "action": "Another nineteen.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "braced, arms straining, entirely matter-of-fact", "pose": "lifting the full water bucket in both hands and carrying it to the drain" }
+          ],
+          "bg": "bath hall, steam, drain channel, tile",
+          "action": "He takes the heavy bucket without being asked and without announcing that he has taken it.",
+          "dialogue": [],
+          "sfx": [{ "text": "sloosh", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "stopped mid-stroke, watching the bucket go", "pose": "kneeling back on her heels" }
+          ],
+          "bg": "wet tile, steam",
+          "action": "For fourteen months there has been nobody to hand the heavy end to.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "already back to work, face hidden", "pose": "head down, scrubbing hard" }
+          ],
+          "bg": "wet tile, steam, his back visible in the far corner of the frame",
+          "action": "She looks away before he turns around.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "mid-step, glancing sideways", "pose": "carrying the empty bucket back past the counter" }
+          ],
+          "bg": "the end of the bandai counter, low warm lamp, the changing room dim behind him",
+          "action": "On the way back past the counter, something catches his eye.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [],
+          "bg": "a pair of worn blue rubber sandals on the floor beside the counter, squared up neatly, several sizes larger than anything else in the building, dust in the tread",
+          "action": "A man's sandals, set out for a man, waiting where they have waited for fourteen months.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "understanding arriving, mouth closing", "pose": "looking at them, bucket still in hand" }
+          ],
+          "bg": "dim changing room, warm lamp",
+          "action": "He works out roughly what they are. He asks nothing. He keeps walking.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "size": "inset",
+          "shot": "closeup",
+          "chars": [],
+          "bg": "the fish clock, reading 12:41",
+          "action": "The fish clock says 12:41.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "n/a — hand and phone screen only", "pose": "wet hand tilting his phone, screen reading 12:37" }
+          ],
+          "bg": "dark, phone glow, steam",
+          "action": "His phone says 12:37. The building is four minutes ahead of the world.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "small private smile, pocketing the phone", "pose": "looking back up at the fish clock" }
+          ],
+          "bg": "changing room, warm lamp, fish clock soft-focus behind",
+          "action": "He puts the phone away and goes with the fish.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "nagi", "expression": "wrecked, eyes half shut, entirely undefended", "pose": "sitting on the tile edge with her back to the wall, legs out, feet in the shallow water" },
+            { "name": "itsuki", "expression": "wrecked, damp, loose", "pose": "sitting a metre along the same wall, same posture, arms slack on his knees" }
+          ],
+          "bg": "bath hall, floor finished and gleaming, heavy steam, one lamp, the mural above them",
+          "action": "Forty minutes. The floor is done. Neither of them moves for a while.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "matter-of-fact", "pose": "returning from the cold case with two bottles of milk, setting coins on the counter as he passes" },
+            { "name": "nagi", "expression": "watching him do it, saying nothing", "pose": "still sitting, head against the wall" }
+          ],
+          "bg": "changing room seen from the bath hall floor, cold case, counter, warm lamp",
+          "action": "He knows where the milk is now. He still puts the money down. This time it costs nothing.",
+          "dialogue": [],
+          "sfx": [{ "text": "clink", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat screentone, warm lamp glow",
+          "action": "Two hands round two cold bottles: hers split and raw, his with the plaster gone soft from the water. Neither hand is hidden.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "reluctant, getting up anyway", "pose": "standing, stretching his back out" }
+          ],
+          "bg": "bath hall, finished floor, steam thinning",
+          "action": "He gets up because there are two children asleep four streets away.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "concentrating on a small thing", "pose": "sliding the blue brush back into the bucket handle-up, exactly the way hers is" }
+          ],
+          "bg": "red bucket, wet tile",
+          "action": "He puts the brush back the way she keeps them. He watched, at some point, without either of them noticing.",
+          "dialogue": [],
+          "sfx": [{ "text": "tk", "style": "small" }],
+          "chibi": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            { "name": "nagi", "expression": "eyes on the bucket, something moving behind them", "pose": "still sitting against the wall" }
+          ],
+          "bg": "steam, wet tile, warm lamp",
+          "action": "She notices that he noticed. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "quiet, ordinary", "pose": "crouched at the entrance pushing his feet into his sneakers" }
+          ],
+          "bg": "genkan, sandal rack, noren, cold clear night beyond",
+          "action": "Shoes on. Nothing said. It has been a long time since a night ended without anyone needing anything from him.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "over-shoulder",
+          "chars": [
+            { "name": "itsuki", "expression": "stopped, listening", "pose": "hand flat on the doorframe, back turned — compose to echo Ch.1 page 16 panel 2" },
+            { "name": "nagi", "expression": "not visible — far off in the bath hall, back turned, wringing a cloth", "pose": "distant, small, still working" }
+          ],
+          "bg": "long view from the entrance back through the changing room into the steam, one lamp",
+          "action": "She says one word from the far end of the building, without looking up, in exactly the voice she uses for instructions.",
+          "dialogue": [
+            { "char": "nagi", "text": "Again.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "half",
+          "shot": "closeup",
+          "chars": [
+            { "name": "itsuki", "expression": "one beat of blankness, then it lands — eyes going bright, mouth pulling", "pose": "hand still on the frame, head down" }
+          ],
+          "bg": "doorframe, warm light behind, cold night ahead",
+          "action": "For one panel it could still be an instruction about a floor. Then it isn't. He does not turn around and let her see his face.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "damp-haired, still lit up, easing the door shut", "pose": "stepping out of his shoes in the genkan at 1:14am" }
+          ],
+          "bg": "the Nomura apartment entrance, one lamp left on for him, small dark rooms beyond",
+          "action": "Home. A light left on.",
+          "dialogue": [],
+          "sfx": [{ "text": "kacha", "style": "small" }],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "mio", "expression": "awake, textbook shut, waiting up and pretending not to have been", "pose": "sitting at the kotatsu with her chin on her arms" },
+            { "name": "itsuki", "expression": "caught, smile going careful", "pose": "stopped in the doorway" }
+          ],
+          "bg": "small living room, one lamp, Sōta asleep on a futon in the background",
+          "action": "She has been up since twelve.",
+          "dialogue": [
+            { "char": "mio", "text": "You smell like a bathhouse.", "type": "speech" },
+            { "char": "itsuki", "text": "That'd be the bathhouse.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            { "name": "mio", "expression": "flat, gathering her books, not making it a fight", "pose": "standing up and heading for bed without looking at him" },
+            { "name": "itsuki", "expression": "the light going out of his face", "pose": "still in the doorway, hands empty" }
+          ],
+          "bg": "living room, single lamp, Sōta's futon, the clock reading 1:16",
+          "action": "The cost, in one line, delivered without accusation, which is what makes it land.",
+          "dialogue": [
+            { "char": "mio", "text": "Sōta asked where you were.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "gonda", "expression": "narrow-eyed, deeply suspicious", "pose": "leaning across the aisle, chin out" },
+            { "name": "itsuki", "expression": "humming, in an unmistakably good mood", "pose": "tipped back in his chair, feet on the desk rail" }
+          ],
+          "bg": "Monday classroom, morning light, ordinary noise",
+          "action": "Monday. Gonda has detected an anomaly.",
+          "dialogue": [
+            { "char": "gonda", "text": "You're in a good mood. Why.", "type": "speech" },
+            { "char": "itsuki", "text": "I'm always in a good mood.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            { "name": "gonda", "expression": ">_<, magnifying glass, detective cap, tiny body huge head", "pose": "crawling across the desks in full investigation mode" },
+            { "name": "itsuki", "expression": "sweating, dot eyes, fending him off with a textbook", "pose": "leaning away at forty-five degrees" },
+            { "name": "aya", "expression": "sparkling, hands clasped, thoroughly wrong", "pose": "watching from two desks away" }
+          ],
+          "bg": "chaos lines, starburst screentone, sparkle tone",
+          "action": "Comedy spike, and it is nowhere near the sincere material on purpose.",
+          "dialogue": [
+            { "char": "gonda", "text": "No. This is a NEW mood. I know your moods.", "type": "shout" }
+          ],
+          "sfx": [{ "text": "GASP", "style": "big" }],
+          "chibi": true,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "itsuki", "expression": "grinning, hands up, giving nothing away", "pose": "shoving Gonda's face back one-handed" }
+          ],
+          "bg": "classroom, laughing students",
+          "action": "He deflects, the way he always has, except this time there is something to deflect from.",
+          "dialogue": [
+            { "char": "itsuki", "text": "I slept. Once. It was incredible.", "type": "speech" }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            { "name": "itsuki", "expression": "mid-bit, arms out, the whole room watching him", "pose": "standing on the far side of the classroom performing" },
+            { "name": "nagi", "expression": "half-lidded, working", "pose": "seated at the window desk, pen moving, not part of any of it" }
+          ],
+          "bg": "classroom, bright morning light, the width of the room between them",
+          "action": "Nothing at school has changed. Nothing at school is going to. That was the deal.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            { "name": "nagi", "expression": "unthinking, absorbed in the page", "pose": "pushing her left blazer sleeve back off her wrist to write" }
+          ],
+          "bg": "window desk, morning light across the paper",
+          "action": "She pushes her sleeve up without thinking about it. Then she thinks about it.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "half",
+          "shot": "extreme-closeup",
+          "chars": [
+            { "name": "nagi", "expression": "n/a — hand only", "pose": "left hand flat on the desk in the sunlight, sleeve pushed back, split knuckles plainly visible, pen still" }
+          ],
+          "bg": "desk, paper, hard morning light, classroom noise implied out of frame",
+          "action": "She leaves it. Nobody in the room notices, and that is the point. Silent.",
+          "dialogue": [],
+          "sfx": [],
+          "chibi": false,
+          "beat": "warm"
+        }
+      ]
+    }
+  ]
+}
