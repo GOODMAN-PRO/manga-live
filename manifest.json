@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T16:09:33Z",
-  "status": "<b>余熱 YONETSU — 5 chapters live (90 pages).</b> A tower that charges one sense per floor. Ch.5 is the Saturday one: she turns up at his flat with four days of shopping, finds out he cooks by measurement because he can't taste, and appoints herself his tongue. More coming. (YUAGARI Ch.1 at the bottom.)",
+  "updated": "2026-08-13T16:44:31Z",
+  "status": "<b>余熱 YONETSU — 6 chapters live (108 pages).</b> Ch.6: layer thirty-three is a white room with nothing in it, and it charges you for standing in it. He walks out last, the way he always does. More coming. (YUAGARI Ch.1 at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -130,6 +130,32 @@
         "pages2/ch05/p16.png",
         "pages2/ch05/p17.png",
         "pages2/ch05/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch06",
+      "title": "YONETSU — Ch.6 \"Thirty-Three\"",
+      "cover": "pages2/ch06/cover.png",
+      "pages": [
+        "pages2/ch06/p01.png",
+        "pages2/ch06/p02.png",
+        "pages2/ch06/p03.png",
+        "pages2/ch06/p04.png",
+        "pages2/ch06/p05.png",
+        "pages2/ch06/p06.png",
+        "pages2/ch06/p07.png",
+        "pages2/ch06/p08.png",
+        "pages2/ch06/p09.png",
+        "pages2/ch06/p10.png",
+        "pages2/ch06/p11.png",
+        "pages2/ch06/p12.png",
+        "pages2/ch06/p13.png",
+        "pages2/ch06/p14.png",
+        "pages2/ch06/p15.png",
+        "pages2/ch06/p16.png",
+        "pages2/ch06/p17.png",
+        "pages2/ch06/p18.png"
       ],
       "ongoing": true
     },
