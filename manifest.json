@@ -1,11 +1,37 @@
 {
-  "title": "湯あがり YUAGARI",
-  "updated": "2026-08-13T13:43:12Z",
-  "status": "<b>Chapter 1 is up — read it now.</b> Some panels are still being redrawn tonight (the art director is picky); the page will refresh itself as improved versions land. Ch.2 next. 12 chapters written so far.",
+  "title": "湯あがり / 余熱 — manga",
+  "updated": "2026-08-13T15:09:27Z",
+  "status": "<b>余熱 YONETSU Ch.1 is live</b> — magic academy, a tower that charges you a sense per floor, and two front-liners who don't know they've been sitting in the same classroom for two years. Ch.2 in production; 4 chapters written. (YUAGARI Ch.1, the bathhouse story, is below.)",
   "chapters": [
     {
-      "id": "ch01",
-      "title": "Ch.1 — The Water's Still Hot",
+      "id": "y2-ch01",
+      "title": "YONETSU — Ch.1 \"Layer Thirty-One\"",
+      "cover": "pages2/ch01/cover.png",
+      "pages": [
+        "pages2/ch01/p01.png",
+        "pages2/ch01/p02.png",
+        "pages2/ch01/p03.png",
+        "pages2/ch01/p04.png",
+        "pages2/ch01/p05.png",
+        "pages2/ch01/p06.png",
+        "pages2/ch01/p07.png",
+        "pages2/ch01/p08.png",
+        "pages2/ch01/p09.png",
+        "pages2/ch01/p10.png",
+        "pages2/ch01/p11.png",
+        "pages2/ch01/p12.png",
+        "pages2/ch01/p13.png",
+        "pages2/ch01/p14.png",
+        "pages2/ch01/p15.png",
+        "pages2/ch01/p16.png",
+        "pages2/ch01/p17.png",
+        "pages2/ch01/p18.png"
+      ],
+      "ongoing": true
+    },
+    {
+      "id": "y1-ch01",
+      "title": "YUAGARI — Ch.1 \"The Water's Still Hot\"",
       "cover": "pages/ch01/cover.png",
       "pages": [
         "pages/ch01/p01.png",
@@ -26,7 +52,7 @@
         "pages/ch01/p16.png",
         "pages/ch01/p17.png"
       ],
-      "ongoing": true
+      "ongoing": false
     }
   ]
 }
