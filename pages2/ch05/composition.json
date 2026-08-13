@@ -1,0 +1,2204 @@
+{
+  "script": "story2/ch05.json",
+  "composedAt": "2026-08-13T16:09:18.011Z",
+  "pages": [
+    {
+      "page": 6,
+      "composeSeconds": 0.52,
+      "png": "pages2/ch05/p06.png",
+      "assertions": {
+        "page": 6,
+        "panels": 5,
+        "bubbles": 10,
+        "sfx": 1,
+        "textRuns": 20,
+        "checks": [
+          {
+            "panel": "p6a",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 829,
+              "y1": 60,
+              "x2": 1440,
+              "y2": 145
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.36699999999996,
+                "y1": 26,
+                "x2": 576.6329999999998,
+                "y2": 54.900000000000006,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6b",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1037,
+              "y1": 925,
+              "x2": 1444,
+              "y2": 1095
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 57.416499999999985,
+                "y1": 35.162000000000006,
+                "x2": 349.5835,
+                "y2": 58.409,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 51.42249999999996,
+                "y1": 70,
+                "x2": 355.5774999999999,
+                "y2": 93.112,
+                "inside": true
+              },
+              {
+                "line": 3,
+                "x1": 111.79450000000001,
+                "y1": 105.378,
+                "x2": 295.20550000000003,
+                "y2": 128.355,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6b",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1265,
+              "y1": 1107,
+              "x2": 1444,
+              "y2": 1202
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 44.8555,
+                "y1": 33,
+                "x2": 134.14449999999997,
+                "y2": 55.896,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6b",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1063,
+              "y1": 1214,
+              "x2": 1444,
+              "y2": 1346
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.42399999999998,
+                "y1": 34,
+                "x2": 330.576,
+                "y2": 56.923,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 157.3845,
+                "y1": 69.189,
+                "x2": 223.6155,
+                "y2": 91.92299999999999,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6c",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 326,
+              "y1": 929,
+              "x2": 718,
+              "y2": 1044
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.43199999999996,
+                "y1": 26.000000000000004,
+                "x2": 357.56800000000004,
+                "y2": 44.495000000000005,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 83.18050000000001,
+                "y1": 61.054,
+                "x2": 308.81950000000006,
+                "y2": 84.058,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6c",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 340,
+              "y1": 1056,
+              "x2": 718,
+              "y2": 1170
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 38.71799999999999,
+                "y1": 26.000000000000004,
+                "x2": 339.28200000000004,
+                "y2": 49.058,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 34.46550000000002,
+                "y1": 61.027,
+                "x2": 343.5345,
+                "y2": 83.761,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6d",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1052,
+              "y1": 1516,
+              "x2": 1440,
+              "y2": 1626
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.34899999999999,
+                "y1": 26.081,
+                "x2": 353.65100000000007,
+                "y2": 49.112,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 102.74,
+                "y1": 60.99999999999999,
+                "x2": 285.26,
+                "y2": 79.603,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6e",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 346,
+              "y1": 1512,
+              "x2": 722,
+              "y2": 1645
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.35400000000001,
+                "y1": 34,
+                "x2": 325.64599999999996,
+                "y2": 52.684,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 148.4855,
+                "y1": 69.702,
+                "x2": 227.51449999999997,
+                "y2": 92.247,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6e",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 356,
+              "y1": 1657,
+              "x2": 722,
+              "y2": 1790
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.44262903308868,
+                "y1": 34,
+                "x2": 315.5573709669114,
+                "y2": 52.657000000000004,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 64.119,
+                "y1": 69.189,
+                "x2": 301.8809999999999,
+                "y2": 92.22,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6e",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 320,
+              "y1": 1802,
+              "x2": 722,
+              "y2": 1935
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 51.162629032258025,
+                "y1": 34,
+                "x2": 350.8373709676006,
+                "y2": 54.681999999999995,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 109.659,
+                "y1": 69.216,
+                "x2": 292.341,
+                "y2": 92.247,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p6e",
+            "sfx": 1,
+            "type": "sfx",
+            "bounds": {
+              "x1": 68,
+              "y1": 1969,
+              "x2": 158,
+              "y2": 2032
+            },
+            "panelInside": true,
+            "pageInside": true
+          }
+        ]
+      }
+    },
+    {
+      "page": 14,
+      "composeSeconds": 0.57,
+      "png": "pages2/ch05/p14.png",
+      "assertions": {
+        "page": 14,
+        "panels": 5,
+        "bubbles": 14,
+        "sfx": 0,
+        "textRuns": 23,
+        "checks": [
+          {
+            "panel": "p14a",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 952,
+              "y1": 56,
+              "x2": 1444,
+              "y2": 158
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 54.00199999999998,
+                "y1": 33,
+                "x2": 437.99800000000005,
+                "y2": 62.580000000000005,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14a",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 1082,
+              "y1": 170,
+              "x2": 1444,
+              "y2": 271
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.134000000000015,
+                "y1": 33,
+                "x2": 311.86600000000004,
+                "y2": 61.696,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14a",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 934,
+              "y1": 283,
+              "x2": 1444,
+              "y2": 385
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 54.06000000000003,
+                "y1": 33,
+                "x2": 455.93999999999994,
+                "y2": 62.24,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14a",
+            "bubble": 4,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 594,
+              "y1": 397,
+              "x2": 1444,
+              "y2": 499
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 63.74999999999983,
+                "y1": 33,
+                "x2": 786.2500000000005,
+                "y2": 62.274,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14a",
+            "bubble": 5,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 1054,
+              "y1": 511,
+              "x2": 1444,
+              "y2": 613
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 51.111999999999995,
+                "y1": 33,
+                "x2": 338.88800000000003,
+                "y2": 62.172000000000004,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14b",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1041,
+              "y1": 929,
+              "x2": 1440,
+              "y2": 1044
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.016999999999996,
+                "y1": 26,
+                "x2": 364.983,
+                "y2": 49.22,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 118.33800000000001,
+                "y1": 61.13499999999999,
+                "x2": 280.66200000000003,
+                "y2": 84.22,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14c",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 529,
+              "y1": 929,
+              "x2": 718,
+              "y2": 1004
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.141500000000015,
+                "y1": 26.000000000000004,
+                "x2": 154.8585,
+                "y2": 44.522000000000006,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14c",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 299,
+              "y1": 1016,
+              "x2": 718,
+              "y2": 1161
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 83.72050000000002,
+                "y1": 25.999999999999996,
+                "x2": 335.27950000000004,
+                "y2": 49.112,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 52.73800000000003,
+                "y1": 61.378,
+                "x2": 366.26200000000006,
+                "y2": 84.409,
+                "inside": true
+              },
+              {
+                "line": 3,
+                "x1": 34.323999999999984,
+                "y1": 96.243,
+                "x2": 384.67600000000004,
+                "y2": 114.846,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14d",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1049,
+              "y1": 1512,
+              "x2": 1444,
+              "y2": 1681
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 51.26706896823646,
+                "y1": 35,
+                "x2": 343.732931037195,
+                "y2": 57.949999999999996,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 69.196,
+                "y1": 70.08099999999999,
+                "x2": 325.804,
+                "y2": 93.247,
+                "inside": true
+              },
+              {
+                "line": 3,
+                "x1": 168.8665,
+                "y1": 105.216,
+                "x2": 226.1335,
+                "y2": 127.94999999999999,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14d",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1054,
+              "y1": 1693,
+              "x2": 1444,
+              "y2": 1821
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.968500000000006,
+                "y1": 34,
+                "x2": 339.03150000000005,
+                "y2": 52.603,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 134.27700000000002,
+                "y1": 69.13499999999999,
+                "x2": 255.723,
+                "y2": 87.35999999999999,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14d",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1070,
+              "y1": 1833,
+              "x2": 1444,
+              "y2": 1966
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.542,
+                "y1": 34.108000000000004,
+                "x2": 323.4580000000001,
+                "y2": 56.869,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 112.642,
+                "y1": 69,
+                "x2": 261.35799999999995,
+                "y2": 92.166,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14e",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 306,
+              "y1": 1516,
+              "x2": 718,
+              "y2": 1648
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 51.35662903225801,
+                "y1": 34,
+                "x2": 360.6433709677419,
+                "y2": 57.112,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 68.12450000000001,
+                "y1": 69.13499999999999,
+                "x2": 343.8755,
+                "y2": 91.86899999999999,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14e",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 306,
+              "y1": 1660,
+              "x2": 718,
+              "y2": 1793
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 51.41062903308864,
+                "y1": 34.080999999999996,
+                "x2": 360.58937096857244,
+                "y2": 54.681999999999995,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 66.55850000000001,
+                "y1": 69,
+                "x2": 345.4415,
+                "y2": 92.247,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p14e",
+            "bubble": 3,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 578,
+              "y1": 1805,
+              "x2": 718,
+              "y2": 1880
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.803,
+                "y1": 26,
+                "x2": 89.197,
+                "y2": 44.684,
+                "inside": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "page": 15,
+      "composeSeconds": 0.51,
+      "png": "pages2/ch05/p15.png",
+      "assertions": {
+        "page": 15,
+        "panels": 5,
+        "bubbles": 15,
+        "sfx": 0,
+        "textRuns": 21,
+        "checks": [
+          {
+            "panel": "p15a",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 931,
+              "y1": 56,
+              "x2": 1444,
+              "y2": 157
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 54.54000000000002,
+                "y1": 33,
+                "x2": 458.46000000000004,
+                "y2": 61.900000000000006,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15a",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 1125,
+              "y1": 169,
+              "x2": 1444,
+              "y2": 270
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 48.829999999999956,
+                "y1": 33,
+                "x2": 270.16999999999996,
+                "y2": 61.866,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15a",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 689,
+              "y1": 282,
+              "x2": 1444,
+              "y2": 383
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 61.04499999999996,
+                "y1": 33,
+                "x2": 693.9549999999999,
+                "y2": 61.798,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15a",
+            "bubble": 4,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 776,
+              "y1": 395,
+              "x2": 1444,
+              "y2": 497
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 58.88900000000001,
+                "y1": 33,
+                "x2": 609.1109999999999,
+                "y2": 62.172000000000004,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15a",
+            "bubble": 5,
+            "type": "speech",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 797,
+              "y1": 509,
+              "x2": 1444,
+              "y2": 611
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 58.231999999999914,
+                "y1": 33,
+                "x2": 588.7679999999999,
+                "y2": 62.172000000000004,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15b",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1023,
+              "y1": 925,
+              "x2": 1444,
+              "y2": 1090
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 51.95599999999999,
+                "y1": 35,
+                "x2": 369.0439999999999,
+                "y2": 58.085,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 79.23950000000002,
+                "y1": 70.108,
+                "x2": 341.76050000000004,
+                "y2": 88.522,
+                "inside": true
+              },
+              {
+                "line": 3,
+                "x1": 182.6765,
+                "y1": 105.108,
+                "x2": 238.32350000000002,
+                "y2": 123.522,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15b",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1161,
+              "y1": 1102,
+              "x2": 1444,
+              "y2": 1193
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 48.093500000000006,
+                "y1": 33,
+                "x2": 234.90650000000002,
+                "y2": 51.657000000000004,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15b",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1072,
+              "y1": 1205,
+              "x2": 1444,
+              "y2": 1338
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.59499999999997,
+                "y1": 34,
+                "x2": 321.405,
+                "y2": 56.761,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 93.444,
+                "y1": 69,
+                "x2": 278.556,
+                "y2": 92.004,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15c",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 410,
+              "y1": 925,
+              "x2": 722,
+              "y2": 1021
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 48.89100000000002,
+                "y1": 33,
+                "x2": 263.109,
+                "y2": 56.22,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15c",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 522,
+              "y1": 1033,
+              "x2": 722,
+              "y2": 1129
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 45.71650000000001,
+                "y1": 33,
+                "x2": 154.28349999999998,
+                "y2": 56.166,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15c",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 470,
+              "y1": 1141,
+              "x2": 722,
+              "y2": 1237
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 46.82250000000002,
+                "y1": 33,
+                "x2": 205.17749999999998,
+                "y2": 56.409,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15c",
+            "bubble": 4,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 391,
+              "y1": 1249,
+              "x2": 722,
+              "y2": 1414
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 49.25150000000002,
+                "y1": 35,
+                "x2": 281.74850000000004,
+                "y2": 53.657000000000004,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 59.7536290330887,
+                "y1": 70.054,
+                "x2": 271.24637096691134,
+                "y2": 93.22,
+                "inside": true
+              },
+              {
+                "line": 3,
+                "x1": 95.7185,
+                "y1": 105.054,
+                "x2": 235.2815,
+                "y2": 123.657,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15c",
+            "bubble": 5,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 92,
+              "y1": 925,
+              "x2": 379,
+              "y2": 1021
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 47.93350000000001,
+                "y1": 33,
+                "x2": 239.0665,
+                "y2": 56.085,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15d",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1192,
+              "y1": 1512,
+              "x2": 1444,
+              "y2": 1608
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 46.82250000000002,
+                "y1": 33,
+                "x2": 205.17749999999998,
+                "y2": 56.409,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p15e",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 305,
+              "y1": 1516,
+              "x2": 718,
+              "y2": 1631
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.05099999999996,
+                "y1": 26.162000000000003,
+                "x2": 378.949,
+                "y2": 48.923,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 40.28799999999998,
+                "y1": 60.99999999999999,
+                "x2": 372.712,
+                "y2": 84.22,
+                "inside": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "page": 16,
+      "composeSeconds": 0.62,
+      "png": "pages2/ch05/p16.png",
+      "assertions": {
+        "page": 16,
+        "panels": 5,
+        "bubbles": 11,
+        "sfx": 0,
+        "textRuns": 18,
+        "checks": [
+          {
+            "panel": "p16a",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 698,
+              "y1": 60,
+              "x2": 1440,
+              "y2": 189
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.28099999999989,
+                "y1": 26,
+                "x2": 707.7190000000002,
+                "y2": 55.036,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 308.712,
+                "y1": 70.034,
+                "x2": 433.288,
+                "y2": 98.662,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16a",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 803,
+              "y1": 201,
+              "x2": 1440,
+              "y2": 287
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.463999999999885,
+                "y1": 26.000000000000004,
+                "x2": 602.536,
+                "y2": 55.104000000000006,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16b",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1134,
+              "y1": 925,
+              "x2": 1444,
+              "y2": 1053
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 48.43100000000001,
+                "y1": 34.108000000000004,
+                "x2": 261.569,
+                "y2": 52.36,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 104.834,
+                "y1": 69,
+                "x2": 205.166,
+                "y2": 87.35999999999999,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16b",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1169,
+              "y1": 1065,
+              "x2": 1444,
+              "y2": 1156
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 47.792500000000004,
+                "y1": 33,
+                "x2": 227.2075,
+                "y2": 51.657000000000004,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16b",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1088,
+              "y1": 1168,
+              "x2": 1444,
+              "y2": 1298
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.11450000000001,
+                "y1": 34,
+                "x2": 305.8854999999999,
+                "y2": 52.684,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 81.24549999999999,
+                "y1": 69.16199999999999,
+                "x2": 274.7545,
+                "y2": 89.682,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16c",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 320,
+              "y1": 925,
+              "x2": 722,
+              "y2": 1053
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 51.12300000000002,
+                "y1": 34,
+                "x2": 350.877,
+                "y2": 57.193,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 159.3525,
+                "y1": 69.216,
+                "x2": 242.6475,
+                "y2": 87.684,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16c",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 378,
+              "y1": 1065,
+              "x2": 722,
+              "y2": 1161
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 49.6225,
+                "y1": 33,
+                "x2": 294.3775,
+                "y2": 56.166,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16c",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 327,
+              "y1": 1173,
+              "x2": 722,
+              "y2": 1306
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 50.876499999999965,
+                "y1": 34,
+                "x2": 344.1235000000001,
+                "y2": 52.495,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 80.536,
+                "y1": 69,
+                "x2": 314.46400000000006,
+                "y2": 92.247,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16d",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1061,
+              "y1": 1516,
+              "x2": 1440,
+              "y2": 1666
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 55.55299999999997,
+                "y1": 26.188999999999997,
+                "x2": 323.447,
+                "y2": 49.24699999999999,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 34.49299999999997,
+                "y1": 61,
+                "x2": 344.507,
+                "y2": 84.247,
+                "inside": true
+              },
+              {
+                "line": 3,
+                "x1": 118.50350000000002,
+                "y1": 96.216,
+                "x2": 260.4965,
+                "y2": 119.193,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16d",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1115,
+              "y1": 1678,
+              "x2": 1440,
+              "y2": 1758
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.39850000000001,
+                "y1": 26,
+                "x2": 290.6015,
+                "y2": 49.516999999999996,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p16e",
+            "bubble": 1,
+            "type": "narration",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 374,
+              "y1": 1512,
+              "x2": 722,
+              "y2": 1600
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 38.14949999999999,
+                "y1": 30,
+                "x2": 309.85050000000007,
+                "y2": 55.272,
+                "inside": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "page": 17,
+      "composeSeconds": 0.55,
+      "png": "pages2/ch05/p17.png",
+      "assertions": {
+        "page": 17,
+        "panels": 5,
+        "bubbles": 12,
+        "sfx": 0,
+        "textRuns": 20,
+        "checks": [
+          {
+            "panel": "p17a",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 665,
+              "y1": 60,
+              "x2": 1440,
+              "y2": 189
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.18899999999974,
+                "y1": 26,
+                "x2": 740.8110000000001,
+                "y2": 55.274,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 243.86699999999996,
+                "y1": 70.102,
+                "x2": 531.1329999999999,
+                "y2": 98.9,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17a",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 869,
+              "y1": 201,
+              "x2": 1440,
+              "y2": 287
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.27400000000003,
+                "y1": 26.000000000000004,
+                "x2": 536.726,
+                "y2": 55.172000000000004,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17b",
+            "bubble": 1,
+            "type": "narration",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1060,
+              "y1": 925,
+              "x2": 1444,
+              "y2": 1046
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 38.07299999999998,
+                "y1": 32.510999999999996,
+                "x2": 345.92699999999996,
+                "y2": 55.568999999999996,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 129.63,
+                "y1": 65,
+                "x2": 254.36999999999998,
+                "y2": 88.382,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17b",
+            "bubble": 2,
+            "type": "narration",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1035,
+              "y1": 1058,
+              "x2": 1444,
+              "y2": 1179
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 38.38250000000002,
+                "y1": 30,
+                "x2": 370.61750000000006,
+                "y2": 53.166,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 102.83150000000002,
+                "y1": 65.189,
+                "x2": 306.1685,
+                "y2": 88.166,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17b",
+            "bubble": 3,
+            "type": "narration",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1049,
+              "y1": 1191,
+              "x2": 1444,
+              "y2": 1312
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 38.416,
+                "y1": 30,
+                "x2": 356.58399999999995,
+                "y2": 53.166000000000004,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 158.8765,
+                "y1": 65.675,
+                "x2": 236.12349999999998,
+                "y2": 88.166,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17c",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 464,
+              "y1": 925,
+              "x2": 722,
+              "y2": 1020
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 47.35200000000002,
+                "y1": 33,
+                "x2": 210.64800000000002,
+                "y2": 55.923,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17c",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 299,
+              "y1": 1032,
+              "x2": 722,
+              "y2": 1165
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 52.051499999999976,
+                "y1": 34,
+                "x2": 370.9485000000001,
+                "y2": 57.085,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 109.2375,
+                "y1": 69.054,
+                "x2": 313.76249999999993,
+                "y2": 92.08500000000001,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17c",
+            "bubble": 3,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 353,
+              "y1": 1177,
+              "x2": 722,
+              "y2": 1310
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 51.079499999999996,
+                "y1": 34,
+                "x2": 317.92050000000006,
+                "y2": 56.923,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 50.39099999999999,
+                "y1": 69.054,
+                "x2": 318.6089999999999,
+                "y2": 92.22,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17d",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1162,
+              "y1": 1512,
+              "x2": 1444,
+              "y2": 1607
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 47.64750000000001,
+                "y1": 33,
+                "x2": 234.3525,
+                "y2": 55.977,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17d",
+            "bubble": 2,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1124,
+              "y1": 1619,
+              "x2": 1444,
+              "y2": 1714
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 48.827500000000015,
+                "y1": 33,
+                "x2": 271.1725,
+                "y2": 55.977,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17e",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 320,
+              "y1": 1516,
+              "x2": 718,
+              "y2": 1631
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.435,
+                "y1": 26,
+                "x2": 363.565,
+                "y2": 49.166,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 168.8005,
+                "y1": 60.99999999999999,
+                "x2": 229.19949999999997,
+                "y2": 84.166,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p17e",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 323,
+              "y1": 1643,
+              "x2": 718,
+              "y2": 1758
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 47.12350000000001,
+                "y1": 25.999999999999996,
+                "x2": 347.8765000000001,
+                "y2": 44.684,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 34.48749999999998,
+                "y1": 61.080999999999996,
+                "x2": 360.5125,
+                "y2": 84.247,
+                "inside": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "page": 18,
+      "composeSeconds": 0.64,
+      "png": "pages2/ch05/p18.png",
+      "assertions": {
+        "page": 18,
+        "panels": 5,
+        "bubbles": 10,
+        "sfx": 1,
+        "textRuns": 17,
+        "checks": [
+          {
+            "panel": "p18a",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 668,
+              "y1": 60,
+              "x2": 1440,
+              "y2": 146
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.06600000000003,
+                "y1": 26,
+                "x2": 737.9339999999999,
+                "y2": 55.274,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18a",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 34,
+            "bounds": {
+              "x1": 573,
+              "y1": 158,
+              "x2": 1440,
+              "y2": 287
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.20400000000001,
+                "y1": 26.000000000000004,
+                "x2": 832.7959999999999,
+                "y2": 55.172000000000004,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 371.212,
+                "y1": 70.17,
+                "x2": 495.788,
+                "y2": 98.798,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18b",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1144,
+              "y1": 929,
+              "x2": 1440,
+              "y2": 1009
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.04650000000001,
+                "y1": 25.999999999999996,
+                "x2": 261.9535,
+                "y2": 49.193,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18c",
+            "bubble": 1,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 302,
+              "y1": 929,
+              "x2": 718,
+              "y2": 1004
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.01199999999997,
+                "y1": 26.000000000000004,
+                "x2": 381.988,
+                "y2": 44.522000000000006,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18c",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 311,
+              "y1": 1016,
+              "x2": 718,
+              "y2": 1131
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.223499999999945,
+                "y1": 26.161999999999995,
+                "x2": 372.77650000000006,
+                "y2": 44.684,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 94.54150000000001,
+                "y1": 61,
+                "x2": 312.4585000000001,
+                "y2": 84.247,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18d",
+            "bubble": 1,
+            "type": "narration",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1090,
+              "y1": 1512,
+              "x2": 1444,
+              "y2": 1628
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 38.247000000000014,
+                "y1": 30,
+                "x2": 315.75300000000004,
+                "y2": 53.22,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 143.6145,
+                "y1": 69.887,
+                "x2": 210.38549999999998,
+                "y2": 83.41399999999999,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18d",
+            "bubble": 2,
+            "type": "narration",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 1072,
+              "y1": 1640,
+              "x2": 1444,
+              "y2": 1796
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 38.013000000000005,
+                "y1": 30,
+                "x2": 333.987,
+                "y2": 53.112,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 44.182500000000005,
+                "y1": 65.162,
+                "x2": 327.8175,
+                "y2": 88.409,
+                "inside": true
+              },
+              {
+                "line": 3,
+                "x1": 151.6965,
+                "y1": 104.806,
+                "x2": 220.30349999999996,
+                "y2": 123.112,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18d",
+            "sfx": 1,
+            "type": "sfx",
+            "bounds": {
+              "x1": 790,
+              "y1": 1969,
+              "x2": 908,
+              "y2": 2032
+            },
+            "panelInside": true,
+            "pageInside": true
+          },
+          {
+            "panel": "p18e",
+            "bubble": 1,
+            "type": "speech",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 509,
+              "y1": 1516,
+              "x2": 718,
+              "y2": 1607
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 45.667,
+                "y1": 33,
+                "x2": 163.33300000000003,
+                "y2": 51.657000000000004,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18e",
+            "bubble": 2,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 302,
+              "y1": 1619,
+              "x2": 718,
+              "y2": 1729
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.41699999999997,
+                "y1": 25.999999999999996,
+                "x2": 381.583,
+                "y2": 49.24699999999999,
+                "inside": true
+              },
+              {
+                "line": 2,
+                "x1": 158.4145,
+                "y1": 61.215999999999994,
+                "x2": 257.5855,
+                "y2": 79.684,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "panel": "p18e",
+            "bubble": 3,
+            "type": "monologue",
+            "fontSize": 27,
+            "bounds": {
+              "x1": 324,
+              "y1": 1741,
+              "x2": 718,
+              "y2": 1816
+            },
+            "pageInside": true,
+            "panelInside": true,
+            "textRuns": [
+              {
+                "line": 1,
+                "x1": 34.48699999999994,
+                "y1": 26,
+                "x2": 359.51300000000003,
+                "y2": 44.603,
+                "inside": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

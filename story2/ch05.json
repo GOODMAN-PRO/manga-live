@@ -2260,16 +2260,6 @@
               "char": "kanade",
               "text": "Then we'll change them until they do.",
               "type": "speech"
-            },
-            {
-              "char": "kou",
-              "text": "It's four cups of water and it still comes out wrong.",
-              "type": "speech"
-            },
-            {
-              "char": "kanade",
-              "text": "Then it isn't the water, and I'll prove it on Saturday.",
-              "type": "speech"
             }
           ],
           "sfx": [],
@@ -2290,6 +2280,16 @@
           "bg": "flat tone, warm, tone-washed",
           "action": "The word she used.",
           "dialogue": [
+            {
+              "char": "kou",
+              "text": "It's four cups of water and it still comes out wrong.",
+              "type": "speech"
+            },
+            {
+              "char": "kanade",
+              "text": "Then it isn't the water, and I'll prove it on Saturday.",
+              "type": "speech"
+            },
             {
               "char": "kou",
               "text": "We.",
