@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T17:57:53Z",
-  "status": "<b>余熱 YONETSU — 11 chapters live (198 pages).</b> Ch.11: she goes in and he counts her out loud. Taste goes at 2:18. Past the seam there's a far wall, and a door with a worn plate on it that says RETURNS. Three chapters left. (YUAGARI Ch.1 at the bottom.)",
+  "updated": "2026-08-13T18:09:51Z",
+  "status": "<b>余熱 YONETSU — 12 chapters live (216 pages).</b> Ch.12: the door becomes a queue, and someone finally names what these two have been doing — queueing to pay for each other. Two chapters left. (YUAGARI Ch.1 at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -286,6 +286,32 @@
         "pages2/ch11/p16.png",
         "pages2/ch11/p17.png",
         "pages2/ch11/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch12",
+      "title": "YONETSU — Ch.12 \"The Queue\"",
+      "cover": "pages2/ch12/cover.png",
+      "pages": [
+        "pages2/ch12/p01.png",
+        "pages2/ch12/p02.png",
+        "pages2/ch12/p03.png",
+        "pages2/ch12/p04.png",
+        "pages2/ch12/p05.png",
+        "pages2/ch12/p06.png",
+        "pages2/ch12/p07.png",
+        "pages2/ch12/p08.png",
+        "pages2/ch12/p09.png",
+        "pages2/ch12/p10.png",
+        "pages2/ch12/p11.png",
+        "pages2/ch12/p12.png",
+        "pages2/ch12/p13.png",
+        "pages2/ch12/p14.png",
+        "pages2/ch12/p15.png",
+        "pages2/ch12/p16.png",
+        "pages2/ch12/p17.png",
+        "pages2/ch12/p18.png"
       ],
       "ongoing": true
     },
