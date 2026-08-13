@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T16:57:17Z",
-  "status": "<b>余熱 YONETSU — 7 chapters live (126 pages).</b> Ch.7: she puts herself on front, because the tower charges whoever stands between it and the other person, and he's been standing there for thirteen months. More coming. (YUAGARI Ch.1 at the bottom.)",
+  "updated": "2026-08-13T17:09:36Z",
+  "status": "<b>余熱 YONETSU — 8 chapters live (144 pages).</b> Ch.8 is the one the series was built for: a well-meaning man reads a boy's losses out loud to four hundred people, and someone reads the same list back to him that night in a completely different voice. (YUAGARI Ch.1 at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -182,6 +182,32 @@
         "pages2/ch07/p16.png",
         "pages2/ch07/p17.png",
         "pages2/ch07/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch08",
+      "title": "YONETSU — Ch.8 \"Read It Out\"",
+      "cover": "pages2/ch08/cover.png",
+      "pages": [
+        "pages2/ch08/p01.png",
+        "pages2/ch08/p02.png",
+        "pages2/ch08/p03.png",
+        "pages2/ch08/p04.png",
+        "pages2/ch08/p05.png",
+        "pages2/ch08/p06.png",
+        "pages2/ch08/p07.png",
+        "pages2/ch08/p08.png",
+        "pages2/ch08/p09.png",
+        "pages2/ch08/p10.png",
+        "pages2/ch08/p11.png",
+        "pages2/ch08/p12.png",
+        "pages2/ch08/p13.png",
+        "pages2/ch08/p14.png",
+        "pages2/ch08/p15.png",
+        "pages2/ch08/p16.png",
+        "pages2/ch08/p17.png",
+        "pages2/ch08/p18.png"
       ],
       "ongoing": true
     },
