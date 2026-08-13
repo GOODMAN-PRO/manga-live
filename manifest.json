@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T18:09:51Z",
-  "status": "<b>余熱 YONETSU — 12 chapters live (216 pages).</b> Ch.12: the door becomes a queue, and someone finally names what these two have been doing — queueing to pay for each other. Two chapters left. (YUAGARI Ch.1 at the bottom.)",
+  "updated": "2026-08-13T18:22:29Z",
+  "status": "<b>余熱 YONETSU — 13 chapters live (234 pages).</b> Ch.13: the door gives back ONE thing, ever. You name the one you keep. Both of them wrote the same word in a sixty-year-old register, two hours apart, without telling each other. Finale next. (YUAGARI Ch.1 at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -312,6 +312,32 @@
         "pages2/ch12/p16.png",
         "pages2/ch12/p17.png",
         "pages2/ch12/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch13",
+      "title": "YONETSU — Ch.13 \"Returns\"",
+      "cover": "pages2/ch13/cover.png",
+      "pages": [
+        "pages2/ch13/p01.png",
+        "pages2/ch13/p02.png",
+        "pages2/ch13/p03.png",
+        "pages2/ch13/p04.png",
+        "pages2/ch13/p05.png",
+        "pages2/ch13/p06.png",
+        "pages2/ch13/p07.png",
+        "pages2/ch13/p08.png",
+        "pages2/ch13/p09.png",
+        "pages2/ch13/p10.png",
+        "pages2/ch13/p11.png",
+        "pages2/ch13/p12.png",
+        "pages2/ch13/p13.png",
+        "pages2/ch13/p14.png",
+        "pages2/ch13/p15.png",
+        "pages2/ch13/p16.png",
+        "pages2/ch13/p17.png",
+        "pages2/ch13/p18.png"
       ],
       "ongoing": true
     },
