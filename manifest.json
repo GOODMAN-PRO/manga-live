@@ -1,7 +1,7 @@
 {
   "title": "湯あがり / 余熱 — manga",
-  "updated": "2026-08-13T16:44:31Z",
-  "status": "<b>余熱 YONETSU — 6 chapters live (108 pages).</b> Ch.6: layer thirty-three is a white room with nothing in it, and it charges you for standing in it. He walks out last, the way he always does. More coming. (YUAGARI Ch.1 at the bottom.)",
+  "updated": "2026-08-13T16:57:17Z",
+  "status": "<b>余熱 YONETSU — 7 chapters live (126 pages).</b> Ch.7: she puts herself on front, because the tower charges whoever stands between it and the other person, and he's been standing there for thirteen months. More coming. (YUAGARI Ch.1 at the bottom.)",
   "chapters": [
     {
       "id": "y2-ch01",
@@ -156,6 +156,32 @@
         "pages2/ch06/p16.png",
         "pages2/ch06/p17.png",
         "pages2/ch06/p18.png"
+      ],
+      "ongoing": false
+    },
+    {
+      "id": "y2-ch07",
+      "title": "YONETSU — Ch.7 \"Left Is Mine\"",
+      "cover": "pages2/ch07/cover.png",
+      "pages": [
+        "pages2/ch07/p01.png",
+        "pages2/ch07/p02.png",
+        "pages2/ch07/p03.png",
+        "pages2/ch07/p04.png",
+        "pages2/ch07/p05.png",
+        "pages2/ch07/p06.png",
+        "pages2/ch07/p07.png",
+        "pages2/ch07/p08.png",
+        "pages2/ch07/p09.png",
+        "pages2/ch07/p10.png",
+        "pages2/ch07/p11.png",
+        "pages2/ch07/p12.png",
+        "pages2/ch07/p13.png",
+        "pages2/ch07/p14.png",
+        "pages2/ch07/p15.png",
+        "pages2/ch07/p16.png",
+        "pages2/ch07/p17.png",
+        "pages2/ch07/p18.png"
       ],
       "ongoing": true
     },
