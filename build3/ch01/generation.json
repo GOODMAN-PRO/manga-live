@@ -1,0 +1,1277 @@
+{
+  "script": "story3/ch01.json",
+  "checkpoint": "animagine-xl-4.0-opt.safetensors",
+  "generatedAt": "2026-08-14T02:47:57.757Z",
+  "panels": [
+    {
+      "id": "p1a",
+      "page": 1,
+      "size": "half",
+      "seed": 71660878028661,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Spring welcome exhibition, third minute, and something enormous is already loose down there., establishing shot, Tōka Municipal High School's practice Pit — a floodlit concrete bowl sunk into the sports ground, safety rail, packed bleachers, a school banner, one very tired brass band; tone-washed with a few hard perspective lines, school, tone-washed background, daylight",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 6.43,
+      "wallSeconds": 26.52
+    },
+    {
+      "id": "p1b",
+      "page": 1,
+      "size": "third",
+      "seed": 250345679642723,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, tetsu, grinning through gritted teeth, both feet planted wide in the dirt, shoulders squared, arms up, catching something four times his size, Ōgami Tetsuji stops a two-ton animal with his face and both feet., wide shot, the Pit floor, dust, floodlight glare, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.9,
+      "wallSeconds": 32.43
+    },
+    {
+      "id": "p1c",
+      "page": 1,
+      "size": "third",
+      "seed": 242015154973242,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, tetsu, strained, delighted, immovable, heels dug in, the Bulk grinding against him, Anchored, he cannot be moved. Anchored, he also cannot move., medium shot, dust, hard light, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.58,
+      "wallSeconds": 38.5
+    },
+    {
+      "id": "p1d",
+      "page": 1,
+      "size": "third",
+      "seed": 229843524504217,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, flat, glasses flashing white, clipboard up, pen moving, not looking at the fight, The manager is not watching. The manager is counting., closeup shot, the team box at the rail, tone-washed, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.92,
+      "wallSeconds": 35.72
+    },
+    {
+      "id": "p1e",
+      "page": 1,
+      "size": "third",
+      "seed": 57340365742002,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, pen down, mouth to the collar radio, one hand raised toward the floor, She calls it in the flat voice of someone who is never wrong., medium shot, team box, the Pit beyond, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.81,
+      "wallSeconds": 35.87
+    },
+    {
+      "id": "p2a",
+      "page": 2,
+      "size": "half",
+      "seed": 231554073259083,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, completely level, eyes half-lidded, walking forward at an unhurried pace, sleeves pulled down over both hands, ponytail hanging straight, The ace does not run. The ace announces., wide shot, Pit floor, the Bulk grinding against Tetsu in the background, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.59,
+      "wallSeconds": 34.49
+    },
+    {
+      "id": "p2b",
+      "page": 2,
+      "size": "third",
+      "seed": 189615149295298,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, tetsu, bracing, shouting sideways, still anchored, head turned to the club box, Everyone in the building knows what she just did., wide shot, Pit floor, dust, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 7.11,
+      "wallSeconds": 41.66
+    },
+    {
+      "id": "p2c",
+      "page": 2,
+      "size": "third",
+      "seed": 101233559838416,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, eyes open now, pale iris, one hard catchlight, counting steps under her breath, Nine. Ten., closeup shot, blurred dust, tone gradient, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 11.44,
+      "wallSeconds": 53.23
+    },
+    {
+      "id": "p2d",
+      "page": 2,
+      "size": "half",
+      "seed": 106389289089215,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, eyes wide open, absolute, eleventh step landing, body torqued, one leg coming up and through in a straight kick, Exactly as declared. Nothing in the Pit can argue with exactly., wide shot, the Bulk's head snapping back, dust ring blowing outward, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.42,
+      "wallSeconds": 46.42
+    },
+    {
+      "id": "p2e",
+      "page": 2,
+      "size": "third",
+      "seed": 267603634401556,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, tetsu, beaming, covered in dirt, still planted, arms empty now, the Bulk gone past him, The bleachers come apart., wide shot, the Pit, crowd shapes above the rail, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.13,
+      "wallSeconds": 44.76
+    },
+    {
+      "id": "p3a",
+      "page": 3,
+      "size": "half",
+      "seed": 263229282669582,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, eyes enormous, mouth wide open, radiant, standing on his bleacher seat, both arms straight up, blazer flapping, One first-year is standing. Only one., wide shot, packed student bleachers, everyone else seated, tone-washed crowd mass, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.55,
+      "wallSeconds": 39.39
+    },
+    {
+      "id": "p3b",
+      "page": 3,
+      "size": "third",
+      "seed": 204436920928348,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, delighted, no self-awareness whatsoever, gripping the shoulder of the boy beside him with a bare hand, shaking him, student, alarmed, leaning away, trying to become smaller, He grabs a total stranger. Skin to skin. He does this constantly., medium shot, bleacher seats, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 5.98,
+      "wallSeconds": 17.25
+    },
+    {
+      "id": "p3c",
+      "page": 3,
+      "size": "inset",
+      "seed": 139274497681655,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, The card. It arrives the instant skin meets skin, and it never announces itself., extreme-closeup shot, flat white field, borderless with tone fade-out",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 5.87,
+      "wallSeconds": 17.81
+    },
+    {
+      "id": "p3d",
+      "page": 3,
+      "size": "third",
+      "seed": 238230977123907,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, beaming, thumbs up, leaning into the stranger's personal space, student, horrified, clutching his own bag, He says it out loud. He always says it out loud., medium shot, bleachers, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 5.69,
+      "wallSeconds": 17.66
+    },
+    {
+      "id": "p3e",
+      "page": 3,
+      "size": "third",
+      "seed": 112294857943172,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, student, dot eyes, squiggle mouth, sweatdrop, already three seats away, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, radiant, waving, leaning after him, Every school gets one of these., closeup shot, blank, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 5.31,
+      "wallSeconds": 17.4
+    },
+    {
+      "id": "p4a",
+      "page": 4,
+      "size": "half",
+      "seed": 217124640117721,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Between legs. The recruiting table opens., establishing shot, the practice Pit from above — the sunken bowl, the safety rail, the club's folding table at the top of the stairs with a hand-painted banner, staff bustling between legs",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 5.55,
+      "wallSeconds": 17.42
+    },
+    {
+      "id": "p4b",
+      "page": 4,
+      "size": "third",
+      "seed": 247053004705535,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, dead flat, glasses two white discs, seated behind the folding table, clipboard vertical, pen poised, Manaka Koharu has taken zero forms in two hours and has counted them all anyway., medium shot, the table, a stack of forms nobody has taken, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.33,
+      "wallSeconds": 15.45
+    },
+    {
+      "id": "p4c",
+      "page": 4,
+      "size": "third",
+      "seed": 39959429575618,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, flat, holding a form out at a passing student, arm extended without hope, The pitch has not been workshopped., closeup shot, the table, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.28,
+      "wallSeconds": 15.22
+    },
+    {
+      "id": "p4d",
+      "page": 4,
+      "size": "third",
+      "seed": 23945489276475,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, airborne joy, vaulting the stair rail at full speed toward the table, Impact incoming., wide shot, stairs, blurred crowd, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.05,
+      "wallSeconds": 13.17
+    },
+    {
+      "id": "p4e",
+      "page": 4,
+      "size": "third",
+      "seed": 1610992263176,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, sparkling, both hands flat on the table, leaning all the way across into her face, koharu, chibi, dot eyes, leaning back exactly as far, clipboard raised like a shield, The forms go everywhere., medium shot, blank, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.39,
+      "wallSeconds": 13.15
+    },
+    {
+      "id": "p5a",
+      "page": 5,
+      "size": "third",
+      "seed": 9395864667963,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, koharu, professional again, pen down, straightening the forms into a stack, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, vibrating, seated backwards on a folding chair, Three boxes. That is the whole form., medium shot, the recruiting table, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.29,
+      "wallSeconds": 13.16
+    },
+    {
+      "id": "p5b",
+      "page": 5,
+      "size": "third",
+      "seed": 185884032699364,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, waiting, pen touching paper, eyes up over the glasses, Pen ready., closeup shot, tone-washed, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.6,
+      "wallSeconds": 13.15
+    },
+    {
+      "id": "p5c",
+      "page": 5,
+      "size": "half",
+      "seed": 230491827666967,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, cheerful, palms up, entirely unbothered, shrugging enormously, He has said this sentence three hundred times and it has never once cost him a night's sleep., medium shot, the table, wind moving the banner, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.4,
+      "wallSeconds": 14.17
+    },
+    {
+      "id": "p5d",
+      "page": 5,
+      "size": "third",
+      "seed": 23374214400199,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, grinning, thumb jerked at the whole stadium, half out of the chair, He answers like it's obvious. To him it is., closeup shot, the table, crowd mass behind, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.25,
+      "wallSeconds": 13.12
+    },
+    {
+      "id": "p5e",
+      "page": 5,
+      "size": "third",
+      "seed": 76880346186118,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, solo, 1people, koharu, chibi, dot eyes, one drop of sweat, writing NULL in the box very slowly, She writes it. She does not understand it yet., closeup shot, blank, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, head out of frame, cropped head",
+      "timingSeconds": 4.33,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p6a",
+      "page": 6,
+      "size": "half",
+      "seed": 164241872495165,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, hebihara, sunglasses on her head, unlit cigarette, unimpressed, arriving behind Koharu with a tracksuit jacket over one shoulder, koharu, sitting up straight, handing over the form, The coach reads the form in about a second and a half., wide shot, the table, the Pit rail behind, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.63,
+      "wallSeconds": 13.21
+    },
+    {
+      "id": "p6b",
+      "page": 6,
+      "size": "third",
+      "seed": 147089512160294,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, hebihara, the cigarette stops moving, reading the name box, She reads the name box twice., closeup shot, the form, tone-washed, borderless, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.27,
+      "wallSeconds": 13.18
+    },
+    {
+      "id": "p6c",
+      "page": 6,
+      "size": "third",
+      "seed": 117956483687910,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, bright, already reaching, hand out for a handshake, arm fully extended, hebihara, looking at the hand, not taking it, He offers. She doesn't., medium shot, tone-washed, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.16,
+      "wallSeconds": 14.18
+    },
+    {
+      "id": "p6d",
+      "page": 6,
+      "size": "third",
+      "seed": 83538600883304,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, genuinely startled — the first time all day, hand still out, frozen, Nobody has ever said that to him before., closeup shot, borderless, tone fade-out, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.27,
+      "wallSeconds": 13.17
+    },
+    {
+      "id": "p6e",
+      "page": 6,
+      "size": "third",
+      "seed": 110198138329583,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, hebihara, half a smile, chewing the unlit cigarette, walking away already, one hand raised in a lazy wave, She does not stop walking., medium shot, the stairs down to the team box, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.16,
+      "wallSeconds": 13.15
+    },
+    {
+      "id": "p7a",
+      "page": 7,
+      "size": "half",
+      "seed": 171988302708442,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Leg two. The drum spins., establishing shot, the Pit floor from the announcer's box — a steel drum on a tripod at the start line, two teams in the boxes, floodlights, the mouth of the Pit like a black square cut into the wall",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.58,
+      "wallSeconds": 13.19
+    },
+    {
+      "id": "p7b",
+      "page": 7,
+      "size": "third",
+      "seed": 261162358415420,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, The card comes out., extreme-closeup shot, a gloved official's hand holding a plain white card, flat tone behind",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.03,
+      "wallSeconds": 13.14
+    },
+    {
+      "id": "p7c",
+      "page": 7,
+      "size": "third",
+      "seed": 2048621912619,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, mouth open, hands on the rail, hanging half over the safety rail, student, resigned to his fate, seated beside him again, The stands start arguing immediately. This is most of the fun., medium shot, bleachers, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.39,
+      "wallSeconds": 13.12
+    },
+    {
+      "id": "p7d",
+      "page": 7,
+      "size": "third",
+      "seed": 94369413879876,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, stars in both eyes, gripping the boy's blazer, shaking him again, student, chibi, resigned, being shaken, This is the happiest anyone has been in these bleachers all year., closeup shot, blank, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.24,
+      "wallSeconds": 13.12
+    },
+    {
+      "id": "p7e",
+      "page": 7,
+      "size": "third",
+      "seed": 92233804694021,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 3people, rui, chin up, immaculate, aware of the camera, one hand through his hair at the start line, gaku, half-lidded, exhausted by existence, slouching, arms hanging past his knees, momo, grinning, chewing, bouncing on her toes, Six go in at the horn., wide shot, the start line, the black mouth of the Pit, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.15,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p8a",
+      "page": 8,
+      "size": "half",
+      "seed": 26487808804931,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, gaku, bored, standing still while both arms stretch three metres up a rock face to hook a ledge, Hozumi Gaku does not run anywhere. Hozumi Gaku arrives., wide shot, Pit floor one — pale broken stone, drifting dust, tone-washed with two hard perspective lines, dark fantasy interior, dramatic lighting, dungeon, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.35,
+      "wallSeconds": 13.19
+    },
+    {
+      "id": "p8b",
+      "page": 8,
+      "size": "third",
+      "seed": 228396511225720,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, shiho, serene, eyes closed, kneeling, calmly licking a fragment of grey metal, Uwabami Shiho identifies materials the only way she knows., medium shot, rubble, tone, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.13,
+      "wallSeconds": 12.14
+    },
+    {
+      "id": "p8c",
+      "page": 8,
+      "size": "third",
+      "seed": 136806274367758,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, solo, 1boy, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, hands clamped on his own face, radiant horror, leaning over the rail, He has found his people and does not know it yet., closeup shot, bleachers, tone, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, head out of frame, cropped head",
+      "timingSeconds": 4.31,
+      "wallSeconds": 13.17
+    },
+    {
+      "id": "p8d",
+      "page": 8,
+      "size": "third",
+      "seed": 184674541865097,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, student, chibi, flat, pointing, leaning away, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, determined, fist clenched, standing on the seat, Warnings do not work on this boy., medium shot, blank, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.37,
+      "wallSeconds": 13.18
+    },
+    {
+      "id": "p8e",
+      "page": 8,
+      "size": "third",
+      "seed": 232225114493115,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, flat, scanning, walking a straight line through the chaos, hands in her sleeves, touching nothing, Everyone else climbs. She walks., wide shot, Pit floor, teammates scrambling around her, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.4,
+      "wallSeconds": 14.17
+    },
+    {
+      "id": "p9a",
+      "page": 9,
+      "size": "third",
+      "seed": 2205873921184,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, pen stopped, eyes gone very wide behind the glasses, head snapping up from the clipboard, The count is wrong., closeup shot, team box, tone, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.51,
+      "wallSeconds": 13.14
+    },
+    {
+      "id": "p9b",
+      "page": 9,
+      "size": "third",
+      "seed": 234549630906993,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, standing up so fast the chair goes over, clipboard dropping, hand to the radio at her collar, She has never once been wrong about a number., closeup shot, tone-washed, sharp, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.38,
+      "wallSeconds": 14.2
+    },
+    {
+      "id": "p9c",
+      "page": 9,
+      "size": "third",
+      "seed": 38613547255465,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, koharu, shouting, glasses askew, both hands on the radio, turning toward the stands, hebihara, already moving, sunglasses coming down, Two of them went the wrong way., medium shot, team box, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.18,
+      "wallSeconds": 13.19
+    },
+    {
+      "id": "p9d",
+      "page": 9,
+      "size": "half",
+      "seed": 22136990725990,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Two Litter. In the seats. Where the crowd is., wide shot, the spectator gate at the top of the bleachers — a service door slamming open, two low grey shapes coming through into the packed stands",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.36,
+      "wallSeconds": 13.21
+    },
+    {
+      "id": "p9e",
+      "page": 9,
+      "size": "third",
+      "seed": 46794345090616,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, tetsu, roaring, straining, planted at the far end of the Pit floor, both feet anchored, unable to take a single step, The strongest boy in the school is bolted to the ground on the wrong side of the stadium., wide shot, Pit floor, sixty metres of open ground between him and the stands, school, tone-washed background, daylight, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.26,
+      "wallSeconds": 13.18
+    },
+    {
+      "id": "p10a",
+      "page": 10,
+      "size": "half",
+      "seed": 137364600648956,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, eyes wide open — the first crack in the flat face, stopped dead mid-stride, one hand half out of its sleeve, head turned up toward the stands, She is forty metres down and in the middle of a stated intention., medium shot, Pit floor, the bleachers looming above in tone, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.3,
+      "wallSeconds": 13.25
+    },
+    {
+      "id": "p10b",
+      "page": 10,
+      "size": "third",
+      "seed": 9164525956356,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Nine seconds is a very long time., wide shot, the bleachers — students climbing over each other away from the gate, bags and shoes everywhere, two grey shapes coming down the aisle",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.12,
+      "wallSeconds": 13.19
+    },
+    {
+      "id": "p10c",
+      "page": 10,
+      "size": "third",
+      "seed": 45304998262890,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, not smiling — the whole face has gone still and calculating, one hand on the rail, already turning, eyes moving across the crowd, He isn't looking at the animals. He's looking at the people., closeup shot, bleachers, blur, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.14,
+      "wallSeconds": 12.15
+    },
+    {
+      "id": "p10d",
+      "page": 10,
+      "size": "third",
+      "seed": 15663269494324,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, eyes moving fast, counting on his fingers, one hand up, ticking off names, Since midnight. Skin to skin. The roster is short., closeup shot, borderless, tone fade-out, ghosted faces behind him, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 3.99,
+      "wallSeconds": 12.16
+    },
+    {
+      "id": "p10e",
+      "page": 10,
+      "size": "third",
+      "seed": 88493556225376,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, grinning again, but wrong — too wide, too fast, up on the seat back, one foot on the rail, student, reaching for him too late, half standing, Four minutes of being somebody good., medium shot, bleachers, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.11,
+      "wallSeconds": 12.14
+    },
+    {
+      "id": "p11a",
+      "page": 11,
+      "size": "hero",
+      "seed": 96812391758662,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, eyes blazing, mouth open in a shout, absolutely delighted, launched off the rail into open air over the aisle, both arms spread, blazer flying, black hair a solid mass against the floodlights, The weakest student in Tōka High jumps the rail., wide shot, the bleachers below and behind, floodlight glare, the two grey shapes in the aisle beneath him, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.92,
+      "wallSeconds": 13.24
+    },
+    {
+      "id": "p11b",
+      "page": 11,
+      "size": "third",
+      "seed": 261669007172284,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, hebihara, sunglasses down, absolutely still, watching him fall, one hand on the rail, koharu, horrified, both hands over her mouth, The coach does not shout for him to stop., medium shot, team box, tone, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.33,
+      "wallSeconds": 14.12
+    },
+    {
+      "id": "p11c",
+      "page": 11,
+      "size": "third",
+      "seed": 204433919615169,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Nine hundred people watch a first-year go over a safety rail., wide shot, the announcer's box, a man standing up out of his chair with the microphone still in his hand",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.14,
+      "wallSeconds": 14.14
+    },
+    {
+      "id": "p11d",
+      "page": 11,
+      "size": "third",
+      "seed": 22836782428230,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, student, baffled, obeying anyway, thrusting a bare palm out over the seat back with three others doing the same, Nine hundred people do not understand the request. Eleven of them comply anyway., medium shot, row six of the bleachers, a forest of confused outstretched hands, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.34,
+      "wallSeconds": 13.15
+    },
+    {
+      "id": "p11e",
+      "page": 11,
+      "size": "third",
+      "seed": 209000360492666,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, He takes every hand he passes. He will need all of them., extreme-closeup shot, a bare palm meeting a bare palm at speed, tone-washed, motion blur",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.32,
+      "wallSeconds": 13.19
+    },
+    {
+      "id": "p12a",
+      "page": 12,
+      "size": "third",
+      "seed": 112095081024140,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, focused, hand outstretched, landing in the aisle and slapping his palm into a random third-year's palm on the way past, First borrow. He does not have time to be picky., medium shot, bleachers, panicking students, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.65,
+      "wallSeconds": 13.2
+    },
+    {
+      "id": "p12b",
+      "page": 12,
+      "size": "inset",
+      "seed": 12160794082467,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, The card., extreme-closeup shot, flat white field, borderless",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.35,
+      "wallSeconds": 14.13
+    },
+    {
+      "id": "p12c",
+      "page": 12,
+      "size": "third",
+      "seed": 116019837273641,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, solo, 1boy, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, white-eyed, jaw on the floor, skidding to a halt mid-sprint, Sixty seconds. Ticking. Right now., closeup shot, blank with speed lines, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, head out of frame, cropped head",
+      "timingSeconds": 4.53,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p12d",
+      "page": 12,
+      "size": "third",
+      "seed": 120556945805718,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, student, chibi, offended, hands on hips, pointing at his own perfect hair, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, screaming over his shoulder, already running again, Everyone is proud of something., medium shot, blank, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.26,
+      "wallSeconds": 13.42
+    },
+    {
+      "id": "p12e",
+      "page": 12,
+      "size": "third",
+      "seed": 124060136121296,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, grim, running anyway, sprinting down the aisle with both arms up, waving, making himself the loudest thing in the stadium, Fifty-one seconds of immaculate hair. He uses it the only way it can be used., wide shot, the aisle, the two Litter turning toward him, students scrambling behind, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.41,
+      "wallSeconds": 13.47
+    },
+    {
+      "id": "p13a",
+      "page": 13,
+      "size": "half",
+      "seed": 125917880176689,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, wide-eyed, committed, leading both Litter away down the aisle at a dead sprint, arms windmilling, It isn't a plan. It's bait. He is extremely good at being bait., wide shot, bleachers emptying behind him, row one clearing, the Pit floor far below, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.46,
+      "wallSeconds": 13.49
+    },
+    {
+      "id": "p13b",
+      "page": 13,
+      "size": "third",
+      "seed": 8659190643747,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, hebihara, unreadable behind the sunglasses, arms folded, watching him run, The coach has seen this exactly once before., closeup shot, team box, tone, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.08,
+      "wallSeconds": 13.25
+    },
+    {
+      "id": "p13c",
+      "page": 13,
+      "size": "third",
+      "seed": 251615413264033,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, counting under his breath, teeth bared, vaulting a row of seats, one hand down, He counts out loud. He always counts out loud., medium shot, seat backs, tone, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.03,
+      "wallSeconds": 12.21
+    },
+    {
+      "id": "p13d",
+      "page": 13,
+      "size": "third",
+      "seed": 188670361650993,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, gaku, alarmed for the first time in his life, hauling himself over the rail from the Pit side, both arms stretched to their full three metres, The nearest club member is coming up the wall, arms first., wide shot, the rail, the Pit below, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.01,
+      "wallSeconds": 12.21
+    },
+    {
+      "id": "p13e",
+      "page": 13,
+      "size": "third",
+      "seed": 142356452289452,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, beaming, hand already closing on Gaku's bare wrist, grabbing him as he runs past, gaku, dot eyes, mouth a flat line, being grabbed, Second borrow. They have never spoken before., closeup shot, motion blur, tone, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.11,
+      "wallSeconds": 13.16
+    },
+    {
+      "id": "p14a",
+      "page": 14,
+      "size": "inset",
+      "seed": 153616206172358,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, The card., extreme-closeup shot, flat white field, borderless",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 8.81,
+      "wallSeconds": 18.22
+    },
+    {
+      "id": "p14b",
+      "page": 14,
+      "size": "half",
+      "seed": 22543872109419,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, pure joy, eyes shut, swinging with everything he has, throwing an enormous haymaker, his right arm suddenly three metres long and completely out of control, Law six: he gets the ability, not the skill., wide shot, the aisle, the two Litter, seats flying, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 6.05,
+      "wallSeconds": 19.82
+    },
+    {
+      "id": "p14c",
+      "page": 14,
+      "size": "third",
+      "seed": 83485894756332,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, solo, 1boy, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, X eyes, spinning, his own three-metre fist arriving back around and hitting him squarely in the face, The arm comes all the way around., medium shot, blank with impact rings, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, head out of frame, cropped head",
+      "timingSeconds": 5.86,
+      "wallSeconds": 21.36
+    },
+    {
+      "id": "p14d",
+      "page": 14,
+      "size": "third",
+      "seed": 22327370640308,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, one hand over a swelling eye, thumbs up, flat on his back across three seats, gaku, chibi, half-lidded, arms folded, standing over him, Sixteen seconds left of the best ability he has ever held., medium shot, blank, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 5.52,
+      "wallSeconds": 17.37
+    },
+    {
+      "id": "p14e",
+      "page": 14,
+      "size": "third",
+      "seed": 27449661819499,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, cheerful, holding up both hands, sitting up, gaku, chibi, appalled, leaning back, He explains the Law to a man who did not ask., closeup shot, blank, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.52,
+      "wallSeconds": 17.19
+    },
+    {
+      "id": "p15a",
+      "page": 15,
+      "size": "third",
+      "seed": 32838670785354,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, back on his feet, refocused, long arm hooked around a steel seat-frame, hauling himself over a whole row in one pull, He can't fight with it. He can move with it., wide shot, bleachers, one Litter cut off behind him, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.99,
+      "wallSeconds": 15.21
+    },
+    {
+      "id": "p15b",
+      "page": 15,
+      "size": "half",
+      "seed": 229761417256201,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, straining, three metres of arm around a small girl's waist, lifting a first-year out of row one and swinging her back over the seats to safety, Row one, cleared, one child at a time., medium shot, row one, the aisle, a grey shape closing, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.73,
+      "wallSeconds": 15.18
+    },
+    {
+      "id": "p15c",
+      "page": 15,
+      "size": "third",
+      "seed": 190219992889223,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, mouth open, eyes going wide with recognition, arm mid-extension, already beginning to shorten, Three. Two., closeup shot, tone, sharp radial focus lines, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.22,
+      "wallSeconds": 15.16
+    },
+    {
+      "id": "p15d",
+      "page": 15,
+      "size": "third",
+      "seed": 6883859137984,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, resigned mid-air, one eye already swelling, arm snapping back to normal length while he is still hanging from a seat-frame two metres up, dropping, Law four: exactly sixty seconds. It has never once waited for him., wide shot, bleachers, seats below, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.53,
+      "wallSeconds": 15.19
+    },
+    {
+      "id": "p15e",
+      "page": 15,
+      "size": "third",
+      "seed": 115168090039329,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, gaku, wincing, arms out, three metres too late, He lands badly and gets up anyway., wide shot, the aisle, dust, seats, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.19,
+      "wallSeconds": 14.17
+    },
+    {
+      "id": "p16a",
+      "page": 16,
+      "size": "third",
+      "seed": 55929318089739,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, face down, one eye open, still counting, sprawled across two rows of seating, Two people left. He is keeping score., closeup shot, seat backs, dust, tone, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.14,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p16b",
+      "page": 16,
+      "size": "third",
+      "seed": 148132961041695,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, koharu, furious, glasses askew, hauling him up by the collar, one small hand fisted in his blazer, the other holding the clipboard, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, delighted to see her, being hauled, The manager has come down four flights of stairs at a dead run., medium shot, the aisle, dust, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.33,
+      "wallSeconds": 12.31
+    },
+    {
+      "id": "p16c",
+      "page": 16,
+      "size": "third",
+      "seed": 95214923308173,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Skin to skin. Third borrow., extreme-closeup shot, his bare hand closing around her bare wrist, tone-washed, borderless",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.62,
+      "wallSeconds": 13.34
+    },
+    {
+      "id": "p16d",
+      "page": 16,
+      "size": "inset",
+      "seed": 63617842964112,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, The card., extreme-closeup shot, flat white field, borderless",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.17,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p16e",
+      "page": 16,
+      "size": "third",
+      "seed": 277502418002326,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, eyes going very wide, pupils shrinking — the whole stadium arriving in his head at once, head snapping up, frozen, Then it does it., closeup shot, radial focus lines, tone blown out to white, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.44,
+      "wallSeconds": 14.15
+    },
+    {
+      "id": "p17a",
+      "page": 17,
+      "size": "half",
+      "seed": 160842340491314,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Everything he has looked at, counted, permanently, whether he wants it or not., pov shot, the entire stadium seen at once, every object flagged with a hard blunt number floating beside it — seats, bolts, people, shoes, the two grey shapes in the aisle, the black square of the Pit mouth",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.66,
+      "wallSeconds": 14.17
+    },
+    {
+      "id": "p17b",
+      "page": 17,
+      "size": "third",
+      "seed": 3667703881432,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, staring at him, entirely still, understanding exactly what just happened, wrist still in his hand, Nobody has ever said that to her either., closeup shot, tone-washed, borderless, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.33,
+      "wallSeconds": 13.32
+    },
+    {
+      "id": "p17c",
+      "page": 17,
+      "size": "third",
+      "seed": 56536279112673,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, eyes locked on the far side of the stadium, the smile gone, head turned sharply toward the Pit mouth, And then the number that's wrong., closeup shot, tone, hard perspective lines, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.15,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p17d",
+      "page": 17,
+      "size": "third",
+      "seed": 7459486151795,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, grim, pointing across the whole stadium, arm out, finger aimed at the black square of the maintenance shaft, koharu, following his hand, going pale, turning, Twelve., medium shot, the far wall, the shaft, tone, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.36,
+      "wallSeconds": 12.13
+    },
+    {
+      "id": "p17e",
+      "page": 17,
+      "size": "third",
+      "seed": 205239331531898,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, all the colour gone out of her face, clipboard slipping from her fingers, She has counted for six years. Nobody has ever checked her work., closeup shot, the shaft in tone behind her, out of focus, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.24,
+      "wallSeconds": 13.49
+    },
+    {
+      "id": "p18a",
+      "page": 18,
+      "size": "half",
+      "seed": 87242807370645,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Nobody down there is looking at it. Everyone down there is looking at the stands., wide shot, the maintenance shaft mouth on the Pit floor — something enormous coming out of it low and fast, dust blowing flat, heading straight for the team box where the officials and the injured are",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.71,
+      "wallSeconds": 13.38
+    },
+    {
+      "id": "p18b",
+      "page": 18,
+      "size": "third",
+      "seed": 153271418480366,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, eyes forward, jaw set, deliberately not looking behind her, still walking her declared line, arm reaching for the shelf, sleeve over her hand, She declared the shelf. She cannot turn around. Not for any reason., wide shot, Pit floor, the shape closing behind her in tone, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.29,
+      "wallSeconds": 14.29
+    },
+    {
+      "id": "p18c",
+      "page": 18,
+      "size": "third",
+      "seed": 195341171840551,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, working it out at enormous speed, both hands on the rail, leaning out over sixty metres of open air, He can't get down there. He has eleven seconds of counting left and no arms., closeup shot, the rail, the Pit floor far below, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.13,
+      "wallSeconds": 14.21
+    },
+    {
+      "id": "p18d",
+      "page": 18,
+      "size": "third",
+      "seed": 142629873368013,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, shouting into a dead radio, one hand up, waving uselessly at the box, The radio is out. Nine hundred people are screaming., medium shot, the rail, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.09,
+      "wallSeconds": 14.19
+    },
+    {
+      "id": "p18e",
+      "page": 18,
+      "size": "third",
+      "seed": 232387333826813,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, koharu, grabbing at his sleeve, reaching as he climbs the rail, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, already inhaling, one foot up on the top rail, There is exactly one channel left., closeup shot, the rail, the bowl below, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.31,
+      "wallSeconds": 13.17
+    },
+    {
+      "id": "p19a",
+      "page": 19,
+      "size": "hero",
+      "seed": 173486506718215,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, mouth wide open, whole body thrown into it, one hand cupped beside his mouth, standing on the top rail above the entire stadium, tiny against the bowl, black hair a hard black mark on the white sky, He does not tell her to run. He gives her a number., wide shot, the whole Pit from behind and above him — nine hundred people, floodlights, the far wall, Sumire a small white figure on the floor, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.39,
+      "wallSeconds": 14.31
+    },
+    {
+      "id": "p19b",
+      "page": 19,
+      "size": "third",
+      "seed": 48786529452064,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, shouting with him, both hands cupped, up on the rail beside him, The manager backs a stranger's count with her own name., medium shot, the rail, the bowl below, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.25,
+      "wallSeconds": 14.16
+    },
+    {
+      "id": "p19c",
+      "page": 19,
+      "size": "third",
+      "seed": 200020544293822,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, The stadium goes quiet enough for one voice to cross it., wide shot, the bleachers, nine hundred faces all turned the same way, the brass band standing on their chairs",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.2,
+      "wallSeconds": 14.15
+    },
+    {
+      "id": "p19d",
+      "page": 19,
+      "size": "third",
+      "seed": 273960748453749,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, tetsu, head snapped round, mouth open, still anchored sixty metres away, both feet in the dirt, The captain hears a first-year give his ace a firing solution., medium shot, Pit floor, dust, the shape coming out of the shaft behind, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.22,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p19e",
+      "page": 19,
+      "size": "third",
+      "seed": 165167170874605,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, hebihara, sunglasses off, entirely still, one hand frozen halfway to her pocket, The coach has waited nine years to watch someone do this., closeup shot, the team box, floodlight glare, out of focus crowd, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.12,
+      "wallSeconds": 13.15
+    },
+    {
+      "id": "p20a",
+      "page": 20,
+      "size": "third",
+      "seed": 59054924451961,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, eyes wide, pale iris, one hard catchlight — hearing a voice she does not know, hand closing on the item on the shelf, still facing forward, A stranger in the stands has just told her a number. She has no reason on earth to believe it., closeup shot, the shelf, tone-washed, radial focus, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.28,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p20b",
+      "page": 20,
+      "size": "third",
+      "seed": 238591454859382,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, eyes closing for a half-second, deciding, fist tightening inside the sleeve, They scream at her. They never count for her., closeup shot, borderless, tone fade-out, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.24,
+      "wallSeconds": 13.14
+    },
+    {
+      "id": "p20c",
+      "page": 20,
+      "size": "third",
+      "seed": 229896356067729,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, absolutely level again, lifting a small tarnished bell off the shelf, still not turning, She finishes exactly what she said she would do. Then, and only then, the next thing., medium shot, the shelf, the shape closing behind in tone, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.56,
+      "wallSeconds": 13.28
+    },
+    {
+      "id": "p20d",
+      "page": 20,
+      "size": "half",
+      "seed": 38480813079567,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, eyes blazing, teeth bared — the first real expression of the chapter, pivoting on one heel into a full turn, bell in her sleeve-covered fist, other leg already loading, Six steps. On the left. Exactly as told., wide shot, the Bulk arriving, dust wall, floodlight glare, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.75,
+      "wallSeconds": 14.39
+    },
+    {
+      "id": "p20e",
+      "page": 20,
+      "size": "third",
+      "seed": 116650758632662,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, clean lineart, solid silhouette, backlit, featureless, flat tone background, graphic, high contrast, no facial features, It is over in under a second., wide shot, silhouette panel — two solid black shapes against a flat blown-out tone field: a small figure with one leg extended, and something enormous coming apart around it",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.41,
+      "wallSeconds": 14.15
+    },
+    {
+      "id": "p21a",
+      "page": 21,
+      "size": "half",
+      "seed": 241602301539509,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, breathing hard, hair coming loose, on one knee in the settling dust, bell held up in a sleeve-covered hand, tetsu, roaring with laughter, finally unstuck, arms in the air, jogging over, Leg two. A bell that has never rung, and it never got the chance., wide shot, the Pit floor, dust, floodlights, the whole stadium on its feet, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.79,
+      "wallSeconds": 14.2
+    },
+    {
+      "id": "p21b",
+      "page": 21,
+      "size": "third",
+      "seed": 115126989592845,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, grinning, filthy, one eye swollen shut, half-falling down the last of the Pit-side stairs onto the floor, He has come down four flights on a twisted ankle to say one thing., wide shot, stairs, dust, officials moving past, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.25,
+      "wallSeconds": 13.15
+    },
+    {
+      "id": "p21c",
+      "page": 21,
+      "size": "third",
+      "seed": 34793171693909,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 1girl, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, open, warm, entirely unguarded — hand out, skidding to a stop in front of her and offering a bare hand to help her up, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, looking at the hand, still on one knee, It is the most ordinary gesture in the world., medium shot, dust, tone-washed, the crowd a soft mass above, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 8.23,
+      "wallSeconds": 17.19
+    },
+    {
+      "id": "p21d",
+      "page": 21,
+      "size": "third",
+      "seed": 172811694668167,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1girl, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, flat, unreadable, eyes on his palm and nowhere else, standing up entirely on her own, one step back, sleeve pulled down past her knuckles, She stands up by herself. She takes one step backward., closeup shot, borderless, tone fade-out, dust motes, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.29,
+      "wallSeconds": 17.4
+    },
+    {
+      "id": "p21e",
+      "page": 21,
+      "size": "third",
+      "seed": 229953342588832,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, hand still out, smile still on, not understanding at all, frozen, arm extended into empty air, He has shaken four hundred hands this year. This is the first that ever moved away., closeup shot, dust, flat tone, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.24,
+      "wallSeconds": 17.43
+    },
+    {
+      "id": "p22a",
+      "page": 22,
+      "size": "half",
+      "seed": 94011766052578,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, Forty minutes later. The room where this series lives., establishing shot, the club shed behind the practice Pit — a converted equipment hut, whiteboard covered in old race cards, a fridge with one melon in it, a sofa with a known hole, gear on every hook, evening light through one window",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.77,
+      "wallSeconds": 13.41
+    },
+    {
+      "id": "p22b",
+      "page": 22,
+      "size": "third",
+      "seed": 260907515173585,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, bandaged, one eye purple, grinning like it's a birthday, sitting bolt upright on the broken sofa, hands on his knees, bin, flat, headphones round his neck, sitting beside him, not moving, Nine people are looking at him. He is having the best day of his life., medium shot, the shed interior, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.26,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p22c",
+      "page": 22,
+      "size": "third",
+      "seed": 208040492786971,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, bin, completely flat, not looking at him, sliding the headphones back on, Numata Bin does not raise his voice, ever., closeup shot, the shed, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.23,
+      "wallSeconds": 13.14
+    },
+    {
+      "id": "p22d",
+      "page": 22,
+      "size": "third",
+      "seed": 196617858452467,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, tetsu, arms folded, enormous, serious for once, standing in front of the whiteboard, koharu, clipboard up, beside him, The captain does the arithmetic out loud., wide shot, the whiteboard, old cards taped in rows, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.58,
+      "wallSeconds": 13.34
+    },
+    {
+      "id": "p22e",
+      "page": 22,
+      "size": "third",
+      "seed": 204836445186738,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 2people, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, waving both hands, chibi, sweating, trying to give the credit away, koharu, chibi, pushing his hands back down, unimpressed, He genuinely does not think it was his., medium shot, blank, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.41,
+      "wallSeconds": 14.17
+    },
+    {
+      "id": "p23a",
+      "page": 23,
+      "size": "half",
+      "seed": 77204211368226,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, hebihara, sunglasses down now, arms folded, reading the room, leaning in the shed doorway, shiho, smiling gently, terrifying, pouring tea for everyone, The coach explains him to a room that has never met one before., wide shot, the shed, evening light, the whole club packed in, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.81,
+      "wallSeconds": 14.2
+    },
+    {
+      "id": "p23b",
+      "page": 23,
+      "size": "third",
+      "seed": 101867758997314,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, hebihara, chewing the unlit cigarette, watching the boy, one shoulder against the door frame, She says the sad part like it's a weather report, because he does too., closeup shot, the doorway, evening light, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.45,
+      "wallSeconds": 14.19
+    },
+    {
+      "id": "p23c",
+      "page": 23,
+      "size": "third",
+      "seed": 179037127797111,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, momo, eyes lighting up, leaning forward, chewing, both hands on the table, rai, chin up, sceptical, jacket hanging off both shoulders, The room does the maths a beat behind her., medium shot, the shed, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.3,
+      "wallSeconds": 13.15
+    },
+    {
+      "id": "p23d",
+      "page": 23,
+      "size": "third",
+      "seed": 174336877475389,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, koharu, glasses flashing, pen moving very fast, already writing a formation on the clipboard, The manager has been doing this maths since the stairs., closeup shot, the clipboard, tone, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.8,
+      "wallSeconds": 14.18
+    },
+    {
+      "id": "p23e",
+      "page": 23,
+      "size": "third",
+      "seed": 243307189691839,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, tetsu, enormous grin, hand out, offering a huge bare palm across the table, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, looking at the hand like it is a birthday cake, half out of his seat, The captain offers his hand. Nobody has ever done that on purpose before., medium shot, the shed, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.75,
+      "wallSeconds": 14.17
+    },
+    {
+      "id": "p24a",
+      "page": 24,
+      "size": "third",
+      "seed": 21344123828983,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, 3people, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, sparkling, tears of joy, mid-lunge, going down the line shaking every hand in the room at speed, rai, chibi, being shaken, hand caught, shiho, chibi, delighted, offering both hands, He works the entire room in eleven seconds., medium shot, blank, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, head out of frame, cropped head",
+      "timingSeconds": 4.53,
+      "wallSeconds": 15.18
+    },
+    {
+      "id": "p24b",
+      "page": 24,
+      "size": "third",
+      "seed": 255106314902589,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, chibi, super deformed, simplified, dot eyes, squiggle mouth, sweatdrop, exaggerated expression, gag manga, thick simple lineart, blank background, solo, 1boy, chibi kusaka hibiki, black spiked hair, bandaid on nose, >_<, tiny body, huge head, chibi, stars for eyes, both fists up, standing on the sofa, Four cards in a row. He reads them all out., closeup shot, blank, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, realistic proportions, detailed background, head out of frame, cropped head",
+      "timingSeconds": 4.35,
+      "wallSeconds": 14.19
+    },
+    {
+      "id": "p24c",
+      "page": 24,
+      "size": "third",
+      "seed": 62782472991293,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, flat, watching from the far wall, standing apart with her back to the whiteboard, both hands inside her sleeves, momo, cheerful, oblivious, waving her over, One person in the room has not moved., wide shot, the shed, the noise happening two metres away, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.62,
+      "wallSeconds": 14.15
+    },
+    {
+      "id": "p24d",
+      "page": 24,
+      "size": "third",
+      "seed": 170621095383173,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 1girl, 1boy, anzai sumire, 1girl, white hair, blown out white hair, very pale hair, long hair, high ponytail, blunt bangs, sharp hair clumps, pale eyes, light iris, single catchlight, cool expression, level gaze, tall girl, long limbs, straight posture, high collared shirt buttoned to the throat, dark blazer, long sleeves, tape on the backs of her hands, no skin below the jaw, level, entirely calm, giving nothing, not moving, hands still in her sleeves, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, hand half-raised, faltering, stopped mid-room, The room goes quiet in the specific way a room does when this has happened before., medium shot, the shed, the room going quiet, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.37,
+      "wallSeconds": 13.34
+    },
+    {
+      "id": "p24e",
+      "page": 24,
+      "size": "third",
+      "seed": 156397135051777,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, clean lineart, solid silhouette, backlit, featureless, flat tone background, graphic, high contrast, no facial features, Two metres. The distance this series will spend a hundred chapters on., wide shot, silhouette panel — a tall solid black figure against a flat pale tone field, arms down, both hands swallowed by sleeves, absolutely closed; a smaller black figure a full two metres away with one hand still half-raised",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.28,
+      "wallSeconds": 13.24
+    },
+    {
+      "id": "p24f",
+      "page": 24,
+      "size": "third",
+      "seed": 85620584744780,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, smile back on, but the eyes are doing something new, lowering his hand slowly and putting it in his pocket, For the first time in his life he keeps something to himself., closeup shot, the shed, borderless, tone fade-out, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.54,
+      "wallSeconds": 13.17
+    },
+    {
+      "id": "p25a",
+      "page": 25,
+      "size": "third",
+      "seed": 114083070605366,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, The door does not knock., wide shot, the shed door banging open from outside, evening light flooding in, three silhouettes in immaculate matching gear standing in it",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.53,
+      "wallSeconds": 13.13
+    },
+    {
+      "id": "p25b",
+      "page": 25,
+      "size": "half",
+      "seed": 65762734605686,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, ayame, pleasant, perfectly polite, eyes doing none of it, stepping into the shed, one hand holding out a sealed white card between two fingers, Kujō Ayame, Seiran Academy, does not raise her voice once., medium shot, the doorway, the club frozen around her, school, tone-washed background, daylight, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.5,
+      "wallSeconds": 14.15
+    },
+    {
+      "id": "p25c",
+      "page": 25,
+      "size": "third",
+      "seed": 246666808842826,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, 2people, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, bright, delighted, entirely himself, hand already out, bouncing forward past the captain with his palm up, ayame, glancing down at the hand, amused, taking it without hesitating, He does what he always does. She lets him., medium shot, the shed, full body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, 3people, third person, extra person, crowd, head out of frame, cropped head",
+      "timingSeconds": 4.62,
+      "wallSeconds": 14.16
+    },
+    {
+      "id": "p25d",
+      "page": 25,
+      "size": "third",
+      "seed": 119952634797392,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1people, ayame, smiling with the lower half of her face only, not letting go of his hand, She did not take his hand by accident., closeup shot, the shed, tone-washed, the others out of focus, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 4.86,
+      "wallSeconds": 14.4
+    },
+    {
+      "id": "p25e",
+      "page": 25,
+      "size": "inset",
+      "seed": 115309203314081,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, The card., extreme-closeup shot, flat white field, borderless, the card larger than any card so far",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed",
+      "timingSeconds": 4.9,
+      "wallSeconds": 14.38
+    },
+    {
+      "id": "p25f",
+      "page": 25,
+      "size": "third",
+      "seed": 199575282557743,
+      "prompt": "masterpiece, best quality, monochrome, greyscale, manga, screentone, halftone, clean lineart, modulated line weight, no hatching, tone-washed background, glossy eyes, detailed eyes, catchlight, solo, 1boy, kusaka hibiki, 1boy, black hair, solid black hair, short spiky hair, large spiked hair, hair sticking up, bandaid on nose, round eyes, large iris, big catchlights, bright expression, open mouth, short boy, small build, wiry, dark school blazer worn open, untucked shirt, loose crooked necktie, sleeves pushed to elbows, bare forearms, sneakers, the grin completely gone — flat, still, and for the first time in twenty-five pages, afraid, hand still locked in hers, not letting go, not able to, He has read four hundred cards this year. None of them told him the cost., extreme-closeup shot, flat blown-out tone, everything else gone, upper body, head fully in frame",
+      "negative": "color, photorealistic, realistic, 3d, render, sketch, rough, messy lines, crosshatching, watermark, signature, text, english text, japanese text, kanji, speech bubble, blurry, extra fingers, bad hands, bad anatomy, collage, photo frames, multiple views, reference sheet, duplicate character, clone, extra heads, halo, nude, nsfw, chibi, super deformed, head out of frame, cropped head",
+      "timingSeconds": 5.01,
+      "wallSeconds": 15.24
+    }
+  ]
+}

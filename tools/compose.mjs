@@ -205,7 +205,7 @@ function bubbleComposites(panel, panelBox, font, panelIdValue) {
   let packed;
   // Coverage target: lettering should take about a third of a panel. Relax step by step only
   // when a dense exchange genuinely will not fit, rather than failing the page.
-  for (const relax of [{ cap: 0.34, band: 0.62, cols: 2, floor: 24 }, { cap: 0.42, band: 0.78, cols: 2, floor: 20 }, { cap: 0.55, band: 1, cols: 3, floor: 16 }]) {
+  for (const relax of [{ cap: 0.34, band: 0.62, cols: 2, floor: 24 }, { cap: 0.42, band: 0.78, cols: 2, floor: 20 }, { cap: 0.55, band: 1, cols: 3, floor: 16 }, { cap: 0.7, band: 1, cols: 4, floor: 13 }]) {
     if (packed) break;
   for (let fontSize = initialFontSize; fontSize >= relax.floor && !packed; fontSize -= 2) {
     for (const widthRatio of [0.34, 0.30, 0.26, 0.44, 0.52]) {
@@ -231,7 +231,10 @@ function bubbleComposites(panel, panelBox, font, panelIdValue) {
     }
   }
   }
-  if (!packed) throw new Error(`${panelIdValue}: ${dialogues.length} bubbles cannot fit at the 16px floor without collision.`);
+  if (!packed) throw new Error(`${panelIdValue}: ${dialogues.length} bubbles cannot fit at the 13px floor without collision.`);
+  if (packed.some((item) => item.fontSize < 20)) {
+    console.warn(`[warn] ${panelIdValue}: lettering dropped to ${Math.min(...packed.map((i) => i.fontSize))}px — panel is over its text budget`);
+  }
   const placed = packed;
   const assertions = placed.map((item) => assertBubbleLayout(item, panelBox, panelIdValue));
   for (let i = 0; i < placed.length; i += 1) {

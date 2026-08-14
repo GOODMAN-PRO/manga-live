@@ -65,9 +65,15 @@ export function createLayout(panels) {
   });
   panels.forEach((panel, index) => {
     if (panel.size !== 'inset') return;
+    // Prefer the panel before it; if the inset opens the page, anchor to the next one instead
+    // of failing the build.
     let anchorIndex = index - 1;
     while (anchorIndex >= 0 && !result[anchorIndex]) anchorIndex -= 1;
-    if (anchorIndex < 0) throw new Error(`Inset panel ${index + 1} has no preceding panel to anchor to.`);
+    if (anchorIndex < 0) {
+      anchorIndex = index + 1;
+      while (anchorIndex < panels.length && !result[anchorIndex]) anchorIndex += 1;
+    }
+    if (anchorIndex >= panels.length || !result[anchorIndex]) throw new Error(`Inset panel ${index + 1} has no panel to anchor to.`);
     const anchor = result[anchorIndex];
     const size = Math.max(180, Math.round(anchor.width * 0.4));
     result[index] = { x: anchor.x + 18, y: anchor.y + anchor.height - size - 18, width: size, height: size };

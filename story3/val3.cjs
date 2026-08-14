@@ -33,9 +33,13 @@ for (const p of d.pages) {
   }
   if (silent > 1) err.push(`p${p.page} ${silent} silent panels`);
   W += w;
-  rows.push({ page: p.page, words: w });
+  rows.push({ page: p.page, words: w, splash: p.panels.length === 1 });
 }
-for (const r of rows) if (r.words < 70 || r.words > 130) err.push(`p${r.page} WORDS ${r.words}`);
+// a 1-panel splash page is exempt from the word floor (char budget still applies)
+for (const r of rows) {
+  if (r.splash) { if (r.words > 130) err.push(`p${r.page} WORDS ${r.words}`); continue; }
+  if (r.words < 70 || r.words > 130) err.push(`p${r.page} WORDS ${r.words}`);
+}
 const pct = Math.round(txt / tot * 100);
 if (pct < 70) err.push(`text panels ${pct}% (need 70)`);
 if (chibi < 3) err.push(`chibi ${chibi} (need several)`);

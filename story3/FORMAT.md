@@ -36,6 +36,8 @@ Chapter scripts are JSON at `story3/chNN.json`. The page factory consumes them m
   | hero | **260** |
   This is the hard one. The compositor aims to keep lettering under a third of a panel's area; when a panel is over budget it has to shrink the type and stack bubbles over the drawing, which is exactly the complaint that killed the last series. If a panel needs more words than its budget, **split it into two panels** — that is always the right move and it makes the page read faster, not slower.
 - ≥70% of panels carry text. At most one fully silent panel per page.
+- **A page with exactly 1 panel (a splash) is exempt from the words-per-page floor** — the character budget still applies.
+- **`inset` panels must follow another panel** on the page; an inset is drawn overlapping the panel before it, so it can never be the first panel.
 - `chibi: true` several times per chapter — the rendered↔chibi register switch is the house style.
 - `silhouette: true` 1–4 times per chapter for pivots.
 
