@@ -187,34 +187,46 @@ function coverTitleSvg(jpFont, comicFont, chapter, v2 = false) {
   </svg>`);
 }
 
-function bubbleComposites(panel, box, font, panelIdValue) {
+function bubbleComposites(panel, panelBox, font, panelIdValue) {
   const dialogues = panel.dialogue || [];
   if (!dialogues.length) return { composites: [], assertions: [] };
+  const bleed = PAGE.gutter + PAGE.border;
+  const box = {
+    x: Math.max(PAGE.margin - bleed, panelBox.x - bleed),
+    y: Math.max(PAGE.margin - bleed, panelBox.y - bleed),
+    width: panelBox.width + bleed * 2,
+    height: panelBox.height + bleed * 2,
+  };
   const margin = dialogues.some((dialogue) => dialogue.type === 'monologue') ? 14 : 10;
   const gap = 12;
-  const initialFontSize = Math.max(26, Math.min(34, Math.round(box.width / 25)));
+  const initialFontSize = Math.max(26, Math.min(32, Math.round(box.width / 30)));
   let packed;
-  for (let fontSize = initialFontSize; fontSize >= 26 && !packed; fontSize -= 2) {
-    for (const widthRatio of [0.62, 0.54, 0.46, 0.38]) {
-      const maxBubbleWidth = Math.max(150, Math.min(box.width - margin * 2, Math.floor(box.width * widthRatio)));
-      const minBubbleWidth = Math.min(maxBubbleWidth, 140);
-      const items = dialogues.map((dialogue, index) => createBubbleLayout({
+  for (let fontSize = initialFontSize; fontSize >= 20 && !packed; fontSize -= 2) {
+    for (const widthRatio of [0.34, 0.30, 0.26, 0.44, 0.52]) {
+      const maxBubbleWidth = Math.max(130, Math.min(box.width - margin * 2, Math.floor(box.width * widthRatio)));
+      const minBubbleWidth = Math.min(maxBubbleWidth, 110);
+      let items;
+      try {
+        items = dialogues.map((dialogue, index) => createBubbleLayout({
         dialogue,
         index,
         font: fontFor(dialogue.text),
         initialFontSize: fontSize,
-        floorFontSize: fontSize,
+        floorFontSize: Math.min(fontSize, 20),
         maxBubbleWidth,
         minBubbleWidth,
         multiSpeaker: dialogues.length > 1 && (panel.chars || []).length > 1,
-      }));
+        }));
+      } catch {
+        continue; // this width does not hold the text; try the next one
+      }
       packed = packBubbleColumns(items, box, margin, gap);
       if (packed) break;
     }
   }
-  if (!packed) throw new Error(`${panelIdValue}: ${dialogues.length} bubbles cannot fit at the 26px floor without collision.`);
+  if (!packed) throw new Error(`${panelIdValue}: ${dialogues.length} bubbles cannot fit at the 20px floor without collision.`);
   const placed = packed;
-  const assertions = placed.map((item) => assertBubbleLayout(item, box, panelIdValue));
+  const assertions = placed.map((item) => assertBubbleLayout(item, panelBox, panelIdValue));
   for (let i = 0; i < placed.length; i += 1) {
     for (let j = i + 1; j < placed.length; j += 1) {
       if (rectsOverlap(placed[i], placed[j], gap)) throw new Error(`${panelIdValue}: bubbles ${i + 1} and ${j + 1} collide.`);
@@ -258,11 +270,13 @@ function packBubbleColumns(items, box, margin, gap) {
   return placed;
 }
 
-function createBubbleLayout({ dialogue, index, font, initialFontSize, floorFontSize = 26, maxBubbleWidth, minBubbleWidth, multiSpeaker }) {
+function createBubbleLayout({ dialogue: rawDialogue, index, font, initialFontSize, floorFontSize = 20, maxBubbleWidth, minBubbleWidth, multiSpeaker }) {
+  // Manga English lettering is set in caps.
+  const dialogue = { ...rawDialogue, text: String(rawDialogue.text).toUpperCase() };
   const type = dialogue.type || 'speech';
   const isMonologue = type === 'monologue';
-  const paddingX = isMonologue ? 34 : type === 'narration' ? 38 : type === 'shout' ? 46 : 42;
-  const paddingTop = isMonologue ? 26 : type === 'narration' ? 30 : type === 'shout' ? 38 : 32;
+  const paddingX = isMonologue ? 26 : type === 'narration' ? 28 : type === 'shout' ? 34 : 28;
+  const paddingTop = isMonologue ? 22 : type === 'narration' ? 24 : type === 'shout' ? 30 : 26;
   const paddingBottom = isMonologue ? 30 : type === 'narration' ? 32 : type === 'thought' ? 46 : 38;
   let fontSize = initialFontSize;
   let layout;
@@ -271,6 +285,14 @@ function createBubbleLayout({ dialogue, index, font, initialFontSize, floorFontS
     // overflowing. The 70px floor stops single long words from looping forever.
     const curveFactorForWrap = CURVE_FACTORS[type] || 1;
     const targetTextWidth = Math.max(70, Math.floor((maxBubbleWidth - paddingX * 2) / curveFactorForWrap));
+    // Never hyphenate or break inside a word: if the longest word does not fit this width,
+    // reject the width so the caller falls back to a wider bubble.
+    const longestWord = Math.max(...dialogue.text.split(/\s+/).filter(Boolean)
+      .map((word) => measureText(font, word, fontSize)));
+    if (longestWord > targetTextWidth) {
+      fontSize -= 2;
+      continue;
+    }
     const lines = wrapText(font, dialogue.text, targetTextWidth, fontSize);
     const lineMetrics = lines.map((line) => measureGlyphBounds(font, line, 0, 0, fontSize));
     const lineWidths = lineMetrics.map((bounds) => bounds.x2 - bounds.x1);
@@ -292,7 +314,7 @@ function createBubbleLayout({ dialogue, index, font, initialFontSize, floorFontS
     if (width <= maxBubbleWidth) break;
     fontSize -= 2;
   }
-  if (!layout || layout.width > maxBubbleWidth) throw new Error(`Bubble text cannot fit at 26px: ${dialogue.text}`);
+  if (!layout || layout.width > maxBubbleWidth) throw new Error(`Bubble text cannot fit at the floor size: ${dialogue.text}`);
   return {
     ...layout,
     index,
@@ -303,7 +325,11 @@ function createBubbleLayout({ dialogue, index, font, initialFontSize, floorFontS
 function assertBubbleLayout(item, panelBox, panelIdValue) {
   const bubbleBounds = { x1: item.left, y1: item.top, x2: item.left + item.width, y2: item.top + item.height };
   const pageInside = bubbleBounds.x1 >= 0 && bubbleBounds.y1 >= 0 && bubbleBounds.x2 <= PAGE.width && bubbleBounds.y2 <= PAGE.height;
-  const panelInside = bubbleBounds.x1 >= panelBox.x && bubbleBounds.y1 >= panelBox.y && bubbleBounds.x2 <= panelBox.x + panelBox.width && bubbleBounds.y2 <= panelBox.y + panelBox.height;
+  // Bubbles are allowed to break the panel border and sit in the gutter (standard in print),
+  // but must never leave the page.
+  const bleed = PAGE.gutter + PAGE.border;
+  const panelInside = bubbleBounds.x1 >= panelBox.x - bleed && bubbleBounds.y1 >= panelBox.y - bleed
+    && bubbleBounds.x2 <= panelBox.x + panelBox.width + bleed && bubbleBounds.y2 <= panelBox.y + panelBox.height + bleed;
   if (!pageInside || !panelInside) throw new Error(`${panelIdValue}: bubble ${item.index + 1} is outside ${pageInside ? 'panel' : 'page'} bounds.`);
   const textRuns = measureBubbleTextRuns(item).map((bounds, lineIndex) => {
     const epsilon = 0.25;

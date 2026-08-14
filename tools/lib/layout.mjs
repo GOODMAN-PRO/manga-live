@@ -1,17 +1,41 @@
 import { PAGE } from './common.mjs';
 
+// Deterministic per-page variation: derived from the panel shape list itself so panelgen and
+// compose always agree without threading a seed through both call sites.
+function pageHash(panels) {
+  const key = panels.map((panel) => panel.size || 'third').join('|') + panels.length;
+  let hash = 2166136261;
+  for (let i = 0; i < key.length; i += 1) {
+    hash ^= key.charCodeAt(i);
+    hash = Math.imul(hash, 16777619) >>> 0;
+  }
+  return hash;
+}
+
+// Real manga rows are rarely equal thirds. These are the split ratios a row can take.
+const SPLITS_2 = [[3, 2], [2, 3], [5, 3], [3, 5], [1, 1]];
+const SPLITS_3 = [[4, 3, 3], [3, 3, 4], [3, 4, 3], [5, 4, 4]];
+
 export function createLayout(panels) {
   const contentWidth = PAGE.width - PAGE.margin * 2;
   const contentHeight = PAGE.height - PAGE.margin * 2;
   if (panels.length === 1) return [{ x: PAGE.margin, y: PAGE.margin, width: contentWidth, height: contentHeight }];
+  const hash = pageHash(panels);
   const weights = { hero: 12, half: 6, third: 4, 'wide-strip': 3, tall: 6 };
   const rows = [];
   for (let index = 0; index < panels.length; index += 1) {
     if (panels[index].size === 'inset') continue;
-    if (panels.length >= 4 && panels[index].size === 'third' && panels[index + 1]?.size === 'third') {
+    const size = panels[index].size;
+    const nextSize = panels[index + 1]?.size;
+    const thirdish = (value) => value === 'third' || value === 'wide-strip';
+    // three-across rows appear on busier pages; two-across is the common case
+    if (panels.length >= 5 && thirdish(size) && thirdish(nextSize) && thirdish(panels[index + 2]?.size) && ((hash >>> (rows.length % 24)) % 5) === 0) {
+      rows.push({ indices: [index, index + 1, index + 2], weight: weights.third });
+      index += 2;
+    } else if (panels.length >= 4 && thirdish(size) && thirdish(nextSize)) {
       rows.push({ indices: [index, index + 1], weight: weights.third });
       index += 1;
-    } else rows.push({ indices: [index], weight: weights[panels[index].size] || 4 });
+    } else rows.push({ indices: [index], weight: weights[size] || 4 });
   }
   if (!rows.length) throw new Error('A page cannot contain only inset panels.');
   const verticalSpace = contentHeight - PAGE.gutter * (rows.length - 1);
@@ -21,8 +45,15 @@ export function createLayout(panels) {
   const result = Array(panels.length);
   let y = PAGE.margin;
   rows.forEach((row, rowIndex) => {
-    const availableWidth = contentWidth - PAGE.gutter * (row.indices.length - 1);
-    const widths = row.indices.length === 1 ? [contentWidth] : proportionalWidths(row.indices.map(() => 1), availableWidth);
+    const count = row.indices.length;
+    const availableWidth = contentWidth - PAGE.gutter * (count - 1);
+    let widths;
+    if (count === 1) widths = [contentWidth];
+    else {
+      const table = count === 2 ? SPLITS_2 : SPLITS_3;
+      const split = table[(hash >>> ((rowIndex * 3 + 1) % 24)) % table.length];
+      widths = proportionalWidths(split, availableWidth);
+    }
     let right = PAGE.width - PAGE.margin;
     row.indices.forEach((panelIndex, position) => {
       const width = widths[position];
