@@ -1,0 +1,4925 @@
+{
+  "chapter": 1,
+  "title": "Can I Borrow You?",
+  "cover": {
+    "desc": "Full color, Layer 3 palette — cel shading, hard-edged shadows, bright pastel field, generous negative space. Low angle, warm daylight. Kusaka Hibiki mid-leap toward the reader off a stadium rail, both palms open and thrown forward as if he intends to high-five the entire audience, mouth wide open in a shout, bandage across his nose, blazer flapping open over a dark club jersey with a big pale 0 on it, sneakers with crushed heels. His solid black spiked hair is the darkest mass in the frame with hard white highlight bands. Behind and above him, calm and vertical and entirely still, Anzai Sumire stands on the rail he just jumped from — near-white ponytail like a blade, high collar buttoned to the throat, jersey open, long sleeves pulled down over both hands, looking down at him with no expression at all. Around them, a wash of flat pastel crowd shapes and a hanging banner. Bottom corner, small: a plain white card, face up, blank.",
+    "chars": [
+      "hibiki",
+      "sumire"
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "establishing",
+          "chars": [],
+          "bg": "Tōka Municipal High School's practice Pit — a floodlit concrete bowl sunk into the sports ground, safety rail, packed bleachers, a school banner, one very tired brass band; tone-washed with a few hard perspective lines",
+          "action": "Spring welcome exhibition, third minute, and something enormous is already loose down there.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "That's a BULK on the floor, folks!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Karimono Club welcome match, leg one!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "IT'S OUT! IT'S ON THE FLOOR!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "WHOOOOA",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Four minutes in and it is LOOSE!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GOOOO",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "tetsu",
+              "expression": "grinning through gritted teeth",
+              "pose": "both feet planted wide in the dirt, shoulders squared, arms up, catching something four times his size"
+            }
+          ],
+          "bg": "the Pit floor, dust, floodlight glare",
+          "action": "Ōgami Tetsuji stops a two-ton animal with his face and both feet.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "Hah! Come on, then!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Ōgami has ANCHORED! Feet down!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Nothing on earth shifts that boy!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DOSHA",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "tetsu",
+              "expression": "strained, delighted",
+              "pose": "immovable, heels dug in, the Bulk grinding against him"
+            }
+          ],
+          "bg": "dust, hard light",
+          "action": "Anchored, he cannot be moved. Anchored, he also cannot move.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "Somebody hit it! I'm stuck!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "Can't be moved, can't move!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "That is the whole power!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "flat, glasses flashing white",
+              "pose": "clipboard up, pen moving, not looking at the fight"
+            }
+          ],
+          "bg": "the team box at the rail, tone-washed",
+          "action": "The manager is not watching. The manager is counting.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Eleven Litter. One Bulk.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Nothing behind it. It's clean.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "I counted them all twice.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "pen down, mouth to the collar radio",
+              "pose": "one hand raised toward the floor"
+            }
+          ],
+          "bg": "team box, the Pit beyond",
+          "action": "She calls it in the flat voice of someone who is never wrong.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Anzai. Line's open. Go.",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "AND THERE SHE GOES, FOLKS!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "ANZAI! ANZAI!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "First-years — WATCH.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "completely level, eyes half-lidded",
+              "pose": "walking forward at an unhurried pace, sleeves pulled down over both hands, ponytail hanging straight"
+            }
+          ],
+          "bg": "Pit floor, the Bulk grinding against Tetsu in the background",
+          "action": "The ace does not run. The ace announces.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "Declaring.",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "I walk eleven steps.",
+              "type": "shout"
+            },
+            {
+              "char": "sumire",
+              "text": "Then I kick it in the throat.",
+              "type": "shout"
+            },
+            {
+              "char": "sumire",
+              "text": "Once. That's all of it.",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "Oh, here we go.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "tetsu",
+              "expression": "bracing, shouting sideways",
+              "pose": "still anchored, head turned to the club box"
+            }
+          ],
+          "bg": "Pit floor, dust",
+          "action": "Everyone in the building knows what she just did.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "GET OUT OF HER LINE!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "SHE'S CALLING IT! SHE'S CALLING!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "SHE MEANS IT! SHE ALWAYS MEANS IT!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "eyes open now, pale iris, one hard catchlight",
+              "pose": "counting steps under her breath"
+            }
+          ],
+          "bg": "blurred dust, tone gradient",
+          "action": "Nine. Ten.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "One step off and it ALL fails!",
+              "type": "shout"
+            },
+            {
+              "char": "sumire",
+              "text": "Ten.",
+              "type": "whisper"
+            },
+            {
+              "char": "sumire",
+              "text": "Eleven. There.",
+              "type": "whisper"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "eyes wide open, absolute",
+              "pose": "eleventh step landing, body torqued, one leg coming up and through in a straight kick"
+            }
+          ],
+          "bg": "the Bulk's head snapping back, dust ring blowing outward",
+          "action": "Exactly as declared. Nothing in the Pit can argue with exactly.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "Once.",
+              "type": "speech"
+            },
+            {
+              "char": "crowd",
+              "text": "ELEVEN! THAT WAS ELEVEN!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "SHE CALLED IT TO THE STEP!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "THAT IS MY ACE!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GAKIN",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "tetsu",
+              "expression": "beaming, covered in dirt",
+              "pose": "still planted, arms empty now, the Bulk gone past him"
+            }
+          ],
+          "bg": "the Pit, crowd shapes above the rail",
+          "action": "The bleachers come apart.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "Leg one, Tōka! A club record!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "Someone unstick me.",
+              "type": "speech"
+            },
+            {
+              "char": "crowd",
+              "text": "TWO MINUTES FORTY!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "WAAAAA",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "eyes enormous, mouth wide open, radiant",
+              "pose": "standing on his bleacher seat, both arms straight up, blazer flapping"
+            }
+          ],
+          "bg": "packed student bleachers, everyone else seated, tone-washed crowd mass",
+          "action": "One first-year is standing. Only one.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "THAT WAS THE COOLEST THING EVER",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "SHE TOLD HIM SHE'D DO IT FIRST!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "AND THEN SHE JUST DID IT!",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "Sit down.",
+              "type": "speech"
+            },
+            {
+              "char": "student",
+              "text": "Every year. Every single year.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "delighted, no self-awareness whatsoever",
+              "pose": "gripping the shoulder of the boy beside him with a bare hand, shaking him"
+            },
+            {
+              "name": "student",
+              "expression": "alarmed, leaning away",
+              "pose": "trying to become smaller"
+            }
+          ],
+          "bg": "bleacher seats",
+          "action": "He grabs a total stranger. Skin to skin. He does this constantly.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Eleven! He said eleven!",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "Let go of my neck, please.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Eleven and it WAS eleven!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GASHI",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "inset",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat white field, borderless with tone fade-out",
+          "action": "The card. It arrives the instant skin meets skin, and it never announces itself.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "【 PERFECT PITCH 】",
+              "type": "narration"
+            },
+            {
+              "char": "hibiki",
+              "text": "Ooh. That's a nice one.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Everyone has something.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "beaming, thumbs up",
+              "pose": "leaning into the stranger's personal space"
+            },
+            {
+              "name": "student",
+              "expression": "horrified",
+              "pose": "clutching his own bag"
+            }
+          ],
+          "bg": "bleachers",
+          "action": "He says it out loud. He always says it out loud.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "You've got perfect pitch! Congratulations!",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "How do you know that.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Sing something! Go on!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "student",
+              "expression": "dot eyes, squiggle mouth, sweatdrop",
+              "pose": "already three seats away"
+            },
+            {
+              "name": "hibiki",
+              "expression": "chibi, radiant, waving",
+              "pose": "leaning after him"
+            }
+          ],
+          "bg": "blank",
+          "action": "Every school gets one of these.",
+          "dialogue": [
+            {
+              "char": "student",
+              "text": "You're the one with no ability.",
+              "type": "whisper"
+            },
+            {
+              "char": "hibiki",
+              "text": "YEP! Kusaka Hibiki, one-C!",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "Please stop touching people.",
+              "type": "whisper"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "establishing",
+          "chars": [],
+          "bg": "the practice Pit from above — the sunken bowl, the safety rail, the club's folding table at the top of the stairs with a hand-painted banner, staff bustling between legs",
+          "action": "Between legs. The recruiting table opens.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "Five minutes to leg two, folks!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "The Karimono Club is recruiting!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "They have nine. They need ten.",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "They've had nine for four years.",
+              "type": "speech"
+            },
+            {
+              "char": "crowd",
+              "text": "NOBODY EVER JOINS!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "dead flat, glasses two white discs",
+              "pose": "seated behind the folding table, clipboard vertical, pen poised"
+            }
+          ],
+          "bg": "the table, a stack of forms nobody has taken",
+          "action": "Manaka Koharu has taken zero forms in two hours and has counted them all anyway.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Forms taken today: zero.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Forms remaining: two hundred.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Students spoken to: forty-one.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "flat, holding a form out at a passing student",
+              "pose": "arm extended without hope"
+            }
+          ],
+          "bg": "the table",
+          "action": "The pitch has not been workshopped.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Sign here to be crushed",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "by an animal for your school.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "It is an honest advertisement.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "airborne joy",
+              "pose": "vaulting the stair rail at full speed toward the table"
+            }
+          ],
+          "bg": "stairs, blurred crowd",
+          "action": "Impact incoming.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "I'LL SIGN IT",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "I'll sign all two hundred!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "Oh no.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DADAAAN",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "chibi, sparkling, both hands flat on the table",
+              "pose": "leaning all the way across into her face"
+            },
+            {
+              "name": "koharu",
+              "expression": "chibi, dot eyes, leaning back exactly as far",
+              "pose": "clipboard raised like a shield"
+            }
+          ],
+          "bg": "blank",
+          "action": "The forms go everywhere.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "How do I get to kick things?!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "You start at cones.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "I LOVE cones!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "BASA",
+              "style": "small"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "professional again, pen down",
+              "pose": "straightening the forms into a stack"
+            },
+            {
+              "name": "hibiki",
+              "expression": "vibrating",
+              "pose": "seated backwards on a folding chair"
+            }
+          ],
+          "bg": "the recruiting table",
+          "action": "Three boxes. That is the whole form.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Name. Class. Ability.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Kusaka Hibiki! Class one-C!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "Print it. I count typos.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "waiting, pen touching paper",
+              "pose": "eyes up over the glasses"
+            }
+          ],
+          "bg": "tone-washed",
+          "action": "Pen ready.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Ability.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "None!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "...Sorry?",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "None at all! Do I still qualify?",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "cheerful, palms up, entirely unbothered",
+              "pose": "shrugging enormously"
+            }
+          ],
+          "bg": "the table, wind moving the banner",
+          "action": "He has said this sentence three hundred times and it has never once cost him a night's sleep.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Measured cold, in a booth?",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "I score zero. It's on my file.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Null. Big unfriendly letters.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Then why are you here.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Nothing. Not one thing.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "grinning, thumb jerked at the whole stadium",
+              "pose": "half out of the chair"
+            }
+          ],
+          "bg": "the table, crowd mass behind",
+          "action": "He answers like it's obvious. To him it is.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Because everyone else isn't zero!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "That's nine hundred people!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "Nine hundred things I'm not!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "chibi, dot eyes, one drop of sweat",
+              "pose": "writing NULL in the box very slowly"
+            }
+          ],
+          "bg": "blank",
+          "action": "She writes it. She does not understand it yet.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "I'm writing that down exactly.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Please do! Spell it big!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "We have never recruited a Null.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hebihara",
+              "expression": "sunglasses on her head, unlit cigarette, unimpressed",
+              "pose": "arriving behind Koharu with a tracksuit jacket over one shoulder"
+            },
+            {
+              "name": "koharu",
+              "expression": "sitting up straight",
+              "pose": "handing over the form"
+            }
+          ],
+          "bg": "the table, the Pit rail behind",
+          "action": "The coach reads the form in about a second and a half.",
+          "dialogue": [
+            {
+              "char": "hebihara",
+              "text": "Manaka. Who's the loud one.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "His ability box says none.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Nobody's box says none.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "He wrote it twice. Cheerfully.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Show me the name box.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hebihara",
+              "expression": "the cigarette stops moving",
+              "pose": "reading the name box"
+            }
+          ],
+          "bg": "the form, tone-washed, borderless",
+          "action": "She reads the name box twice.",
+          "dialogue": [
+            {
+              "char": "hebihara",
+              "text": "...Kusaka.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Huh. Hell of a thing.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "I have heard that surname before.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "bright, already reaching",
+              "pose": "hand out for a handshake, arm fully extended"
+            },
+            {
+              "name": "hebihara",
+              "expression": "looking at the hand",
+              "pose": "not taking it"
+            }
+          ],
+          "bg": "tone-washed",
+          "action": "He offers. She doesn't.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Nice to meet you, Coach!",
+              "type": "shout"
+            },
+            {
+              "char": "hebihara",
+              "text": "Put it away. I know what you are.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "They say you raced pro, Coach!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "genuinely startled — the first time all day",
+              "pose": "hand still out, frozen"
+            }
+          ],
+          "bg": "borderless, tone fade-out",
+          "action": "Nobody has ever said that to him before.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Huh?",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Four of you in the country. Maybe five.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "I raced one. Nine years back.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hebihara",
+              "expression": "half a smile, chewing the unlit cigarette",
+              "pose": "walking away already, one hand raised in a lazy wave"
+            }
+          ],
+          "bg": "the stairs down to the team box",
+          "action": "She does not stop walking.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Wait — what am I?!",
+              "type": "shout"
+            },
+            {
+              "char": "hebihara",
+              "text": "Expensive. Now watch leg two.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "THAT IS NOT AN ANSWER",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "establishing",
+          "chars": [],
+          "bg": "the Pit floor from the announcer's box — a steel drum on a tripod at the start line, two teams in the boxes, floodlights, the mouth of the Pit like a black square cut into the wall",
+          "action": "Leg two. The drum spins.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "First-years, this is the whole sport!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "We spin the drum. We pull a card.",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Nobody knows what's on it. Nobody!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "SPIN IT! SPIN IT!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Not the teams. Not me. Nobody!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GARARA",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "a gloved official's hand holding a plain white card, flat tone behind",
+          "action": "The card comes out.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "The card reads—",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "\"A BELL THAT HAS NEVER RUNG.\"",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "THAT IS NOT A THING!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "mouth open, hands on the rail",
+              "pose": "hanging half over the safety rail"
+            },
+            {
+              "name": "student",
+              "expression": "resigned to his fate",
+              "pose": "seated beside him again"
+            }
+          ],
+          "bg": "bleachers",
+          "action": "The stands start arguing immediately. This is most of the fun.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "That's not a thing! Not an object!",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "A new bell. Still in the box.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "...A bell has to RING!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "chibi, stars in both eyes, gripping the boy's blazer",
+              "pose": "shaking him again"
+            },
+            {
+              "name": "student",
+              "expression": "chibi, resigned",
+              "pose": "being shaken"
+            }
+          ],
+          "bg": "blank",
+          "action": "This is the happiest anyone has been in these bleachers all year.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "OH. Oh, you're SMART.",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "It's the obvious answer.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Teach me EVERYTHING.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "rui",
+              "expression": "chin up, immaculate, aware of the camera",
+              "pose": "one hand through his hair at the start line"
+            },
+            {
+              "name": "gaku",
+              "expression": "half-lidded, exhausted by existence",
+              "pose": "slouching, arms hanging past his knees"
+            },
+            {
+              "name": "momo",
+              "expression": "grinning, chewing",
+              "pose": "bouncing on her toes"
+            }
+          ],
+          "bg": "the start line, the black mouth of the Pit",
+          "action": "Six go in at the horn.",
+          "dialogue": [
+            {
+              "char": "rui",
+              "text": "Are we filming? Tell me we're filming.",
+              "type": "speech"
+            },
+            {
+              "char": "gaku",
+              "text": "I want to go home.",
+              "type": "speech"
+            },
+            {
+              "char": "momo",
+              "text": "Nobody is filming you, Sakaki.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "PIIII",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "gaku",
+              "expression": "bored",
+              "pose": "standing still while both arms stretch three metres up a rock face to hook a ledge"
+            }
+          ],
+          "bg": "Pit floor one — pale broken stone, drifting dust, tone-washed with two hard perspective lines",
+          "action": "Hozumi Gaku does not run anywhere. Hozumi Gaku arrives.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "Hozumi takes the high shelf!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Three whole metres of arm!",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "Please stop describing my arms.",
+              "type": "speech"
+            },
+            {
+              "char": "crowd",
+              "text": "GROSS! COOL! GROSS!",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "I am going to quit this afternoon.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "NUURU",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "shiho",
+              "expression": "serene, eyes closed",
+              "pose": "kneeling, calmly licking a fragment of grey metal"
+            }
+          ],
+          "bg": "rubble, tone",
+          "action": "Uwabami Shiho identifies materials the only way she knows.",
+          "dialogue": [
+            {
+              "char": "shiho",
+              "text": "Tin. Cast for ringing.",
+              "type": "speech"
+            },
+            {
+              "char": "shiho",
+              "text": "But I taste the crack. Discard.",
+              "type": "speech"
+            },
+            {
+              "char": "shiho",
+              "text": "Bring me the next one, dear.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "PERO",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "hands clamped on his own face, radiant horror",
+              "pose": "leaning over the rail"
+            }
+          ],
+          "bg": "bleachers, tone",
+          "action": "He has found his people and does not know it yet.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "SHE LICKED IT",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "SHE LICKED IT AND IT WORKED",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "THAT IS AN ABILITY?!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "student",
+              "expression": "chibi, flat, pointing",
+              "pose": "leaning away"
+            },
+            {
+              "name": "hibiki",
+              "expression": "chibi, determined, fist clenched",
+              "pose": "standing on the seat"
+            }
+          ],
+          "bg": "blank",
+          "action": "Warnings do not work on this boy.",
+          "dialogue": [
+            {
+              "char": "student",
+              "text": "Don't ever shake her hand.",
+              "type": "speech"
+            },
+            {
+              "char": "student",
+              "text": "She licks strangers. Constantly.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "I am DEFINITELY shaking it.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "flat, scanning",
+              "pose": "walking a straight line through the chaos, hands in her sleeves, touching nothing"
+            }
+          ],
+          "bg": "Pit floor, teammates scrambling around her",
+          "action": "Everyone else climbs. She walks.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "Anzai hasn't declared once this leg!",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "She's saving it. She always does.",
+              "type": "speech"
+            },
+            {
+              "char": "student",
+              "text": "Watch her hands.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "pen stopped, eyes gone very wide behind the glasses",
+              "pose": "head snapping up from the clipboard"
+            }
+          ],
+          "bg": "team box, tone",
+          "action": "The count is wrong.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Wait.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Eleven went down that ramp.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "I do not miscount. Ever.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "standing up so fast the chair goes over",
+              "pose": "clipboard dropping, hand to the radio at her collar"
+            }
+          ],
+          "bg": "tone-washed, sharp",
+          "action": "She has never once been wrong about a number.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "There are nine on the floor.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Nine. Not eleven. Nine.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Two of them are missing.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GATAN",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "shouting, glasses askew",
+              "pose": "both hands on the radio, turning toward the stands"
+            },
+            {
+              "name": "hebihara",
+              "expression": "already moving",
+              "pose": "sunglasses coming down"
+            }
+          ],
+          "bg": "team box",
+          "action": "Two of them went the wrong way.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "COACH. TWO CAME UP THE STAIR.",
+              "type": "shout"
+            },
+            {
+              "char": "hebihara",
+              "text": "Which stair. Say it fast.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Say it fast, Manaka.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the spectator gate at the top of the bleachers — a service door slamming open, two low grey shapes coming through into the packed stands",
+          "action": "Two Litter. In the seats. Where the crowd is.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "GATE FOUR IS BREACHED—",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "CLEAR ROWS ONE THROUGH SIX!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "THEY'RE IN THE SEATS!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "GET DOWN! GET DOWN!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "ROW ONE! ROW ONE!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "BAKIIN",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "tetsu",
+              "expression": "roaring, straining",
+              "pose": "planted at the far end of the Pit floor, both feet anchored, unable to take a single step"
+            }
+          ],
+          "bg": "Pit floor, sixty metres of open ground between him and the stands",
+          "action": "The strongest boy in the school is bolted to the ground on the wrong side of the stadium.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "I'M BOLTED TO THE DIRT!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "ANZAI! ANZAI, THE STANDS!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "SIXTY METRES AND I CANNOT MOVE!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "eyes wide open — the first crack in the flat face",
+              "pose": "stopped dead mid-stride, one hand half out of its sleeve, head turned up toward the stands"
+            }
+          ],
+          "bg": "Pit floor, the bleachers looming above in tone",
+          "action": "She is forty metres down and in the middle of a stated intention.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "I declared the shelf.",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "If I turn now, all of it fails.",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "Nine seconds. Nine seconds.",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "Somebody up there hold on—",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Anzai cannot break a declaration!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the bleachers — students climbing over each other away from the gate, bags and shoes everywhere, two grey shapes coming down the aisle",
+          "action": "Nine seconds is a very long time.",
+          "dialogue": [
+            {
+              "char": "crowd",
+              "text": "THERE'S KIDS IN ROW ONE!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "WHERE ARE THE OFFICIALS?!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "SOMEBODY DO SOMETHING!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "MOVE! MOVE!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DOTA DOTA",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "not smiling — the whole face has gone still and calculating",
+              "pose": "one hand on the rail, already turning, eyes moving across the crowd"
+            }
+          ],
+          "bg": "bleachers, blur",
+          "action": "He isn't looking at the animals. He's looking at the people.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Okay. Okay okay okay.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Who have I touched today?",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Since midnight. Skin to skin.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "eyes moving fast, counting on his fingers",
+              "pose": "one hand up, ticking off names"
+            }
+          ],
+          "bg": "borderless, tone fade-out, ghosted faces behind him",
+          "action": "Since midnight. Skin to skin. The roster is short.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Mum at the door. Perfect-hair guy.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Four people. Once each.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Sixty seconds each. That is it.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "grinning again, but wrong — too wide, too fast",
+              "pose": "up on the seat back, one foot on the rail"
+            },
+            {
+              "name": "student",
+              "expression": "reaching for him too late",
+              "pose": "half standing"
+            }
+          ],
+          "bg": "bleachers",
+          "action": "Four minutes of being somebody good.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Four minutes of being useful.",
+              "type": "thought"
+            },
+            {
+              "char": "student",
+              "text": "Hey. Hey, don't—",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "Four whole minutes of somebody good.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "size": "hero",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "eyes blazing, mouth open in a shout, absolutely delighted",
+              "pose": "launched off the rail into open air over the aisle, both arms spread, blazer flying, black hair a solid mass against the floodlights"
+            }
+          ],
+          "bg": "the bleachers below and behind, floodlight glare, the two grey shapes in the aisle beneath him",
+          "action": "The weakest student in Tōka High jumps the rail.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "EXCUSE ME! SORRY! COMING THROUGH!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "EVERYBODY PUT YOUR HANDS OUT!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "I'M NOT BEING WEIRD! IT HELPS!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "PALMS! WRISTS! ANY BARE SKIN!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "WHO IS THAT?!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "GET HIM OFF THE RAIL!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DOOON",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hebihara",
+              "expression": "sunglasses down, absolutely still",
+              "pose": "watching him fall, one hand on the rail"
+            },
+            {
+              "name": "koharu",
+              "expression": "horrified",
+              "pose": "both hands over her mouth"
+            }
+          ],
+          "bg": "team box, tone",
+          "action": "The coach does not shout for him to stop.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Coach — he has no ability!",
+              "type": "shout"
+            },
+            {
+              "char": "hebihara",
+              "text": "No. He has nine hundred.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "He weighs nothing! He will die!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the announcer's box, a man standing up out of his chair with the microphone still in his hand",
+          "action": "Nine hundred people watch a first-year go over a safety rail.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "A STUDENT IS OVER THE RAIL!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "SIT DOWN, SON! NOT YOUR JOB!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "THAT BOY IS NOT IN A CLUB!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "student",
+              "expression": "baffled, obeying anyway",
+              "pose": "thrusting a bare palm out over the seat back with three others doing the same"
+            }
+          ],
+          "bg": "row six of the bleachers, a forest of confused outstretched hands",
+          "action": "Nine hundred people do not understand the request. Eleven of them comply anyway.",
+          "dialogue": [
+            {
+              "char": "crowd",
+              "text": "HANDS?! HE SAID HANDS!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "JUST DO IT! PUT THEM OUT!",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "Why are we doing this?",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "a bare palm meeting a bare palm at speed, tone-washed, motion blur",
+          "action": "He takes every hand he passes. He will need all of them.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Thanks! Thanks! Thank you!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "Four in the tank. Make them count.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "PAN PAN",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "focused, hand outstretched",
+              "pose": "landing in the aisle and slapping his palm into a random third-year's palm on the way past"
+            }
+          ],
+          "bg": "bleachers, panicking students",
+          "action": "First borrow. He does not have time to be picky.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Hi! Borrowing this!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "One minute! You get it back!",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "Borrowing WHAT—",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "PAN",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "inset",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat white field, borderless",
+          "action": "The card.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "【 MY HAIR NEVER GETS MESSY 】",
+              "type": "narration"
+            },
+            {
+              "char": "hibiki",
+              "text": "That's the whole card.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Sixty seconds of this.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "chibi, white-eyed, jaw on the floor",
+              "pose": "skidding to a halt mid-sprint"
+            }
+          ],
+          "bg": "blank with speed lines",
+          "action": "Sixty seconds. Ticking. Right now.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "THAT'S NOT AN ABILITY",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "THAT IS JUST A HAIRCUT",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "Fifty-eight. Fifty-seven.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GAAAN",
+              "style": "big"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "student",
+              "expression": "chibi, offended, hands on hips",
+              "pose": "pointing at his own perfect hair"
+            },
+            {
+              "name": "hibiki",
+              "expression": "chibi, screaming over his shoulder",
+              "pose": "already running again"
+            }
+          ],
+          "bg": "blank",
+          "action": "Everyone is proud of something.",
+          "dialogue": [
+            {
+              "char": "student",
+              "text": "It's registered! It's on my file!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "SIR I AM RUNNING AT AN ANIMAL",
+              "type": "shout"
+            },
+            {
+              "char": "student",
+              "text": "It is good in humid weather!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "grim, running anyway",
+              "pose": "sprinting down the aisle with both arms up, waving, making himself the loudest thing in the stadium"
+            }
+          ],
+          "bg": "the aisle, the two Litter turning toward him, students scrambling behind",
+          "action": "Fifty-one seconds of immaculate hair. He uses it the only way it can be used.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "HEY! UGLY! OVER HERE!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "Not a weapon. It's a voice.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Everything follows the loud thing.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "TATATA",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "wide-eyed, committed",
+              "pose": "leading both Litter away down the aisle at a dead sprint, arms windmilling"
+            }
+          ],
+          "bg": "bleachers emptying behind him, row one clearing, the Pit floor far below",
+          "action": "It isn't a plan. It's bait. He is extremely good at being bait.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "Someone is — someone is LURING them?",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "He's pulling them off row one!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "That's not a club member!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "Form two hundred. Kusaka.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Ability box: none.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hebihara",
+              "expression": "unreadable behind the sunglasses",
+              "pose": "arms folded, watching him run"
+            }
+          ],
+          "bg": "team box, tone",
+          "action": "The coach has seen this exactly once before.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "His ability box said none.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "He didn't lie, either.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "And he did not lie about it.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "counting under his breath, teeth bared",
+              "pose": "vaulting a row of seats, one hand down"
+            }
+          ],
+          "bg": "seat backs, tone",
+          "action": "He counts out loud. He always counts out loud.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Thirty-one. Thirty.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Three people left. Make them good.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Twenty-six. Twenty-five.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "gaku",
+              "expression": "alarmed for the first time in his life",
+              "pose": "hauling himself over the rail from the Pit side, both arms stretched to their full three metres"
+            }
+          ],
+          "bg": "the rail, the Pit below",
+          "action": "The nearest club member is coming up the wall, arms first.",
+          "dialogue": [
+            {
+              "char": "gaku",
+              "text": "Hey! First-year! Get behind me!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "GAKU-SENPAI! HI!",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "You do not even go here!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "beaming, hand already closing on Gaku's bare wrist",
+              "pose": "grabbing him as he runs past"
+            },
+            {
+              "name": "gaku",
+              "expression": "dot eyes, mouth a flat line",
+              "pose": "being grabbed"
+            }
+          ],
+          "bg": "motion blur, tone",
+          "action": "Second borrow. They have never spoken before.",
+          "dialogue": [
+            {
+              "char": "gaku",
+              "text": "We have never met.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "CAN I BORROW YOU",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "Borrow — borrow WHAT—",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GASHI",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "panels": [
+        {
+          "size": "inset",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat white field, borderless",
+          "action": "The card.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "【 REACH — 3M 】",
+              "type": "narration"
+            },
+            {
+              "char": "hibiki",
+              "text": "OH YES. OH, YES, THIS ONE.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "I have wanted arms my whole life.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "pure joy, eyes shut, swinging with everything he has",
+              "pose": "throwing an enormous haymaker, his right arm suddenly three metres long and completely out of control"
+            }
+          ],
+          "bg": "the aisle, the two Litter, seats flying",
+          "action": "Law six: he gets the ability, not the skill.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "I HAVE ARMS",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "LOOK AT ALL THIS ARM",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "Don't SWING it! You AIM it!",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "There's a whole technique!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "NO TIME FOR TECHNIQUE",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "BYUUUN",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "chibi, X eyes, spinning",
+              "pose": "his own three-metre fist arriving back around and hitting him squarely in the face"
+            }
+          ],
+          "bg": "blank with impact rings",
+          "action": "The arm comes all the way around.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "OW",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "It does that. It always does that.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Why does it come BACK?!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GOSHA",
+              "style": "big"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "chibi, one hand over a swelling eye, thumbs up",
+              "pose": "flat on his back across three seats"
+            },
+            {
+              "name": "gaku",
+              "expression": "chibi, half-lidded, arms folded",
+              "pose": "standing over him"
+            }
+          ],
+          "bg": "blank",
+          "action": "Sixteen seconds left of the best ability he has ever held.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Senpai, how do you live like this?",
+              "type": "speech"
+            },
+            {
+              "char": "gaku",
+              "text": "Badly. Now give it back.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Sixteen seconds! Sorry!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "chibi, cheerful, holding up both hands",
+              "pose": "sitting up"
+            },
+            {
+              "name": "gaku",
+              "expression": "chibi, appalled",
+              "pose": "leaning back"
+            }
+          ],
+          "bg": "blank",
+          "action": "He explains the Law to a man who did not ask.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Can't! Sixteen seconds! It's the law!",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "Whose law? Kid. Whose law.",
+              "type": "speech"
+            },
+            {
+              "char": "gaku",
+              "text": "I hate this so much.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "back on his feet, refocused",
+              "pose": "long arm hooked around a steel seat-frame, hauling himself over a whole row in one pull"
+            }
+          ],
+          "bg": "bleachers, one Litter cut off behind him",
+          "action": "He can't fight with it. He can move with it.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Not punching, then. Climbing.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Twelve. Eleven.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Ten. Nine. Eight.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Move, do not punch. Move.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GAKI",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "straining, three metres of arm around a small girl's waist",
+              "pose": "lifting a first-year out of row one and swinging her back over the seats to safety"
+            }
+          ],
+          "bg": "row one, the aisle, a grey shape closing",
+          "action": "Row one, cleared, one child at a time.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Up you go! Sorry about the arm!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "ROW ONE IS CLEAR!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "HIS ARM — HIS ARM IS—",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "HE'S GOT HOZUMI'S ARMS!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "GET THE LITTLE ONES OUT!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "HYOI",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "mouth open, eyes going wide with recognition",
+              "pose": "arm mid-extension, already beginning to shorten"
+            }
+          ],
+          "bg": "tone, sharp radial focus lines",
+          "action": "Three. Two.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Ah. There it is.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "That's the sixty, then.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Three. Two.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "3",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "resigned mid-air, one eye already swelling",
+              "pose": "arm snapping back to normal length while he is still hanging from a seat-frame two metres up, dropping"
+            }
+          ],
+          "bg": "bleachers, seats below",
+          "action": "Law four: exactly sixty seconds. It has never once waited for him.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Zero.",
+              "type": "speech"
+            },
+            {
+              "char": "gaku",
+              "text": "OH — HE'S STILL UP THERE—",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "HIS ARMS WENT BACK TO NORMAL!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DOSA",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "gaku",
+              "expression": "wincing",
+              "pose": "arms out, three metres too late"
+            }
+          ],
+          "bg": "the aisle, dust, seats",
+          "action": "He lands badly and gets up anyway.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "THE FIRST-YEAR IS DOWN!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "SOMEBODY GET A TEACHER!",
+              "type": "shout"
+            },
+            {
+              "char": "gaku",
+              "text": "Kid! KID!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "IS HE BREATHING?!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "face down, one eye open, still counting",
+              "pose": "sprawled across two rows of seating"
+            }
+          ],
+          "bg": "seat backs, dust, tone",
+          "action": "Two people left. He is keeping score.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Two left. Mum's one of them.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "She's four kilometres away.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "That's not a roster.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "furious, glasses askew, hauling him up by the collar",
+              "pose": "one small hand fisted in his blazer, the other holding the clipboard"
+            },
+            {
+              "name": "hibiki",
+              "expression": "delighted to see her",
+              "pose": "being hauled"
+            }
+          ],
+          "bg": "the aisle, dust",
+          "action": "The manager has come down four flights of stairs at a dead run.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "You idiot! You have no ability!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "Manaka-senpai! Hi!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "You ran four flights for me!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "his bare hand closing around her bare wrist, tone-washed, borderless",
+          "action": "Skin to skin. Third borrow.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Senpai. Can I borrow you?",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Borrow — borrow what?",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Sixty seconds. No charge.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "inset",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat white field, borderless",
+          "action": "The card.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "【 TALLY 】",
+              "type": "narration"
+            },
+            {
+              "char": "hibiki",
+              "text": "...What does that even do?",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Tally. Tally what?",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "It sounds like nothing at all.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "eyes going very wide, pupils shrinking — the whole stadium arriving in his head at once",
+              "pose": "head snapping up, frozen"
+            }
+          ],
+          "bg": "radial focus lines, tone blown out to white",
+          "action": "Then it does it.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Oh. Oh, senpai.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "This is HORRIBLE.",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "Kusaka? What is it?",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "All of it. All at once.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "ZAWA",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "pov",
+          "chars": [],
+          "bg": "the entire stadium seen at once, every object flagged with a hard blunt number floating beside it — seats, bolts, people, shoes, the two grey shapes in the aisle, the black square of the Pit mouth",
+          "action": "Everything he has looked at, counted, permanently, whether he wants it or not.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Two thousand four hundred seats.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Nine hundred people.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "Forty-one bolts. Six of them loose.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "How do you live inside this?",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "All of it. All at once.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "staring at him, entirely still, understanding exactly what just happened",
+              "pose": "wrist still in his hand"
+            }
+          ],
+          "bg": "tone-washed, borderless",
+          "action": "Nobody has ever said that to her either.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "You're actually in it.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Nobody's ever been in here with me.",
+              "type": "whisper"
+            },
+            {
+              "char": "koharu",
+              "text": "Not once. Not in six years.",
+              "type": "whisper"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "eyes locked on the far side of the stadium, the smile gone",
+              "pose": "head turned sharply toward the Pit mouth"
+            }
+          ],
+          "bg": "tone, hard perspective lines",
+          "action": "And then the number that's wrong.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Senpai. You said nine on the floor.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Nine. Plus two up here. Eleven.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Right. Eleven.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "grim, pointing across the whole stadium",
+              "pose": "arm out, finger aimed at the black square of the maintenance shaft"
+            },
+            {
+              "name": "koharu",
+              "expression": "following his hand, going pale",
+              "pose": "turning"
+            }
+          ],
+          "bg": "the far wall, the shaft, tone",
+          "action": "Twelve.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "There's twelve.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "And number twelve is enormous.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Twelve? There is no twelfth—",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "all the colour gone out of her face",
+              "pose": "clipboard slipping from her fingers"
+            }
+          ],
+          "bg": "the shaft in tone behind her, out of focus",
+          "action": "She has counted for six years. Nobody has ever checked her work.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "That isn't a Litter.",
+              "type": "whisper"
+            },
+            {
+              "char": "koharu",
+              "text": "That's a second Bulk.",
+              "type": "whisper"
+            },
+            {
+              "char": "koharu",
+              "text": "Nobody counted the shaft.",
+              "type": "whisper"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the maintenance shaft mouth on the Pit floor — something enormous coming out of it low and fast, dust blowing flat, heading straight for the team box where the officials and the injured are",
+          "action": "Nobody down there is looking at it. Everyone down there is looking at the stands.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "—wait. SOMETHING'S IN THE SHAFT—",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "THAT IS NOT A LITTER!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "BEHIND YOU! BEHIND YOU!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "DON'T YOU DARE TURN AROUND!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "ANZAI! TURN AROUND!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "ZUUUN",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "eyes forward, jaw set, deliberately not looking behind her",
+              "pose": "still walking her declared line, arm reaching for the shelf, sleeve over her hand"
+            }
+          ],
+          "bg": "Pit floor, the shape closing behind her in tone",
+          "action": "She declared the shelf. She cannot turn around. Not for any reason.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "Two more steps.",
+              "type": "whisper"
+            },
+            {
+              "char": "sumire",
+              "text": "I said the shelf. I said the shelf.",
+              "type": "whisper"
+            },
+            {
+              "char": "sumire",
+              "text": "Everyone is screaming at me.",
+              "type": "whisper"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "working it out at enormous speed",
+              "pose": "both hands on the rail, leaning out over sixty metres of open air"
+            }
+          ],
+          "bg": "the rail, the Pit floor far below",
+          "action": "He can't get down there. He has eleven seconds of counting left and no arms.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "If she turns, all of it fails.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "So don't ask her to turn.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "So do not ask her to turn.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "shouting into a dead radio",
+              "pose": "one hand up, waving uselessly at the box"
+            }
+          ],
+          "bg": "the rail",
+          "action": "The radio is out. Nine hundred people are screaming.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Radio's dead — she can't hear us!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "She can hear me.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "The radio is out! It is dead!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "grabbing at his sleeve",
+              "pose": "reaching as he climbs the rail"
+            },
+            {
+              "name": "hibiki",
+              "expression": "already inhaling",
+              "pose": "one foot up on the top rail"
+            }
+          ],
+          "bg": "the rail, the bowl below",
+          "action": "There is exactly one channel left.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "She doesn't know who you ARE—",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "She just has to trust a number.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Kusaka — get down from there!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        }
+      ]
+    },
+    {
+      "page": 19,
+      "panels": [
+        {
+          "size": "hero",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "mouth wide open, whole body thrown into it, one hand cupped beside his mouth",
+              "pose": "standing on the top rail above the entire stadium, tiny against the bowl, black hair a hard black mark on the white sky"
+            }
+          ],
+          "bg": "the whole Pit from behind and above him — nine hundred people, floodlights, the far wall, Sumire a small white figure on the floor",
+          "action": "He does not tell her to run. He gives her a number.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "ANZAI-SAN! DON'T TURN AROUND!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "FINISH THE SHELF FIRST!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "BULK BEHIND YOU! ELEVEN METRES!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "SIX STEPS! IT'S ON YOUR LEFT!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "I COUNTED! I PROMISE I COUNTED!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "shouting with him, both hands cupped",
+              "pose": "up on the rail beside him"
+            }
+          ],
+          "bg": "the rail, the bowl below",
+          "action": "The manager backs a stranger's count with her own name.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "ANZAI! HE'S RIGHT! ELEVEN METRES!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "IT'S MY COUNT! IT'S MINE!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "TRUST IT! TRUST THE NUMBER!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the bleachers, nine hundred faces all turned the same way, the brass band standing on their chairs",
+          "action": "The stadium goes quiet enough for one voice to cross it.",
+          "dialogue": [
+            {
+              "char": "crowd",
+              "text": "WHO IS THAT KID?!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "I have no idea, folks. None.",
+              "type": "speech"
+            },
+            {
+              "char": "crowd",
+              "text": "WHO IS THAT ON THE RAIL?!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "tetsu",
+              "expression": "head snapped round, mouth open",
+              "pose": "still anchored sixty metres away, both feet in the dirt"
+            }
+          ],
+          "bg": "Pit floor, dust, the shape coming out of the shaft behind",
+          "action": "The captain hears a first-year give his ace a firing solution.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "Who is that? WHO IS THAT?",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "ANZAI! TAKE THE COUNT!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hebihara",
+              "expression": "sunglasses off, entirely still",
+              "pose": "one hand frozen halfway to her pocket"
+            }
+          ],
+          "bg": "the team box, floodlight glare, out of focus crowd",
+          "action": "The coach has waited nine years to watch someone do this.",
+          "dialogue": [
+            {
+              "char": "hebihara",
+              "text": "There it is.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "That is what a Null is for.",
+              "type": "whisper"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 20,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "eyes wide, pale iris, one hard catchlight — hearing a voice she does not know",
+              "pose": "hand closing on the item on the shelf, still facing forward"
+            }
+          ],
+          "bg": "the shelf, tone-washed, radial focus",
+          "action": "A stranger in the stands has just told her a number. She has no reason on earth to believe it.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "...Who is that.",
+              "type": "whisper"
+            },
+            {
+              "char": "sumire",
+              "text": "Nobody gives me a number.",
+              "type": "thought"
+            },
+            {
+              "char": "sumire",
+              "text": "A number. Somebody gave me a number.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "eyes closing for a half-second, deciding",
+              "pose": "fist tightening inside the sleeve"
+            }
+          ],
+          "bg": "borderless, tone fade-out",
+          "action": "They scream at her. They never count for her.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "They only ever scream.",
+              "type": "thought"
+            },
+            {
+              "char": "sumire",
+              "text": "Eleven metres. Six steps. Left.",
+              "type": "whisper"
+            },
+            {
+              "char": "sumire",
+              "text": "Nobody has ever done that.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "absolutely level again",
+              "pose": "lifting a small tarnished bell off the shelf, still not turning"
+            }
+          ],
+          "bg": "the shelf, the shape closing behind in tone",
+          "action": "She finishes exactly what she said she would do. Then, and only then, the next thing.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "Shelf. Done.",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "Declaring.",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "SHE HAS THE ITEM! AND SHE IS CALLING!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "eyes blazing, teeth bared — the first real expression of the chapter",
+              "pose": "pivoting on one heel into a full turn, bell in her sleeve-covered fist, other leg already loading"
+            }
+          ],
+          "bg": "the Bulk arriving, dust wall, floodlight glare",
+          "action": "Six steps. On the left. Exactly as told.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "Six steps left.",
+              "type": "shout"
+            },
+            {
+              "char": "sumire",
+              "text": "Then I break its jaw.",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "SHE HEARD HIM!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "SHE TOOK A STRANGER'S COUNT!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "SHE HEARD THE KID!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "DODON",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "action"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "silhouette panel — two solid black shapes against a flat blown-out tone field: a small figure with one leg extended, and something enormous coming apart around it",
+          "action": "It is over in under a second.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "SHE CALLED IT AND SHE DID IT!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "SIX STEPS! EXACTLY SIX!",
+              "type": "shout"
+            },
+            {
+              "char": "crowd",
+              "text": "SIX! IT WAS SIX!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GOOOON",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": true,
+          "beat": "action"
+        }
+      ]
+    },
+    {
+      "page": 21,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "breathing hard, hair coming loose",
+              "pose": "on one knee in the settling dust, bell held up in a sleeve-covered hand"
+            },
+            {
+              "name": "tetsu",
+              "expression": "roaring with laughter, finally unstuck",
+              "pose": "arms in the air, jogging over"
+            }
+          ],
+          "bg": "the Pit floor, dust, floodlights, the whole stadium on its feet",
+          "action": "Leg two. A bell that has never rung, and it never got the chance.",
+          "dialogue": [
+            {
+              "char": "announcer",
+              "text": "Leg two, Tōka! The item is GOOD!",
+              "type": "shout"
+            },
+            {
+              "char": "announcer",
+              "text": "Gate four clear! Nobody's hurt!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "You beautiful maniac!",
+              "type": "shout"
+            },
+            {
+              "char": "sumire",
+              "text": "It rang when I hit it.",
+              "type": "speech"
+            },
+            {
+              "char": "tetsu",
+              "text": "Let him argue. I will sit on him.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "grinning, filthy, one eye swollen shut",
+              "pose": "half-falling down the last of the Pit-side stairs onto the floor"
+            }
+          ],
+          "bg": "stairs, dust, officials moving past",
+          "action": "He has come down four flights on a twisted ankle to say one thing.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "THAT WAS AMAZING!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "SIX STEPS! IT WAS ACTUALLY SIX!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "YOU DID NOT EVEN LOOK!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "open, warm, entirely unguarded — hand out",
+              "pose": "skidding to a stop in front of her and offering a bare hand to help her up"
+            },
+            {
+              "name": "sumire",
+              "expression": "looking at the hand",
+              "pose": "still on one knee"
+            }
+          ],
+          "bg": "dust, tone-washed, the crowd a soft mass above",
+          "action": "It is the most ordinary gesture in the world.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Kusaka Hibiki! First year!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "You didn't even look! Here—",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "That was the best thing ever.",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "flat, unreadable, eyes on his palm and nowhere else",
+              "pose": "standing up entirely on her own, one step back, sleeve pulled down past her knuckles"
+            }
+          ],
+          "bg": "borderless, tone fade-out, dust motes",
+          "action": "She stands up by herself. She takes one step backward.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "Don't.",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "I don't do that. Not with anybody.",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "It is not about you.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "hand still out, smile still on, not understanding at all",
+              "pose": "frozen, arm extended into empty air"
+            }
+          ],
+          "bg": "dust, flat tone",
+          "action": "He has shaken four hundred hands this year. This is the first that ever moved away.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Oh! Sorry! Germs? That's fair!",
+              "type": "shout"
+            },
+            {
+              "char": "sumire",
+              "text": "Thank you for the number.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "No problem! None at all!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 22,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "establishing",
+          "chars": [],
+          "bg": "the club shed behind the practice Pit — a converted equipment hut, whiteboard covered in old race cards, a fridge with one melon in it, a sofa with a known hole, gear on every hook, evening light through one window",
+          "action": "Forty minutes later. The room where this series lives.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "Meeting! Everybody sit down!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "Sakaki, stop filming the melon!",
+              "type": "shout"
+            },
+            {
+              "char": "rui",
+              "text": "The melon out-performs you.",
+              "type": "speech"
+            },
+            {
+              "char": "momo",
+              "text": "It genuinely does.",
+              "type": "speech"
+            },
+            {
+              "char": "rui",
+              "text": "It has four hundred thousand views.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "bandaged, one eye purple, grinning like it's a birthday",
+              "pose": "sitting bolt upright on the broken sofa, hands on his knees"
+            },
+            {
+              "name": "bin",
+              "expression": "flat, headphones round his neck",
+              "pose": "sitting beside him, not moving"
+            }
+          ],
+          "bg": "the shed interior",
+          "action": "Nine people are looking at him. He is having the best day of his life.",
+          "dialogue": [
+            {
+              "char": "bin",
+              "text": "You jumped a rail at two animals.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "I had four abilities!",
+              "type": "shout"
+            },
+            {
+              "char": "bin",
+              "text": "You have no ability at all.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "bin",
+              "expression": "completely flat, not looking at him",
+              "pose": "sliding the headphones back on"
+            }
+          ],
+          "bg": "the shed",
+          "action": "Numata Bin does not raise his voice, ever.",
+          "dialogue": [
+            {
+              "char": "bin",
+              "text": "One of them was hair.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "It was a GOOD haircut.",
+              "type": "shout"
+            },
+            {
+              "char": "bin",
+              "text": "It was hair, Kusaka.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "tetsu",
+              "expression": "arms folded, enormous, serious for once",
+              "pose": "standing in front of the whiteboard"
+            },
+            {
+              "name": "koharu",
+              "expression": "clipboard up",
+              "pose": "beside him"
+            }
+          ],
+          "bg": "the whiteboard, old cards taped in rows",
+          "action": "The captain does the arithmetic out loud.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "You called a Bulk from four flights up.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "Correct to the metre.",
+              "type": "speech"
+            },
+            {
+              "char": "tetsu",
+              "text": "Range, count, and which side.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "waving both hands, chibi, sweating",
+              "pose": "trying to give the credit away"
+            },
+            {
+              "name": "koharu",
+              "expression": "chibi, pushing his hands back down",
+              "pose": "unimpressed"
+            }
+          ],
+          "bg": "blank",
+          "action": "He genuinely does not think it was his.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "That was senpai's! I just held it!",
+              "type": "shout"
+            },
+            {
+              "char": "koharu",
+              "text": "I've never shouted it at anybody.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "For one minute!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "panels": [
+        {
+          "size": "half",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "hebihara",
+              "expression": "sunglasses down now, arms folded, reading the room",
+              "pose": "leaning in the shed doorway"
+            },
+            {
+              "name": "shiho",
+              "expression": "smiling gently, terrifying",
+              "pose": "pouring tea for everyone"
+            }
+          ],
+          "bg": "the shed, evening light, the whole club packed in",
+          "action": "The coach explains him to a room that has never met one before.",
+          "dialogue": [
+            {
+              "char": "hebihara",
+              "text": "He's a Borrower. Sixty seconds.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "One at a time. Skin to skin.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Only people he's touched today.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Once each. Then it's gone.",
+              "type": "speech"
+            },
+            {
+              "char": "shiho",
+              "text": "Tea, everyone. Sit down properly.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hebihara",
+              "expression": "chewing the unlit cigarette, watching the boy",
+              "pose": "one shoulder against the door frame"
+            }
+          ],
+          "bg": "the doorway, evening light",
+          "action": "She says the sad part like it's a weather report, because he does too.",
+          "dialogue": [
+            {
+              "char": "hebihara",
+              "text": "Every morning he's nobody.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "Every morning I'm EARLY.",
+              "type": "shout"
+            },
+            {
+              "char": "hebihara",
+              "text": "Every single morning, kid.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "momo",
+              "expression": "eyes lighting up, leaning forward",
+              "pose": "chewing, both hands on the table"
+            },
+            {
+              "name": "rai",
+              "expression": "chin up, sceptical",
+              "pose": "jacket hanging off both shoulders"
+            }
+          ],
+          "bg": "the shed",
+          "action": "The room does the maths a beat behind her.",
+          "dialogue": [
+            {
+              "char": "momo",
+              "text": "Wait. Nine of us are in this room.",
+              "type": "speech"
+            },
+            {
+              "char": "rai",
+              "text": "So?",
+              "type": "speech"
+            },
+            {
+              "char": "momo",
+              "text": "So he shakes all nine of us?",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "koharu",
+              "expression": "glasses flashing, pen moving very fast",
+              "pose": "already writing a formation on the clipboard"
+            }
+          ],
+          "bg": "the clipboard, tone",
+          "action": "The manager has been doing this maths since the stairs.",
+          "dialogue": [
+            {
+              "char": "koharu",
+              "text": "Nine minutes of the whole club.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "In one body. Anywhere on course.",
+              "type": "speech"
+            },
+            {
+              "char": "koharu",
+              "text": "In any order he wants.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "tetsu",
+              "expression": "enormous grin, hand out",
+              "pose": "offering a huge bare palm across the table"
+            },
+            {
+              "name": "hibiki",
+              "expression": "looking at the hand like it is a birthday cake",
+              "pose": "half out of his seat"
+            }
+          ],
+          "bg": "the shed",
+          "action": "The captain offers his hand. Nobody has ever done that on purpose before.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "Welcome to the Nine, first-year.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "There's ten of us now!",
+              "type": "shout"
+            },
+            {
+              "char": "tetsu",
+              "text": "Nobody is changing the name.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GASHI",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "warm"
+        }
+      ]
+    },
+    {
+      "page": 24,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "chibi, sparkling, tears of joy, mid-lunge",
+              "pose": "going down the line shaking every hand in the room at speed"
+            },
+            {
+              "name": "rai",
+              "expression": "chibi, being shaken",
+              "pose": "hand caught"
+            },
+            {
+              "name": "shiho",
+              "expression": "chibi, delighted",
+              "pose": "offering both hands"
+            }
+          ],
+          "bg": "blank",
+          "action": "He works the entire room in eleven seconds.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "HI! HI! HI! HI!",
+              "type": "shout"
+            },
+            {
+              "char": "shiho",
+              "text": "You may have both of mine, dear.",
+              "type": "speech"
+            },
+            {
+              "char": "rai",
+              "text": "Oi! Get off me!",
+              "type": "shout"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "PAN PAN PAN",
+              "style": "small"
+            }
+          ],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "chibi, stars for eyes, both fists up",
+              "pose": "standing on the sofa"
+            }
+          ],
+          "bg": "blank",
+          "action": "Four cards in a row. He reads them all out.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "【HEAT】【TASTE】【SPRING】",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "BEST DAY OF MY WHOLE LIFE",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "I AM GOING TO BORROW EVERYONE",
+              "type": "shout"
+            }
+          ],
+          "sfx": [],
+          "chibi": true,
+          "silhouette": false,
+          "beat": "comedy"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "flat, watching from the far wall",
+              "pose": "standing apart with her back to the whiteboard, both hands inside her sleeves"
+            },
+            {
+              "name": "momo",
+              "expression": "cheerful, oblivious",
+              "pose": "waving her over"
+            }
+          ],
+          "bg": "the shed, the noise happening two metres away",
+          "action": "One person in the room has not moved.",
+          "dialogue": [
+            {
+              "char": "momo",
+              "text": "Anzai! Your turn! Shake his hand!",
+              "type": "shout"
+            },
+            {
+              "char": "rui",
+              "text": "Kirin. Stop talking. Now.",
+              "type": "speech"
+            },
+            {
+              "char": "momo",
+              "text": "What? She is on the team.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "sumire",
+              "expression": "level, entirely calm, giving nothing",
+              "pose": "not moving, hands still in her sleeves"
+            },
+            {
+              "name": "hibiki",
+              "expression": "hand half-raised, faltering",
+              "pose": "stopped mid-room"
+            }
+          ],
+          "bg": "the shed, the room going quiet",
+          "action": "The room goes quiet in the specific way a room does when this has happened before.",
+          "dialogue": [
+            {
+              "char": "sumire",
+              "text": "No.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "...Ever?",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "Ever. It isn't about you.",
+              "type": "speech"
+            },
+            {
+              "char": "sumire",
+              "text": "Do not make it about you.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "silhouette panel — a tall solid black figure against a flat pale tone field, arms down, both hands swallowed by sleeves, absolutely closed; a smaller black figure a full two metres away with one hand still half-raised",
+          "action": "Two metres. The distance this series will spend a hundred chapters on.",
+          "dialogue": [
+            {
+              "char": "tetsu",
+              "text": "Leave it. She doesn't. Not anyone.",
+              "type": "speech"
+            },
+            {
+              "char": "tetsu",
+              "text": "Three years. Not one high-five.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Nobody here asks why.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": true,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "smile back on, but the eyes are doing something new",
+              "pose": "lowering his hand slowly and putting it in his pocket"
+            }
+          ],
+          "bg": "the shed, borderless, tone fade-out",
+          "action": "For the first time in his life he keeps something to himself.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Okay! No problem!",
+              "type": "shout"
+            },
+            {
+              "char": "hibiki",
+              "text": "One person I can't ever be. Huh.",
+              "type": "thought"
+            },
+            {
+              "char": "hibiki",
+              "text": "That has never happened before.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "quiet"
+        }
+      ]
+    },
+    {
+      "page": 25,
+      "panels": [
+        {
+          "size": "third",
+          "shot": "wide",
+          "chars": [],
+          "bg": "the shed door banging open from outside, evening light flooding in, three silhouettes in immaculate matching gear standing in it",
+          "action": "The door does not knock.",
+          "dialogue": [
+            {
+              "char": "rui",
+              "text": "That's a Seiran travel kit.",
+              "type": "speech"
+            },
+            {
+              "char": "tetsu",
+              "text": "Seiran doesn't come here.",
+              "type": "speech"
+            },
+            {
+              "char": "rui",
+              "text": "They have a coaching STAFF.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "BAN",
+              "style": "big"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "half",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "ayame",
+              "expression": "pleasant, perfectly polite, eyes doing none of it",
+              "pose": "stepping into the shed, one hand holding out a sealed white card between two fingers"
+            }
+          ],
+          "bg": "the doorway, the club frozen around her",
+          "action": "Kujō Ayame, Seiran Academy, does not raise her voice once.",
+          "dialogue": [
+            {
+              "char": "ayame",
+              "text": "Sorry to barge in. Kujō Ayame.",
+              "type": "speech"
+            },
+            {
+              "char": "ayame",
+              "text": "Ranked challenge. Six days.",
+              "type": "speech"
+            },
+            {
+              "char": "ayame",
+              "text": "Your Pit. Card's already drawn.",
+              "type": "speech"
+            },
+            {
+              "char": "hebihara",
+              "text": "Since when is that allowed.",
+              "type": "speech"
+            },
+            {
+              "char": "ayame",
+              "text": "That is allowed now, apparently.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "medium",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "bright, delighted, entirely himself, hand already out",
+              "pose": "bouncing forward past the captain with his palm up"
+            },
+            {
+              "name": "ayame",
+              "expression": "glancing down at the hand, amused",
+              "pose": "taking it without hesitating"
+            }
+          ],
+          "bg": "the shed",
+          "action": "He does what he always does. She lets him.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "Kusaka Hibiki! Nice to meet you!",
+              "type": "shout"
+            },
+            {
+              "char": "ayame",
+              "text": "Oh — you're the Null.",
+              "type": "speech"
+            },
+            {
+              "char": "ayame",
+              "text": "They warned me about you.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [
+            {
+              "text": "GASHI",
+              "style": "small"
+            }
+          ],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "tension"
+        },
+        {
+          "size": "third",
+          "shot": "closeup",
+          "chars": [
+            {
+              "name": "ayame",
+              "expression": "smiling with the lower half of her face only",
+              "pose": "not letting go of his hand"
+            }
+          ],
+          "bg": "the shed, tone-washed, the others out of focus",
+          "action": "She did not take his hand by accident.",
+          "dialogue": [
+            {
+              "char": "ayame",
+              "text": "They said you'd shake my hand.",
+              "type": "speech"
+            },
+            {
+              "char": "ayame",
+              "text": "Everyone said so. So I let you.",
+              "type": "speech"
+            },
+            {
+              "char": "ayame",
+              "text": "So I let you. Go on. Read it.",
+              "type": "speech"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "inset",
+          "shot": "extreme-closeup",
+          "chars": [],
+          "bg": "flat white field, borderless, the card larger than any card so far",
+          "action": "The card.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "【 PRICE — NAME ANY OUTCOME.",
+              "type": "narration"
+            },
+            {
+              "char": "hibiki",
+              "text": "PAY WHAT IT WEIGHS. 】",
+              "type": "narration"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        },
+        {
+          "size": "third",
+          "shot": "extreme-closeup",
+          "chars": [
+            {
+              "name": "hibiki",
+              "expression": "the grin completely gone — flat, still, and for the first time in twenty-five pages, afraid",
+              "pose": "hand still locked in hers, not letting go, not able to"
+            }
+          ],
+          "bg": "flat blown-out tone, everything else gone",
+          "action": "He has read four hundred cards this year. None of them told him the cost.",
+          "dialogue": [
+            {
+              "char": "hibiki",
+              "text": "...What did you already pay?",
+              "type": "whisper"
+            },
+            {
+              "char": "ayame",
+              "text": "See you in six days, Kusaka-kun.",
+              "type": "speech"
+            },
+            {
+              "char": "hibiki",
+              "text": "It told me what it costs.",
+              "type": "thought"
+            }
+          ],
+          "sfx": [],
+          "chibi": false,
+          "silhouette": false,
+          "beat": "gut-punch"
+        }
+      ]
+    }
+  ]
+}

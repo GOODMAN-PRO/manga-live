@@ -46,8 +46,10 @@ if (!positional[0] || flags.help) {
 const repoRoot = path.resolve(import.meta.dirname, '..');
 const scriptPath = path.resolve(positional[0]);
 const slug = scriptSlug(scriptPath);
-const isV2 = path.basename(path.dirname(scriptPath)).toLowerCase() === 'story2';
-const buildRoot = isV2 ? 'build2' : 'build';
+const storyDir = path.basename(path.dirname(scriptPath)).toLowerCase();
+const seriesSuffix = (storyDir.match(/^story(\d*)$/) || [, ''])[1] || '';
+const isV2 = seriesSuffix !== '';
+const buildRoot = `build${seriesSuffix}`;
 const outputDir = path.resolve(flags.out || path.join(repoRoot, buildRoot, slug, 'panels'));
 const comfy = String(flags.comfy || process.env.COMFY_URL || 'http://127.0.0.1:8188').replace(/\/$/, '');
 const checkpoint = String(flags.checkpoint || process.env.COMFY_CHECKPOINT || 'animagine-xl-4.0-opt.safetensors');
@@ -61,7 +63,7 @@ const selectedPages = flags.pages ? parsePageSelection(flags.pages) : null;
 const script = await loadScript(scriptPath);
 await mkdir(outputDir, { recursive: true });
 
-const tokenPath = path.join(repoRoot, isV2 ? 'chars2' : 'chars', 'tokens.md');
+const tokenPath = path.join(repoRoot, 'chars' + seriesSuffix, 'tokens.md');
 const tokens = existsSync(tokenPath) ? parseTokens(await readFile(tokenPath, 'utf8')) : new Map();
 if (!existsSync(tokenPath)) console.warn('chars/tokens.md not found; using character ids until locked tokens exist.');
 const defaultOverridesPath = path.join(path.dirname(scriptPath), `${slug}-overrides.json`);

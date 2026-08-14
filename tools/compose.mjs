@@ -45,9 +45,11 @@ if (!positional[0] || flags.help) {
 const repoRoot = path.resolve(import.meta.dirname, '..');
 const scriptPath = path.resolve(positional[0]);
 const slug = scriptSlug(scriptPath);
-const isV2 = path.basename(path.dirname(scriptPath)).toLowerCase() === 'story2';
-const buildRoot = isV2 ? 'build2' : 'build';
-const pagesRoot = isV2 ? 'pages2' : 'pages';
+const storyDir = path.basename(path.dirname(scriptPath)).toLowerCase();
+const seriesSuffix = (storyDir.match(/^story(\d*)$/) || [, ''])[1] || '';
+const isV2 = seriesSuffix !== '';
+const buildRoot = `build${seriesSuffix}`;
+const pagesRoot = `pages${seriesSuffix}`;
 const panelsDir = path.resolve(flags.panels || path.join(repoRoot, buildRoot, slug, 'panels'));
 const outputDir = path.resolve(flags.out || path.join(repoRoot, pagesRoot, slug));
 const fontPath = path.resolve(flags.font || path.join(repoRoot, 'tools', 'fonts', 'ComicNeue-Bold.ttf'));
@@ -201,7 +203,11 @@ function bubbleComposites(panel, panelBox, font, panelIdValue) {
   const gap = 12;
   const initialFontSize = Math.max(26, Math.min(32, Math.round(box.width / 30)));
   let packed;
-  for (let fontSize = initialFontSize; fontSize >= 20 && !packed; fontSize -= 2) {
+  // Coverage target: lettering should take about a third of a panel. Relax step by step only
+  // when a dense exchange genuinely will not fit, rather than failing the page.
+  for (const relax of [{ cap: 0.34, band: 0.62, cols: 2, floor: 24 }, { cap: 0.42, band: 0.78, cols: 2, floor: 20 }, { cap: 0.55, band: 1, cols: 3, floor: 16 }]) {
+    if (packed) break;
+  for (let fontSize = initialFontSize; fontSize >= relax.floor && !packed; fontSize -= 2) {
     for (const widthRatio of [0.34, 0.30, 0.26, 0.44, 0.52]) {
       const maxBubbleWidth = Math.max(130, Math.min(box.width - margin * 2, Math.floor(box.width * widthRatio)));
       const minBubbleWidth = Math.min(maxBubbleWidth, 110);
@@ -212,7 +218,7 @@ function bubbleComposites(panel, panelBox, font, panelIdValue) {
         index,
         font: fontFor(dialogue.text),
         initialFontSize: fontSize,
-        floorFontSize: Math.min(fontSize, 20),
+        floorFontSize: Math.min(fontSize, relax.floor),
         maxBubbleWidth,
         minBubbleWidth,
         multiSpeaker: dialogues.length > 1 && (panel.chars || []).length > 1,
@@ -220,11 +226,12 @@ function bubbleComposites(panel, panelBox, font, panelIdValue) {
       } catch {
         continue; // this width does not hold the text; try the next one
       }
-      packed = packBubbleColumns(items, box, margin, gap);
+      packed = packBubbleColumns(items, box, margin, gap, panelBox, relax);
       if (packed) break;
     }
   }
-  if (!packed) throw new Error(`${panelIdValue}: ${dialogues.length} bubbles cannot fit at the 20px floor without collision.`);
+  }
+  if (!packed) throw new Error(`${panelIdValue}: ${dialogues.length} bubbles cannot fit at the 16px floor without collision.`);
   const placed = packed;
   const assertions = placed.map((item) => assertBubbleLayout(item, panelBox, panelIdValue));
   for (let i = 0; i < placed.length; i += 1) {
@@ -238,11 +245,23 @@ function bubbleComposites(panel, panelBox, font, panelIdValue) {
   };
 }
 
-function packBubbleColumns(items, box, margin, gap) {
+function packBubbleColumns(items, box, margin, gap, panelBox = box, relax = { cap: 0.34, band: 0.62, cols: 2, floor: 24 }) {
+  const usableWidth = box.width - margin * 2;
+  const usableHeight = box.height - margin * 2;
+
+  // Lettering must not swallow the drawing. Cap the ink and keep columns short so a long
+  // exchange breaks into a second column at the opposite edge instead of running down the
+  // middle of the panel, where the faces are.
+  const panelArea = panelBox.width * panelBox.height;
+  const bubbleArea = items.reduce((sum, item) => sum + item.width * item.height, 0);
+  if (bubbleArea > panelArea * relax.cap) return null;
+  const columnLimit = Math.min(usableHeight, Math.round(box.height * relax.band));
+
   const columns = [];
   let current = { width: 0, height: 0, items: [] };
   for (const item of items) {
-    if (current.items.length && current.height + gap + item.height > box.height - margin * 2) {
+    if (item.height > columnLimit && current.items.length) return null;
+    if (current.items.length && current.height + gap + item.height > columnLimit) {
       columns.push(current);
       current = { width: 0, height: 0, items: [] };
     }
@@ -252,23 +271,28 @@ function packBubbleColumns(items, box, margin, gap) {
     current.items.push(item);
   }
   if (current.items.length) columns.push(current);
+  if (columns.length > relax.cols) return null;
 
   const totalWidth = columns.reduce((sum, column) => sum + column.width, 0) + gap * Math.max(0, columns.length - 1);
-  if (totalWidth > box.width - margin * 2 || columns.some((column) => column.height > box.height - margin * 2)) return null;
+  if (totalWidth > usableWidth || columns.some((column) => column.height > columnLimit)) return null;
 
   const placed = [];
-  let right = box.x + box.width - margin;
   columns.forEach((column, columnIndex) => {
-    const left = right - column.width;
+    // first column hugs the right edge (RTL reading order), second hugs the left edge
+    const left = columnIndex === 0
+      ? box.x + box.width - margin - column.width
+      : columnIndex === 1
+        ? box.x + margin
+        : box.x + Math.round((box.width - column.width) / 2);
     const columnTop = box.y + margin;
     column.items.forEach((item) => {
       placed.push({ ...item, left: Math.round(left + column.width - item.width), top: Math.round(columnTop + item.columnY) });
     });
-    right = left - gap;
   });
 
   return placed;
 }
+
 
 function createBubbleLayout({ dialogue: rawDialogue, index, font, initialFontSize, floorFontSize = 20, maxBubbleWidth, minBubbleWidth, multiSpeaker }) {
   // Manga English lettering is set in caps.
